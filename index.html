@@ -1,0 +1,3137 @@
+<meta charset="utf-8">
+<title>Falcons U23 Watch — staff</title>
+<meta name="description" content="Osservatorio rendimento club per i candidati alla nazionale saudita U23 — versione locale, dati salvati sul tuo PC" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style id="appCss">
+  :root{
+    --ground:#f5f1e8;
+    --surface:#fffdf8;
+    --surface-2:#ece3cd;
+    --ink-primary:#201c14;
+    --ink-secondary:#5d5648;
+    --ink-muted:#8f886f;
+    --border:rgba(32,28,20,0.13);
+    --border-strong:rgba(32,28,20,0.22);
+    --accent:#9c6714;
+    --accent-ink:#6e480f;
+    --accent-soft:#f2e1bb;
+    --chart-line:#2a78d6;
+    --chart-line-soft:rgba(42,120,214,0.12);
+    --chart-trend:#5d5648;
+    --comp-cup:#7a4fc9;
+    --comp-cup-soft:rgba(122,79,201,0.15);
+    --comp-nat:#0e7c86;
+    --comp-nat-soft:rgba(14,124,134,0.12);
+    --status-good:#0ca30c;
+    --status-warning:#fab219;
+    --status-serious:#ec835a;
+    --status-critical:#d03b3b;
+    --status-pending:#8f886f;
+    --status-good-soft:#e2f3e0;
+    --status-warning-soft:#fdf1d6;
+    --status-serious-soft:#fbe4da;
+    --status-critical-soft:#f8dcdb;
+    --status-pending-soft:#e9e4d6;
+    color-scheme:light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#15120c;
+      --surface:#1f1b13;
+      --surface-2:#2b2417;
+      --ink-primary:#f5efe1;
+      --ink-secondary:#c6bca1;
+      --ink-muted:#8d8570;
+      --border:rgba(245,239,225,0.14);
+      --border-strong:rgba(245,239,225,0.24);
+      --accent:#dba646;
+      --accent-ink:#f2d28f;
+      --accent-soft:#3a2e17;
+      --chart-line:#3987e5;
+      --chart-line-soft:rgba(57,135,229,0.16);
+      --chart-trend:#c6bca1;
+      --comp-cup:#a888ec;
+      --comp-cup-soft:rgba(168,136,236,0.18);
+      --comp-nat:#3fbfc9;
+      --comp-nat-soft:rgba(63,191,201,0.13);
+      --status-good-soft:#122a13;
+      --status-warning-soft:#332a11;
+      --status-serious-soft:#37201a;
+      --status-critical-soft:#331617;
+      --status-pending-soft:#2b2619;
+      color-scheme:dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#15120c;
+    --surface:#1f1b13;
+    --surface-2:#2b2417;
+    --ink-primary:#f5efe1;
+    --ink-secondary:#c6bca1;
+    --ink-muted:#8d8570;
+    --border:rgba(245,239,225,0.14);
+    --border-strong:rgba(245,239,225,0.24);
+    --accent:#dba646;
+    --accent-ink:#f2d28f;
+    --accent-soft:#3a2e17;
+    --chart-line:#3987e5;
+    --chart-line-soft:rgba(57,135,229,0.16);
+    --chart-trend:#c6bca1;
+    --comp-cup:#a888ec;
+    --comp-cup-soft:rgba(168,136,236,0.18);
+    --comp-nat:#3fbfc9;
+    --comp-nat-soft:rgba(63,191,201,0.13);
+    --status-good-soft:#122a13;
+    --status-warning-soft:#332a11;
+    --status-serious-soft:#37201a;
+    --status-critical-soft:#331617;
+    --status-pending-soft:#2b2619;
+    color-scheme:dark;
+  }
+
+  *{box-sizing:border-box;}
+  [hidden]{ display:none !important; }
+  /* Copia per lo staff (READ_ONLY): spariscono i comandi che modificano i dati. */
+  body.read-only .edit-only{ display:none !important; }
+  body:not(.read-only) .staff-only{ display:none !important; }
+  body{
+    margin:0;
+    background:var(--ground);
+    color:var(--ink-primary);
+    font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{ font-family:"IBM Plex Mono", ui-monospace, monospace; }
+  .tabular{ font-variant-numeric:tabular-nums; }
+  a{ color:var(--accent-ink); }
+
+  .page{ max-width:1280px; margin:0 auto; padding:20px 20px 64px; }
+
+  /* ---------- Topbar ---------- */
+  .topbar{
+    display:flex; align-items:flex-start; justify-content:space-between; gap:16px;
+    padding:18px 22px; margin-bottom:16px;
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+  }
+  .brand-eyebrow{
+    font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:var(--accent-ink);
+    font-weight:600; margin:0 0 4px;
+  }
+  .brand-title{ font-size:24px; font-weight:700; margin:0; letter-spacing:-.01em; text-wrap:balance; }
+  .brand-sub{ font-size:13px; color:var(--ink-secondary); margin:4px 0 0; max-width:52ch; }
+  .topbar-actions{ display:flex; flex-direction:column; align-items:flex-end; gap:8px; flex:0 0 auto; }
+  .meta-updated{ font-size:11.5px; color:var(--ink-muted); text-align:right; line-height:1.5; }
+  .btn{
+    font:inherit; font-size:13px; font-weight:600; cursor:pointer;
+    border-radius:9px; padding:9px 14px; border:1px solid var(--border-strong);
+    background:var(--surface); color:var(--ink-primary);
+    display:inline-flex; align-items:center; gap:7px; white-space:nowrap;
+  }
+  .btn:hover{ border-color:var(--accent); }
+  .btn:focus-visible, a:focus-visible, [tabindex]:focus-visible, select:focus-visible, input:focus-visible{
+    outline:2px solid var(--accent); outline-offset:2px;
+  }
+  .btn-accent{ background:var(--accent); border-color:var(--accent); color:#fff9ec; }
+  .btn-accent:hover{ filter:brightness(1.06); }
+  a.btn{ text-decoration:none; display:inline-block; }
+  .runner-wait{ display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;
+    background:var(--accent-soft); border:1px solid var(--accent); border-radius:10px;
+    padding:12px 14px; margin:0 0 16px; }
+  .runner-wait[hidden]{ display:none; }
+  .runner-wait-actions{ display:flex; gap:8px; flex-wrap:wrap; }
+
+  /* ---------- Stat tiles ---------- */
+  .stats{ display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin-bottom:14px; }
+  .stat-tile{
+    background:var(--surface); border:1px solid var(--border); border-radius:12px;
+    padding:13px 14px; display:flex; flex-direction:column; gap:6px;
+  }
+  .stat-label{ font-size:11.5px; color:var(--ink-secondary); display:flex; align-items:center; gap:6px; }
+  .stat-dot{ width:8px; height:8px; border-radius:50%; flex:0 0 auto; }
+  .stat-value{ font-size:26px; font-weight:600; line-height:1; }
+
+  /* ---------- Filters ---------- */
+  .filters{
+    display:flex; flex-wrap:wrap; gap:8px; align-items:center;
+    background:var(--surface); border:1px solid var(--border); border-radius:12px;
+    padding:10px; margin-bottom:12px;
+  }
+  .filters input[type="search"], .filters select{
+    font:inherit; font-size:13px; padding:8px 10px; border-radius:8px;
+    border:1px solid var(--border-strong); background:var(--ground); color:var(--ink-primary);
+  }
+  .filters input[type="search"]{ flex:1 1 200px; min-width:160px; }
+  .filters select{ flex:0 0 auto; }
+  .filters .result-count{ font-size:12px; color:var(--ink-muted); margin-left:auto; padding-right:4px; }
+
+  /* ---------- Alerts ---------- */
+  .alerts{
+    background:var(--status-warning-soft); border:1px solid var(--border); border-radius:12px;
+    margin-bottom:14px; overflow:hidden;
+  }
+  .alerts summary{
+    cursor:pointer; list-style:none; padding:11px 14px; font-size:13px; font-weight:600;
+    display:flex; align-items:center; gap:8px;
+  }
+  .alerts summary::-webkit-details-marker{ display:none; }
+  .alerts summary .chev{ margin-left:auto; font-size:11px; color:var(--ink-muted); }
+  .alerts-list{ padding:0 14px 12px; display:flex; flex-direction:column; gap:6px; }
+  .alert-row{
+    display:flex; gap:8px; align-items:baseline; font-size:12.5px; color:var(--ink-secondary);
+    padding:6px 8px; border-radius:7px; background:rgba(255,255,255,0.35);
+  }
+  :root[data-theme="dark"] .alert-row, @media (prefers-color-scheme: dark){ .alert-row{ background:rgba(0,0,0,0.18);} }
+  .alert-row b{ color:var(--ink-primary); font-weight:600; }
+
+  /* ---------- Main layout ---------- */
+  .layout{ display:grid; grid-template-columns:minmax(320px,1fr) minmax(380px,1.25fr); gap:14px; align-items:start; }
+  @media (max-width:900px){ .layout{ grid-template-columns:1fr; } }
+
+  .panel{ background:var(--surface); border:1px solid var(--border); border-radius:14px; overflow:hidden; }
+  .panel-head{ padding:12px 14px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; gap:8px; }
+  .panel-title{ font-size:13.5px; font-weight:600; }
+
+  /* Roster list */
+  .roster{ max-height:70vh; overflow-y:auto; }
+  .roster-row{
+    display:grid; grid-template-columns:auto 1fr auto auto; gap:10px; align-items:center;
+    padding:10px 14px; border-bottom:1px solid var(--border); cursor:pointer;
+  }
+  .roster-check{ width:15px; height:15px; accent-color:var(--accent); cursor:pointer; flex:0 0 auto; }
+  .roster-row:last-child{ border-bottom:none; }
+  .roster-row:hover{ background:var(--surface-2); }
+  .roster-row.selected{ background:var(--accent-soft); }
+  .roster-name{ font-size:13.5px; font-weight:600; line-height:1.3; }
+  .roster-sub{ font-size:11.5px; color:var(--ink-secondary); margin-top:1px; }
+  .roster-jersey{ font-size:11px; color:var(--ink-muted); }
+  .roster-empty{ padding:28px 14px; text-align:center; color:var(--ink-muted); font-size:13px; }
+
+  .pill{
+    display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:600;
+    padding:4px 9px; border-radius:999px; white-space:nowrap;
+  }
+  .pill .dot{ width:6px; height:6px; border-radius:50%; }
+  .pill-good{ background:var(--status-good-soft); color:var(--status-good); }
+  .pill-warning{ background:var(--status-warning-soft); color:#8a6200; }
+  :root[data-theme="dark"] .pill-warning{ color:var(--status-warning); }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .pill-warning{ color:var(--status-warning); } }
+  .pill-serious{ background:var(--status-serious-soft); color:#a1441c; }
+  :root[data-theme="dark"] .pill-serious{ color:var(--status-serious); }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .pill-serious{ color:var(--status-serious); } }
+  .pill-critical{ background:var(--status-critical-soft); color:var(--status-critical); }
+  .pill-pending{ background:var(--status-pending-soft); color:var(--ink-secondary); }
+
+  /* Detail panel */
+  .detail{ position:sticky; top:14px; }
+  .detail-empty{ padding:40px 20px; text-align:center; color:var(--ink-muted); font-size:13px; }
+  .detail-head{ padding:16px 18px; border-bottom:1px solid var(--border); }
+  .detail-name{ font-size:19px; font-weight:700; margin:0 0 4px; text-wrap:balance; }
+  .detail-meta{ font-size:12.5px; color:var(--ink-secondary); display:flex; flex-wrap:wrap; gap:6px 12px; align-items:center; }
+  .detail-note{
+    margin-top:10px; font-size:12px; color:var(--ink-secondary); background:var(--surface-2);
+    border-radius:8px; padding:8px 10px; line-height:1.5;
+  }
+  .detail-links{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+  .link-btn{
+    font:inherit; font-size:12px; font-weight:600; cursor:pointer; text-decoration:none;
+    border-radius:8px; padding:6px 11px; border:1px solid var(--border-strong);
+    background:var(--surface); color:var(--ink-primary); display:inline-flex; align-items:center; gap:5px;
+    white-space:nowrap;
+  }
+  .link-btn:hover{ border-color:var(--accent); color:var(--accent-ink); }
+  .confirm-btn{ background:var(--status-good-soft); border-color:var(--status-good); color:var(--status-good); }
+  .confirm-btn:hover{ filter:brightness(0.97); border-color:var(--status-good); }
+  .delete-btn{ color:var(--status-critical); }
+  .delete-btn:hover{ border-color:var(--status-critical); color:var(--status-critical); background:var(--status-critical-soft); }
+  .link-submit{ display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+
+  /* Controllo incrociato Transfermarkt */
+  .tm-tag{
+    display:inline-block; margin-left:6px; padding:0 5px; border-radius:4px; border:1px solid currentColor;
+    font-size:9.5px; font-weight:700; letter-spacing:.04em; line-height:15px; vertical-align:1px;
+  }
+  .tm-tag.tm-ok{ color:var(--status-good); }
+  .tm-tag.tm-source{ color:#fff; background:var(--status-good); border-color:var(--status-good); }
+  .tm-tag.tm-open{ color:#a97400; background:var(--status-warning-soft); }
+  .tm-tag.tm-pending{ color:var(--ink-muted); }
+  .tm-box{
+    margin-top:12px; border:1px solid var(--border-strong); border-radius:10px; padding:10px 12px;
+    font-size:12.5px; color:var(--ink-secondary); line-height:1.5;
+  }
+  .tm-box.open{ border-color:var(--status-warning); background:var(--status-warning-soft); }
+  .tm-box.transfer{ border-color:var(--status-serious); background:var(--status-serious-soft); }
+  .tm-box b, .tm-title{ color:var(--ink-primary); }
+  .tm-title{ font-weight:700; font-size:13px; margin-bottom:4px; }
+  .tm-box .match-table{ margin-top:8px; background:var(--surface); border-radius:6px; }
+  .tm-box .match-table td.tm-diff{ color:var(--status-critical); font-weight:700; }
+  .tm-box details{ margin-top:8px; }
+  .tm-box summary{ cursor:pointer; font-weight:600; color:var(--ink-primary); }
+  .tm-actions{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+  .tm-line{ margin-top:10px; font-size:12px; color:var(--ink-secondary); }
+  .tm-line.ok{ color:var(--status-good); font-weight:600; }
+  .tm-progress{ font-size:12px; color:var(--accent-ink); font-weight:600; }
+  .alert-row.clickable{ cursor:pointer; }
+  .alert-row.clickable:hover{ outline:1px solid var(--accent); }
+  .link-submit input{
+    font:inherit; font-size:12px; padding:7px 10px; border-radius:8px; flex:1 1 240px; min-width:180px;
+    border:1px solid var(--border-strong); background:var(--ground); color:var(--ink-primary);
+  }
+  .link-submit .confirm-btn{ flex:0 0 auto; }
+  .detail-body{ padding:16px 18px; }
+  .season-row{ display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:12px; }
+  .season-row select{ font:inherit; font-size:12.5px; padding:6px 9px; border-radius:7px; border:1px solid var(--border-strong); background:var(--ground); color:var(--ink-primary); }
+  .season-label{ font-size:11px; text-transform:uppercase; letter-spacing:.07em; color:var(--ink-muted); font-weight:600; }
+
+  .chart-wrap{ border:1px solid var(--border); border-radius:10px; padding:10px 6px 4px; background:var(--surface); position:relative; }
+  .chart-legend{ display:flex; gap:16px; font-size:11.5px; color:var(--ink-secondary); padding:0 10px 6px; }
+  .chart-legend span{ display:inline-flex; align-items:center; gap:6px; }
+  .legend-swatch{ width:14px; height:2px; border-radius:1px; display:inline-block; }
+
+  .empty-perf{
+    display:flex; flex-direction:column; align-items:center; gap:8px; text-align:center;
+    padding:34px 16px; color:var(--ink-muted); font-size:12.5px; line-height:1.6;
+  }
+  .empty-perf b{ color:var(--ink-secondary); font-weight:600; }
+
+  .season-stats{ display:grid; grid-template-columns:repeat(5,1fr); gap:8px; margin-top:12px; }
+  .season-stats .stat-tile{ padding:9px 10px; }
+  .season-stats .stat-value{ font-size:18px; }
+
+  .match-table{ width:100%; border-collapse:collapse; margin-top:12px; font-size:12px; }
+  .match-table th{ text-align:left; font-weight:600; color:var(--ink-muted); font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; padding:6px 8px; border-bottom:1px solid var(--border); }
+  .match-table td{ padding:6px 8px; border-bottom:1px solid var(--border); }
+  .match-table td:first-child{ white-space:nowrap; }
+  .match-table tr.row-coppa td{ background:var(--comp-cup-soft); }
+  .match-table tr.row-nazionale td{ background:var(--comp-nat-soft); }
+  .comp-tag{ display:inline-flex; align-items:center; gap:5px; font-size:11px; white-space:nowrap; color:var(--ink-secondary); }
+  .comp-tag svg{ flex:none; }
+  .comp-tag-coppa{ color:var(--comp-cup); font-weight:600; }
+  .comp-tag-nazionale{ color:var(--comp-nat); font-weight:600; }
+  .comp-tag small{ font-weight:400; color:var(--ink-muted); }
+  .other-summary{ display:grid; gap:4px; margin-top:8px; font-size:12px; color:var(--ink-secondary); }
+  .other-summary b{ font-weight:600; }
+  .stats-caption{ margin-top:12px; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-muted); font-weight:600; }
+  .table-scroll{ overflow-x:auto; }
+
+  /* ---------- Confronto fra giocatori ---------- */
+  .compare-panel{ margin-bottom:12px; }
+  .compare-actions{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .compare-actions select{
+    font:inherit; font-size:12.5px; padding:6px 9px; border-radius:7px;
+    border:1px solid var(--border-strong); background:var(--ground); color:var(--ink-primary);
+  }
+  .compare-table{ width:100%; border-collapse:collapse; font-size:12.5px; }
+  .compare-table th{
+    text-align:left; font-weight:600; color:var(--ink-muted); font-size:10.5px;
+    text-transform:uppercase; letter-spacing:.05em; padding:8px 10px;
+    border-bottom:1px solid var(--border); white-space:nowrap; cursor:pointer; user-select:none;
+  }
+  .compare-table th:hover{ color:var(--accent-ink); }
+  .compare-table th.num, .compare-table td.num{ text-align:right; }
+  .compare-table th .arrow{ font-size:9px; margin-left:3px; }
+  .compare-table td{ padding:8px 10px; border-bottom:1px solid var(--border); white-space:nowrap; }
+  .compare-table tr:last-child td{ border-bottom:none; }
+  .compare-table tbody tr:hover{ background:var(--surface-2); }
+  .compare-table td.best{ color:var(--accent-ink); font-weight:700; }
+  .compare-name{ font-weight:600; cursor:pointer; }
+  .compare-name:hover{ color:var(--accent-ink); text-decoration:underline; }
+  .compare-sub{ font-size:11px; color:var(--ink-muted); font-weight:400; }
+  .compare-drop{
+    font:inherit; font-size:12px; line-height:1; cursor:pointer; color:var(--ink-muted);
+    background:none; border:none; padding:2px 4px; border-radius:5px;
+  }
+  .compare-drop:hover{ color:var(--status-critical); background:var(--status-critical-soft); }
+  .compare-note{ padding:10px 14px; font-size:11.5px; color:var(--ink-muted); line-height:1.6; border-top:1px solid var(--border); }
+  .compare-empty{ padding:26px 14px; text-align:center; color:var(--ink-muted); font-size:12.5px; }
+  .compare-count{ font-weight:400; color:var(--ink-muted); }
+  .compare-toggle{
+    font:inherit; font-size:10px; line-height:1; cursor:pointer; color:var(--ink-muted);
+    background:none; border:none; padding:2px 4px; margin-right:4px; border-radius:5px;
+    display:inline-block; transition:transform .15s;
+  }
+  .compare-toggle:hover{ color:var(--accent-ink); background:var(--accent-soft); }
+  .compare-toggle.open{ transform:rotate(90deg); }
+  .compare-table tr.compare-open > td{ border-bottom-color:transparent; background:var(--surface-2); }
+  .compare-table tbody tr.compare-detail-row:hover{ background:none; }
+  .compare-table tr.compare-detail-row > td{ padding:0 10px 14px 32px; background:var(--surface-2); white-space:normal; }
+  .compare-detail-row .match-table{ margin-top:0; background:var(--surface); border-radius:8px; }
+  .compare-detail-row .match-table th{ cursor:default; }
+  .compare-detail-row .match-table td.num, .compare-detail-row .match-table th.num{ text-align:right; }
+  .compare-detail-empty{ font-size:12px; color:var(--ink-muted); padding:4px 0; }
+  .compare-detail-src{ font-size:11px; color:var(--ink-muted); margin-top:6px; }
+
+  /* Editor dei link nella scheda giocatore */
+  .link-ids{ flex:1 1 100%; font-size:11.5px; color:var(--ink-secondary); line-height:1.6; }
+  .link-ids b{ color:var(--ink-primary); font-weight:600; }
+  .link-hint{ flex:1 1 100%; font-size:11.5px; color:var(--ink-muted); line-height:1.6; }
+
+  /* ---------- Esportazioni (CSV / PDF) ---------- */
+  .panel-tools{ display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  .select-all{
+    display:flex; align-items:center; gap:5px; font-size:12px; color:var(--ink-secondary);
+    cursor:pointer; user-select:none; padding:2px 6px 2px 4px; border-radius:7px;
+  }
+  .select-all:hover{ background:var(--ground); }
+  .select-all input{ width:15px; height:15px; accent-color:var(--accent); cursor:pointer; margin:0; flex:0 0 auto; }
+  .select-all.disabled{ opacity:0.45; cursor:default; }
+  .select-all.disabled:hover{ background:none; }
+  .tool-btn{
+    font:inherit; font-size:11.5px; font-weight:600; cursor:pointer;
+    border-radius:7px; padding:5px 9px; border:1px solid var(--border-strong);
+    background:var(--surface); color:var(--ink-secondary);
+    display:inline-flex; align-items:center; gap:5px; white-space:nowrap;
+  }
+  .tool-btn:hover{ border-color:var(--accent); color:var(--accent-ink); }
+  .min-cell{ white-space:nowrap; }
+  .min-edit{ font:inherit; font-size:11px; border:0; background:none; color:var(--ink-muted); cursor:pointer; padding:0 2px; opacity:0.55; }
+  .min-edit:hover{ color:var(--accent-ink); opacity:1; }
+  .min-manual{ color:var(--accent-ink); font-weight:700; border-bottom:1px dotted currentColor; cursor:help; }
+  .min-editor{ display:inline-flex; gap:4px; align-items:center; }
+  .min-editor input{ width:56px; font:inherit; padding:3px 5px; border:1px solid var(--border-strong); border-radius:6px; background:var(--surface); color:var(--ink-primary); }
+  .min-editor .tool-btn{ padding:3px 7px; font-size:11px; }
+  .chart-tools{ position:absolute; top:6px; right:8px; display:flex; gap:4px; z-index:2; }
+  .chart-tools .tool-btn{ padding:3px 7px; font-size:11px; }
+
+  .tooltip{
+    position:absolute; pointer-events:none; background:var(--ink-primary); color:var(--ground);
+    font-size:11.5px; padding:6px 9px; border-radius:7px; line-height:1.5; white-space:nowrap;
+    transform:translate(-50%,-100%); opacity:0; transition:opacity .1s; z-index:5;
+  }
+  .tooltip.show{ opacity:1; }
+
+  footer.notes{ margin-top:18px; font-size:11.5px; color:var(--ink-muted); line-height:1.7; padding:14px 4px 0; }
+  footer.notes b{ color:var(--ink-secondary); }
+
+  .toast{
+    position:fixed; left:50%; bottom:22px; transform:translateX(-50%) translateY(12px);
+    background:var(--ink-primary); color:var(--ground); font-size:12.5px; padding:10px 16px;
+    border-radius:9px; opacity:0; pointer-events:none; transition:opacity .18s, transform .18s;
+    max-width:min(90vw,420px); text-align:center; z-index:20;
+  }
+  .toast.show{ opacity:1; transform:translateX(-50%) translateY(0); }
+
+  .import-dialog{
+    width:min(560px, calc(100vw - 32px)); max-height:calc(100vh - 48px); padding:0;
+    background:var(--surface); color:var(--ink-primary);
+    border:1px solid var(--border-strong); border-radius:14px; overflow:hidden;
+  }
+  .import-dialog::backdrop{ background:rgba(20,16,10,0.45); }
+  .import-dialog form{ display:flex; flex-direction:column; max-height:calc(100vh - 50px); }
+  .import-dialog h2{ margin:0; padding:18px 20px 4px; font-size:17px; }
+  .import-dialog .import-sub{ margin:0; padding:0 20px 12px; color:var(--ink-secondary); font-size:13px; }
+  .import-body{ overflow-y:auto; overflow-x:hidden; padding:0 20px 8px; }
+  .import-body h3{ margin:14px 0 6px; font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--accent-ink); }
+  .import-body p{ margin:0 0 8px; font-size:13px; color:var(--ink-secondary); }
+  .import-body ul{ margin:0; padding-left:18px; font-size:13px; }
+  .club-change{
+    display:grid; grid-template-columns:auto 1fr; gap:2px 10px; align-items:start;
+    padding:8px 10px; margin-bottom:6px; border:1px solid var(--border); border-radius:9px; cursor:pointer;
+  }
+  .club-change:hover{ border-color:var(--accent); }
+  .club-change input{ margin-top:3px; accent-color:var(--accent); }
+  .club-change .who{ font-weight:600; font-size:14px; }
+  .club-change .what, .club-change .sofa{ grid-column:2; font-size:13px; color:var(--ink-secondary); }
+  .club-change .sofa, .import-body .muted{ color:var(--ink-muted); }
+  .import-actions{ display:flex; justify-content:flex-end; gap:8px; padding:12px 20px 16px; border-top:1px solid var(--border); }
+
+  @media (max-width:640px){
+    .stats{ grid-template-columns:repeat(2,1fr); }
+    .season-stats{ grid-template-columns:repeat(2,1fr); }
+    .topbar{ flex-direction:column; }
+    .topbar-actions{ align-items:flex-start; width:100%; }
+  }
+</style>
+
+<div class="page">
+
+  <div class="topbar">
+    <div>
+      <p class="brand-eyebrow">Osservatorio candidati nazionale · <span class="edit-only">versione locale</span><span class="staff-only">copia per lo staff</span></p>
+      <h1 class="brand-title">Falcons U23 Watch</h1>
+      <p class="brand-sub">Rendimento in campionato (RSL &amp; First Division League) dei giocatori osservati per la nazionale saudita U23, ricostruito da Sofascore e verificato su Transfermarkt. <span class="edit-only">Dati salvati in locale in <span class="mono">data.json</span> — l'aggiornamento non passa da Claude.</span><span class="staff-only">Copia di sola consultazione per lo staff: i dati sono quelli dell'ultima pubblicazione.</span></p>
+    </div>
+    <div class="topbar-actions">
+      <div class="meta-updated" id="metaUpdated">Caricamento stato dati…</div>
+      <div class="tm-progress" id="tmProgress" hidden></div>
+      <div class="panel-tools">
+        <button class="btn" id="reportPdfBtn" type="button" title="Apre l'anteprima di stampa: scegli &quot;Salva come PDF&quot;">🖨 Report PDF</button>
+        <button class="btn edit-only" id="importPlayersBtn" type="button" title="Scegli un file .csv (di norma &quot;NT U23 rendimento.csv&quot;): i nomi non ancora presenti vengono aggiunti alla lista, e di chi c'è già puoi aggiornare il club">＋ Importa nuovi giocatori</button>
+        <button class="btn btn-accent edit-only" id="requestUpdateBtn" type="button">↻ Aggiorna dati (da Sofascore)</button>
+        <button class="btn edit-only" id="publishStaffBtn" type="button" title="Pubblica una copia di sola consultazione per lo staff (GitHub Pages)">🌐 Pubblica per lo staff</button>
+        <a class="btn edit-only" href="#" target="_blank" rel="noopener" title="Come installare il segnalibro che scarica i dati da Sofascore">⚽ Segnalibro</a>
+        <input type="file" id="importCsvInput" accept=".csv,text/csv" hidden />
+      </div>
+      <dialog class="import-dialog" id="importDialog" aria-labelledby="importDialogTitle">
+        <form method="dialog">
+          <h2 id="importDialogTitle">Importa dalla lista</h2>
+          <p class="import-sub" id="importDialogSub"></p>
+          <div class="import-body" id="importDialogBody"></div>
+          <div class="import-actions">
+            <button class="btn" type="button" id="importDialogCancel">Annulla</button>
+            <button class="btn btn-accent" type="button" id="importDialogOk">Applica</button>
+          </div>
+        </form>
+      </dialog>
+    </div>
+  </div>
+
+  <div class="runner-wait edit-only" id="runnerWait" hidden>
+    <span id="runnerWaitMsg"></span>
+    <span class="runner-wait-actions">
+      <button class="btn btn-accent" id="runnerOpenBtn" type="button">Apri Sofascore</button>
+      <button class="btn" id="runnerCancelBtn" type="button">Annulla</button>
+    </span>
+  </div>
+
+  <div class="stats" id="statsRow"></div>
+
+  <details class="alerts" id="alertsBox">
+    <summary><span id="alertsSummary">Verifica dati…</span><span class="chev">▾ mostra dettagli</span></summary>
+    <div class="alerts-list" id="alertsList"></div>
+  </details>
+
+  <div class="filters">
+    <input type="search" id="fSearch" placeholder="Cerca per nome…" aria-label="Cerca giocatore per nome">
+    <select id="fClub" aria-label="Filtra per club"></select>
+    <select id="fRole" aria-label="Filtra per ruolo"><option value="">Tutti i ruoli</option></select>
+    <select id="fStatus" aria-label="Filtra per stato matching">
+      <option value="">Tutti gli stati</option>
+      <option value="matched">Trovato</option>
+      <option value="da_verificare">Da verificare</option>
+      <option value="ambiguo">Ambiguo</option>
+      <option value="non_trovato">Non trovato</option>
+      <option value="in_coda">In coda</option>
+      <option value="tm_open">Discrepanza Transfermarkt da decidere</option>
+      <option value="tm_pending">Abbinamento Transfermarkt da confermare</option>
+    </select>
+    <button class="btn" id="compareOpenBtn" type="button" hidden>⚖ Confronta selezionati</button>
+    <span class="result-count" id="resultCount"></span>
+  </div>
+
+  <div class="panel compare-panel" id="comparePanel" hidden>
+    <div class="panel-head">
+      <span class="panel-title">Confronto giocatori <span class="compare-count" id="compareCount"></span></span>
+      <div class="compare-actions">
+        <span class="season-label">Stagione</span>
+        <select id="compareSeason" aria-label="Stagione del confronto"></select>
+        <select id="compareRole" aria-label="Filtra il confronto per ruolo"><option value="">Tutti i ruoli</option></select>
+        <button class="tool-btn" id="compareExpandBtn" type="button">▸ Giornate: espandi tutti</button>
+        <button class="tool-btn" id="compareCsvBtn" type="button">↓ CSV</button>
+        <button class="tool-btn" id="comparePdfBtn" type="button">🖨 PDF</button>
+        <button class="link-btn" id="compareClearBtn" type="button">Svuota selezione</button>
+        <button class="link-btn" id="compareCloseBtn" type="button">✕ Chiudi</button>
+      </div>
+    </div>
+    <div id="compareBody"></div>
+  </div>
+
+  <div class="layout">
+    <div class="panel">
+      <div class="panel-head">
+        <span class="panel-title">Lista giocatori</span>
+        <div class="panel-tools">
+          <label class="select-all" id="rosterSelectAllLabel">
+            <input type="checkbox" id="rosterSelectAll" aria-label="Seleziona o deseleziona tutti i giocatori mostrati">
+            <span id="rosterSelectAllText">Seleziona tutti</span>
+          </label>
+          <span class="meta-updated" id="rosterCount"></span>
+          <button class="tool-btn" id="rosterCsvBtn" type="button">↓ CSV</button>
+          <button class="tool-btn" id="rosterPdfBtn" type="button">🖨 PDF</button>
+        </div>
+      </div>
+      <div class="roster" id="rosterList"></div>
+    </div>
+
+    <div class="panel detail">
+      <div id="detailContent"></div>
+    </div>
+  </div>
+
+  <footer class="notes">
+    <p><b>Metodologia.</b> Il matching tra la lista e le fonti esterne segue questo ordine: campionato (RSL/FDL/U21) → squadra → numero di maglia → somiglianza del nome (con normalizzazione delle traslitterazioni arabo/inglese, che possono differire sensibilmente da Sofascore alla lista originale). I casi incerti restano etichettati "da verificare" o "ambiguo" invece di essere assunti automaticamente come corretti — dalla scheda di ogni giocatore puoi aprire il link Sofascore/Transfermarkt trovato e confermare tu stesso il match, oppure incollare un link che hai trovato per conto tuo (la conferma viene salvata subito nel file locale).</p>
+    <p><b>Fonti.</b> I numeri (presenze, minuti, gol, cartellini, panchine, rating 0–10 per partita) vengono da <b>Sofascore</b>. <b>Transfermarkt</b> fa da controllo incrociato: dopo ogni aggiornamento il server confronta, giocatore per giocatore e stagione per stagione, presenze, minuti, gol, cartellini, panchine e mancate convocazioni. Le differenze di minuti fino a 5′ a presenza non contano (Sofascore conta i recuperi, Transfermarkt no). Quando le due fonti non coincidono la scheda mostra le partite che causano la differenza e scegli tu quale tenere; la scelta resta salvata finché i numeri non cambiano. Il rating e il grafico restano sempre di Sofascore, che è l'unica fonte del voto. I siti ufficiali dei campionati non vengono letti.</p>
+    <p><b>Grafico vs. totali di stagione.</b> Per la stagione <b>corrente</b> (2026-27) la scheda mostra il grafico giornata per giornata: rating Sofascore e minuti giocati, questi ultimi colorati per stato (titolare, subentrato, in panchina, non convocato). Per le stagioni <b>passate</b> (già concluse) mostriamo invece solo i totali di stagione con tutte le statistiche — niente grafico giornata per giornata, per non appesantire la lettura di dati ormai storici. Sofascore inoltre pubblica dati partita-per-partita solo per la prima squadra dei club in RSL/FDL: il campionato U21 dei club non pubblica statistiche a livello di singola partita, quindi per quei giocatori si vedono solo i totali quando disponibili.</p>
+    <p><b>Coppe e nazionale.</b> Nella stagione corrente grafici e tabella includono, in ordine di data, anche le partite di <b>coppa</b> (King's Cup, Supercoppa, AFC Champions League…) e della <b>nazionale</b> (tutte le selezioni, amichevoli comprese), prese dall'elenco partite del giocatore su Sofascore (da Transfermarkt per chi ha Transfermarkt come fonte). Si riconoscono dal simbolo — ● campionato, ◆ coppa, ▲ nazionale — e dal colore della riga o della fascia nel grafico. Compaiono solo le partite in cui il giocatore era convocato; le amichevoli di club e le partite rinviate sono escluse. I totali principali, la linea di tendenza del rating, il confronto tra giocatori e il controllo con Transfermarkt restano sul solo <b>campionato</b>: coppe e nazionale hanno il loro riepilogo sotto i totali.</p>
+    <p class="staff-only"><b>Copia per lo staff.</b> Questa è una copia di sola consultazione: puoi cercare e filtrare i giocatori, aprire le schede, cambiare stagione, confrontare e scaricare CSV e PDF, ma non modificare i dati. I numeri sono quelli dell'ultima pubblicazione (data in alto, “Ultimo aggiornamento”): per dati più freschi bisogna che chi gestisce la dashboard la aggiorni e la ripubblichi. Le scelte e i filtri che fai qui restano solo sul tuo schermo.</p>
+    <p class="edit-only" id="phaseNote"><b>Aggiornamento dati.</b> Il pulsante "Aggiorna dati" in alto scarica i dati più recenti da Sofascore <b>in locale, sul tuo PC</b> (serve il server locale avviato e una connessione internet; lascia questa scheda aperta finché non finisce) — aggiorna il dettaglio partita-per-partita della stagione corrente e i totali delle stagioni già chiuse (letti dalla scheda statistiche del giocatore su Sofascore, quindi validi anche se nel frattempo ha cambiato squadra). Subito dopo il server rilegge Transfermarkt per tutti i giocatori che ne hanno il link (anche se Sofascore si ferma o non li ha). Dalla scheda di un singolo giocatore, "↻ Aggiorna questo giocatore" fa lo stesso per lui solo, da entrambe le fonti: Transfermarkt parte subito, senza segnalibro. Sciogliere i casi "da verificare"/"ambiguo"/"non trovato" richiede ancora una sessione con Claude, oppure il link incollato a mano nella scheda del giocatore.</p>
+    <p class="edit-only"><b>Nuovi giocatori.</b> "＋ Importa nuovi giocatori" apre la finestra di Windows per scegliere il file: indichi tu dov'è la lista di partenza <span class="mono">NT U23 rendimento.csv</span> — in qualsiasi cartella, anche su una chiavetta, e anche con un altro nome — e la pagina aggiunge i nomi che non sono ancora in <span class="mono">data.json</span>, dopo avertene mostrato l'elenco e chiesto conferma. Nella stessa finestra trovi chi è già in lista ma nel file ha un <b>club diverso</b>: spunta chi ha cambiato davvero squadra e solo a quelli cambio il club (la lista può essere più vecchia di <span class="mono">data.json</span>, per questo di partenza non è spuntato nessuno); per chi ha il link Sofascore rileggo poi la squadra e riscarico le partite, come con "Modifica club". Statistiche e link confermati restano come sono. I nuovi entrano come "Non trovato" e non hanno statistiche finché non incolli il loro link Sofascore nella scheda.</p>
+    <p class="edit-only"><b>Link e squadra collegata.</b> Le partite si scaricano dalla <b>squadra</b> a cui il giocatore risulta legato su Sofascore, non dal giocatore in sé: per questo, quando incolli un link Sofascore, la pagina legge dalla sua scheda anche la squadra e la salva. Un link giusto con la squadra sbagliata (tipicamente la formazione U21 del club, le cui partite non rientrano nel filtro RSL/FDL) non produce nessun grafico. Il pulsante "✎ Modifica link" è disponibile su ogni giocatore, anche su quelli già "Trovato".</p>
+    <p class="edit-only"><b>Cambio di club (mercato).</b> Quando un giocatore viene ceduto — a gennaio o in estate, con la finestra aperta fino a metà settembre a campionato già iniziato — i suoi link Sofascore e Transfermarkt restano gli stessi: cambia solo la squadra. Il pulsante "✎ Modifica club" nella scheda scrive il club nuovo (scegliendolo fra quelli già in elenco o digitandolo) e subito dopo rilegge da Sofascore la squadra collegata e riscarica le partite. Togliere o aggiungere la sigla <b>U21</b> cambia anche il tipo di dati mostrati: grafico giornata per giornata per la prima squadra, solo totali di stagione per la U21. Le statistiche già raccolte non si perdono.</p>
+    <p class="edit-only"><b>Eliminare un giocatore.</b> Il pulsante rosso "🗑 Elimina giocatore" nella scheda, dopo una conferma, toglie da <span class="mono">data.json</span> il giocatore con partite, totali, confronto Transfermarkt e minuti corretti a mano. Prima di cancellare il server ne salva una copia nella cartella <span class="mono">cestino</span>, accanto a <span class="mono">data.json</span>. Se il nome è ancora nella lista CSV, la prossima importazione lo ripropone fra i nuovi.</p>
+    <p><b>Confronto.</b> Spunta due o più giocatori nella lista per aprire la tabella di confronto — la casella “Seleziona tutti” in cima alla lista spunta (o toglie) in un colpo solo tutti i giocatori <i>attualmente mostrati</i>, quindi con un filtro attivo agisce solo su quelli: presenze, partite di campionato disponibili, panchine, minuti, minuti per presenza, gol, cartellini e rating medio nella stagione scelta, ordinabile per qualunque colonna e restringibile a un reparto o a un ruolo preciso. Chi non ha ancora dati raccolti compare con dei trattini ed è segnalato sotto la tabella — un dato mancante non è uno zero. La freccia ▶ accanto al nome apre, sotto la riga, le partite del giocatore giornata per giornata (stato, minuti, gol, cartellini, rating); “Giornate: espandi tutti” le apre per tutti, e il PDF stampa quelle aperte.</p>
+    <p><b>Partite di campionato e panchine.</b> La colonna <i>Part. camp.</i> conta le partite di Saudi Pro League / First Division League che la <b>squadra del giocatore</b> ha disputato fino alla data dell'ultimo aggiornamento di <span class="mono">data.json</span>: è il denominatore delle presenze (presenze + panchine + mancate convocazioni = partite di campionato). Vale solo dove abbiamo il dettaglio partita-per-partita con gli stati, cioè la stagione corrente: per le stagioni storiche, che registrano le sole partite giocate, la colonna resta vuota invece di riportare un totale inventato.</p>
+    <p class="edit-only"><b>Copia per lo staff.</b> "🌐 Pubblica per lo staff" mette online una copia di <b>sola consultazione</b> della dashboard con i dati di adesso, su GitHub Pages: lo staff la apre dal link (anche col tuo PC spento) e può navigare, aprire le schede, confrontare e scaricare CSV e PDF, ma non vede i pulsanti che modificano i dati. La copia non si aggiorna da sola: dopo "Aggiorna dati" o dopo una correzione, ripremi il pulsante. Il link è pubblico: chiunque lo abbia può aprirlo.</p>
+    <p><b>Esportazioni.</b> Ogni tabella ha il suo <b>↓ CSV</b> (separatore punto e virgola e decimali con la virgola, così Excel in italiano lo apre già in colonne) e il suo <b>🖨 PDF</b>, che apre l'anteprima di stampa del browser: da lì scegli "Salva come PDF". Si può stampare il report completo (pulsante in alto), la sola tabella di confronto, la sola lista giocatori, la scheda di un giocatore o un singolo grafico, che esce con sotto il dettaglio delle partite.</p>
+  </footer>
+
+</div>
+
+<div class="tooltip" id="chartTooltip"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+// Copia per lo staff: pubblica.py la mette a true nella copia che va su
+// GitHub Pages. Li' non c'e' server.py, quindi niente /api/: si nascondono
+// i comandi che modificano i dati (classe edit-only).
+const READ_ONLY = true;
+if(READ_ONLY) document.body.classList.add('read-only');
+
+const INITIAL_PLAYERS = [];
+
+const ROLE_LABEL = {
+  'GK':'Portiere','DIF CEN':'Difensore centrale','DIF EST':'Difensore esterno',
+  'CENT':'Centrocampista','ATT CEN':'Attaccante centrale','ATT EST':'Attaccante esterno','ATT':'Attaccante'
+};
+function roleGroup(role){
+  if(!role) return '';
+  if(role.startsWith('GK')) return 'GK';
+  if(role.startsWith('DIF')) return 'DIF';
+  if(role.startsWith('ATT')) return 'ATT';
+  return 'CENT';
+}
+const ROLE_GROUP_LABEL = {GK:'Portieri', DIF:'Difensori', CENT:'Centrocampisti', ATT:'Attaccanti'};
+
+// Il filtro per ruolo accetta due forme: "g:DIF" = tutto il reparto,
+// "r:DIF CEN" = il ruolo preciso. I valori nudi ("DIF") restano validi per
+// compatibilita' con le opzioni scritte a mano nelle versioni precedenti.
+function roleMatches(role, filter){
+  if(!filter) return true;
+  if(filter.indexOf('g:') === 0) return roleGroup(role) === filter.slice(2);
+  if(filter.indexOf('r:') === 0) return (role || '') === filter.slice(2);
+  return roleGroup(role) === filter;
+}
+
+// Elenchiamo solo i ruoli che esistono davvero nella rosa caricata: un menu con
+// voci che non filtrerebbero niente e' solo rumore.
+function roleFilterOptionsHtml(selected){
+  const present = new Set(players.map(p=>p.role).filter(Boolean));
+  const groups = ['GK','DIF','CENT','ATT'].filter(g => players.some(p=>roleGroup(p.role)===g));
+  const roles = Object.keys(ROLE_LABEL).filter(r => present.has(r));
+  const opt = (v,l)=>`<option value="${escapeHtml(v)}" ${v===selected?'selected':''}>${escapeHtml(l)}</option>`;
+  let html = opt('', 'Tutti i ruoli');
+  if(groups.length) html += `<optgroup label="Reparto">${groups.map(g=>opt('g:'+g, ROLE_GROUP_LABEL[g])).join('')}</optgroup>`;
+  if(roles.length)  html += `<optgroup label="Ruolo preciso">${roles.map(r=>opt('r:'+r, ROLE_LABEL[r])).join('')}</optgroup>`;
+  return html;
+}
+
+function populateRoleFilters(){
+  const sel = document.getElementById('fRole');
+  const cur = sel.value;
+  sel.innerHTML = roleFilterOptionsHtml(cur);
+  sel.value = cur || '';
+  if(sel.value !== cur) sel.value = '';
+}
+const STATUS_META = {
+  matched:      {label:'Trovato',        pill:'pill-good',     dot:'var(--status-good)'},
+  da_verificare:{label:'Da verificare',  pill:'pill-warning',  dot:'var(--status-warning)'},
+  ambiguo:      {label:'Ambiguo',        pill:'pill-serious',  dot:'var(--status-serious)'},
+  non_trovato:  {label:'Non trovato',    pill:'pill-critical', dot:'var(--status-critical)'},
+  in_coda:      {label:'In coda',        pill:'pill-pending',  dot:'var(--status-pending)'},
+};
+// Stagione in corso (fissa, la decide server.py) piu' quelle gia' chiuse che
+// troviamo davvero in data.json: cosi' una stagione passata scaricata da
+// Sofascore compare nei menu senza dover toccare questa lista a mano.
+const CURRENT_SEASON = '2026-27';
+let SEASONS = [CURRENT_SEASON, '2025-26'];
+
+function seasonsFromData(data){
+  const found = new Set(SEASONS);
+  ['performance','performance_totals'].forEach(bucket => {
+    Object.keys(data[bucket] || {}).forEach(key => {
+      const i = key.lastIndexOf('__');
+      if(i > 0) found.add(key.slice(i + 2));
+    });
+  });
+  // Ordine decrescente: la stagione in corso resta la prima della lista.
+  return Array.from(found).sort().reverse();
+}
+const STATUS_LABEL = { titolare:'Titolare', subentrato:'Subentrato', panchina:'In panchina', non_convocato:'Non convocato' };
+const STATUS_COLOR_VAR = { titolare:'var(--status-good)', subentrato:'var(--status-warning)', panchina:'var(--status-serious)', non_convocato:'var(--status-critical)' };
+
+// ------------------------------------------------- coppe e nazionale
+// Le partite di coppa e nazionale stanno in "other_matches", accanto a quelle
+// di campionato: si mescolano solo qui, per grafici e tabella. Totali,
+// confronto e controllo Transfermarkt restano sul solo campionato.
+const COMP_COLOR = { campionato:'var(--chart-line)', coppa:'var(--comp-cup)', nazionale:'var(--comp-nat)' };
+const COMP_LABEL = { campionato:'Campionato', coppa:'Coppa', nazionale:'Nazionale' };
+
+function seasonTimeline(perf){
+  const league = (perf && perf.matches || []).map(m => Object.assign({kind:'campionato'}, m));
+  const other = (perf && perf.other_matches || []).slice();
+  // sort stabile: a parita' di data il campionato resta prima
+  return league.concat(other).sort((a,b) => (a.date||'').localeCompare(b.date||''));
+}
+
+// Cerchio = campionato, rombo = coppa, triangolo = nazionale: la forma basta
+// a distinguerli anche stampati in bianco e nero.
+function compShape(kind, cx, cy, r, attrs){
+  const fill = COMP_COLOR[kind] || COMP_COLOR.campionato;
+  if(kind === 'coppa'){
+    const d = r * 1.3;
+    return `<path d="M${cx} ${cy-d} L${cx+d} ${cy} L${cx} ${cy+d} L${cx-d} ${cy} Z" fill="${fill}" ${attrs||''}/>`;
+  }
+  if(kind === 'nazionale'){
+    const d = r * 1.35;
+    return `<path d="M${cx} ${cy-d} L${cx+d} ${cy+d*0.8} L${cx-d} ${cy+d*0.8} Z" fill="${fill}" ${attrs||''}/>`;
+  }
+  return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${fill}" ${attrs||''}/>`;
+}
+
+function compIcon(kind){
+  return `<svg width="11" height="11" viewBox="0 0 12 12" aria-hidden="true">${compShape(kind, 6, 6, 4)}</svg>`;
+}
+
+function compTagHtml(m){
+  const kind = m.kind || 'campionato';
+  if(kind === 'campionato') return `<span class="comp-tag">${compIcon(kind)}Campionato</span>`;
+  const team = kind === 'nazionale' && m.team ? ` <small>· ${escapeHtml(m.team)}</small>` : '';
+  return `<span class="comp-tag comp-tag-${kind}">${compIcon(kind)}${escapeHtml(m.competition || COMP_LABEL[kind])}${team}</span>`;
+}
+
+function compTooltipLine(m){
+  if(!m.kind || m.kind === 'campionato') return '';
+  return `<br><span style="color:${COMP_COLOR[m.kind]}">${escapeHtml(m.competition || COMP_LABEL[m.kind])}${m.kind==='nazionale' && m.team ? ' · ' + escapeHtml(m.team) : ''}</span>`;
+}
+
+function compLegendHtml(timeline){
+  const kinds = ['coppa','nazionale'].filter(k => timeline.some(m => m.kind === k));
+  if(!kinds.length) return '';
+  return ['campionato'].concat(kinds).map(k => `<span>${compIcon(k)}${COMP_LABEL[k]}</span>`).join('');
+}
+
+function otherSummaryHtml(perf){
+  const other = perf && perf.other_matches || [];
+  const rows = [['coppa','Coppe'], ['nazionale','Nazionale']].map(([kind, label]) => {
+    const list = other.filter(m => m.kind === kind);
+    if(!list.length) return '';
+    const s = seasonSummary(list.filter(m => m.status === 'titolare' || m.status === 'subentrato'));
+    const bench = list.filter(m => m.status === 'panchina').length;
+    return `<div>${compIcon(kind)} <b>${label}:</b> ${s.appearances} pres · ${s.minutes}′ · ${s.goals} gol · voto ${s.avg!=null?s.avg.toFixed(2):'–'}${bench?` · ${bench} in panchina`:''}</div>`;
+  }).join('');
+  return rows ? `<div class="other-summary">${rows}</div>` : '';
+}
+// ------------------------------------------------- minuti corretti a mano
+// Sofascore a volte da' un titolare senza minuti. Matteo li scrive dalla
+// scheda: stanno in "manual_minutes" e si applicano qui sopra le partite
+// scaricate (Sofascore o Transfermarkt), che in data.json restano intatte.
+function manualKey(m){ return (m.kind || 'campionato') + '|' + (m.date || ''); }
+
+function applyManualMinutes(){
+  Object.keys(manualMinutes).forEach(key => {
+    const perf = performanceCache[key];
+    const edits = manualMinutes[key] || {};
+    if(!perf) return;
+    const fix = (list, kind) => (list || []).map(m => {
+      const e = edits[manualKey(Object.assign({kind}, m))];
+      if(!e) return m;
+      const out = Object.assign({}, m, {minutes: e.minutes, manual_minutes: true, source_minutes: m.minutes});
+      // Minuti scritti a mano su una partita data "in panchina" o "non convocato":
+      // ha giocato, quindi conta come subentrato (grafico, presenze, tabella).
+      if(e.minutes > 0 && m.status !== 'titolare' && m.status !== 'subentrato'){
+        out.status = 'subentrato';
+        out.source_status = m.status;
+      }
+      return out;
+    });
+    const copy = Object.assign({}, perf, {matches: fix(perf.matches, 'campionato')});
+    if(perf.other_matches) copy.other_matches = fix(perf.other_matches);
+    performanceCache = Object.assign({}, performanceCache, {[key]: copy});
+  });
+}
+
+function minutesCellHtml(m){
+  const k = manualKey(m);
+  if(minutesEditorFor === k){
+    return `<span class="min-editor no-print">
+      <input type="number" min="0" max="130" step="1" value="${m.minutes ?? ''}" data-min-input="${escapeHtml(k)}" aria-label="Minuti giocati">
+      <button class="tool-btn" type="button" data-min-save="${escapeHtml(k)}">Salva</button>
+      ${m.manual_minutes ? `<button class="tool-btn" type="button" data-min-reset="${escapeHtml(k)}" title="Torna al valore scaricato">Ripristina</button>` : ''}
+      <button class="tool-btn" type="button" data-min-cancel>Annulla</button></span>`;
+  }
+  const src = m.source_minutes ?? '–';
+  const val = m.manual_minutes
+    ? `<span class="min-manual" title="Scritto a mano (fonte: ${escapeHtml(String(src))})">${m.minutes}</span>`
+    : `${m.minutes ?? '–'}`;
+  return `${val} <button class="min-edit no-print edit-only" type="button" data-min-edit="${escapeHtml(k)}" title="Correggi i minuti a mano" aria-label="Correggi i minuti">✎</button>`;
+}
+
+async function saveManualMinutes(p, m, minutes){
+  try{
+    const {res, data} = await postLocal('/api/manual-minutes', {
+      id: p.id, season: selectedSeason, kind: m.kind || 'campionato', date: m.date,
+      opponent: m.opponent || '', minutes});
+    if(!res.ok) throw new Error((data && data.error) || ('http ' + res.status));
+    minutesEditorFor = null;
+    await loadLocalData();
+    showToast(minutes == null ? 'Minuti ripristinati al valore scaricato.' : `Minuti salvati: ${minutes}′ contro ${opponentLabel(m)}. Restano anche dopo gli aggiornamenti.`);
+  }catch(e){
+    showToast('Non sono riuscito a salvare i minuti (' + e.message + '). Controlla che il server locale sia avviato.');
+  }
+}
+
+const STATUS_PILL_CLASS = { titolare:'pill-good', subentrato:'pill-warning', panchina:'pill-serious', non_convocato:'pill-critical' };
+
+let players = INITIAL_PLAYERS.slice();
+let metaStatus = null;
+let selectedPlayerId = null;
+let selectedSeason = SEASONS[0];
+let performanceCache = {}; // key: playerId__season -> data|null (match-by-match, stagione corrente)
+let totalsCache = {}; // key: playerId__season -> data|null (totali di stagione)
+let crosscheckCache = {}; // key: playerId__season -> confronto con Transfermarkt (vedi transfermarkt.py)
+let manualMinutes = {};   // key: playerId__season -> {"tipo|data": {minutes, opponent, at}} (vedi server.py)
+let minutesEditorFor = null; // "tipo|data" della partita con la casella dei minuti aperta
+let compareIds = [];              // id spuntati nella lista, in ordine di selezione
+let compareOpen = false;          // il pannello confronto e' aperto?
+let compareSeason = SEASONS[0];
+let compareSort = {key:'name', dir:1};
+let compareRole = '';             // filtro per ruolo dentro il pannello confronto
+let compareExpanded = new Set();  // id con il dettaglio giornata per giornata aperto
+// Editor dei link aperto per questo giocatore: per i "trovati" e' chiuso di
+// default e si apre col pulsante "Modifica link".
+let linkEditorFor = null;
+// Editor del club aperto per questo giocatore. Il club cambia con le finestre
+// di mercato (gennaio, estate fino a meta' settembre): i link Sofascore e
+// Transfermarkt del giocatore restano gli stessi, cambia solo la squadra.
+let clubEditorFor = null;
+
+function granularityOf(p){
+  if(p.stat_granularity) return p.stat_granularity;
+  return /U21/i.test(p.club) ? 'season_totals' : 'match';
+}
+
+function escapeHtml(s){
+  return String(s==null?'':s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function clubList(){
+  // filter(Boolean): un giocatore importato da una riga senza club finirebbe
+  // nel menu come voce vuota.
+  return Array.from(new Set(players.map(p=>p.club).filter(Boolean))).sort();
+}
+
+function computeStats(){
+  const c = {matched:0, da_verificare:0, ambiguo:0, non_trovato:0, in_coda:0};
+  players.forEach(p=>{ if(c[p.match_status]!=null) c[p.match_status]++; else c.in_coda++; });
+  return c;
+}
+
+function renderStats(){
+  const c = computeStats();
+  const tiles = [
+    ['Totale giocatori', players.length, 'var(--ink-muted)'],
+    [STATUS_META.matched.label, c.matched, STATUS_META.matched.dot],
+    [STATUS_META.da_verificare.label + ' / ' + STATUS_META.ambiguo.label, c.da_verificare + c.ambiguo, STATUS_META.da_verificare.dot],
+    [STATUS_META.non_trovato.label, c.non_trovato, STATUS_META.non_trovato.dot],
+    [STATUS_META.in_coda.label, c.in_coda, STATUS_META.in_coda.dot],
+  ];
+  document.getElementById('statsRow').innerHTML = tiles.map(([label,val,dot])=>`
+    <div class="stat-tile">
+      <div class="stat-label"><span class="stat-dot" style="background:${dot}"></span>${escapeHtml(label)}</div>
+      <div class="stat-value mono tabular">${val}</div>
+    </div>`).join('');
+}
+
+function renderAlerts(){
+  const issues = players.filter(p => ['da_verificare','ambiguo','non_trovato'].includes(p.match_status));
+  const tmOpen = players.filter(p => tmPlayerState(p) === 'open');
+  const tmPending = players.filter(tmIsPending);
+  const tmTransfers = (metaStatus && metaStatus.tm_transfers) || [];
+  const tmErrors = (metaStatus && metaStatus.tm_errors) || [];
+  const summaryEl = document.getElementById('alertsSummary');
+  const listEl = document.getElementById('alertsList');
+  const box = document.getElementById('alertsBox');
+  const tmCount = tmOpen.length + tmPending.length + tmTransfers.length;
+  if(issues.length === 0 && tmCount === 0 && tmErrors.length === 0){
+    box.style.display = 'none';
+    return;
+  }
+  box.style.display = '';
+  const bits = [];
+  if(issues.length) bits.push(`${issues.length} giocatori richiedono attenzione (numero di maglia mancante, nome non trovato o corrispondenza ambigua)`);
+  if(tmCount) bits.push(`Transfermarkt: ${tmOpen.length} con discrepanze da decidere, ${tmPending.length} schede da confermare, ${tmTransfers.length} possibili trasferimenti`);
+  if(!tmCount && tmErrors.length) bits.push('controllo Transfermarkt con avvisi');
+  summaryEl.textContent = '⚠ ' + bits.join(' · ');
+  const tmRow = (p, pill, label, text) => `<div class="alert-row clickable" data-open-player="${escapeHtml(p.id)}" tabindex="0" role="button">
+      <span class="pill ${pill}">${label}</span><span><b>${escapeHtml(p.name)}</b> — ${escapeHtml(p.club)}. ${text}</span></div>`;
+  const tmRows = []
+    .concat(tmOpen.map(p => tmRow(p, 'pill-warning', 'TM discrepanza',
+      escapeHtml(SEASONS.filter(s => tmIsOpen(tmEntry(p.id, s))).map(s => s + ': ' + tmDiffText(tmEntry(p.id, s))).join(' · ')))))
+    .concat(tmPending.map(p => tmRow(p, 'pill-pending', 'TM da confermare',
+      `${(p.tm_candidates||[]).length} candidati trovati su Transfermarkt.`)))
+    .concat(tmTransfers.map(t => {
+      const p = players.find(x => x.id === t.pid);
+      return p ? tmRow(p, 'pill-serious', 'TM trasferimento', `Transfermarkt lo dà in forza a: ${escapeHtml(t.tm_club)}.`) : '';
+    }));
+  const errRows = tmErrors.map(t => `<div class="alert-row"><span class="pill pill-critical">TM avviso</span><span>${escapeHtml(t)}</span></div>`);
+  listEl.innerHTML = errRows.concat(tmRows).concat(issues.map(p => {
+    const meta = STATUS_META[p.match_status];
+    return `<div class="alert-row"><span class="pill ${meta.pill}"><span class="dot" style="background:${meta.dot}"></span>${meta.label}</span>
+      <span><b>${escapeHtml(p.name)}</b> — ${escapeHtml(p.club)}. ${escapeHtml(p.match_note||'')}</span></div>`;
+  })).join('');
+  listEl.querySelectorAll('[data-open-player]').forEach(row => {
+    const open = () => {
+      const p = players.find(x => x.id === row.dataset.openPlayer);
+      // Si apre la prima stagione da decidere, non quella che era selezionata.
+      const season = p && SEASONS.find(s => tmIsOpen(tmEntry(p.id, s)));
+      if(season) selectedSeason = season;
+      selectPlayer(row.dataset.openPlayer);
+      document.getElementById('detailContent').scrollIntoView({behavior:'smooth', block:'start'});
+    };
+    row.addEventListener('click', open);
+    row.addEventListener('keydown', e => { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); open(); } });
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Controllo incrociato con Transfermarkt
+// ---------------------------------------------------------------------------
+// Il confronto lo fa server.py dopo ogni aggiornamento e lo salva in
+// data.json ("crosscheck"). Qui si mostra e si raccoglie la scelta di Matteo:
+// i totali Sofascore non vengono mai riscritti, la sostituzione con quelli di
+// Transfermarkt avviene solo al momento di mostrarli (tmChosenStats).
+
+const TM_FIELDS = [
+  ['appearances','Presenze'], ['minutes','Minuti'], ['goals','Gol'], ['yellow','Ammonizioni'],
+  ['red','Espulsioni'], ['bench','In panchina'], ['not_called','Non convocato'],
+];
+const TM_FIELD_LABEL = {appearances:'presenze', minutes:'minuti', goals:'gol', yellow:'ammonizioni',
+  red:'espulsioni', bench:'panchine', not_called:'mancate convocazioni', sofascore_missing:'Sofascore senza dati'};
+const TM_KIND_LABEL = {solo_sofascore:'Solo Sofascore', solo_transfermarkt:'Solo Transfermarkt', diversa:'Diversa'};
+const TM_CHOICE_LABEL = {sofascore:'Sofascore', transfermarkt:'Transfermarkt'};
+
+function tmEntry(id, season){ return crosscheckCache[id + '__' + season] || null; }
+// Giocatore per cui Matteo ha scelto Transfermarkt come fonte di tutti i dati
+// (di solito perche' Sofascore non ne registra le presenze): partite e totali
+// vengono da "tm_performance" in data.json, vedi applyData.
+function isTmSource(p){ return !!(p && p.stats_source === 'transfermarkt' && p.transfermarkt_id); }
+function tmIsOpen(e){ return !!(e && e.status === 'discrepanza' && !e.choice); }
+function tmIsPending(p){ return p.tm_match_status === 'da_confermare' && !p.transfermarkt_id; }
+function tmTransferOf(p){
+  return ((metaStatus && metaStatus.tm_transfers) || []).find(t => t.pid === p.id) || null;
+}
+
+// Stato per l'etichetta "TM" nella lista: arancione se c'e' almeno una
+// stagione da decidere, grigia se l'abbinamento e' da confermare.
+function tmPlayerState(p){
+  if(tmIsPending(p)) return 'pending';
+  if(isTmSource(p)) return 'source';
+  const entries = SEASONS.map(s => tmEntry(p.id, s)).filter(Boolean);
+  if(entries.some(tmIsOpen)) return 'open';
+  return entries.length ? 'ok' : null;
+}
+
+function tmTagHtml(p){
+  const st = tmPlayerState(p);
+  if(!st) return '';
+  const title = {ok:'Transfermarkt concorda (o la differenza è già stata decisa)',
+                 open:'Sofascore e Transfermarkt non coincidono: da decidere nella scheda',
+                 pending:'Scheda Transfermarkt da confermare',
+                 source:'Dati presi da Transfermarkt (fonte scelta per questo giocatore)'}[st];
+  return `<span class="tm-tag tm-${st}" title="${escapeHtml(title)}">TM</span>`;
+}
+
+// I totali di Transfermarkt, se Matteo li ha scelti per questa stagione.
+function tmChosenStats(id, season){
+  if(isTmSource(players.find(x => x.id === id))) return null;  // i dati sono gia' tutti di Transfermarkt
+  const e = tmEntry(id, season);
+  if(!e || e.choice !== 'transfermarkt' || !e.transfermarkt) return null;
+  const t = e.transfermarkt;
+  return {appearances:t.appearances, minutes:t.minutes, goals:t.goals, yellow:t.yellow, red:t.red,
+          bench:t.bench, notCalled:t.not_called, teamMatches:t.appearances + t.bench + t.not_called,
+          source:'Transfermarkt (scelto da Matteo)'};
+}
+
+function tmGameCell(g){
+  if(!g) return '<span style="color:var(--ink-muted)">non presente</span>';
+  const bits = [STATUS_LABEL[g.status] || g.status];
+  if(g.status === 'titolare' || g.status === 'subentrato') bits.push((g.minutes||0) + '′');
+  if(g.goals) bits.push(g.goals + ' gol');
+  if(g.yellow) bits.push('amm.');
+  if(g.red) bits.push('esp.');
+  return escapeHtml(bits.join(' · '));
+}
+
+function tmCompareTableHtml(e){
+  const sofa = e.sofascore || {};
+  const tm = e.transfermarkt || {};
+  // Le mancate convocazioni si confrontano sulle sole partite che entrambe le
+  // fonti elencano (vedi not_called_common in transfermarkt.py): mostriamo quei
+  // numeri, non i totali, altrimenti la riga sembrerebbe diversa senza esserlo.
+  const common = e.not_called_common;
+  const rows = TM_FIELDS.filter(([k]) => k in tm && (e.sofascore == null || k in sofa)).map(([k, label]) => {
+    const diff = e.differences.includes(k);
+    let sv = e.sofascore == null ? '–' : sofa[k];
+    let tv = tm[k];
+    if(k === 'not_called' && common){
+      label = 'Non convocato (partite in comune)';
+      sv = common.sofascore;
+      tv = common.transfermarkt;
+    }
+    return `<tr><td>${label}</td><td class="mono tabular ${diff?'tm-diff':''}">${sv}</td><td class="mono tabular ${diff?'tm-diff':''}">${tv}</td></tr>`;
+  }).join('');
+  return `<table class="match-table"><thead><tr><th></th><th>Sofascore</th><th>Transfermarkt</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+function tmGamesHtml(e){
+  const games = e.games || [];
+  if(!games.length && !e.games_note) return '';
+  const body = games.map(g => `<tr>
+      <td class="mono tabular">${escapeHtml(g.date||'')}</td>
+      <td>${escapeHtml(g.opponent||'')}</td>
+      <td>${escapeHtml(TM_KIND_LABEL[g.kind]||g.kind)}</td>
+      <td>${tmGameCell(g.sofascore)}</td>
+      <td>${tmGameCell(g.transfermarkt)}</td>
+    </tr>`).join('');
+  return `<details ${games.length <= 12 ? 'open' : ''}>
+      <summary>Partite che causano la differenza (${games.length})</summary>
+      ${e.games_note ? `<div class="tm-line">${escapeHtml(e.games_note)}</div>` : ''}
+      ${games.length ? `<div class="table-scroll"><table class="match-table"><thead><tr><th>Data</th><th>Avversario</th><th>Tipo</th><th>Sofascore</th><th>Transfermarkt</th></tr></thead><tbody>${body}</tbody></table></div>` : ''}
+    </details>`;
+}
+
+function tmDiffText(e){
+  return e.differences.map(d => TM_FIELD_LABEL[d] || d).join(', ');
+}
+
+function tmBoxHtml(p, season){
+  const out = [];
+  if(tmIsPending(p)){
+    const c = p.tm_candidates || [];
+    out.push(`<div class="tm-box">
+      <div class="tm-title">Transfermarkt: scheda da confermare</div>
+      ${c.length
+        ? `<div>Non sono sicuro di quale sia la scheda giusta (anno di nascita, nazionalità o club non tornano, oppure i candidati sono più d'uno). Scegli tra quelli trovati, oppure incolla il link giusto con “✎ Modifica link”.</div>
+           <div class="table-scroll"><table class="match-table"><thead><tr><th>Nome</th><th>Nato il</th><th>Club</th><th></th></tr></thead><tbody>
+           ${c.map(x => `<tr>
+             <td><a href="${escapeHtml(x.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(x.name||x.id)} ↗</a></td>
+             <td class="mono tabular">${escapeHtml(x.birth||'–')}</td>
+             <td>${escapeHtml(x.club||'–')}</td>
+             <td><button class="link-btn confirm-btn no-print edit-only" type="button" data-tm-confirm="${escapeHtml(x.id)}">È lui</button></td>
+           </tr>`).join('')}
+           </tbody></table></div>`
+        : `<div>Cercando il nome su Transfermarkt non ho trovato nessun candidato saudita con l'anno di nascita giusto. Se il giocatore c'è, incolla il link della sua scheda con “✎ Modifica link”.</div>`}
+    </div>`);
+    return out.join('');
+  }
+  if(isTmSource(p)){
+    out.push(`<div class="tm-line ok">Fonte dei dati: <b>Transfermarkt</b>, scelta per questo giocatore (tutte le stagioni). Transfermarkt non dà un rating.
+      <button class="link-btn no-print edit-only" type="button" data-tm-source="" style="padding:2px 8px;margin-left:6px">Torna a Sofascore</button></div>`);
+  }
+  const transfer = tmTransferOf(p);
+  if(transfer){
+    out.push(`<div class="tm-box transfer">⚠ Transfermarkt lo dà in forza a: <b>${escapeHtml(transfer.tm_club)}</b> (qui risulta ${escapeHtml(p.club||'–')}). Possibile trasferimento. Se è così, aggiorna il club con “✎ Modifica club”.</div>`);
+  }
+  const e = isTmSource(p) ? null : tmEntry(p.id, season);
+  const sourceBtn = p.transfermarkt_id
+    ? `<button class="link-btn edit-only" type="button" data-tm-source="transfermarkt" title="Partite e totali di tutte le stagioni presi da Transfermarkt, anche dopo i prossimi aggiornamenti">Usa sempre Transfermarkt per questo giocatore</button>`
+    : '';
+  if(e && e.status === 'concorda'){
+    out.push(`<div class="tm-line ok">✓ Confermato da Transfermarkt (controllo del ${escapeHtml(e.checked_at||'')})</div>`);
+  }else if(e && e.choice){
+    out.push(`<div class="tm-line">Sofascore e Transfermarkt non coincidono su ${escapeHtml(tmDiffText(e))}. Scelto: <b>${TM_CHOICE_LABEL[e.choice]}</b>
+      <button class="link-btn no-print edit-only" type="button" data-tm-choice="" style="padding:2px 8px;margin-left:6px">cambia</button></div>`);
+    if(e.choice === 'transfermarkt' && sourceBtn) out.push(`<div class="tm-actions no-print">${sourceBtn}</div>`);
+  }else if(e){
+    out.push(`<div class="tm-box open">
+      <div class="tm-title">Sofascore e Transfermarkt non coincidono — stagione ${escapeHtml(season)}</div>
+      <div>${e.differences.includes('sofascore_missing')
+        ? 'Sofascore non ha dati per questa stagione, Transfermarkt sì.'
+        : 'Diversi: <b>' + escapeHtml(tmDiffText(e)) + '</b>. Le differenze di minuti fino a 5′ a presenza non contano (recuperi).'}</div>
+      ${tmCompareTableHtml(e)}
+      ${tmGamesHtml(e)}
+      <div class="tm-actions no-print">
+        <button class="link-btn edit-only" type="button" data-tm-choice="sofascore">Tieni Sofascore</button>
+        <button class="link-btn edit-only" type="button" data-tm-choice="transfermarkt">Usa Transfermarkt</button>
+        ${sourceBtn}
+        <a class="link-btn" href="${transfermarktUrl(p)}" target="_blank" rel="noopener noreferrer">↗ Transfermarkt</a>
+      </div>
+    </div>`);
+  }
+  if(p.transfermarkt_id && p.tm_match_status === 'auto'){
+    out.push(`<div class="tm-line">Scheda Transfermarkt abbinata automaticamente (stesso anno di nascita, nazionalità e club). Se è sbagliata, incolla il link giusto con “✎ Modifica link”.</div>`);
+  }
+  return out.join('');
+}
+
+async function setTmChoice(key, choice){
+  try{
+    const {res, data} = await postLocal('/api/tm/choice', {key, choice});
+    if(!res.ok) throw new Error((data && data.error) || ('http ' + res.status));
+    crosscheckCache[key] = data;
+    renderAll();
+    showToast(choice ? `Scelta salvata: per questa stagione valgono i numeri di ${TM_CHOICE_LABEL[choice]}.` : 'Scelta tolta: la stagione torna da decidere.');
+  }catch(e){
+    showToast('Non sono riuscito a salvare la scelta (' + e.message + '). Controlla che il server locale sia avviato.');
+  }
+}
+
+// Fonte di tutti i dati del giocatore: "transfermarkt" o null (Sofascore).
+// Con Transfermarkt il server scarica subito le sue partite.
+async function setTmSource(id, source){
+  try{
+    const {res, data} = await postLocal('/api/tm/source', {id, source});
+    if(!res.ok) throw new Error((data && data.error) || ('http ' + res.status));
+    await loadLocalData();
+    if(data.tmCheck) watchTmCheck();
+    showToast(!source ? 'Fonte dati: Sofascore. I dati Transfermarkt di questo giocatore non vengono più usati.'
+      : 'Fonte dati: Transfermarkt. Sto scaricando le sue partite…');
+  }catch(e){
+    showToast('Non sono riuscito a cambiare la fonte (' + e.message + '). Controlla che il server locale sia avviato.');
+  }
+}
+
+// "Aggiorna questo giocatore", parte Transfermarkt: scarica il server, niente
+// scheda di Sofascore ne' segnalibro. Se c'e' gia' un controllo in corso il
+// server mette questo in coda. "quiet": il messaggio lo da' chi chiama.
+async function updateFromTm(id, quiet){
+  try{
+    const {res, data} = await postLocal('/api/tm/check', {id});
+    if(!res.ok) throw new Error((data && data.error) || ('http ' + res.status));
+    watchTmCheck();
+    if(!quiet) showToast('Aggiornamento da Transfermarkt in corso…');
+  }catch(e){
+    showToast('Non sono riuscito ad aggiornare da Transfermarkt (' + e.message + '). Controlla che il server locale sia avviato.');
+  }
+}
+
+async function confirmTmCandidate(id, tmId){
+  try{
+    const {res, data} = await postLocal('/api/tm/confirm', {id, tmId});
+    if(!res.ok) throw new Error((data && data.error) || ('http ' + res.status));
+    const idx = players.findIndex(x => x.id === id);
+    if(idx >= 0) players[idx] = Object.assign({}, players[idx], data);
+    renderAll();
+    if(data.tmCheck) watchTmCheck();
+    showToast('Scheda Transfermarkt confermata: confronto in corso per questo giocatore.');
+  }catch(e){
+    showToast('Non sono riuscito a confermare la scheda (' + e.message + '). Controlla che il server locale sia avviato.');
+  }
+}
+
+// Il controllo gira in sottofondo nel server: lo seguiamo finche' non finisce
+// e poi ricarichiamo data.json.
+let tmWatch = null;
+function renderTmProgress(st){
+  const el = document.getElementById('tmProgress');
+  if(!st || !st.running){ el.hidden = true; return; }
+  el.hidden = false;
+  el.textContent = 'Controllo Transfermarkt in corso…' + (st.total ? ` ${st.done}/${st.total}` : '');
+}
+async function pollTmCheck(){
+  let st = null;
+  try{
+    const res = await fetch('/api/tm/status', {cache:'no-store'});
+    if(res.ok) st = await res.json();
+  }catch(_){ /* server spento: riproviamo al giro dopo */ }
+  if(st && st.running){
+    renderTmProgress(st);
+    tmWatch = setTimeout(pollTmCheck, 2000);
+    return;
+  }
+  tmWatch = null;
+  renderTmProgress(null);
+  if(st && st.note){
+    await loadLocalData();
+    showToast(st.note);
+  }
+}
+function watchTmCheck(){
+  if(tmWatch) clearTimeout(tmWatch);
+  tmWatch = setTimeout(pollTmCheck, 500);
+}
+
+function populateClubFilter(){
+  const sel = document.getElementById('fClub');
+  const current = sel.value;
+  sel.innerHTML = '<option value="">Tutti i club</option>' + clubList().map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
+  sel.value = current || '';
+}
+
+function currentFilters(){
+  return {
+    search: document.getElementById('fSearch').value.trim().toLowerCase(),
+    club: document.getElementById('fClub').value,
+    role: document.getElementById('fRole').value,
+    status: document.getElementById('fStatus').value,
+  };
+}
+
+function filteredPlayers(){
+  const f = currentFilters();
+  return players.filter(p=>{
+    if(f.search && !p.name.toLowerCase().includes(f.search)) return false;
+    if(f.club && p.club !== f.club) return false;
+    if(!roleMatches(p.role, f.role)) return false;
+    if(f.status === 'tm_open'){ if(tmPlayerState(p) !== 'open') return false; }
+    else if(f.status === 'tm_pending'){ if(!tmIsPending(p)) return false; }
+    else if(f.status && p.match_status !== f.status) return false;
+    return true;
+  }).sort((a,b)=> a.club.localeCompare(b.club) || a.name.localeCompare(b.name));
+}
+
+function renderRoster(){
+  const list = filteredPlayers();
+  document.getElementById('resultCount').textContent = `${list.length} / ${players.length} giocatori`;
+  document.getElementById('rosterCount').textContent = `${list.length} risultati`;
+  const el = document.getElementById('rosterList');
+  updateSelectAllBox(list);
+  if(list.length === 0){
+    el.innerHTML = '<div class="roster-empty">Nessun giocatore corrisponde ai filtri.</div>';
+    return;
+  }
+  el.innerHTML = list.map(p=>{
+    const meta = STATUS_META[p.match_status] || STATUS_META.in_coda;
+    const jerseys = [p.jersey_first_team_nt ? `1ª sq. ${escapeHtml(p.jersey_first_team_nt)}` : null, p.jersey_u21_nt ? `U21 ${escapeHtml(p.jersey_u21_nt)}` : null].filter(Boolean).join(' · ');
+    return `<div class="roster-row ${p.id===selectedPlayerId?'selected':''}" data-id="${escapeHtml(p.id)}" tabindex="0" role="button" aria-pressed="${p.id===selectedPlayerId}">
+      <input type="checkbox" class="roster-check" data-id="${escapeHtml(p.id)}" ${compareIds.includes(p.id)?'checked':''} aria-label="Aggiungi ${escapeHtml(p.name)} al confronto">
+      <div>
+        <div class="roster-name">${escapeHtml(p.name)}${tmTagHtml(p)}</div>
+        <div class="roster-sub">${escapeHtml(p.club)} · ${escapeHtml(ROLE_LABEL[p.role]||p.role)}${p.year_of_birth?` · ${p.year_of_birth}`:''}</div>
+      </div>
+      <div class="roster-jersey mono">${jerseys}</div>
+      <span class="pill ${meta.pill}"><span class="dot" style="background:${meta.dot}"></span>${meta.label}</span>
+    </div>`;
+  }).join('');
+  el.querySelectorAll('.roster-row').forEach(row=>{
+    row.addEventListener('click', ()=>selectPlayer(row.dataset.id));
+    row.addEventListener('keydown', e=>{ if(e.key==='Enter' || e.key===' '){ e.preventDefault(); selectPlayer(row.dataset.id); } });
+  });
+  el.querySelectorAll('.roster-check').forEach(box=>{
+    // La spunta serve solo al confronto: non deve anche aprire la scheda.
+    box.addEventListener('click', e=>e.stopPropagation());
+    box.addEventListener('change', e=>toggleCompare(box.dataset.id, e.target.checked));
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Confronto fra piu' giocatori
+// ---------------------------------------------------------------------------
+
+const COMPARE_COLS = [
+  {key:'name',        label:'Giocatore',    type:'text'},
+  {key:'club',        label:'Club',         type:'text'},
+  {key:'role',        label:'Ruolo',        type:'text'},
+  {key:'appearances', label:'Pres.',        type:'num', best:'max', hint:'Partite giocate, da titolare o subentrando, sulle partite di campionato della sua squadra'},
+  {key:'bench',       label:'Panch.',       type:'num', hint:'Convocato ma rimasto in panchina, sulle partite di campionato della sua squadra'},
+  {key:'teamMatches', label:'Part. camp.',  type:'num', hint:"Partite di campionato disputate dalla sua squadra fino alla data dell'ultimo aggiornamento dei dati"},
+  {key:'minutes',     label:'Minuti',       type:'num', best:'max'},
+  {key:'minPerApp',   label:'Min/pres.',    type:'num', best:'max'},
+  {key:'goals',       label:'Gol',          type:'num', best:'max'},
+  {key:'yellow',      label:'Amm.',         type:'num'},
+  {key:'red',         label:'Esp.',         type:'num'},
+  {key:'avg',         label:'Rating medio', type:'num', dec:2, best:'max'},
+];
+
+function numOrNull(v){ return typeof v === 'number' && isFinite(v) ? v : null; }
+
+// Statistiche di un giocatore per una stagione, dalla stessa fonte che usa la
+// scheda: le partite raccolte se ci sono, i totali di stagione se coprono piu'
+// presenze (la raccolta partita-per-partita puo' essere ancora incompleta).
+function statsFor(id, season){
+  const key = id + '__' + season;
+  const perf = performanceCache[key];
+  const totals = totalsCache[key];
+  let out = null;
+  // Panchine e partite di campionato si leggono solo dal dettaglio partita per
+  // partita: i totali di stagione non le contengono.
+  const extra = {bench:null, notCalled:null, teamMatches:null};
+  if(perf && perf.matches && perf.matches.length){
+    const played = perf.matches.filter(m => m.status==='titolare' || m.status==='subentrato' || m.status==null);
+    const s = seasonSummary(played);
+    out = {appearances:s.appearances, minutes:s.minutes, goals:s.goals, yellow:s.yellow,
+           red:s.red, avg:s.avg, source:perf.source};
+    // Quando le partite portano lo stato, la raccolta contiene TUTTE le partite di
+    // campionato della squadra fino all'ultimo aggiornamento: e' il denominatore
+    // delle presenze. Le stagioni storiche registrano invece le sole partite
+    // giocate, quindi il totale del campionato non lo sappiamo e resta vuoto --
+    // meglio un trattino di un totale inventato.
+    if(perf.matches.some(m => m.status != null)){
+      extra.bench       = perf.matches.filter(m => m.status === 'panchina').length;
+      extra.notCalled   = perf.matches.filter(m => m.status === 'non_convocato').length;
+      extra.teamMatches = perf.matches.length;
+    }
+  }
+  if(totals){
+    const t = {appearances:numOrNull(totals.appearances), minutes:numOrNull(totals.minutes),
+               goals:numOrNull(totals.goals), yellow:numOrNull(totals.yellow),
+               red:numOrNull(totals.red),
+               avg: totals.avg_rating!=null ? Number(totals.avg_rating) : null,
+               source: totals.source};
+    if(!out || (t.appearances!=null && t.appearances > out.appearances)) out = t;
+  }
+  if(out) Object.assign(out, extra);
+  // Scelta di Matteo: per questa stagione valgono i totali di Transfermarkt.
+  // Il rating resta quello di Sofascore (Transfermarkt non ha un voto).
+  const tmPick = tmChosenStats(id, season);
+  if(tmPick) out = Object.assign({avg:null}, out || {}, tmPick);
+  return out;
+}
+
+function toggleCompare(id, on){
+  const i = compareIds.indexOf(id);
+  if(on && i < 0) compareIds.push(id);
+  if(!on && i >= 0) compareIds.splice(i, 1);
+  if(compareIds.length === 0) compareOpen = false;
+  else if(compareIds.length >= 2) compareOpen = true;  // due spunte = vuoi confrontare
+  updateSelectAllBox(filteredPlayers());
+  renderCompareControls();
+  renderCompare();
+}
+
+// La casella madre lavora sempre e solo sui giocatori *mostrati*: con un filtro
+// attivo "seleziona tutti" significa "tutti quelli che vedo", non tutta la rosa.
+function toggleCompareAll(on){
+  const shown = filteredPlayers().map(p=>p.id);
+  if(on){
+    shown.forEach(id => { if(!compareIds.includes(id)) compareIds.push(id); });
+  }else{
+    compareIds = compareIds.filter(id => !shown.includes(id));
+  }
+  if(compareIds.length === 0) compareOpen = false;
+  else if(compareIds.length >= 2) compareOpen = true;
+  renderCompareControls();
+  renderCompare();
+  renderRoster();
+}
+
+function updateSelectAllBox(list){
+  const box = document.getElementById('rosterSelectAll');
+  const lbl = document.getElementById('rosterSelectAllLabel');
+  const txt = document.getElementById('rosterSelectAllText');
+  if(!box) return;
+  const selected = list.filter(p => compareIds.includes(p.id)).length;
+  const all = list.length > 0 && selected === list.length;
+  box.disabled = list.length === 0;
+  box.checked = all;
+  box.indeterminate = selected > 0 && !all;
+  lbl.classList.toggle('disabled', list.length === 0);
+  txt.textContent = all ? 'Deseleziona tutti' : 'Seleziona tutti';
+}
+
+function renderCompareControls(){
+  const btn = document.getElementById('compareOpenBtn');
+  btn.hidden = compareIds.length === 0;
+  btn.textContent = `⚖ Confronta selezionati (${compareIds.length})`;
+}
+
+function compareRows(){
+  return compareIds.map(id=>{
+    const p = players.find(x=>x.id===id);
+    if(!p) return null;
+    const s = statsFor(id, compareSeason);
+    const appearances = s ? numOrNull(s.appearances) : null;
+    const minutes = s ? numOrNull(s.minutes) : null;
+    return {
+      id, name:p.name, club:p.club, roleKey:p.role||'', role:ROLE_LABEL[p.role]||p.role||'',
+      appearances, minutes,
+      bench: s ? numOrNull(s.bench) : null,
+      notCalled: s ? numOrNull(s.notCalled) : null,
+      teamMatches: s ? numOrNull(s.teamMatches) : null,
+      minPerApp: (appearances && minutes!=null) ? Math.round(minutes/appearances) : null,
+      goals: s ? numOrNull(s.goals) : null,
+      yellow: s ? numOrNull(s.yellow) : null,
+      red: s ? numOrNull(s.red) : null,
+      avg: s ? numOrNull(s.avg) : null,
+      source: s ? s.source : null,
+      hasData: !!s,
+    };
+  }).filter(Boolean);
+}
+
+// Righe effettivamente mostrate: filtrate per ruolo e ordinate. Le usano anche
+// l'esportazione CSV e la stampa, cosi' quel che esce e' quel che vedi.
+function compareVisibleRows(){
+  const rows = compareRows().filter(r => roleMatches(r.roleKey, compareRole));
+  const col = COMPARE_COLS.find(c=>c.key===compareSort.key) || COMPARE_COLS[0];
+  rows.sort((a,b)=>{
+    const va = a[col.key], vb = b[col.key];
+    if(col.type === 'num'){
+      // Chi non ha dati resta in fondo in entrambi i versi: e' assenza di
+      // informazione, non uno zero.
+      if(va == null && vb == null) return a.name.localeCompare(b.name);
+      if(va == null) return 1;
+      if(vb == null) return -1;
+      return (va - vb) * compareSort.dir || a.name.localeCompare(b.name);
+    }
+    return String(va||'').localeCompare(String(vb||'')) * compareSort.dir;
+  });
+  return rows;
+}
+
+// Evidenziamo il migliore solo se c'e' davvero una differenza da mostrare.
+function compareBest(rows){
+  const best = {};
+  COMPARE_COLS.filter(c=>c.best).forEach(c=>{
+    const vals = rows.map(r=>r[c.key]).filter(v=>v!=null);
+    if(vals.length > 1 && Math.max(...vals) !== Math.min(...vals)) best[c.key] = Math.max(...vals);
+  });
+  return best;
+}
+
+// Presenze e panchine dicono molto di piu' accanto al loro denominatore: "2/5"
+// si legge "due presenze sulle cinque partite di campionato della squadra".
+// Dove le partite di campionato non le sappiamo (stagioni storiche, o solo
+// totali di stagione) resta il numero nudo invece di una frazione inventata.
+const COMPARE_DENOM = {appearances:'teamMatches', bench:'teamMatches'};
+
+// Testo della cella, o null quando il dato manca (che non e' uno zero).
+function compareCellText(r, c){
+  const v = r[c.key];
+  if(c.type !== 'num') return v || '';
+  if(v == null) return null;
+  const txt = c.dec ? v.toFixed(c.dec) : String(v);
+  const den = COMPARE_DENOM[c.key] ? r[COMPARE_DENOM[c.key]] : null;
+  return den != null ? `${txt}/${den}` : txt;
+}
+
+// plain = versione da stampa: niente ordinamento, niente pulsante di rimozione.
+function compareTableHTML(rows, best, opts){
+  const plain = !!(opts && opts.plain);
+  const head = COMPARE_COLS.map(c=>{
+    const arrow = (!plain && compareSort.key===c.key) ? `<span class="arrow">${compareSort.dir>0?'&#9650;':'&#9660;'}</span>` : '';
+    const title = plain ? (c.hint || c.label) : ('Ordina per ' + c.label + (c.hint ? ' \u2014 ' + c.hint : ''));
+    return `<th class="${c.type==='num'?'num':''}"${plain?'':` data-key="${c.key}"`} title="${escapeHtml(title)}">${escapeHtml(c.label)}${arrow}</th>`;
+  }).join('') + (plain ? '' : '<th></th>');
+
+  const nCols = COMPARE_COLS.length + (plain ? 0 : 1);
+  const body = rows.map(r=>{
+    const open = compareExpanded.has(r.id);
+    return `<tr class="${open?'compare-open':''}">
+    ${COMPARE_COLS.map((c,i)=>{
+      const isBest = best[c.key]!=null && r[c.key]===best[c.key];
+      const cls = [c.type==='num'?'num':'', isBest?'best':''].filter(Boolean).join(' ');
+      const txt = compareCellText(r, c);
+      if(i===0){
+        const toggle = plain ? '' : `<button class="compare-toggle${open?' open':''}" type="button" data-expand="${escapeHtml(r.id)}" aria-expanded="${open}" title="${open?'Nascondi':'Mostra'} le partite giornata per giornata" aria-label="${open?'Nascondi':'Mostra'} le partite di ${escapeHtml(r.name)} giornata per giornata">&#9654;</button>`;
+        const name = plain ? escapeHtml(r.name) : `<span class="compare-name" data-open="${escapeHtml(r.id)}">${escapeHtml(r.name)}</span>`;
+        return `<td class="${cls}">${toggle}${name}</td>`;
+      }
+      return `<td class="${cls}">${txt==null ? '<span style="color:var(--ink-muted)">&#8211;</span>' : escapeHtml(txt)}</td>`;
+    }).join('')}
+    ${plain ? '' : `<td><button class="compare-drop" type="button" data-drop="${escapeHtml(r.id)}" aria-label="Togli ${escapeHtml(r.name)} dal confronto">&#10005;</button></td>`}
+  </tr>${open ? `<tr class="compare-detail-row"><td colspan="${nCols}">${compareMatchesHTML(r)}</td></tr>` : ''}`;
+  }).join('');
+
+  return `<div class="table-scroll"><table class="compare-table">
+    <thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+// Le partite della stagione del confronto, una riga per giornata. Quando le
+// partite portano lo stato la raccolta contiene tutte le partite di campionato
+// della squadra, quindi il numero progressivo e' la giornata; nelle stagioni
+// storiche ci sono solo le partite giocate e il numero non direbbe la giornata
+// vera: meglio non mostrarlo.
+function compareMatchesHTML(r){
+  const perf = performanceCache[r.id + '__' + compareSeason];
+  const matches = (perf && perf.matches ? perf.matches.slice() : [])
+    .sort((a,b)=>String(a.date||'').localeCompare(String(b.date||'')));
+  if(!matches.length){
+    return `<div class="compare-detail-empty">Nessun dettaglio partita per partita per la stagione ${escapeHtml(compareSeason)}${r.hasData ? ': per questo giocatore abbiamo solo i totali di stagione' : ''}.</div>`;
+  }
+  const hasStatus = matches.some(m => m.status != null);
+  const dash = '<span style="color:var(--ink-muted)">&#8211;</span>';
+  const playedStatus = m => m.status==='titolare' || m.status==='subentrato' || m.status==null;
+  const rowsHtml = matches.map((m, i)=>{
+    const played = playedStatus(m);
+    return `<tr>
+      ${hasStatus ? `<td class="mono tabular">${i+1}</td>` : ''}
+      <td class="mono tabular">${escapeHtml(m.date||'')}</td>
+      <td>${escapeHtml(opponentLabel(m))}</td>
+      ${hasStatus ? `<td>${m.status?`<span class="pill ${STATUS_PILL_CLASS[m.status]||'pill-pending'}"><span class="dot" style="background:${STATUS_COLOR_VAR[m.status]||'var(--status-pending)'}"></span>${escapeHtml(STATUS_LABEL[m.status]||m.status)}</span>`:dash}</td>` : ''}
+      <td class="mono tabular num">${played ? (m.minutes ?? dash) : dash}</td>
+      <td class="mono tabular num">${played ? (m.goals ?? 0) : dash}</td>
+      <td class="mono tabular num">${played ? (m.yellow ?? 0) : dash}</td>
+      <td class="mono tabular num">${played ? (m.red ?? 0) : dash}</td>
+      <td class="mono tabular num">${m.rating!=null ? m.rating.toFixed(1) : dash}</td>
+    </tr>`;
+  }).join('');
+  const tmNote = (r.source && perf.source && r.source !== perf.source)
+    ? ` I totali nella riga sopra vengono invece da: ${escapeHtml(r.source)}.` : '';
+  return `<div class="table-scroll"><table class="match-table">
+      <thead><tr>${hasStatus?'<th title="Giornata di campionato della squadra">G.</th>':''}<th>Data</th><th>Avversario</th>${hasStatus?'<th>Stato</th>':''}<th class="num">Min</th><th class="num">Gol</th><th class="num">Amm.</th><th class="num">Esp.</th><th class="num">Rating</th></tr></thead>
+      <tbody>${rowsHtml}</tbody></table></div>
+    <div class="compare-detail-src">${matches.length} partite${perf.source ? ' · fonte: ' + escapeHtml(perf.source) : ''}.${tmNote}</div>`;
+}
+
+function updateCompareExpandBtn(rows){
+  const btn = document.getElementById('compareExpandBtn');
+  const allOpen = rows.length > 0 && rows.every(r => compareExpanded.has(r.id));
+  btn.textContent = allOpen ? '▾ Giornate: comprimi tutti' : '▸ Giornate: espandi tutti';
+  btn.dataset.allOpen = allOpen ? '1' : '';
+  btn.disabled = rows.length === 0;
+}
+
+function compareNoteHTML(rows, opts){
+  const plain = !!(opts && opts.plain);
+  const noData = rows.filter(r=>!r.hasData);
+  const sources = Array.from(new Set(rows.map(r=>r.source).filter(Boolean)));
+  return `<div class="compare-note">
+      ${plain ? '' : 'Clic su un&#39;intestazione per ordinare, sul nome per aprire la scheda, sulla freccia &#9654; per vedere le partite giornata per giornata. '}In grassetto il valore migliore della colonna.
+      <b>Pres.</b> e <b>Panch.</b> sono scritte come <b>2/5</b>: il valore sulle partite di campionato della squadra.
+      <b>Part. camp.</b> = partite di campionato disputate dalla squadra del giocatore fino alla data dell&#39;ultimo aggiornamento (presenze + panchine + mancate convocazioni); dove resta vuota, anche presenze e panchine restano numeri secchi perche&#39; abbiamo solo i totali di stagione.
+      ${noData.length ? ` Nessun dato raccolto per la stagione ${escapeHtml(compareSeason)} per: <b>${noData.map(r=>escapeHtml(r.name)).join(', ')}</b>.` : ''}
+      ${sources.length ? ` Fonti: ${escapeHtml(sources.join(' \u00b7 '))}.` : ''}
+    </div>`;
+}
+
+function renderCompare(){
+  const panel = document.getElementById('comparePanel');
+  const body = document.getElementById('compareBody');
+  if(!compareOpen || compareIds.length === 0){
+    panel.hidden = true;
+    return;
+  }
+  panel.hidden = false;
+  const sel = document.getElementById('compareSeason');
+  sel.innerHTML = SEASONS.map(s=>`<option value="${s}" ${s===compareSeason?'selected':''}>${s}</option>`).join('');
+  // Se il ruolo filtrato non esiste piu' fra le opzioni (rosa ricaricata), il
+  // select tornerebbe vuoto mostrando comunque zero righe: meglio riaprirlo su
+  // "tutti" che lasciare una tabella vuota senza spiegazione.
+  const roleSel = document.getElementById('compareRole');
+  roleSel.innerHTML = roleFilterOptionsHtml(compareRole);
+  if(roleSel.value !== compareRole){ compareRole = ''; roleSel.value = ''; }
+
+  const rows = compareVisibleRows();
+  document.getElementById('compareCount').textContent = compareRole
+    ? `\u00b7 ${rows.length} di ${compareIds.length} giocatori \u00b7 stagione ${compareSeason}`
+    : `\u00b7 ${compareIds.length} giocatori \u00b7 stagione ${compareSeason}`;
+
+  updateCompareExpandBtn(rows);
+  if(!rows.length){
+    body.innerHTML = `<div class="compare-empty">Nessuno dei giocatori selezionati ha questo ruolo. Rimetti "Tutti i ruoli" per rivederli.</div>`;
+    return;
+  }
+
+  body.innerHTML = compareTableHTML(rows, compareBest(rows)) + compareNoteHTML(rows);
+
+  body.querySelectorAll('[data-expand]').forEach(b=>{
+    b.addEventListener('click', ()=>{
+      const id = b.dataset.expand;
+      if(compareExpanded.has(id)) compareExpanded.delete(id); else compareExpanded.add(id);
+      renderCompare();
+    });
+  });
+
+  body.querySelectorAll('th[data-key]').forEach(th=>{
+    th.addEventListener('click', ()=>{
+      const key = th.dataset.key;
+      if(compareSort.key === key) compareSort.dir = -compareSort.dir;
+      else compareSort = {key, dir: COMPARE_COLS.find(c=>c.key===key).type==='num' ? -1 : 1};
+      renderCompare();
+    });
+  });
+  body.querySelectorAll('[data-drop]').forEach(b=>{
+    b.addEventListener('click', ()=>{ toggleCompare(b.dataset.drop, false); renderRoster(); });
+  });
+  body.querySelectorAll('[data-open]').forEach(b=>{
+    b.addEventListener('click', ()=>selectPlayer(b.dataset.open));
+  });
+}
+
+function selectPlayer(id){
+  minutesEditorFor = null;
+  selectedPlayerId = id;
+  // Auto-pick whichever season actually has data collected (stagione corrente per
+  // prima, poi quelle passate), così un giocatore senza ancora dati nella stagione
+  // corrente non sembra "vuoto" di default.
+  const best = pickBestSeason(id);
+  selectedSeason = best || SEASONS[0];
+  renderRoster();
+  renderDetail();
+}
+
+function pickBestSeason(id){
+  for(const s of SEASONS){
+    const key = id + '__' + s;
+    const hasPerf = performanceCache[key] && ((performanceCache[key].matches || []).length
+                                              || (performanceCache[key].other_matches || []).length);
+    const hasTotals = !!totalsCache[key];
+    if(hasPerf || hasTotals) return s;
+  }
+  return null;
+}
+
+function linreg(points){
+  const n = points.length;
+  if(n===0) return {a:0,b:0};
+  const sumX=points.reduce((s,p)=>s+p.x,0), sumY=points.reduce((s,p)=>s+p.y,0);
+  const sumXY=points.reduce((s,p)=>s+p.x*p.y,0), sumXX=points.reduce((s,p)=>s+p.x*p.x,0);
+  const denom = n*sumXX - sumX*sumX;
+  if(denom===0) return {a:sumY/n, b:0};
+  const b=(n*sumXY - sumX*sumY)/denom;
+  const a=(sumY - b*sumX)/n;
+  return {a,b};
+}
+
+function buildChartSVG(matches){
+  const W=560, H=220, padL=32, padR=14, padT=14, padB=28;
+  const n = matches.length;
+  const ratings = matches.map(m=>m.rating).filter(r=>typeof r==='number');
+  const yMin = Math.max(0, Math.min(...ratings) - 0.5);
+  const yMax = Math.min(10, Math.max(...ratings) + 0.5);
+  const x = i => padL + (n<=1 ? (W-padL-padR)/2 : (i/(n-1))*(W-padL-padR));
+  const y = v => H-padB - ((v-yMin)/(yMax-yMin||1))*(H-padT-padB);
+
+  // Tendenza sul solo campionato (stesse x della linea), come i totali.
+  const pts = matches.map((m,i)=>({x:i, y:m.rating, kind:m.kind||'campionato'})).filter(p=>p.kind==='campionato');
+  const {a,b} = linreg(pts);
+  const tx0 = pts.length ? pts[0].x : 0, tx1 = pts.length ? pts[pts.length-1].x : 0;
+  const trendStart = a + b*tx0;
+  const trendEnd = a + b*tx1;
+
+  const yTicks = 4;
+  let gridSvg = '';
+  for(let t=0;t<=yTicks;t++){
+    const v = yMin + (t/yTicks)*(yMax-yMin);
+    const yy = y(v);
+    gridSvg += `<line x1="${padL}" y1="${yy}" x2="${W-padR}" y2="${yy}" stroke="var(--border)" stroke-width="1"/>`;
+    gridSvg += `<text x="${padL-6}" y="${yy+3}" text-anchor="end" font-size="9.5" fill="var(--ink-muted)">${v.toFixed(1)}</text>`;
+  }
+
+  const linePath = matches.map((m,i)=> (i===0?'M':'L') + x(i).toFixed(1) + ' ' + y(m.rating).toFixed(1)).join(' ');
+  const trendPath = pts.length > 1
+    ? `M${x(tx0).toFixed(1)} ${y(trendStart).toFixed(1)} L${x(tx1).toFixed(1)} ${y(trendEnd).toFixed(1)}`
+    : '';
+
+  const dots = matches.map((m,i)=> compShape(m.kind||'campionato', +x(i).toFixed(1), +y(m.rating).toFixed(1), 4.5,
+      `class="chart-pt" data-i="${i}" stroke="var(--surface)" stroke-width="2" style="cursor:pointer"`)).join('');
+
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="Andamento del rating per partita">
+    ${gridSvg}
+    <path d="${linePath}" fill="none" stroke="var(--chart-line)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    ${trendPath ? `<path d="${trendPath}" fill="none" stroke="var(--chart-trend)" stroke-width="2" stroke-dasharray="5 4" stroke-linecap="round"/>` : ''}
+    ${dots}
+  </svg>`;
+}
+
+function wireChartTooltip(container, matches){
+  const tip = document.getElementById('chartTooltip');
+  container.querySelectorAll('.chart-pt').forEach(pt=>{
+    const m = matches[+pt.dataset.i];
+    pt.addEventListener('mousemove', e=>{
+      tip.innerHTML = `<b>${escapeHtml(m.date||'')}</b><br>${escapeHtml(opponentLabel(m))}${compTooltipLine(m)}<br>Rating ${m.rating!=null?m.rating.toFixed(1):'–'} · ${m.minutes??'–'}′ · ${m.goals??0}g ${m.yellow?('· '+m.yellow+' amm.'):''}${m.red?(' · '+m.red+' esp.'):''}`;
+      tip.style.left = e.pageX + 'px';
+      tip.style.top = (e.pageY - 10) + 'px';
+      tip.classList.add('show');
+    });
+    pt.addEventListener('mouseleave', ()=> tip.classList.remove('show'));
+  });
+}
+
+// Grafico giornata per giornata dei minuti giocati (solo stagione corrente),
+// colorato per stato: titolare / subentrato / in panchina / non convocato.
+// Panchina e non convocato mostrano una "barretta" fissa bassa (non 0px) così
+// restano visibili come eventi distinti invece di sparire dal grafico.
+function buildMinutesChartSVG(matches){
+  const W=560, H=180, padL=32, padR=14, padT=14, padB=30;
+  const n = matches.length;
+  const innerW = W-padL-padR, innerH = H-padT-padB;
+  const maxMin = Math.max(90, ...matches.map(m=>m.minutes||0));
+  const gap = innerW/n;
+  const bw = Math.max(4, gap*0.62);
+  const STUB = 6;
+  const yFor = v => H-padB - (v/maxMin)*innerH;
+
+  let gridSvg = '';
+  const yTicks=3;
+  for(let t=0;t<=yTicks;t++){
+    const v = (t/yTicks)*maxMin;
+    const yy = yFor(v);
+    gridSvg += `<line x1="${padL}" y1="${yy}" x2="${W-padR}" y2="${yy}" stroke="var(--border)" stroke-width="1"/>`;
+    gridSvg += `<text x="${padL-6}" y="${yy+3}" text-anchor="end" font-size="9.5" fill="var(--ink-muted)">${Math.round(v)}</text>`;
+  }
+
+  const bars = matches.map((m,i)=>{
+    const cx = padL + gap*i + gap/2;
+    const color = STATUS_COLOR_VAR[m.status] || 'var(--ink-muted)';
+    const isZero = !m.minutes || m.status==='panchina' || m.status==='non_convocato';
+    const barH = isZero ? STUB : Math.max(3, (m.minutes/maxMin)*innerH);
+    const yTop = isZero ? (H-padB-STUB) : yFor(m.minutes);
+    // Coppa e nazionale: il colore della barra resta lo stato; la competizione
+    // la dicono la fascia di sfondo e il simbolo sopra la barra.
+    const kind = m.kind || 'campionato';
+    const mark = kind === 'campionato' ? '' :
+      `<rect x="${(cx-gap/2).toFixed(1)}" y="${padT}" width="${gap.toFixed(1)}" height="${(H-padB-padT).toFixed(1)}" fill="var(--comp-${kind==='coppa'?'cup':'nat'}-soft)"/>` +
+      compShape(kind, +cx.toFixed(1), +(yTop-7).toFixed(1), 3.2);
+    return mark + `<rect class="chart-bar" data-i="${i}" x="${(cx-bw/2).toFixed(1)}" y="${yTop.toFixed(1)}" width="${bw.toFixed(1)}" height="${barH.toFixed(1)}" rx="2" fill="${color}" style="cursor:pointer"/>`;
+  }).join('');
+
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="Minuti giocati per partita, colorati per stato">
+    ${gridSvg}
+    <line x1="${padL}" y1="${H-padB}" x2="${W-padR}" y2="${H-padB}" stroke="var(--border-strong)" stroke-width="1"/>
+    ${bars}
+  </svg>`;
+}
+
+function wireMinutesTooltip(container, matches){
+  const tip = document.getElementById('chartTooltip');
+  container.querySelectorAll('.chart-bar').forEach(bar=>{
+    const m = matches[+bar.dataset.i];
+    bar.addEventListener('mousemove', e=>{
+      tip.innerHTML = `<b>${escapeHtml(m.date||'')}</b><br>${escapeHtml(opponentLabel(m))}${compTooltipLine(m)}<br>${escapeHtml(STATUS_LABEL[m.status]||'')} · ${m.minutes||0}′${m.rating!=null?(' · rating '+m.rating.toFixed(1)):''}`;
+      tip.style.left = e.pageX + 'px';
+      tip.style.top = (e.pageY - 10) + 'px';
+      tip.classList.add('show');
+    });
+    bar.addEventListener('mouseleave', ()=> tip.classList.remove('show'));
+  });
+}
+
+// I dati storici in data.json salvano il solo nome dell'avversario; quelli
+// scaricati dal server aggiungono home_away. Il prefisso "vs"/"@" si mette qui,
+// una volta sola, cosi' le due fonti si leggono allo stesso modo.
+function opponentLabel(m){
+  const name = m.opponent || '';
+  if(!name) return '';
+  if(m.home_away === 'home') return 'vs ' + name;
+  if(m.home_away === 'away') return '@ ' + name;
+  return name;
+}
+
+function sofascoreUrl(p){
+  if(p.sofascore_player_id){
+    // Sofascore ignores the slug text as long as the numeric id is correct, so a
+    // placeholder slug resolves to the right profile without us knowing the real one.
+    return 'https://www.sofascore.com/player/player/' + p.sofascore_player_id;
+  }
+  // Sofascore has no bookmarkable search-results URL (sofascore.com/search 404s) — a
+  // Google site-search is the only reliable link when we don't have the numeric id yet.
+  return 'https://www.google.com/search?q=' + encodeURIComponent('site:sofascore.com "' + (p.sofascore_name || p.name) + '"');
+}
+
+function transfermarktUrl(p){
+  if(p.transfermarkt_id){
+    return 'https://www.transfermarkt.com/player/profil/spieler/' + p.transfermarkt_id;
+  }
+  return 'https://www.google.com/search?q=' + encodeURIComponent('site:transfermarkt.com "' + (p.sofascore_name || p.name) + '"');
+}
+
+function isUncertainMatch(p){
+  return p.match_status === 'da_verificare' || p.match_status === 'ambiguo' || p.match_confidence === 'media' || p.match_status === 'non_trovato';
+}
+
+// Extracts a Sofascore or Transfermarkt numeric player id from a pasted profile URL.
+// Sofascore: https://www.sofascore.com/player/<slug>/<id>
+// Transfermarkt: https://www.transfermarkt.com/<slug>/profil/spieler/<id>
+function parsePlayerLink(url){
+  try{
+    const u = new URL(url.trim());
+    const host = u.hostname.replace(/^www\./, '');
+    if(host === 'sofascore.com'){
+      const m = u.pathname.match(/\/player\/[^/]+\/(\d+)/);
+      if(m) return { source: 'sofascore', id: m[1] };
+    }
+    if(host === 'transfermarkt.com' || host.endsWith('.transfermarkt.com')){
+      const m = u.pathname.match(/\/spieler\/(\d+)/);
+      if(m) return { source: 'transfermarkt', id: m[1] };
+    }
+  }catch(e){ /* not a valid URL */ }
+  return null;
+}
+
+async function submitPlayerLink(id){
+  const input = document.getElementById('playerLinkInput');
+  if(!input) return;
+  const raw = input.value;
+  const parsed = parsePlayerLink(raw);
+  if(!parsed){
+    showToast('Non riconosco questo link. Incolla un link di una scheda giocatore Sofascore o Transfermarkt (es. sofascore.com/player/.../123456).');
+    return;
+  }
+  const p = players.find(x=>x.id===id);
+  if(!p) return;
+  const btn = document.getElementById('submitLinkBtn');
+  const label = btn ? btn.textContent : '';
+  if(btn){ btn.disabled = true; }
+  try{
+    // La squadra attuale non la leggiamo piu' da qui: Sofascore non risponde
+    // alle richieste che partono da localhost. La legge l'aggiornamento del
+    // giocatore lanciato subito dopo (vedi accept_profile in server.py), che la
+    // corregge in data.json: il risultato e' lo stesso.
+    if(btn) btn.textContent = 'Salvo\u2026';
+    const res = await fetch('/api/confirm-match', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ id, source: parsed.source, extId: parsed.id })
+    });
+    if(!res.ok){
+      let msg = 'http ' + res.status;
+      try{ const j = await res.json(); if(j && j.error) msg = j.error; }catch(_){ }
+      throw new Error(msg);
+    }
+    const updated = await res.json();
+    const idx = players.findIndex(x=>x.id===id);
+    if(idx>=0) players[idx] = Object.assign({}, players[idx], updated);
+    input.value = '';
+    linkEditorFor = null;
+    renderAll();
+    if(parsed.source === 'sofascore'){
+      runLocalUpdate([id]);
+    }else{
+      showToast(updated.tmCheck
+        ? 'Link Transfermarkt salvato: confronto con Sofascore in corso per questo giocatore.'
+        : 'Link Transfermarkt salvato nel file locale.');
+      if(updated.tmCheck) watchTmCheck();
+    }
+  }catch(e){
+    showToast('Non sono riuscito a salvare il link (' + (e && e.message ? e.message : 'errore') + '). Controlla che il server locale (server.py) sia avviato e riprova.');
+  }finally{
+    if(btn){ btn.disabled = false; btn.textContent = label; }
+  }
+}
+
+// Cambio manuale del club (finestre di mercato). L'id del giocatore resta
+// quello di sempre: e' la chiave delle statistiche gia' scaricate. Cambia solo
+// l'etichetta, e con lei il filtro club, l'elenco e - se si attraversa la
+// sigla U21 - il tipo di dati che la scheda mostra.
+async function submitClubChange(id){
+  const input = document.getElementById('playerClubInput');
+  if(!input) return;
+  const club = input.value.trim();
+  const p = players.find(x=>x.id===id);
+  if(!p) return;
+  if(!club){
+    showToast('Scrivi il nome del club prima di salvare.');
+    return;
+  }
+  if(club === p.club){
+    clubEditorFor = null;
+    renderDetail();
+    return;
+  }
+  const wasU21 = /U21/i.test(p.club||'');
+  const nowU21 = /U21/i.test(club);
+  const btn = document.getElementById('submitClubBtn');
+  const label = btn ? btn.textContent : '';
+  if(btn){ btn.disabled = true; btn.textContent = 'Salvo…'; }
+  try{
+    const res = await fetch('/api/edit-club', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ id, club })
+    });
+    if(!res.ok){
+      let msg = 'http ' + res.status;
+      try{ const j = await res.json(); if(j && j.error) msg = j.error; }catch(_){ }
+      throw new Error(msg);
+    }
+    const updated = await res.json();
+    const idx = players.findIndex(x=>x.id===id);
+    if(idx>=0) players[idx] = Object.assign({}, players[idx], updated);
+    clubEditorFor = null;
+    renderAll();
+    let msg = 'Club aggiornato: ' + club + '.';
+    if(wasU21 !== nowU21){
+      msg += nowU21
+        ? ' Essendo una squadra U21, la scheda ora mostra i totali di stagione invece del grafico giornata per giornata.'
+        : ' Essendo ora una prima squadra, la scheda mostra il grafico giornata per giornata.';
+    }
+    if(p.sofascore_player_id){
+      showToast(msg);
+      runLocalUpdate([id]);
+    }else{
+      showToast(msg + ' Questo giocatore non ha ancora un link Sofascore: aggiungilo con "' + '✎' + ' Modifica link" per scaricare le partite.');
+    }
+  }catch(e){
+    showToast('Non sono riuscito a salvare il club (' + (e && e.message ? e.message : 'errore') + '). Controlla che il server locale (server.py) sia avviato e riprova.');
+  }finally{
+    if(btn){ btn.disabled = false; btn.textContent = label; }
+  }
+}
+
+// Toglie il giocatore da data.json con tutte le sue statistiche. Il server ne
+// tiene una copia in cestino/, ma dalla pagina non si torna indietro: per
+// questo si chiede conferma.
+async function deletePlayer(id){
+  const p = players.find(x=>x.id===id);
+  if(!p) return;
+  const ok = confirm('Eliminare ' + p.name + (p.club ? ' (' + p.club + ')' : '') + '?\n\n'
+    + 'Spariscono dalla lista il giocatore, le sue partite, i totali, il confronto Transfermarkt e i minuti scritti a mano. '
+    + 'Una copia resta nella cartella "cestino" accanto a data.json.');
+  if(!ok) return;
+  const btn = document.getElementById('deletePlayerBtn');
+  if(btn) btn.disabled = true;
+  try{
+    const {res, data} = await postLocal('/api/delete-player', {id});
+    if(!res.ok) throw new Error((data && data.error) || ('http ' + res.status));
+    compareIds = compareIds.filter(x => x !== id);
+    if(compareIds.length === 0) compareOpen = false;
+    if(selectedPlayerId === id) selectedPlayerId = null;
+    if(clubEditorFor === id) clubEditorFor = null;
+    if(linkEditorFor === id) linkEditorFor = null;
+    await loadLocalData();
+    showToast(p.name + ' eliminato. Copia salvata in ' + data.trash + '.');
+  }catch(e){
+    if(btn) btn.disabled = false;
+    showToast('Non sono riuscito a eliminare il giocatore (' + (e && e.message ? e.message : 'errore') + '). Controlla che il server locale (server.py) sia avviato e riprova.');
+  }
+}
+
+async function confirmMatch(id){
+  const p = players.find(x=>x.id===id);
+  if(!p) return;
+  const btn = document.getElementById('confirmMatchBtn');
+  if(btn) btn.disabled = true;
+  try{
+    const res = await fetch('/api/confirm-match', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ id })
+    });
+    if(!res.ok) throw new Error('http ' + res.status);
+    const updated = await res.json();
+    const idx = players.findIndex(x=>x.id===id);
+    if(idx>=0) players[idx] = Object.assign({}, players[idx], updated);
+    renderAll();
+    showToast('Match confermato nel file locale. Premi "Aggiorna dati" per recuperare il rendimento reale.');
+  }catch(e){
+    showToast('Non sono riuscito a confermare il match. Controlla che il server locale (server.py) sia avviato e riprova.');
+    if(btn) btn.disabled = false;
+  }
+}
+
+// Righe del registro dell'ultimo aggiornamento che riguardano questo giocatore:
+// e' li' che il server spiega perche' non ha trovato partite.
+function updateHintsFor(p){
+  const log = (metaStatus && metaStatus.last_update_errors) || [];
+  const prefix = p.id + ':';
+  return log.filter(l => typeof l === 'string' && l.indexOf(prefix) === 0)
+            .map(l => l.slice(prefix.length).trim());
+}
+
+function seasonSummary(matches){
+  const appearances = matches.length;
+  const minutes = matches.reduce((s,m)=>s+(m.minutes||0),0);
+  const goals = matches.reduce((s,m)=>s+(m.goals||0),0);
+  const yellow = matches.reduce((s,m)=>s+(m.yellow||0),0);
+  const red = matches.reduce((s,m)=>s+(m.red||0),0);
+  const ratings = matches.map(m=>m.rating).filter(r=>typeof r==='number');
+  const avg = ratings.length ? (ratings.reduce((a,b)=>a+b,0)/ratings.length) : null;
+  return {appearances, minutes, goals, yellow, red, avg};
+}
+
+function renderDetail(){
+  const el = document.getElementById('detailContent');
+  const p = players.find(x=>x.id===selectedPlayerId);
+  if(!p){
+    el.innerHTML = `<div class="detail-empty">Seleziona un giocatore dalla lista per vedere il dettaglio e l'andamento del rendimento stagione per stagione.</div>`;
+    return;
+  }
+  const meta = STATUS_META[p.match_status] || STATUS_META.in_coda;
+  const hasAnyLink = !!(p.sofascore_player_id || p.transfermarkt_id);
+  // Per i match incerti l'editor dei link e' la cosa da fare, quindi resta
+  // aperto; per i "trovati" si apre col pulsante "Modifica link".
+  const linkEditorOpen = linkEditorFor === p.id || isUncertainMatch(p);
+  const clubEditorOpen = clubEditorFor === p.id;
+  const seasonOptions = SEASONS.map(s=>`<option value="${s}" ${s===selectedSeason?'selected':''}>${s}</option>`).join('');
+  const key = p.id + '__' + selectedSeason;
+  const isU21Squad = /U21/i.test(p.club);
+
+  // Regola stagione corrente vs. passata: la stagione IN CORSO (CURRENT_SEASON) mostra
+  // il grafico giornata per giornata (rating + minuti colorati per stato, quando abbiamo
+  // il dettaglio partita-per-partita); le stagioni PASSATE mostrano solo i totali di
+  // stagione con tutte le statistiche, senza grafico, per non appesantire dati storici.
+  let bodyHtml;
+  const perf = performanceCache[key];
+  const totals = totalsCache[key];
+  const isCurrentSeason = selectedSeason === CURRENT_SEASON;
+  const tmPick = tmChosenStats(p.id, selectedSeason);
+  const tmPickNote = tmPick ? `<div class="detail-note">Presenze, minuti, gol e ammonizioni sono quelli di <b>Transfermarkt</b>, come hai scelto; rating e grafico restano di Sofascore.</div>` : '';
+
+  const timeline = isCurrentSeason ? seasonTimeline(perf) : [];
+  if(timeline.length){
+      const played = perf.matches.filter(m => m.status==='titolare' || m.status==='subentrato' || m.status==null);
+      const ratedMatches = timeline.filter(m => typeof m.rating === 'number');
+      const compLegend = compLegendHtml(timeline);
+      const sum = seasonSummary(played);
+      const isPartial = totals && typeof totals.appearances === 'number' && totals.appearances > played.length;
+      const baseStats = isPartial
+        ? { appearances: totals.appearances, minutes: totals.minutes, goals: totals.goals, yellow: totals.yellow, avg: totals.avg_rating!=null?Number(totals.avg_rating):null }
+        : sum;
+      const displayStats = tmPick ? Object.assign({}, baseStats, tmPick, {avg: baseStats.avg}) : baseStats;
+      const hasStatusInfo = timeline.some(m => m.status != null);
+      bodyHtml = `
+        <div class="chart-wrap" id="ratingChartWrap">
+          <div class="chart-tools no-print"><button class="tool-btn" type="button" data-print-chart="ratingChartWrap" data-chart-title="Rating per partita">&#128424; PDF</button></div>
+          <div class="chart-legend">
+            <span><span class="legend-swatch" style="background:var(--chart-line)"></span>Rating per partita</span>
+            <span><span class="legend-swatch" style="background:var(--chart-trend);border-top:2px dashed var(--chart-trend);height:0"></span>${compLegend ? 'Tendenza (solo campionato)' : 'Linea di tendenza'}</span>
+          </div>
+          ${compLegend ? `<div class="chart-legend">${compLegend}</div>` : ''}
+          <div id="chartHost">${ratedMatches.length ? buildChartSVG(ratedMatches) : '<div class="empty-perf" style="padding:18px 12px">Nessun rating disponibile ancora per questa stagione.</div>'}</div>
+        </div>
+        ${hasStatusInfo ? `
+        <div class="chart-wrap" id="minutesChartWrap" style="margin-top:10px">
+          <div class="chart-tools no-print"><button class="tool-btn" type="button" data-print-chart="minutesChartWrap" data-chart-title="Minuti giocati per partita">&#128424; PDF</button></div>
+          <div class="chart-legend">
+            <span><span class="legend-swatch" style="background:var(--status-good);height:8px;border-radius:2px"></span>Titolare</span>
+            <span><span class="legend-swatch" style="background:var(--status-warning);height:8px;border-radius:2px"></span>Subentrato</span>
+            <span><span class="legend-swatch" style="background:var(--status-serious);height:8px;border-radius:2px"></span>In panchina</span>
+            <span><span class="legend-swatch" style="background:var(--status-critical);height:8px;border-radius:2px"></span>Non convocato</span>
+          </div>
+          ${compLegend ? `<div class="chart-legend">${compLegend}</div>` : ''}
+          <div id="minutesChartHost">${buildMinutesChartSVG(timeline)}</div>
+        </div>` : ''}
+        ${isPartial ? `<div class="detail-note" style="margin-top:10px">Il grafico mostra le ${played.length} partite di cui abbiamo il dettaglio partita-per-partita finora, su ${totals.appearances} presenze reali in stagione${totals.source?(' — fonte: '+escapeHtml(totals.source)):''}. Premi "Aggiorna dati" per completare la raccolta.</div>` : ''}
+        ${compLegend ? '<div class="stats-caption">Campionato</div>' : ''}
+        <div class="season-stats"${compLegend ? ' style="margin-top:6px"' : ''}>
+          <div class="stat-tile"><div class="stat-label">Presenze</div><div class="stat-value mono tabular">${displayStats.appearances}</div></div>
+          <div class="stat-tile"><div class="stat-label">Minuti</div><div class="stat-value mono tabular">${displayStats.minutes}</div></div>
+          <div class="stat-tile"><div class="stat-label">Gol</div><div class="stat-value mono tabular">${displayStats.goals}</div></div>
+          <div class="stat-tile"><div class="stat-label">Ammonizioni</div><div class="stat-value mono tabular">${displayStats.yellow}</div></div>
+          <div class="stat-tile"><div class="stat-label">Rating medio</div><div class="stat-value mono tabular">${displayStats.avg!=null?displayStats.avg.toFixed(2):'–'}</div></div>
+        </div>
+        ${otherSummaryHtml(perf)}
+        ${tmPickNote}
+        ${tmBoxHtml(p, selectedSeason)}
+        <div class="table-scroll" id="matchTableWrap">
+          <table class="match-table">
+            <thead><tr><th>Data</th>${compLegend?'<th>Competizione</th>':''}<th>Avversario</th>${hasStatusInfo?'<th>Stato</th>':''}<th>Min</th><th>Gol</th><th>Amm/Esp</th><th>Rating</th></tr></thead>
+            <tbody>${timeline.map(m=>`<tr class="row-${m.kind}">
+              <td class="mono tabular">${escapeHtml(m.date||'')}</td>
+              ${compLegend?`<td>${compTagHtml(m)}</td>`:''}
+              <td>${escapeHtml(opponentLabel(m))}</td>
+              ${hasStatusInfo?`<td>${m.status?`<span class="pill ${STATUS_PILL_CLASS[m.status]||'pill-pending'}"><span class="dot" style="background:${STATUS_COLOR_VAR[m.status]||'var(--status-pending)'}"></span>${escapeHtml(STATUS_LABEL[m.status]||m.status)}</span>`:'–'}</td>`:''}
+              <td class="mono tabular min-cell">${minutesCellHtml(m)}</td>
+              <td class="mono tabular">${m.goals??0}</td>
+              <td class="mono tabular">${m.yellow??0}/${m.red??0}</td>
+              <td class="mono tabular">${m.rating!=null?m.rating.toFixed(1):'–'}</td>
+            </tr>`).join('')}</tbody>
+          </table>
+        </div>`;
+    } else if(totals || (perf && perf.matches && perf.matches.length)){
+      // Stagione passata (o corrente senza ancora il dettaglio partita-per-partita):
+      // solo il blocco dei totali di stagione, niente grafico.
+      const srcBase = totals
+        ? { appearances: totals.appearances, minutes: totals.minutes, goals: totals.goals, yellow: totals.yellow, avg: totals.avg_rating!=null?Number(totals.avg_rating):null, source: totals.source }
+        : (()=>{ const s = seasonSummary(perf.matches.filter(m => m.status==='titolare' || m.status==='subentrato' || m.status==null)); return { appearances: s.appearances, minutes: s.minutes, goals: s.goals, yellow: s.yellow, avg: s.avg, source: perf.source }; })();
+      const src = tmPick ? Object.assign({}, srcBase, tmPick, {avg: srcBase.avg}) : srcBase;
+      const isPastSeason = !isCurrentSeason;
+      const totalsNote = isPastSeason
+        ? `Stagione conclusa: qui vedi solo i totali di stagione${src.source?(' — fonte: '+escapeHtml(src.source)):''}, senza il grafico giornata per giornata (riservato alla stagione corrente).`
+        : (isU21Squad
+          ? `Questo giocatore milita nella squadra U21 del club: quella competizione non pubblica statistiche partita-per-partita, quindi qui trovi i totali di stagione${src.source?(' — fonte: '+escapeHtml(src.source)):''}.`
+          : `Al momento per la stagione corrente abbiamo solo i totali${src.source?(' — fonte: '+escapeHtml(src.source)):''}; premi "Aggiorna dati" per scaricare il dettaglio partita-per-partita.`);
+      bodyHtml = `
+        <div class="season-stats" style="margin-top:0">
+          <div class="stat-tile"><div class="stat-label">Presenze</div><div class="stat-value mono tabular">${src.appearances??'–'}</div></div>
+          <div class="stat-tile"><div class="stat-label">Minuti</div><div class="stat-value mono tabular">${src.minutes??'–'}</div></div>
+          <div class="stat-tile"><div class="stat-label">Gol</div><div class="stat-value mono tabular">${src.goals??0}</div></div>
+          <div class="stat-tile"><div class="stat-label">Ammonizioni</div><div class="stat-value mono tabular">${src.yellow??0}</div></div>
+          <div class="stat-tile"><div class="stat-label">Rating medio</div><div class="stat-value mono tabular">${src.avg!=null?src.avg.toFixed(2):'–'}</div></div>
+        </div>
+        <div class="detail-note" style="margin-top:12px">${totalsNote}</div>
+        ${tmPickNote}
+        ${tmBoxHtml(p, selectedSeason)}`;
+    } else if(tmPick){
+      // Sofascore non ha niente su questa stagione, ma Matteo ha scelto i
+      // numeri di Transfermarkt.
+      bodyHtml = `
+        <div class="season-stats" style="margin-top:0">
+          <div class="stat-tile"><div class="stat-label">Presenze</div><div class="stat-value mono tabular">${tmPick.appearances}</div></div>
+          <div class="stat-tile"><div class="stat-label">Minuti</div><div class="stat-value mono tabular">${tmPick.minutes}</div></div>
+          <div class="stat-tile"><div class="stat-label">Gol</div><div class="stat-value mono tabular">${tmPick.goals}</div></div>
+          <div class="stat-tile"><div class="stat-label">Ammonizioni</div><div class="stat-value mono tabular">${tmPick.yellow}</div></div>
+          <div class="stat-tile"><div class="stat-label">Rating medio</div><div class="stat-value mono tabular">–</div></div>
+        </div>
+        <div class="detail-note">Sofascore non ha dati per questa stagione: questi sono i totali di <b>Transfermarkt</b>, come hai scelto. Transfermarkt non dà un rating.</div>
+        ${tmBoxHtml(p, selectedSeason)}`;
+    } else {
+      const emptyNote = !isCurrentSeason
+        ? 'Nessun dato registrato per questa stagione passata: se Sofascore ne ha, premi “↻ Aggiorna questo giocatore” qui sopra, che rilegge anche i totali delle stagioni chiuse.'
+        : (isU21Squad
+          ? 'Questo giocatore milita nella squadra U21 del club: quella competizione non pubblica statistiche partita-per-partita su Sofascore. Stiamo cercando i totali di stagione su fonti alternative.'
+          : 'Nessuna partita raccolta ancora per la stagione corrente. Premi "Aggiorna dati" in alto per scaricarle da Sofascore.');
+      const hints = isCurrentSeason ? updateHintsFor(p) : [];
+      bodyHtml = `<div class="empty-perf">
+        <div style="font-size:22px">◌</div>
+        <div><b>Dati di rendimento non ancora disponibili</b> per la stagione ${escapeHtml(selectedSeason)}.</div>
+        <div>${emptyNote}</div>
+      </div>
+      ${hints.length ? `<div class="detail-note">Dall'ultimo aggiornamento: ${hints.map(h=>escapeHtml(h)).join(' ')}</div>` : ''}
+      ${tmBoxHtml(p, selectedSeason)}
+      ${(isCurrentSeason && p.sofascore_player_id && !isTmSource(p)) ? `<div class="detail-note">Le partite vengono scaricate dalla <b>squadra collegata</b>${p.sofascore_team_id?` (id ${escapeHtml(p.sofascore_team_id)}${p.sofascore_team_name?', '+escapeHtml(p.sofascore_team_name):''})`:''}, e contano solo Saudi Pro League e First Division League. Se il link Sofascore è giusto ma qui non compare niente, la squadra collegata è probabilmente quella U21: premi “↻ Aggiorna questo giocatore” qui sopra, che rilegge la squadra dalla scheda del giocatore prima di scaricare.</div>` : ''}`;
+    }
+
+  el.innerHTML = `
+    <div class="detail-head">
+      <h2 class="detail-name">${escapeHtml(p.name)}</h2>
+      <div class="detail-meta">
+        <span>${escapeHtml(p.club)}</span>
+        <span>·</span>
+        <span>${escapeHtml(ROLE_LABEL[p.role]||p.role)}</span>
+        <span>·</span>
+        <span>Classe ${p.year_of_birth||'–'}</span>
+        <span class="pill ${meta.pill}"><span class="dot" style="background:${meta.dot}"></span>${meta.label}</span>
+      </div>
+      <div class="detail-meta" style="margin-top:6px">
+        <span>Maglia prima squadra: <b class="mono">${escapeHtml(p.jersey_first_team_nt||'–')}</b></span>
+        <span>Maglia U21: <b class="mono">${escapeHtml(p.jersey_u21_nt||'–')}</b></span>
+      </div>
+      ${p.match_note ? `<div class="detail-note">${escapeHtml(p.match_note)}${p.sofascore_name?` — su Sofascore: <b>${escapeHtml(p.sofascore_name)}</b>`:''}</div>` : ''}
+      <div class="detail-links">
+        <a class="link-btn" href="${sofascoreUrl(p)}" target="_blank" rel="noopener noreferrer">↗ Sofascore</a>
+        <a class="link-btn" href="${transfermarktUrl(p)}" target="_blank" rel="noopener noreferrer">↗ Transfermarkt</a>
+        ${(isUncertainMatch(p) && p.sofascore_player_id) ? `<button class="link-btn confirm-btn edit-only" id="confirmMatchBtn" type="button">✓ Conferma match</button>` : ''}
+        ${(p.sofascore_player_id || p.transfermarkt_id) ? `<button class="link-btn edit-only" id="playerUpdateBtn" type="button">↻ Aggiorna questo giocatore${updateSourcesLabel(p)}</button>` : ''}
+        <button class="link-btn edit-only" id="editLinkBtn" type="button">✎ ${hasAnyLink ? 'Modifica link' : 'Aggiungi link'}</button>
+        <button class="link-btn edit-only" id="editClubBtn" type="button">✎ Modifica club</button>
+        <button class="link-btn" id="detailCsvBtn" type="button">&#8595; CSV</button>
+        <button class="link-btn" id="detailPdfBtn" type="button">&#128424; PDF scheda</button>
+        <button class="link-btn delete-btn edit-only" id="deletePlayerBtn" type="button">&#128465; Elimina giocatore</button>
+      </div>
+      <div class="link-submit edit-only" id="linkEditor" ${linkEditorOpen ? '' : 'hidden'}>
+        <input type="url" id="playerLinkInput" placeholder="Incolla qui il link Sofascore o Transfermarkt del giocatore" aria-label="Link scheda giocatore">
+        <button class="link-btn confirm-btn" id="submitLinkBtn" type="button">Salva link e conferma</button>
+        <div class="link-ids">Salvato ora — Sofascore: <b>${p.sofascore_player_id ? escapeHtml(p.sofascore_player_id) : 'nessun id'}</b> · squadra: <b>${p.sofascore_team_id ? escapeHtml(p.sofascore_team_id) : 'nessuna'}</b>${p.sofascore_team_name?' ('+escapeHtml(p.sofascore_team_name)+')':''} · Transfermarkt: <b>${p.transfermarkt_id ? escapeHtml(p.transfermarkt_id) : 'nessun id'}</b>${p.transfermarkt_id && p.tm_match_status==='auto' ? ' (abbinato automaticamente)' : ''}</div>
+        <div class="link-hint">Un nuovo link sostituisce quello salvato. Con un link Sofascore leggo dalla scheda anche la <b>squadra</b> collegata — è da lì che l'aggiornamento pesca le partite — e subito dopo scarico il rendimento di questo giocatore.</div>
+      </div>
+      <div class="link-submit edit-only" id="clubEditor" ${clubEditorOpen ? '' : 'hidden'}>
+        <input type="text" id="playerClubInput" list="clubOptions" value="${escapeHtml(p.club||'')}" placeholder="Nome del club (es. AL NASSR)" aria-label="Club di appartenenza" autocomplete="off">
+        <datalist id="clubOptions">${clubList().map(c=>`<option value="${escapeHtml(c)}"></option>`).join('')}</datalist>
+        <button class="link-btn confirm-btn" id="submitClubBtn" type="button">Salva club</button>
+        <div class="link-hint">Serve per i <b>trasferimenti</b>: i link Sofascore e Transfermarkt del giocatore restano gli stessi, cambia solo la squadra. Scegli un club già in elenco o scrivine uno nuovo. Se togli o aggiungi la sigla <b>U21</b> cambia anche il tipo di dati mostrati (grafico giornata per giornata per la prima squadra, solo totali di stagione per la U21). Dopo il salvataggio rileggo la squadra collegata su Sofascore e riscarico le partite.</div>
+      </div>
+    </div>
+    <div class="detail-body">
+      <div class="season-row">
+        <span class="season-label">Stagione</span>
+        <select id="seasonSelect">${seasonOptions}</select>
+      </div>
+      ${bodyHtml}
+    </div>`;
+
+  const confirmBtn = document.getElementById('confirmMatchBtn');
+  if(confirmBtn){
+    confirmBtn.addEventListener('click', () => confirmMatch(p.id));
+  }
+  const submitLinkBtn = document.getElementById('submitLinkBtn');
+  if(submitLinkBtn){
+    submitLinkBtn.addEventListener('click', () => submitPlayerLink(p.id));
+    const linkInput = document.getElementById('playerLinkInput');
+    linkInput.addEventListener('keydown', e => { if(e.key === 'Enter'){ e.preventDefault(); submitPlayerLink(p.id); } });
+    if(linkEditorFor === p.id) linkInput.focus();
+  }
+  const editLinkBtn = document.getElementById('editLinkBtn');
+  if(editLinkBtn){
+    editLinkBtn.addEventListener('click', () => {
+      linkEditorFor = (linkEditorFor === p.id) ? null : p.id;
+      renderDetail();
+    });
+  }
+  const editClubBtn = document.getElementById('editClubBtn');
+  if(editClubBtn){
+    editClubBtn.addEventListener('click', () => {
+      clubEditorFor = (clubEditorFor === p.id) ? null : p.id;
+      renderDetail();
+    });
+  }
+  const submitClubBtn = document.getElementById('submitClubBtn');
+  if(submitClubBtn){
+    submitClubBtn.addEventListener('click', () => submitClubChange(p.id));
+    const clubInput = document.getElementById('playerClubInput');
+    clubInput.addEventListener('keydown', e => { if(e.key === 'Enter'){ e.preventDefault(); submitClubChange(p.id); } });
+    if(clubEditorFor === p.id) clubInput.focus();
+  }
+  const playerUpdateBtn = document.getElementById('playerUpdateBtn');
+  if(playerUpdateBtn){
+    playerUpdateBtn.addEventListener('click', () => updatePlayer(p));
+  }
+  const detailCsvBtn = document.getElementById('detailCsvBtn');
+  if(detailCsvBtn) detailCsvBtn.addEventListener('click', () => exportDetailCsv(p.id));
+  const detailPdfBtn = document.getElementById('detailPdfBtn');
+  if(detailPdfBtn) detailPdfBtn.addEventListener('click', () => printPlayerCard(p.id));
+  const deletePlayerBtn = document.getElementById('deletePlayerBtn');
+  if(deletePlayerBtn) deletePlayerBtn.addEventListener('click', () => deletePlayer(p.id));
+  el.querySelectorAll('[data-print-chart]').forEach(b=>{
+    b.addEventListener('click', () => printChart(b.dataset.printChart, b.dataset.chartTitle, p));
+  });
+
+  const timelineByKey = k => timeline.find(m => manualKey(m) === k);
+  el.querySelectorAll('[data-min-edit]').forEach(b=>{
+    b.addEventListener('click', () => { minutesEditorFor = b.dataset.minEdit; renderDetail(); });
+  });
+  el.querySelectorAll('[data-min-cancel]').forEach(b=>{
+    b.addEventListener('click', () => { minutesEditorFor = null; renderDetail(); });
+  });
+  el.querySelectorAll('[data-min-reset]').forEach(b=>{
+    b.addEventListener('click', () => { b.disabled = true; saveManualMinutes(p, timelineByKey(b.dataset.minReset), null); });
+  });
+  el.querySelectorAll('[data-min-input]').forEach(inp=>{
+    const save = () => {
+      const v = inp.value.trim();
+      const n = Number(v);
+      if(v === '' || !Number.isInteger(n) || n < 0 || n > 130){ showToast('Scrivi un numero intero di minuti fra 0 e 130.'); inp.focus(); return; }
+      saveManualMinutes(p, timelineByKey(inp.dataset.minInput), n);
+    };
+    inp.focus(); inp.select();
+    inp.addEventListener('keydown', e => {
+      if(e.key === 'Enter') save();
+      if(e.key === 'Escape'){ minutesEditorFor = null; renderDetail(); }
+    });
+    const btn = el.querySelector(`[data-min-save="${CSS.escape(inp.dataset.minInput)}"]`);
+    if(btn) btn.addEventListener('click', save);
+  });
+
+  el.querySelectorAll('[data-tm-choice]').forEach(b=>{
+    b.addEventListener('click', () => setTmChoice(key, b.dataset.tmChoice || null));
+  });
+  el.querySelectorAll('[data-tm-source]').forEach(b=>{
+    b.addEventListener('click', () => { b.disabled = true; setTmSource(p.id, b.dataset.tmSource || null); });
+  });
+  el.querySelectorAll('[data-tm-confirm]').forEach(b=>{
+    b.addEventListener('click', () => { b.disabled = true; confirmTmCandidate(p.id, b.dataset.tmConfirm); });
+  });
+
+  document.getElementById('seasonSelect').addEventListener('change', e=>{
+    selectedSeason = e.target.value;
+    renderDetail();
+  });
+
+  if(timeline.length){
+    const ratedMatches = timeline.filter(m => typeof m.rating === 'number');
+    if(ratedMatches.length) wireChartTooltip(document.getElementById('chartHost'), ratedMatches);
+    const minutesHost = document.getElementById('minutesChartHost');
+    if(minutesHost) wireMinutesTooltip(minutesHost, timeline);
+  }
+}
+
+function renderMeta(){
+  const el = document.getElementById('metaUpdated');
+  if(!metaStatus){
+    el.textContent = 'Nessun aggiornamento registrato ancora — dati iniziali dalla lista caricata.';
+    return;
+  }
+  const parts = [];
+  if(metaStatus.last_sofascore_update) parts.push('Sofascore: ' + metaStatus.last_sofascore_update);
+  if(metaStatus.last_transfermarkt_update) parts.push('Transfermarkt: ' + metaStatus.last_transfermarkt_update);
+  if(metaStatus.last_official_update) parts.push('Sito ufficiale: ' + metaStatus.last_official_update);
+  el.innerHTML = parts.length ? ('Ultimo aggiornamento — ' + parts.join(' · ')) : 'Nessun aggiornamento registrato ancora.';
+}
+
+function renderAll(){
+  renderStats();
+  renderAlerts();
+  populateClubFilter();
+  populateRoleFilters();
+  renderRoster();
+  renderDetail();
+  renderMeta();
+  renderCompareControls();
+  renderCompare();
+}
+
+function showToast(msg){
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(showToast._h);
+  showToast._h = setTimeout(()=>t.classList.remove('show'), 4200);
+}
+
+function applyData(data){
+  players = (data.players || []).slice();
+  metaStatus = data.meta || null;
+  performanceCache = data.performance || {};
+  totalsCache = data.performance_totals || {};
+  crosscheckCache = data.crosscheck || {};
+  SEASONS = seasonsFromData(data);
+  // Chi ha Transfermarkt come fonte usa le sue partite al posto di quelle
+  // Sofascore, che restano intatte in data.json (si torna indietro quando si vuole).
+  const tmPerf = data.tm_performance || {};
+  const tmPlayers = players.filter(isTmSource);
+  if(tmPlayers.length){
+    performanceCache = Object.assign({}, performanceCache);
+    totalsCache = Object.assign({}, totalsCache);
+    tmPlayers.forEach(p => SEASONS.forEach(s => {
+      const k = p.id + '__' + s;
+      performanceCache[k] = tmPerf[k] ? Object.assign({}, tmPerf[k], {source:'Transfermarkt'}) : null;
+      totalsCache[k] = null;
+    }));
+  }
+  manualMinutes = data.manual_minutes || {};
+  applyManualMinutes();
+  // Una stagione selezionata che non esiste piu' lascerebbe la scheda vuota.
+  if(!SEASONS.includes(selectedSeason)) selectedSeason = SEASONS[0];
+  if(!SEASONS.includes(compareSeason)) compareSeason = SEASONS[0];
+}
+
+async function loadLocalData(){
+  try{
+    const res = await fetch('data.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('http ' + res.status);
+    const data = await res.json();
+    applyData(data);
+    renderAll();
+  }catch(e){
+    showToast(READ_ONLY
+      ? 'Impossibile leggere i dati. Ricarica la pagina tra qualche secondo.'
+      : 'Impossibile leggere data.json. Assicurati di aver avviato server.py (avvia.bat) e di essere su http://localhost:8765/.');
+    renderAll();
+  }
+}
+
+// Sofascore risponde solo alle richieste che partono da una sua pagina (dal
+// 2026-10-05 anche il browser prende 403 se chiede da localhost). Percio' qui
+// non si scarica piu' niente: la dashboard apre una scheda di sofascore.com e
+// aspetta che li' venga cliccato il segnalibro "Aggiorna Falcons" (istruzioni
+// in /segnalibro). Il segnalibro ci chiede il codice da eseguire
+// (sofascore_runner.js), scarica da Sofascore e ci passa i dati con
+// postMessage; noi li inoltriamo a server.py come faceva il vecchio giro.
+const SOFA_URL = 'https://www.sofascore.com/';
+const SOFA_TAB = 'falcons_sofascore';
+const SOFA_ORIGIN_RE = /^https:\/\/([a-z0-9-]+\.)*sofascore\.com$/;
+
+async function postLocal(path, body){
+  const res = await fetch(path, {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(body || {})
+  });
+  let data = null;
+  try{ data = await res.json(); }catch(_){ /* risposta non JSON */ }
+  return {res, data};
+}
+
+// -------------------------------------------------- Importa nuovi giocatori
+// Il pulsante chiede sempre quale file .csv leggere: la lista di partenza e'
+// "NT U23 rendimento.csv", ma puoi tenerla dove vuoi sul disco e importare
+// anche una lista diversa. Di quel file vengono aggiunti a data.json i nomi
+// nuovi, che entrano come "Non trovato" e vanno collegati a Sofascore dalla
+// loro scheda, incollando il link. Di chi c'e' gia' la finestra elenca i club
+// diversi dalla lista e cambia solo quelli spuntati: la lista puo' essere piu'
+// vecchia di data.json, quindi di partenza non e' spuntato nessuno. Statistiche,
+// link e match confermati restano dove sono.
+
+function importSummaryHtml(list){
+  // Con tanti nomi la finestra diventa una lista infinita: mostriamo i primi
+  // e diciamo quanti restano.
+  const shown = list.slice(0, 15).map(p =>
+    `<li>${escapeHtml(p.name)}${p.club ? ' <span class="muted">(' + escapeHtml(p.club) + ')</span>' : ''}</li>`);
+  if(list.length > 15) shown.push(`<li>… e altri ${list.length - 15}.</li>`);
+  return `<ul>${shown.join('')}</ul>`;
+}
+
+// Chi tra i cambi spuntati ha un link Sofascore va riletto: e' dalla sua
+// scheda che l'aggiornamento prende la squadra giusta (come "Modifica club").
+function sofaUpdatable(ids){
+  return ids.filter(id => { const p = players.find(x => x.id === id); return p && updateSources(p).sofa; });
+}
+
+// Mostra nuovi e club cambiati e aspetta la scelta: {chosen:[id...]} oppure
+// null se annulli. L'aggiornamento Sofascore dei cambi scelti parte qui, dentro
+// il click su "Applica": dopo un "await" il browser non aprirebbe piu' la
+// scheda di Sofascore (vedi runLocalUpdate).
+function askImportChoices(fileName, preview){
+  const added = preview.added || [];
+  const changes = preview.club_changes || [];
+  const dialog = document.getElementById('importDialog');
+  const body = document.getElementById('importDialogBody');
+  const ok = document.getElementById('importDialogOk');
+  document.getElementById('importDialogSub').textContent =
+    `"${fileName}": ${preview.rows} righe, ${preview.already} giocatori già in data.json.`;
+  let html = '';
+  if(added.length){
+    html += `<h3>Nuovi giocatori (${added.length})</h3>
+      <p>Entrano come "Non trovato": per avere le statistiche incolla il link Sofascore dalla loro scheda.</p>
+      ${importSummaryHtml(added)}`;
+  }
+  if(changes.length){
+    html += `<h3>Club diverso dalla lista (${changes.length})</h3>
+      <p>Spunta chi ha cambiato davvero squadra: la lista può essere più vecchia di data.json. Per chi ha il link Sofascore rileggo poi la squadra e riscarico le partite.</p>
+      ${changes.map(c => `<label class="club-change">
+        <input type="checkbox" value="${escapeHtml(c.id)}">
+        <span class="who">${escapeHtml(c.name)}</span>
+        <span class="what">${escapeHtml(c.from || 'nessun club')} → <b>${escapeHtml(c.to)}</b></span>
+        <span class="sofa">Su Sofascore adesso: ${escapeHtml(c.sofascore || 'nessuna squadra collegata')}</span>
+      </label>`).join('')}`;
+  }
+  body.innerHTML = html;
+  const boxes = () => Array.from(body.querySelectorAll('input[type=checkbox]'));
+  const refresh = () => {
+    const n = boxes().filter(b => b.checked).length;
+    const parts = [];
+    if(added.length) parts.push(`aggiungi ${added.length}`);
+    if(n) parts.push(`cambia ${n} club`);
+    ok.textContent = parts.length ? parts.join(' e ').replace(/^./, c => c.toUpperCase()) : 'Applica';
+    ok.disabled = !parts.length;
+  };
+  body.addEventListener('change', refresh);
+  refresh();
+  return new Promise(resolve => {
+    const finish = value => {
+      body.removeEventListener('change', refresh);
+      ok.onclick = null;
+      document.getElementById('importDialogCancel').onclick = null;
+      dialog.onclose = null;
+      if(dialog.open) dialog.close();
+      resolve(value);
+    };
+    ok.onclick = () => {
+      const chosen = boxes().filter(b => b.checked).map(b => b.value);
+      const toUpdate = sofaUpdatable(chosen);
+      if(toUpdate.length) runLocalUpdate(toUpdate);
+      finish({chosen, updating: toUpdate});
+    };
+    document.getElementById('importDialogCancel').onclick = () => finish(null);
+    dialog.onclose = () => finish(null);  // Esc
+    dialog.showModal();
+  });
+}
+
+async function importNewPlayers(){
+  const btn = document.getElementById('importPlayersBtn');
+  const original = btn.textContent;
+  // Il selettore va aperto qui, prima di qualsiasi "await": passato il primo,
+  // il browser considera scaduto il click e si rifiuta di aprire la finestra.
+  const file = await pickCsvFile();
+  if(file === null){ showToast('Importazione annullata: nessun file scelto.'); return; }
+  if(!file.body.trim()){ showToast(`Il file "${file.name}" è vuoto: non c'è nessuna lista da leggere.`); return; }
+  const body = {csv: file.body, filename: file.name};
+  let updating = [];
+  btn.disabled = true;
+  btn.textContent = '⏳ Leggo la lista…';
+  try{
+    const preview = await postLocal('/api/import-players', body);
+    if(!preview.res.ok) throw new Error((preview.data && preview.data.error) || ('http ' + preview.res.status));
+
+    const added = (preview.data && preview.data.added) || [];
+    const changes = (preview.data && preview.data.club_changes) || [];
+    if(!added.length && !changes.length){
+      showToast(`Niente da cambiare: i ${preview.data.rows} giocatori di "${file.name}" sono già tutti in data.json, con lo stesso club.`);
+      return;
+    }
+    const choice = await askImportChoices(file.name, preview.data);
+    if(!choice){ showToast('Importazione annullata: data.json non è stato toccato.'); return; }
+    updating = choice.updating;
+
+    btn.textContent = '⏳ Salvo…';
+    body.confirm = true;
+    body.clubChanges = choice.chosen;
+    const done = await postLocal('/api/import-players', body);
+    if(!done.res.ok) throw new Error((done.data && done.data.error) || ('http ' + done.res.status));
+    await loadLocalData();
+    const n = (done.data.added || []).length;
+    const c = (done.data.clubs_changed || []).length;
+    const parts = [];
+    if(n) parts.push(`Aggiunti ${n} giocatori: li trovi con lo stato "Non trovato", apri la scheda e incolla il link Sofascore.`);
+    if(c) parts.push(`Club cambiato per ${c} giocatori` + (updating.length
+      ? `: per ${updating.length} rileggo la squadra su Sofascore, clicca il segnalibro nella scheda che si è aperta.`
+      : '.'));
+    showToast(parts.join(' ') || 'Nessuna modifica: data.json non è stato toccato.');
+  }catch(e){
+    // Il salvataggio non e' riuscito: l'aggiornamento partito con "Applica"
+    // non ha piu' senso.
+    if(updating.length) stopRunnerWait();
+    showToast('Importazione non riuscita: ' + (e && e.message ? e.message : 'errore sconosciuto') + '. Verifica che server.py sia avviato.');
+  }finally{
+    btn.disabled = false;
+    btn.textContent = original;
+  }
+}
+
+// Il file lo apre il browser e ne passa il contenuto al server: la lista puo'
+// stare in qualsiasi cartella del PC e non serve chiamarla in un modo preciso.
+function pickCsvFile(){
+  showToast('Scegli il file .csv con la lista dei giocatori da importare.');
+  return new Promise(resolve => {
+    const input = document.getElementById('importCsvInput');
+    input.value = '';
+    let done = false;
+    const finish = v => { if(!done){ done = true; resolve(v); } };
+    input.onchange = () => {
+      const file = input.files && input.files[0];
+      if(!file){ finish(null); return; }
+      const reader = new FileReader();
+      reader.onload = () => finish({body: String(reader.result || ''), name: file.name});
+      reader.onerror = () => finish(null);
+      // I file di Excel italiano sono spesso in Windows-1252, ma la lista che
+      // usiamo e' UTF-8 col BOM: lo leggiamo come UTF-8 e i caratteri non
+      // validi diventano "?" invece di far fallire tutto.
+      reader.readAsText(file, 'utf-8');
+    };
+    // "Annulla" nel selettore non emette nessun evento in tutti i browser:
+    // senza questo la promise resterebbe appesa e il pulsante bloccato.
+    window.addEventListener('focus', () => setTimeout(() => {
+      if(!input.files || !input.files.length) finish(null);
+    }, 400), {once: true});
+    input.click();
+  });
+}
+
+// "only" (lista di id) limita la raccolta a quei giocatori: e' il pulsante
+// "Aggiorna questo giocatore" nella scheda, che dopo un link corretto evita di
+// riscaricare tutta la rosa per vedere il risultato.
+let runnerWait = null;  // l'aggiornamento chiesto e non ancora finito: {only, running}
+
+// Da quali fonti rilegge "Aggiorna questo giocatore": Sofascore se ha il link
+// e non usa Transfermarkt come fonte, Transfermarkt se ne ha il link.
+function updateSources(p){
+  return {sofa: !!p.sofascore_player_id && !isTmSource(p), tm: !!p.transfermarkt_id};
+}
+function updateSourcesLabel(p){
+  const s = updateSources(p);
+  if(s.sofa && s.tm) return ' (Sofascore + Transfermarkt)';
+  return s.tm ? ' (da Transfermarkt)' : '';
+}
+
+function updatePlayer(p){
+  const s = updateSources(p);
+  // Prima Sofascore: la sua scheda va aperta dentro il clic (vedi runLocalUpdate).
+  if(s.sofa) runLocalUpdate([p.id]);
+  // Transfermarkt parte subito, senza aspettare il segnalibro: se Sofascore non
+  // ha dati o il giro si ferma, i numeri Transfermarkt sono comunque freschi.
+  // A fine giro Sofascore il server lo rifa' col confronto aggiornato.
+  if(s.tm) updateFromTm(p.id, s.sofa);
+}
+
+function runLocalUpdate(only){
+  runnerWait = {only: only || null, running: false};
+  // La scheda va aperta subito, nel click: dopo un "await" il browser la
+  // bloccherebbe. Se la blocca comunque (succede dopo il salvataggio di un
+  // link) resta il pulsante "Apri Sofascore" nel riquadro.
+  const tab = openSofascoreTab();
+  document.getElementById('requestUpdateBtn').disabled = true;
+  showRunnerWait(tab
+    ? null
+    : 'Il browser non ha aperto la scheda da solo: premi “Apri Sofascore” qui accanto.');
+}
+
+function openSofascoreTab(){
+  // Niente "noopener": il segnalibro trova la dashboard proprio tramite
+  // window.opener della scheda di Sofascore.
+  return window.open(SOFA_URL, SOFA_TAB);
+}
+
+function runnerWho(){
+  const only = runnerWait && runnerWait.only;
+  if(!only) return null;
+  if(only.length > 1) return only.length + ' giocatori';
+  return (players.find(x => x.id === only[0]) || {}).name || 'questo giocatore';
+}
+
+function showRunnerWait(text){
+  const box = document.getElementById('runnerWait');
+  const msg = document.getElementById('runnerWaitMsg');
+  const topBtn = document.getElementById('requestUpdateBtn');
+  if(!runnerWait){
+    box.hidden = true;
+    topBtn.disabled = false;
+    topBtn.textContent = '↻ Aggiorna dati (da Sofascore)';
+    return;
+  }
+  const who = runnerWho();
+  if(runnerWait.running){
+    msg.textContent = '⏳ ' + (text || 'Scarico da Sofascore…') +
+      ' Lascia aperte questa scheda e quella di Sofascore.';
+    topBtn.textContent = '⏳ Aggiornamento in corso…';
+  }else{
+    msg.textContent = (text ? text + ' ' : '') +
+      'Nella scheda di Sofascore clicca il segnalibro “⚽ Aggiorna Falcons”' +
+      (who ? ' per aggiornare ' + who + '.' : ' per aggiornare tutti i giocatori.') +
+      ' Non ce l’hai? Vedi “⚽ Segnalibro” qui sopra.';
+    topBtn.textContent = '⏳ In attesa del segnalibro…';
+  }
+  document.getElementById('runnerOpenBtn').hidden = runnerWait.running;
+  box.hidden = false;
+}
+
+function stopRunnerWait(){
+  runnerWait = null;
+  showRunnerWait();
+}
+
+function cancelRunnerWait(){
+  const wasRunning = runnerWait && runnerWait.running;
+  stopRunnerWait();
+  showToast(wasRunning
+    ? 'La dashboard smette di aspettare. Per fermare davvero il download chiudi il riquadro nella scheda di Sofascore.'
+    : 'Aggiornamento annullato: i dati non sono cambiati.');
+}
+
+// Messaggi dalla scheda di Sofascore. Rispondiamo solo a pagine di
+// sofascore.com, e inoltriamo al server solo il giro di aggiornamento
+// (/api/update/...): link, club e importazioni restano cose della dashboard.
+window.addEventListener('message', async e => {
+  const m = e.data;
+  if(!m || typeof m.falcons !== 'string' || !SOFA_ORIGIN_RE.test(e.origin) || !e.source) return;
+  const reply = msg => e.source.postMessage(msg, e.origin);
+
+  if(m.falcons === 'hello'){
+    // Il segnalibro cliccato senza aver premuto "Aggiorna dati" (per esempio
+    // dopo aver ricaricato la dashboard): e' comunque un clic tuo, aggiorniamo tutti.
+    if(!runnerWait) runnerWait = {only: null, running: false};
+    if(runnerWait.running) return;  // un secondo clic sul segnalibro: il giro c'e' gia'
+    try{
+      const res = await fetch('/sofascore_runner.js', {cache: 'no-store'});
+      if(!res.ok) throw new Error('http ' + res.status);
+      const code = await res.text();
+      runnerWait.running = true;
+      showRunnerWait('Scarico da Sofascore…');
+      reply({falcons: 'runner', code, only: runnerWait.only});
+    }catch(err){
+      showToast('Non riesco a leggere sofascore_runner.js dal server locale: verifica che server.py sia avviato.');
+    }
+    return;
+  }
+
+  if(m.falcons === 'progress'){
+    if(runnerWait && runnerWait.running) showRunnerWait(String(m.text || ''));
+    return;
+  }
+
+  if(m.falcons === 'post'){
+    const path = String(m.path || '');
+    if(!path.startsWith('/api/update/') || !runnerWait || !runnerWait.running){
+      reply({falcons: 'reply', id: m.id, ok: false, error: 'richiesta non ammessa dalla dashboard'});
+      return;
+    }
+    let out;
+    try{
+      out = await postLocal(path, m.body);
+    }catch(err){
+      reply({falcons: 'reply', id: m.id, ok: false,
+             error: 'server locale non raggiungibile: avvia avvia.bat e riprova'});
+      return;
+    }
+    if(!out.res.ok){
+      reply({falcons: 'reply', id: m.id, ok: false,
+             error: (out.data && out.data.error) || ('server locale: http ' + out.res.status)});
+      return;
+    }
+    if(path === '/api/update/finish'){
+      // Prima rispondiamo (il riquadro su Sofascore dice "Fatto"), poi
+      // aggiorniamo la pagina: il file l'ha appena scritto il server.
+      reply({falcons: 'reply', id: m.id, ok: true, data: {
+        update_blocked: out.data.update_blocked,
+        updated_count: out.data.updated_count,
+        updated_past_count: out.data.updated_past_count,
+      }});
+      const only = runnerWait.only;
+      stopRunnerWait();
+      finishRunnerWait(only, out.data);
+      return;
+    }
+    if(path === '/api/update/cancel'){
+      stopRunnerWait();
+      if(out.data && out.data.tmCheck) watchTmCheck();
+      showToast('Aggiornamento Sofascore chiuso senza modificare i dati (il motivo è scritto nel riquadro su Sofascore). I link Transfermarkt si aggiornano comunque.');
+    }
+    reply({falcons: 'reply', id: m.id, ok: true, data: out.data});
+  }
+});
+
+function finishRunnerWait(only, data){
+  applyData(data);
+  renderAll();
+  if(data.tmCheck) watchTmCheck();
+  const errs = (metaStatus && metaStatus.last_update_errors) ? metaStatus.last_update_errors.length : 0;
+  if(errs) console.warn('Avvisi aggiornamento:', metaStatus.last_update_errors);
+  if(data.update_blocked){
+    // Non spacciamo per riuscito un aggiornamento che si e' fermato a meta'.
+    showToast(data.updated_count
+      ? `Sofascore ha rifiutato le richieste (HTTP 403) dopo ${data.updated_count} giocatori: il resto non è stato aggiornato.`
+      : 'Sofascore ha rifiutato le richieste (HTTP 403) anche dal suo sito. Nessun dato e’ stato modificato.');
+  }else if(data.updated_count === 0 && data.updated_past_count){
+    showToast(`Nessuna partita nuova nella stagione corrente; aggiornati i totali di ${data.updated_past_count} stagioni passate.`);
+  }else if(data.updated_count === 0){
+    showToast(errs ? `Nessun giocatore aggiornato: ${errs} avviso/i (vedi console).` : 'Nessun giocatore da aggiornare.');
+  }else if(only && only.length === 1){
+    const hints = errs ? (metaStatus.last_update_errors || []).filter(l=>l.indexOf(only[0]+':')===0) : [];
+    showToast(hints.length
+      ? hints[0].slice(only[0].length + 1).trim()
+      : 'Giocatore aggiornato: dati salvati in locale.');
+  }else{
+    showToast(errs
+      ? `Aggiornati ${data.updated_count} giocatori, con ${errs} avviso/i (vedi console per i dettagli).`
+      : `Aggiornamento completato: ${data.updated_count} giocatori salvati in locale.`);
+  }
+}
+
+// ===========================================================================
+// Esportazioni: un CSV per ogni tabella, un PDF per il report completo, per una
+// singola tabella o per un singolo grafico. Il PDF passa dalla stampa del
+// browser ("Salva come PDF"): nessuna libreria da scaricare, quindi funziona
+// anche senza rete e senza passare da Claude.
+// ===========================================================================
+
+const CSV_MIME = 'text/csv;charset=utf-8';
+// La lista giocatori si esporta con le statistiche della stagione in corso: e'
+// quella che si sta guardando, e le stagioni chiuse stanno gia' nelle schede.
+const ROSTER_EXPORT_SEASON = CURRENT_SEASON;
+
+function nowStamp(){
+  const d = new Date();
+  const p2 = n => String(n).padStart(2, '0');
+  return `${p2(d.getDate())}/${p2(d.getMonth()+1)}/${d.getFullYear()} ${p2(d.getHours())}:${p2(d.getMinutes())}`;
+}
+
+function lastUpdateLabel(){
+  return (metaStatus && metaStatus.last_sofascore_update) ? metaStatus.last_sofascore_update : 'mai eseguito';
+}
+
+function slugify(s){
+  return String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'export';
+}
+
+// Excel in italiano si aspetta il punto e virgola come separatore e la virgola
+// come decimale; il BOM davanti gli dice che il file e' UTF-8, altrimenti i nomi
+// traslitterati dall'arabo arrivano storti.
+function csvCell(v){
+  if(v == null) return '';
+  let out = (typeof v === 'number') ? String(v).replace('.', ',') : String(v);
+  if(/[";\n\r]/.test(out)) out = '"' + out.replace(/"/g, '""') + '"';
+  return out;
+}
+
+function buildCSV(headers, rows){
+  const lines = [headers.map(csvCell).join(';')];
+  rows.forEach(r => lines.push(r.map(csvCell).join(';')));
+  return '\ufeff' + lines.join('\r\n') + '\r\n';
+}
+
+function downloadText(filename, text, mime){
+  const blob = new Blob([text], {type: mime || CSV_MIME});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(url); a.remove(); }, 0);
+}
+
+// --------------------------------------------------------------- lista rosa
+const ROSTER_COLS = [
+  {label:'Giocatore',      get:p=>p.name},
+  {label:'Club',           get:p=>p.club},
+  {label:'Ruolo',          get:p=>ROLE_LABEL[p.role]||p.role||''},
+  {label:'Classe',         get:p=>p.year_of_birth||''},
+  {label:'Maglia 1a sq.',  get:p=>p.jersey_first_team_nt||''},
+  {label:'Maglia U21',     get:p=>p.jersey_u21_nt||''},
+  {label:'Stato match',    get:p=>(STATUS_META[p.match_status]||STATUS_META.in_coda).label},
+  {label:'Pres.',          num:true, denom:'teamMatches', get:(p,s)=>s?numOrNull(s.appearances):null},
+  {label:'Panch.',         num:true, denom:'teamMatches', get:(p,s)=>s?numOrNull(s.bench):null},
+  {label:'Non conv.',      num:true, denom:'teamMatches', get:(p,s)=>s?numOrNull(s.notCalled):null},
+  {label:'Part. camp.',    num:true, get:(p,s)=>s?numOrNull(s.teamMatches):null},
+  {label:'Minuti',         num:true, get:(p,s)=>s?numOrNull(s.minutes):null},
+  {label:'Gol',            num:true, get:(p,s)=>s?numOrNull(s.goals):null},
+  {label:'Amm.',           num:true, get:(p,s)=>s?numOrNull(s.yellow):null},
+  {label:'Esp.',           num:true, get:(p,s)=>s?numOrNull(s.red):null},
+  {label:'Rating medio',   num:true, dec:2, get:(p,s)=>s?numOrNull(s.avg):null},
+];
+
+function rosterExportData(){
+  return filteredPlayers().map(p => {
+    const st = statsFor(p.id, ROSTER_EXPORT_SEASON);
+    // Teniamo anche le statistiche grezze: la tabella da stampa ne ricava il
+    // denominatore delle presenze, il CSV continua a esportare numeri secchi.
+    return {p, st, cells: ROSTER_COLS.map(c => c.get(p, st))};
+  });
+}
+
+function tmCsvState(p, season){
+  if(tmIsPending(p)) return 'scheda da confermare';
+  const e = tmEntry(p.id, season);
+  if(!e) return '';
+  if(e.status === 'concorda') return 'concorda';
+  return e.choice ? ('discrepanza (' + tmDiffText(e) + ') - scelto ' + TM_CHOICE_LABEL[e.choice])
+                  : ('discrepanza da decidere (' + tmDiffText(e) + ')');
+}
+
+function exportRosterCsv(){
+  const data = rosterExportData();
+  if(!data.length){ showToast('Nessun giocatore da esportare con i filtri attuali.'); return; }
+  const headers = ['Stagione'].concat(ROSTER_COLS.map(c=>c.label))
+    .concat(['Fonte totali','Controllo Transfermarkt','Id Sofascore','Id squadra Sofascore','Id Transfermarkt','Nota match']);
+  const rows = data.map(d => [ROSTER_EXPORT_SEASON]
+    .concat(d.cells.map((v,i)=>{
+      const c = ROSTER_COLS[i];
+      return (c.dec && typeof v === 'number') ? v.toFixed(c.dec).replace('.', ',') : v;
+    }))
+    .concat([d.st ? (d.st.source||'') : '', tmCsvState(d.p, ROSTER_EXPORT_SEASON),
+             d.p.sofascore_player_id||'', d.p.sofascore_team_id||'', d.p.transfermarkt_id||'', d.p.match_note||'']));
+  const name = `falcons-lista-giocatori-${ROSTER_EXPORT_SEASON}.csv`;
+  downloadText(name, buildCSV(headers, rows), CSV_MIME);
+  showToast(`Esportati ${rows.length} giocatori in ${name}`);
+}
+
+// La lista a schermo e' fatta di righe cliccabili; su carta una tabella si legge
+// molto meglio, quindi per la stampa la ricostruiamo cosi'.
+function rosterTableHTML(){
+  const data = rosterExportData();
+  const head = ROSTER_COLS.map(c=>`<th class="${c.num?'num':''}">${escapeHtml(c.label)}</th>`).join('');
+  const body = data.map(d=>`<tr>${d.cells.map((v,i)=>{
+    const c = ROSTER_COLS[i];
+    let txt;
+    if(v == null || v === '') txt = c.num ? '<span style="color:var(--ink-muted)">&#8211;</span>' : '';
+    else {
+      txt = escapeHtml((c.dec && typeof v === 'number') ? v.toFixed(c.dec) : String(v));
+      const den = (c.denom && d.st) ? d.st[c.denom] : null;
+      if(den != null) txt += '/' + escapeHtml(String(den));
+    }
+    return `<td class="${c.num?'num':''}">${txt}</td>`;
+  }).join('')}</tr>`).join('');
+  return `<div class="table-scroll"><table class="compare-table"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+function filterSummary(){
+  const f = currentFilters();
+  const bits = [];
+  if(f.search) bits.push(`ricerca "${f.search}"`);
+  if(f.club) bits.push('club ' + f.club);
+  if(f.role){
+    const sel = document.getElementById('fRole');
+    const opt = sel.options[sel.selectedIndex];
+    bits.push('ruolo ' + (opt ? opt.textContent : f.role));
+  }
+  if(f.status){
+    const sel = document.getElementById('fStatus');
+    const opt = sel.options[sel.selectedIndex];
+    bits.push('stato ' + (opt ? opt.textContent : f.status));
+  }
+  return bits.length ? ('Filtri attivi: ' + bits.join(' \u00b7 ') + '.') : 'Nessun filtro attivo: tutta la rosa osservata.';
+}
+
+// ------------------------------------------------------------- CSV confronto
+function exportCompareCsv(){
+  const rows = compareVisibleRows();
+  if(!rows.length){ showToast('Niente da esportare: nessun giocatore nel confronto.'); return; }
+  const headers = ['Stagione'].concat(COMPARE_COLS.map(c=>c.label)).concat(['Non conv.','Fonte']);
+  const body = rows.map(r => [compareSeason]
+    .concat(COMPARE_COLS.map(c=>{
+      const v = r[c.key];
+      if(c.type !== 'num') return v || '';
+      if(v == null) return '';
+      return c.dec ? v.toFixed(c.dec).replace('.', ',') : v;
+    }))
+    .concat([r.notCalled == null ? '' : r.notCalled, r.source || '']));
+  const name = `falcons-confronto-${compareSeason}.csv`;
+  downloadText(name, buildCSV(headers, body), CSV_MIME);
+  showToast(`Esportate ${rows.length} righe in ${name}`);
+}
+
+// --------------------------------------------------------- CSV di un giocatore
+function exportDetailCsv(id){
+  const p = players.find(x=>x.id===id);
+  if(!p){ showToast('Seleziona prima un giocatore dalla lista.'); return; }
+  const key = p.id + '__' + selectedSeason;
+  const perf = performanceCache[key];
+  const name = `falcons-${slugify(p.name)}-${selectedSeason}.csv`;
+  const role = ROLE_LABEL[p.role] || p.role || '';
+  const timeline = selectedSeason === CURRENT_SEASON ? seasonTimeline(perf)
+                                                    : (perf && perf.matches || []);
+  if(timeline.length && !tmChosenStats(p.id, selectedSeason)){
+    const headers = ['Giocatore','Club','Ruolo','Stagione','Data','Competizione','Campo','Avversario','Stato',
+                     'Minuti','Gol','Ammonizioni','Espulsioni','Rating','Fonte'];
+    const rows = timeline.map(m => [
+      p.name, p.club, role, selectedSeason, m.date || '',
+      !m.kind || m.kind === 'campionato' ? 'Campionato'
+        : (m.competition || COMP_LABEL[m.kind]) + (m.kind === 'nazionale' && m.team ? ' (' + m.team + ')' : ''),
+      m.home_away === 'home' ? 'Casa' : (m.home_away === 'away' ? 'Trasferta' : ''),
+      m.opponent || '', STATUS_LABEL[m.status] || '',
+      m.minutes == null ? '' : m.minutes,
+      m.goals == null ? 0 : m.goals,
+      m.yellow == null ? 0 : m.yellow,
+      m.red == null ? 0 : m.red,
+      m.rating == null ? '' : m.rating.toFixed(2).replace('.', ','),
+      perf.source || ''
+    ]);
+    downloadText(name, buildCSV(headers, rows), CSV_MIME);
+    showToast(`Esportate ${rows.length} partite in ${name}`);
+    return;
+  }
+  const st = statsFor(p.id, selectedSeason);
+  if(st){
+    const headers = ['Giocatore','Club','Ruolo','Stagione','Presenze','Panchine','Non convocato',
+                     'Partite di campionato','Minuti','Gol','Ammonizioni','Espulsioni','Rating medio','Fonte'];
+    const rows = [[p.name, p.club, role, selectedSeason,
+      st.appearances == null ? '' : st.appearances,
+      st.bench == null ? '' : st.bench,
+      st.notCalled == null ? '' : st.notCalled,
+      st.teamMatches == null ? '' : st.teamMatches,
+      st.minutes == null ? '' : st.minutes,
+      st.goals == null ? '' : st.goals,
+      st.yellow == null ? '' : st.yellow,
+      st.red == null ? '' : st.red,
+      st.avg == null ? '' : st.avg.toFixed(2).replace('.', ','),
+      st.source || '']];
+    downloadText(name, buildCSV(headers, rows), CSV_MIME);
+    showToast(`Esportati i totali di stagione in ${name}`);
+    return;
+  }
+  showToast(`Nessun dato da esportare per ${p.name} nella stagione ${selectedSeason}.`);
+}
+
+// ------------------------------------------------------------------- stampa
+// La finestra di stampa riusa il CSS della pagina, ma con la tavolozza chiara
+// forzata: su carta (e in PDF) il tema scuro sarebbe illeggibile e sprecherebbe
+// inchiostro. I selettori qui sotto ripetono quelli del tema scuro per vincerli
+// a parita' di specificita', arrivando dopo.
+const PRINT_CSS = `
+:root, :root:not([data-theme="light"]), :root[data-theme="dark"]{
+  --ground:#ffffff; --surface:#ffffff; --surface-2:#f3eee2;
+  --ink-primary:#1a1710; --ink-secondary:#4a4438; --ink-muted:#6f6959;
+  --border:rgba(26,23,16,0.22); --border-strong:rgba(26,23,16,0.38);
+  --accent:#8a5a10; --accent-ink:#63400d; --accent-soft:#f2e1bb;
+  --chart-line:#1f5fae; --chart-trend:#5d5648;
+  --comp-cup:#6a3fb8; --comp-cup-soft:#efe8fa; --comp-nat:#0b6b74; --comp-nat-soft:#e1f1f2;
+  --status-good:#0a7a0a; --status-warning:#a97400; --status-serious:#b8501f; --status-critical:#b62b2b;
+  --status-pending:#6f6959;
+  --status-good-soft:#e2f3e0; --status-warning-soft:#fdf1d6; --status-serious-soft:#fbe4da;
+  --status-critical-soft:#f8dcdb; --status-pending-soft:#edeade;
+  color-scheme:light;
+}
+/* Foglio A4 verticale: 210mm meno i margini lascia 186mm di riga utile. Il
+   documento e' largo esattamente quanto il foglio, cosi' l'anteprima a schermo
+   mostra gia' come va a capo la carta. */
+@page{ size:A4 portrait; margin:12mm; }
+html, body{ background:#fff; margin:0; }
+body{ font-size:11px; }
+.print-doc{ width:186mm; max-width:100%; margin:0 auto; padding:0; }
+@media screen{ .print-doc{ padding:12mm 0; } }
+.print-head{ border-bottom:2px solid var(--border-strong); padding-bottom:10px; margin-bottom:16px; }
+.print-title{ font-size:21px; font-weight:700; margin:2px 0 0; }
+.print-sub{ font-size:12px; color:var(--ink-secondary); margin:5px 0 0; line-height:1.5; }
+.print-block{ margin-bottom:18px; }
+.print-block > h2{
+  font-size:11px; text-transform:uppercase; letter-spacing:.07em;
+  color:var(--ink-muted); margin:0 0 8px; font-weight:700;
+}
+.print-foot{
+  margin-top:20px; padding-top:10px; border-top:1px solid var(--border);
+  font-size:10px; color:var(--ink-muted); line-height:1.6;
+}
+button, select, input, .roster-check, .compare-drop, .chart-tools, .no-print{ display:none !important; }
+.page{ max-width:none; padding:0; }
+.panel{ border:1px solid var(--border); border-radius:8px; }
+.roster{ max-height:none !important; overflow:visible !important; }
+.detail{ position:static !important; }
+/* Su carta niente si scorre: un contenitore con overflow auto diventa una barra
+   di scorrimento stampata e taglia le colonne in fondo. Le tabelle devono
+   stare nella larghezza del foglio, andando a capo dove serve. */
+.table-scroll, .panel, .chart-wrap, .alerts{ overflow:visible !important; }
+.compare-table, .match-table{ width:100%; font-size:9.5px; }
+.compare-table th, .match-table th{
+  cursor:default; white-space:normal; letter-spacing:0; font-size:8px;
+  line-height:1.25; vertical-align:bottom; padding:4px 3px;
+}
+.compare-table td, .match-table td{ white-space:normal; padding:3px 3px; vertical-align:top; }
+.compare-table td.num, .match-table td.mono{ white-space:nowrap; }
+.compare-sub{ font-size:8.5px; }
+.pill{ white-space:normal; padding:2px 6px; font-size:9px; }
+.stat-value{ font-size:20px; }
+svg{ max-width:100%; }
+.stats{ grid-template-columns:repeat(5,1fr); }
+.chart-wrap, .stat-tile, .season-stats, tr{ break-inside:avoid; page-break-inside:avoid; }
+/* Il dettaglio giornata per giornata puo' superare una pagina: deve poter andare a capo. */
+.compare-table tr.compare-detail-row{ break-inside:auto; page-break-inside:auto; }
+.compare-table tr.compare-open{ break-after:avoid; page-break-after:avoid; }
+.compare-detail-row > td{ padding:0 3px 8px 14px !important; }
+.compare-detail-row .match-table th.num, .compare-detail-row .match-table td.num{ text-align:right; }
+.compare-detail-src{ font-size:8.5px; color:var(--ink-muted); margin-top:3px; }
+.print-block{ break-inside:auto; }
+.detail-head, .detail-body{ padding:0; border:none; }
+.detail-body{ padding-top:12px; }
+`;
+
+function printBlock(heading, html){
+  return `<section class="print-block">${heading ? `<h2>${escapeHtml(heading)}</h2>` : ''}${html}</section>`;
+}
+
+// Copia di un pezzo di pagina ripulita da tutto cio' che su carta non ha senso
+// (pulsanti, menu a tendina, campi di testo).
+function cleanForPrint(node){
+  if(!node) return '';
+  const clone = node.cloneNode(true);
+  clone.querySelectorAll('button, select, input, .no-print, .chart-tools, .link-submit, .detail-links, .season-row')
+       .forEach(el => el.remove());
+  return clone.outerHTML;
+}
+
+function buildPrintDoc(title, subtitle, blocksHtml){
+  const css = (document.getElementById('appCss') || {}).textContent || '';
+  return `<!doctype html><html lang="it"><head><meta charset="utf-8">
+<title>Falcons U23 Watch \u2014 ${escapeHtml(title)}</title>
+<style>${css}</style>
+<style>${PRINT_CSS}</style>
+</head><body><div class="print-doc">
+<header class="print-head">
+  <p class="brand-eyebrow">Falcons U23 Watch \u00b7 osservatorio candidati nazionale \u00b7 versione locale</p>
+  <h1 class="print-title">${escapeHtml(title)}</h1>
+  <p class="print-sub">${subtitle}</p>
+</header>
+${blocksHtml}
+<div class="print-foot">
+  Stampato il ${escapeHtml(nowStamp())} \u00b7 dati da data.json, ultimo aggiornamento Sofascore: ${escapeHtml(lastUpdateLabel())}.
+  Contano solo le partite di Saudi Pro League e First Division League.
+  Per salvare in PDF scegli "Salva come PDF" (o "Microsoft Print to PDF") nella finestra di stampa.
+</div>
+</div></body></html>`;
+}
+
+function openPrintReport(title, subtitle, blocksHtml){
+  const w = window.open('', '_blank');
+  if(!w){
+    showToast('Il browser ha bloccato la finestra di stampa: consenti i popup per localhost e riprova.');
+    return;
+  }
+  const doc = buildPrintDoc(title, subtitle, blocksHtml);
+  w.document.open();
+  w.document.write(doc);
+  w.document.close();
+  w.focus();
+  // Un attimo di respiro perche' il documento appena scritto applichi il CSS:
+  // stampare subito darebbe una pagina senza stili.
+  setTimeout(()=>{ try{ w.print(); }catch(_){ } }, 400);
+}
+
+function printCompare(){
+  const rows = compareVisibleRows();
+  if(!rows.length){ showToast('Niente da stampare: nessun giocatore nel confronto.'); return; }
+  const best = compareBest(rows);
+  openPrintReport(
+    'Confronto giocatori',
+    `Stagione ${escapeHtml(compareSeason)} \u00b7 ${rows.length} giocatori${compareRole ? ' \u00b7 filtro ruolo attivo' : ''}`,
+    printBlock('', compareTableHTML(rows, best, {plain:true}) + compareNoteHTML(rows, {plain:true}))
+  );
+}
+
+function printRoster(){
+  const data = rosterExportData();
+  if(!data.length){ showToast('Nessun giocatore da stampare con i filtri attuali.'); return; }
+  openPrintReport(
+    'Lista giocatori',
+    `Stagione ${escapeHtml(ROSTER_EXPORT_SEASON)} \u00b7 ${data.length} di ${players.length} giocatori \u00b7 ${escapeHtml(filterSummary())}`,
+    printBlock('', rosterTableHTML())
+  );
+}
+
+function printPlayerCard(id){
+  const p = players.find(x=>x.id===id);
+  const node = document.getElementById('detailContent');
+  if(!p || !node){ showToast('Seleziona prima un giocatore dalla lista.'); return; }
+  openPrintReport(
+    p.name,
+    `${escapeHtml(p.club)} \u00b7 ${escapeHtml(ROLE_LABEL[p.role]||p.role||'')} \u00b7 classe ${escapeHtml(p.year_of_birth||'\u2013')} \u00b7 stagione ${escapeHtml(selectedSeason)}`,
+    printBlock('', cleanForPrint(node))
+  );
+}
+
+// Sotto al grafico va anche il dettaglio partita per partita della scheda.
+function printChart(wrapId, chartTitle, p){
+  const node = document.getElementById(wrapId);
+  if(!node){ showToast('Grafico non disponibile.'); return; }
+  const table = document.getElementById('matchTableWrap');
+  openPrintReport(
+    `${p.name} \u2014 ${chartTitle}`,
+    `${escapeHtml(p.club)} \u00b7 ${escapeHtml(ROLE_LABEL[p.role]||p.role||'')} \u00b7 stagione ${escapeHtml(selectedSeason)}`,
+    printBlock('', cleanForPrint(node)) +
+      (table ? printBlock('Dettaglio partite', cleanForPrint(table)) : '')
+  );
+}
+
+// Report completo: quadro dei match, confronto (se ci sono giocatori spuntati),
+// lista filtrata e scheda del giocatore aperto.
+function printFullReport(){
+  const blocks = [];
+  blocks.push(printBlock('Quadro del matching', cleanForPrint(document.getElementById('statsRow'))));
+  if(compareIds.length){
+    const rows = compareVisibleRows();
+    if(rows.length){
+      blocks.push(printBlock(`Confronto giocatori \u00b7 stagione ${compareSeason}`,
+        compareTableHTML(rows, compareBest(rows), {plain:true}) + compareNoteHTML(rows, {plain:true})));
+    }
+  }
+  const data = rosterExportData();
+  blocks.push(printBlock(`Lista giocatori \u00b7 stagione ${ROSTER_EXPORT_SEASON} \u00b7 ${data.length} di ${players.length}`,
+    rosterTableHTML()));
+  const detail = document.getElementById('detailContent');
+  const p = players.find(x=>x.id===selectedPlayerId);
+  if(p && detail){
+    blocks.push(printBlock(`Scheda: ${p.name} \u00b7 stagione ${selectedSeason}`, cleanForPrint(detail)));
+  }
+  openPrintReport('Report completo', escapeHtml(filterSummary()), blocks.join('\n'));
+}
+
+// -------------------------------------------------- Copia per lo staff
+// server.py prepara la copia di sola consultazione (pubblica.py) e la
+// spinge su GitHub: il push puo' durare qualche secondo.
+async function publishForStaff(){
+  const btn = document.getElementById('publishStaffBtn');
+  btn.disabled = true;
+  showToast('Pubblico la copia per lo staff…');
+  try{
+    const {res, data} = await postLocal('/api/publish', {});
+    if(!res.ok) throw new Error((data && data.error) || ('http ' + res.status));
+    const note = data.changed ? 'Copia per lo staff pubblicata' : 'La copia per lo staff era già aggiornata';
+    showToast(`${note}: ${data.url} (GitHub Pages può metterci un paio di minuti a mostrarla).`);
+    try{ await navigator.clipboard.writeText(data.url); }catch(_){ /* appunti non disponibili */ }
+  }catch(e){
+    showToast('Pubblicazione non riuscita: ' + e.message);
+  }finally{
+    btn.disabled = false;
+  }
+}
+
+function wireControls(){
+  document.getElementById('rosterSelectAll').addEventListener('change', e=>toggleCompareAll(e.target.checked));
+  document.getElementById('fSearch').addEventListener('input', renderRoster);
+  document.getElementById('fClub').addEventListener('change', renderRoster);
+  document.getElementById('fRole').addEventListener('change', renderRoster);
+  document.getElementById('fStatus').addEventListener('change', renderRoster);
+  document.getElementById('requestUpdateBtn').addEventListener('click', () => runLocalUpdate());
+  document.getElementById('runnerCancelBtn').addEventListener('click', cancelRunnerWait);
+  document.getElementById('runnerOpenBtn').addEventListener('click', () => { openSofascoreTab(); showRunnerWait(); });
+  document.getElementById('importPlayersBtn').addEventListener('click', importNewPlayers);
+  document.getElementById('publishStaffBtn').addEventListener('click', publishForStaff);
+  document.getElementById('compareOpenBtn').addEventListener('click', ()=>{
+    compareOpen = true;
+    renderCompare();
+    document.getElementById('comparePanel').scrollIntoView({behavior:'smooth', block:'nearest'});
+  });
+  document.getElementById('compareCloseBtn').addEventListener('click', ()=>{
+    compareOpen = false;
+    renderCompare();
+  });
+  document.getElementById('compareClearBtn').addEventListener('click', ()=>{
+    compareIds = [];
+    compareOpen = false;
+    renderCompareControls();
+    renderCompare();
+    renderRoster();
+  });
+  document.getElementById('compareSeason').addEventListener('change', e=>{
+    compareSeason = e.target.value;
+    renderCompare();
+  });
+  document.getElementById('compareRole').addEventListener('change', e=>{
+    compareRole = e.target.value;
+    renderCompare();
+  });
+  document.getElementById('compareExpandBtn').addEventListener('click', e=>{
+    const rows = compareVisibleRows();
+    if(e.currentTarget.dataset.allOpen) rows.forEach(r => compareExpanded.delete(r.id));
+    else rows.forEach(r => compareExpanded.add(r.id));
+    renderCompare();
+  });
+  document.getElementById('compareCsvBtn').addEventListener('click', exportCompareCsv);
+  document.getElementById('comparePdfBtn').addEventListener('click', printCompare);
+  document.getElementById('rosterCsvBtn').addEventListener('click', exportRosterCsv);
+  document.getElementById('rosterPdfBtn').addEventListener('click', printRoster);
+  document.getElementById('reportPdfBtn').addEventListener('click', printFullReport);
+}
+
+wireControls();
+renderAll();
+loadLocalData().then(() => { if(!READ_ONLY) pollTmCheckSilently(); });
+
+// Pagina ricaricata mentre il controllo Transfermarkt gira: riprendiamo a
+// seguirlo, senza ricaricare niente se non c'e' nulla in corso.
+async function pollTmCheckSilently(){
+  try{
+    const res = await fetch('/api/tm/status', {cache:'no-store'});
+    if(res.ok && (await res.json()).running) watchTmCheck();
+  }catch(_){ /* server spento */ }
+}
+</script>
