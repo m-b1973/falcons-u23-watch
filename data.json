@@ -2043,6 +2043,7 @@
     "al-diriyah-abdulelah-al-jafari__2026-27": {
       "matches": [
         {
+          "event_id": 16629410,
           "date": "2026-08-13",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -2054,6 +2055,7 @@
           "red": 0
         },
         {
+          "event_id": 16629422,
           "date": "2026-08-21",
           "opponent": "Al-Hazem",
           "home_away": "away",
@@ -2065,6 +2067,7 @@
           "red": 0
         },
         {
+          "event_id": 16629437,
           "date": "2026-08-26",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -2076,6 +2079,7 @@
           "red": 0
         },
         {
+          "event_id": 16629466,
           "date": "2026-08-29",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -2087,6 +2091,7 @@
           "red": 0
         },
         {
+          "event_id": 16629473,
           "date": "2026-09-03",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -2098,6 +2103,7 @@
           "red": 0
         },
         {
+          "event_id": 16629487,
           "date": "2026-09-09",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -2109,6 +2115,7 @@
           "red": 0
         },
         {
+          "event_id": 16963495,
           "date": "2026-09-13",
           "opponent": "Abha",
           "home_away": "home",
@@ -2120,6 +2127,7 @@
           "red": 0
         },
         {
+          "event_id": 16653108,
           "date": "2026-10-09",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -2131,6 +2139,7 @@
           "red": 0
         },
         {
+          "event_id": 16653105,
           "date": "2026-10-17",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -2142,6 +2151,7 @@
           "red": 0
         },
         {
+          "event_id": 16653126,
           "date": "2026-10-20",
           "opponent": "Al-Riyadh",
           "home_away": "home",
@@ -2153,6 +2163,7 @@
           "red": 0
         },
         {
+          "event_id": 16653130,
           "date": "2026-10-23",
           "opponent": "Al-Ittihad",
           "home_away": "away",
@@ -2164,6 +2175,7 @@
           "red": 0
         },
         {
+          "event_id": 16653144,
           "date": "2026-10-30",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -2178,8 +2190,9 @@
       "player_id": "al-diriyah-abdulelah-al-jafari",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-faisaly-moyad-saleem__2026-27": {
       "matches": [
@@ -2234,6 +2247,7 @@
       "note": "Aggiornato in locale il 2026-09-05 12:15.",
       "other_matches": [
         {
+          "event_id": 16251995,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -2248,11 +2262,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-faisaly-saud-haddad__2026-27": {
       "matches": [
         {
+          "event_id": 16629416,
           "date": "2026-08-14",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -2264,6 +2280,7 @@
           "red": 0
         },
         {
+          "event_id": 16629424,
           "date": "2026-08-21",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -2275,6 +2292,7 @@
           "red": 0
         },
         {
+          "event_id": 16629436,
           "date": "2026-08-26",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -2286,6 +2304,7 @@
           "red": 0
         },
         {
+          "event_id": 16629469,
           "date": "2026-08-30",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -2297,6 +2316,7 @@
           "red": 0
         },
         {
+          "event_id": 16629477,
           "date": "2026-09-05",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -2308,6 +2328,7 @@
           "red": 0
         },
         {
+          "event_id": 16629482,
           "date": "2026-09-08",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -2319,6 +2340,7 @@
           "red": 0
         },
         {
+          "event_id": 16653092,
           "date": "2026-09-11",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -2330,6 +2352,7 @@
           "red": 0
         },
         {
+          "event_id": 16653104,
           "date": "2026-10-15",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -2341,6 +2364,7 @@
           "red": 0
         },
         {
+          "event_id": 16653124,
           "date": "2026-10-19",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -2352,6 +2376,7 @@
           "red": 0
         },
         {
+          "event_id": 16653131,
           "date": "2026-10-23",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -2363,6 +2388,7 @@
           "red": 0
         },
         {
+          "event_id": 17305725,
           "date": "2026-10-27",
           "opponent": "Abha",
           "home_away": "away",
@@ -2374,6 +2400,7 @@
           "red": 0
         },
         {
+          "event_id": 16653141,
           "date": "2026-10-31",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -2388,9 +2415,10 @@
       "player_id": "al-faisaly-saud-haddad",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251995,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -2406,6 +2434,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -2421,6 +2450,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -2436,6 +2466,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -2450,11 +2481,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-faisaly-wael-kadan__2026-27": {
       "matches": [
         {
+          "event_id": 16629416,
           "date": "2026-08-14",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -2466,6 +2499,7 @@
           "red": 0
         },
         {
+          "event_id": 16629424,
           "date": "2026-08-21",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -2477,6 +2511,7 @@
           "red": 0
         },
         {
+          "event_id": 16629436,
           "date": "2026-08-26",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -2488,6 +2523,7 @@
           "red": 0
         },
         {
+          "event_id": 16629469,
           "date": "2026-08-30",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -2499,6 +2535,7 @@
           "red": 0
         },
         {
+          "event_id": 16629477,
           "date": "2026-09-05",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -2510,6 +2547,7 @@
           "red": 0
         },
         {
+          "event_id": 16629482,
           "date": "2026-09-08",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -2521,6 +2559,7 @@
           "red": 0
         },
         {
+          "event_id": 16653092,
           "date": "2026-09-11",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -2532,6 +2571,7 @@
           "red": 0
         },
         {
+          "event_id": 16653104,
           "date": "2026-10-15",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -2543,6 +2583,7 @@
           "red": 0
         },
         {
+          "event_id": 16653124,
           "date": "2026-10-19",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -2554,6 +2595,7 @@
           "red": 0
         },
         {
+          "event_id": 16653131,
           "date": "2026-10-23",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -2565,6 +2607,7 @@
           "red": 0
         },
         {
+          "event_id": 17305725,
           "date": "2026-10-27",
           "opponent": "Abha",
           "home_away": "away",
@@ -2576,6 +2619,7 @@
           "red": 0
         },
         {
+          "event_id": 16653141,
           "date": "2026-10-31",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -2590,9 +2634,10 @@
       "player_id": "al-faisaly-wael-kadan",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251995,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -2607,11 +2652,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-fateh-abdulaziz-al-fawaz__2026-27": {
       "matches": [
         {
+          "event_id": 16629419,
           "date": "2026-08-15",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -2623,6 +2670,7 @@
           "red": 0
         },
         {
+          "event_id": 16629426,
           "date": "2026-08-22",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -2634,6 +2682,7 @@
           "red": 0
         },
         {
+          "event_id": 16629436,
           "date": "2026-08-26",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -2645,6 +2694,7 @@
           "red": 0
         },
         {
+          "event_id": 16629467,
           "date": "2026-08-29",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -2656,6 +2706,7 @@
           "red": 0
         },
         {
+          "event_id": 16629478,
           "date": "2026-09-05",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -2667,6 +2718,7 @@
           "red": 0
         },
         {
+          "event_id": 16629487,
           "date": "2026-09-09",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -2678,6 +2730,7 @@
           "red": 0
         },
         {
+          "event_id": 16963494,
           "date": "2026-09-13",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -2689,6 +2742,7 @@
           "red": 0
         },
         {
+          "event_id": 16653100,
           "date": "2026-10-09",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -2700,6 +2754,7 @@
           "red": 0
         },
         {
+          "event_id": 16653112,
           "date": "2026-10-15",
           "opponent": "Al-Hazem",
           "home_away": "away",
@@ -2711,6 +2766,7 @@
           "red": 0
         },
         {
+          "event_id": 16653120,
           "date": "2026-10-18",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -2722,6 +2778,7 @@
           "red": 0
         },
         {
+          "event_id": 16653129,
           "date": "2026-10-22",
           "opponent": "Al-Shabab",
           "home_away": "home",
@@ -2733,6 +2790,7 @@
           "red": 0
         },
         {
+          "event_id": 16653132,
           "date": "2026-10-31",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -2747,9 +2805,10 @@
       "player_id": "al-fateh-abdulaziz-al-fawaz",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16252001,
           "date": "2026-08-19",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -2765,6 +2824,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -2780,6 +2840,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -2795,6 +2856,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -2809,11 +2871,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-fateh-abdulaziz-al-suwailem__2026-27": {
       "matches": [
         {
+          "event_id": 16629419,
           "date": "2026-08-15",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -2825,6 +2889,7 @@
           "red": 0
         },
         {
+          "event_id": 16629426,
           "date": "2026-08-22",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -2836,6 +2901,7 @@
           "red": 0
         },
         {
+          "event_id": 16629436,
           "date": "2026-08-26",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -2847,6 +2913,7 @@
           "red": 0
         },
         {
+          "event_id": 16629467,
           "date": "2026-08-29",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -2858,6 +2925,7 @@
           "red": 0
         },
         {
+          "event_id": 16629478,
           "date": "2026-09-05",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -2869,6 +2937,7 @@
           "red": 0
         },
         {
+          "event_id": 16629487,
           "date": "2026-09-09",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -2880,6 +2949,7 @@
           "red": 0
         },
         {
+          "event_id": 16963494,
           "date": "2026-09-13",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -2891,6 +2961,7 @@
           "red": 0
         },
         {
+          "event_id": 16653100,
           "date": "2026-10-09",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -2902,6 +2973,7 @@
           "red": 0
         },
         {
+          "event_id": 16653112,
           "date": "2026-10-15",
           "opponent": "Al-Hazem",
           "home_away": "away",
@@ -2913,6 +2985,7 @@
           "red": 0
         },
         {
+          "event_id": 16653120,
           "date": "2026-10-18",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -2924,6 +2997,7 @@
           "red": 0
         },
         {
+          "event_id": 16653129,
           "date": "2026-10-22",
           "opponent": "Al-Shabab",
           "home_away": "home",
@@ -2935,6 +3009,7 @@
           "red": 0
         },
         {
+          "event_id": 16653132,
           "date": "2026-10-31",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -2949,9 +3024,10 @@
       "player_id": "al-fateh-abdulaziz-al-suwailem",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16252001,
           "date": "2026-08-19",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -2967,6 +3043,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -2982,6 +3059,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -2997,6 +3075,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -3011,11 +3090,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-ittihad-mohammed-barnawi__2026-27": {
       "matches": [
         {
+          "event_id": 16629418,
           "date": "2026-08-15",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -3027,6 +3108,7 @@
           "red": 0
         },
         {
+          "event_id": 16629425,
           "date": "2026-08-21",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -3038,6 +3120,7 @@
           "red": 0
         },
         {
+          "event_id": 16629431,
           "date": "2026-08-24",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -3049,6 +3132,7 @@
           "red": 0
         },
         {
+          "event_id": 16629467,
           "date": "2026-08-29",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -3060,6 +3144,7 @@
           "red": 0
         },
         {
+          "event_id": 16629479,
           "date": "2026-09-05",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -3071,6 +3156,7 @@
           "red": 0
         },
         {
+          "event_id": 16629485,
           "date": "2026-09-08",
           "opponent": "Al-Fayha",
           "home_away": "home",
@@ -3082,6 +3168,7 @@
           "red": 0
         },
         {
+          "event_id": 16653092,
           "date": "2026-09-11",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -3093,6 +3180,7 @@
           "red": 0
         },
         {
+          "event_id": 16653107,
           "date": "2026-10-10",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -3104,6 +3192,7 @@
           "red": 0
         },
         {
+          "event_id": 17291748,
           "date": "2026-10-20",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -3115,6 +3204,7 @@
           "red": 0
         },
         {
+          "event_id": 16653130,
           "date": "2026-10-23",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -3126,6 +3216,7 @@
           "red": 0
         },
         {
+          "event_id": 16653134,
           "date": "2026-10-30",
           "opponent": "Abha",
           "home_away": "away",
@@ -3140,9 +3231,10 @@
       "player_id": "al-ittihad-mohammed-barnawi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16623315,
           "date": "2026-08-11",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -3158,6 +3250,7 @@
           "red": 0
         },
         {
+          "event_id": 16251992,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -3173,6 +3266,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -3188,6 +3282,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -3203,6 +3298,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -3218,6 +3314,7 @@
           "red": 0
         },
         {
+          "event_id": 16864345,
           "date": "2026-10-26",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -3232,11 +3329,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-ittihad-mohammed-fallatah__2026-27": {
       "matches": [
         {
+          "event_id": 16629418,
           "date": "2026-08-15",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -3248,6 +3347,7 @@
           "red": 0
         },
         {
+          "event_id": 16629425,
           "date": "2026-08-21",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -3259,6 +3359,7 @@
           "red": 0
         },
         {
+          "event_id": 16629431,
           "date": "2026-08-24",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -3270,6 +3371,7 @@
           "red": 0
         },
         {
+          "event_id": 16629467,
           "date": "2026-08-29",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -3281,6 +3383,7 @@
           "red": 0
         },
         {
+          "event_id": 16629479,
           "date": "2026-09-05",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -3292,6 +3395,7 @@
           "red": 0
         },
         {
+          "event_id": 16629485,
           "date": "2026-09-08",
           "opponent": "Al-Fayha",
           "home_away": "home",
@@ -3303,6 +3407,7 @@
           "red": 0
         },
         {
+          "event_id": 16653092,
           "date": "2026-09-11",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -3314,6 +3419,7 @@
           "red": 0
         },
         {
+          "event_id": 16653107,
           "date": "2026-10-10",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -3325,6 +3431,7 @@
           "red": 0
         },
         {
+          "event_id": 17291748,
           "date": "2026-10-20",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -3336,6 +3443,7 @@
           "red": 0
         },
         {
+          "event_id": 16653130,
           "date": "2026-10-23",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -3347,6 +3455,7 @@
           "red": 0
         },
         {
+          "event_id": 16653134,
           "date": "2026-10-30",
           "opponent": "Abha",
           "home_away": "away",
@@ -3361,9 +3470,10 @@
       "player_id": "al-ittihad-mohammed-fallatah",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251992,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -3379,6 +3489,7 @@
           "red": 0
         },
         {
+          "event_id": 16863568,
           "date": "2026-09-14",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -3394,6 +3505,7 @@
           "red": 0
         },
         {
+          "event_id": 16864345,
           "date": "2026-10-26",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -3408,11 +3520,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-khaleej-thamer-al-khaibri__2026-27": {
       "matches": [
         {
+          "event_id": 16629417,
           "date": "2026-08-15",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -3424,6 +3538,7 @@
           "red": 0
         },
         {
+          "event_id": 16629428,
           "date": "2026-08-22",
           "opponent": "Al-Shabab",
           "home_away": "home",
@@ -3435,6 +3550,7 @@
           "red": 0
         },
         {
+          "event_id": 16629432,
           "date": "2026-08-25",
           "opponent": "Abha",
           "home_away": "away",
@@ -3446,6 +3562,7 @@
           "red": 0
         },
         {
+          "event_id": 16629463,
           "date": "2026-08-28",
           "opponent": "Al-Hilal",
           "home_away": "home",
@@ -3457,6 +3574,7 @@
           "red": 0
         },
         {
+          "event_id": 16629472,
           "date": "2026-09-03",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -3468,6 +3586,7 @@
           "red": 0
         },
         {
+          "event_id": 16629480,
           "date": "2026-09-07",
           "opponent": "Al-Riyadh",
           "home_away": "home",
@@ -3479,6 +3598,7 @@
           "red": 0
         },
         {
+          "event_id": 16653091,
           "date": "2026-09-12",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -3490,6 +3610,7 @@
           "red": 0
         },
         {
+          "event_id": 16653111,
           "date": "2026-10-10",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -3501,6 +3622,7 @@
           "red": 0
         },
         {
+          "event_id": 16653101,
           "date": "2026-10-15",
           "opponent": "Al-Fayha",
           "home_away": "home",
@@ -3512,6 +3634,7 @@
           "red": 0
         },
         {
+          "event_id": 16653120,
           "date": "2026-10-18",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -3523,6 +3646,7 @@
           "red": 0
         },
         {
+          "event_id": 16653127,
           "date": "2026-10-23",
           "opponent": "Al-Ahli",
           "home_away": "away",
@@ -3534,6 +3658,7 @@
           "red": 0
         },
         {
+          "event_id": 16653140,
           "date": "2026-10-29",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -3548,9 +3673,10 @@
       "player_id": "al-khaleej-thamer-al-khaibri",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -3566,6 +3692,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -3581,6 +3708,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -3595,11 +3723,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-kholood-hamed-al-shanqity__2026-27": {
       "matches": [
         {
+          "event_id": 16629418,
           "date": "2026-08-15",
           "opponent": "Al-Ittihad",
           "home_away": "away",
@@ -3611,6 +3741,7 @@
           "red": 0
         },
         {
+          "event_id": 16629427,
           "date": "2026-08-22",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -3622,6 +3753,7 @@
           "red": 0
         },
         {
+          "event_id": 16629437,
           "date": "2026-08-26",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -3633,6 +3765,7 @@
           "red": 0
         },
         {
+          "event_id": 16629465,
           "date": "2026-08-29",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -3644,6 +3777,7 @@
           "red": 0
         },
         {
+          "event_id": 16629471,
           "date": "2026-09-03",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -3655,6 +3789,7 @@
           "red": 0
         },
         {
+          "event_id": 16629486,
           "date": "2026-09-09",
           "opponent": "Al-Shabab",
           "home_away": "home",
@@ -3666,6 +3801,7 @@
           "red": 0
         },
         {
+          "event_id": 16963493,
           "date": "2026-09-13",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -3677,6 +3813,7 @@
           "red": 0
         },
         {
+          "event_id": 16653102,
           "date": "2026-10-09",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -3688,6 +3825,7 @@
           "red": 0
         },
         {
+          "event_id": 16653104,
           "date": "2026-10-15",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -3699,6 +3837,7 @@
           "red": 0
         },
         {
+          "event_id": 16653133,
           "date": "2026-10-24",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -3710,6 +3849,7 @@
           "red": 0
         },
         {
+          "event_id": 16653137,
           "date": "2026-10-29",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -3724,9 +3864,10 @@
       "player_id": "al-kholood-hamed-al-shanqity",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251989,
           "date": "2026-08-19",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -3742,6 +3883,7 @@
           "red": 0
         },
         {
+          "event_id": 16875491,
           "date": "2026-09-23",
           "kind": "nazionale",
           "competition": "Gulf Cup",
@@ -3757,6 +3899,7 @@
           "red": 0
         },
         {
+          "event_id": 16875497,
           "date": "2026-09-26",
           "kind": "nazionale",
           "competition": "Gulf Cup",
@@ -3772,6 +3915,7 @@
           "red": 0
         },
         {
+          "event_id": 16875500,
           "date": "2026-09-29",
           "kind": "nazionale",
           "competition": "Gulf Cup",
@@ -3787,6 +3931,7 @@
           "red": 0
         },
         {
+          "event_id": 17227761,
           "date": "2026-10-03",
           "kind": "nazionale",
           "competition": "Gulf Cup",
@@ -3802,6 +3947,7 @@
           "red": 0
         },
         {
+          "event_id": 17251617,
           "date": "2026-10-06",
           "kind": "nazionale",
           "competition": "Gulf Cup",
@@ -3816,11 +3962,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-kholood-yazan-madani__2026-27": {
       "matches": [
         {
+          "event_id": 16629418,
           "date": "2026-08-15",
           "opponent": "Al-Ittihad",
           "home_away": "away",
@@ -3832,6 +3980,7 @@
           "red": 0
         },
         {
+          "event_id": 16629427,
           "date": "2026-08-22",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -3843,6 +3992,7 @@
           "red": 0
         },
         {
+          "event_id": 16629437,
           "date": "2026-08-26",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -3854,6 +4004,7 @@
           "red": 0
         },
         {
+          "event_id": 16629465,
           "date": "2026-08-29",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -3865,6 +4016,7 @@
           "red": 0
         },
         {
+          "event_id": 16629471,
           "date": "2026-09-03",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -3876,6 +4028,7 @@
           "red": 0
         },
         {
+          "event_id": 16629486,
           "date": "2026-09-09",
           "opponent": "Al-Shabab",
           "home_away": "home",
@@ -3887,6 +4040,7 @@
           "red": 0
         },
         {
+          "event_id": 16963493,
           "date": "2026-09-13",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -3898,6 +4052,7 @@
           "red": 0
         },
         {
+          "event_id": 16653102,
           "date": "2026-10-09",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -3909,6 +4064,7 @@
           "red": 0
         },
         {
+          "event_id": 16653104,
           "date": "2026-10-15",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -3920,6 +4076,7 @@
           "red": 0
         },
         {
+          "event_id": 16653133,
           "date": "2026-10-24",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -3931,6 +4088,7 @@
           "red": 0
         },
         {
+          "event_id": 16653137,
           "date": "2026-10-29",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -3945,9 +4103,10 @@
       "player_id": "al-kholood-yazan-madani",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251989,
           "date": "2026-08-19",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -3963,6 +4122,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -3978,6 +4138,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -3993,6 +4154,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -4007,11 +4169,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-fayha-u21-ali-al-hussain__2026-27": {
       "matches": [
         {
+          "event_id": 16629414,
           "date": "2026-08-14",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -4023,6 +4187,7 @@
           "red": 0
         },
         {
+          "event_id": 16629420,
           "date": "2026-08-20",
           "opponent": "Al-Hilal",
           "home_away": "home",
@@ -4034,6 +4199,7 @@
           "red": 0
         },
         {
+          "event_id": 16629433,
           "date": "2026-08-25",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -4045,6 +4211,7 @@
           "red": 0
         },
         {
+          "event_id": 16629439,
           "date": "2026-08-28",
           "opponent": "Abha",
           "home_away": "home",
@@ -4056,6 +4223,7 @@
           "red": 0
         },
         {
+          "event_id": 16629471,
           "date": "2026-09-03",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -4067,6 +4235,7 @@
           "red": 0
         },
         {
+          "event_id": 16629485,
           "date": "2026-09-08",
           "opponent": "Al-Ittihad",
           "home_away": "away",
@@ -4078,6 +4247,7 @@
           "red": 0
         },
         {
+          "event_id": 16653094,
           "date": "2026-09-12",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -4089,6 +4259,7 @@
           "red": 0
         },
         {
+          "event_id": 16653106,
           "date": "2026-10-11",
           "opponent": "Al-Riyadh",
           "home_away": "home",
@@ -4100,6 +4271,7 @@
           "red": 0
         },
         {
+          "event_id": 16653101,
           "date": "2026-10-15",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -4111,6 +4283,7 @@
           "red": 0
         },
         {
+          "event_id": 16653121,
           "date": "2026-10-19",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -4122,6 +4295,7 @@
           "red": 0
         },
         {
+          "event_id": 16653128,
           "date": "2026-10-22",
           "opponent": "Al-Hazem",
           "home_away": "away",
@@ -4133,6 +4307,7 @@
           "red": 0
         },
         {
+          "event_id": 16653141,
           "date": "2026-10-31",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -4147,9 +4322,10 @@
       "player_id": "al-fayha-u21-ali-al-hussain",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251988,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -4165,6 +4341,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -4180,6 +4357,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -4195,6 +4373,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -4209,11 +4388,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-hazem-u21-yazan-al-ruwaili__2026-27": {
       "matches": [
         {
+          "event_id": 16629408,
           "date": "2026-08-13",
           "opponent": "Abha",
           "home_away": "away",
@@ -4225,6 +4406,7 @@
           "red": 0
         },
         {
+          "event_id": 16629422,
           "date": "2026-08-21",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -4236,6 +4418,7 @@
           "red": 0
         },
         {
+          "event_id": 16629431,
           "date": "2026-08-24",
           "opponent": "Al-Ittihad",
           "home_away": "away",
@@ -4247,6 +4430,7 @@
           "red": 0
         },
         {
+          "event_id": 16629468,
           "date": "2026-08-30",
           "opponent": "Al-Shabab",
           "home_away": "home",
@@ -4258,6 +4442,7 @@
           "red": 0
         },
         {
+          "event_id": 16629477,
           "date": "2026-09-05",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -4269,6 +4454,7 @@
           "red": 0
         },
         {
+          "event_id": 16629483,
           "date": "2026-09-08",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -4280,6 +4466,7 @@
           "red": 0
         },
         {
+          "event_id": 16653095,
           "date": "2026-09-11",
           "opponent": "Al-Ahli",
           "home_away": "away",
@@ -4291,6 +4478,7 @@
           "red": 0
         },
         {
+          "event_id": 16653099,
           "date": "2026-10-10",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -4302,6 +4490,7 @@
           "red": 0
         },
         {
+          "event_id": 16653112,
           "date": "2026-10-15",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -4313,6 +4502,7 @@
           "red": 0
         },
         {
+          "event_id": 16653122,
           "date": "2026-10-19",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -4324,6 +4514,7 @@
           "red": 0
         },
         {
+          "event_id": 16653128,
           "date": "2026-10-22",
           "opponent": "Al-Fayha",
           "home_away": "home",
@@ -4335,6 +4526,7 @@
           "red": 0
         },
         {
+          "event_id": 16653140,
           "date": "2026-10-29",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -4349,9 +4541,10 @@
       "player_id": "al-hazem-u21-yazan-al-ruwaili",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251999,
           "date": "2026-08-16",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -4367,6 +4560,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -4382,6 +4576,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -4397,6 +4592,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -4411,11 +4607,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-ittihad-u21-talal-haji__2026-27": {
       "matches": [
         {
+          "event_id": 16629415,
           "date": "2026-08-14",
           "opponent": "Al-Riyadh",
           "home_away": "home",
@@ -4427,6 +4625,7 @@
           "red": 0
         },
         {
+          "event_id": 16629426,
           "date": "2026-08-22",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -4438,6 +4637,7 @@
           "red": 0
         },
         {
+          "event_id": 16629434,
           "date": "2026-08-25",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -4449,6 +4649,7 @@
           "red": 0
         },
         {
+          "event_id": 16629466,
           "date": "2026-08-29",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -4460,6 +4661,7 @@
           "red": 0
         },
         {
+          "event_id": 16629474,
           "date": "2026-09-04",
           "opponent": "Abha",
           "home_away": "away",
@@ -4471,6 +4673,7 @@
           "red": 0
         },
         {
+          "event_id": 16629482,
           "date": "2026-09-08",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -4482,6 +4685,7 @@
           "red": 0
         },
         {
+          "event_id": 16653096,
           "date": "2026-09-11",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -4493,6 +4697,7 @@
           "red": 0
         },
         {
+          "event_id": 16653111,
           "date": "2026-10-10",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -4504,6 +4709,7 @@
           "red": 0
         },
         {
+          "event_id": 16653117,
           "date": "2026-10-17",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -4515,6 +4721,7 @@
           "red": 0
         },
         {
+          "event_id": 17291748,
           "date": "2026-10-20",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -4526,6 +4733,7 @@
           "red": 0
         },
         {
+          "event_id": 16653133,
           "date": "2026-10-24",
           "opponent": "Al-Kholood",
           "home_away": "away",
@@ -4537,6 +4745,7 @@
           "red": 0
         },
         {
+          "event_id": 16653143,
           "date": "2026-10-31",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -4551,12 +4760,14 @@
       "player_id": "al-ittihad-u21-talal-haji",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-nassr-u21-awad-aman__2026-27": {
       "matches": [
         {
+          "event_id": 16629419,
           "date": "2026-08-15",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -4568,6 +4779,7 @@
           "red": 0
         },
         {
+          "event_id": 16629421,
           "date": "2026-08-21",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -4579,6 +4791,7 @@
           "red": 0
         },
         {
+          "event_id": 16629434,
           "date": "2026-08-25",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -4590,6 +4803,7 @@
           "red": 0
         },
         {
+          "event_id": 16629464,
           "date": "2026-08-28",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -4601,6 +4815,7 @@
           "red": 0
         },
         {
+          "event_id": 16629479,
           "date": "2026-09-05",
           "opponent": "Al-Ittihad",
           "home_away": "away",
@@ -4612,6 +4827,7 @@
           "red": 0
         },
         {
+          "event_id": 16629488,
           "date": "2026-09-09",
           "opponent": "Abha",
           "home_away": "home",
@@ -4623,6 +4839,7 @@
           "red": 0
         },
         {
+          "event_id": 16653091,
           "date": "2026-09-12",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -4634,6 +4851,7 @@
           "red": 0
         },
         {
+          "event_id": 16653108,
           "date": "2026-10-09",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -4645,6 +4863,7 @@
           "red": 0
         },
         {
+          "event_id": 17291755,
           "date": "2026-10-20",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -4656,6 +4875,7 @@
           "red": 0
         },
         {
+          "event_id": 16653131,
           "date": "2026-10-23",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -4667,6 +4887,7 @@
           "red": 0
         },
         {
+          "event_id": 16653137,
           "date": "2026-10-29",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -4681,9 +4902,10 @@
       "player_id": "al-nassr-u21-awad-aman",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251986,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -4699,6 +4921,7 @@
           "red": 0
         },
         {
+          "event_id": 16863571,
           "date": "2026-09-15",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -4714,6 +4937,7 @@
           "red": 0
         },
         {
+          "event_id": 16864327,
           "date": "2026-10-12",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -4728,11 +4952,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-okhdood-saud-salem__2026-27": {
       "matches": [
         {
+          "event_id": 16651366,
           "date": "2026-08-22",
           "opponent": "Al Tai",
           "home_away": "away",
@@ -4744,6 +4970,7 @@
           "red": 0
         },
         {
+          "event_id": 16651975,
           "date": "2026-08-26",
           "opponent": "Al Bukayriyah",
           "home_away": "home",
@@ -4755,6 +4982,7 @@
           "red": 0
         },
         {
+          "event_id": 16651984,
           "date": "2026-08-31",
           "opponent": "Al-Saqer",
           "home_away": "away",
@@ -4766,6 +4994,7 @@
           "red": 0
         },
         {
+          "event_id": 16651998,
           "date": "2026-09-07",
           "opponent": "Al-Najma SC",
           "home_away": "home",
@@ -4777,6 +5006,7 @@
           "red": 0
         },
         {
+          "event_id": 16652011,
           "date": "2026-09-14",
           "opponent": "Al Wehda",
           "home_away": "away",
@@ -4788,6 +5018,7 @@
           "red": 0
         },
         {
+          "event_id": 16652018,
           "date": "2026-10-08",
           "opponent": "Al Ula",
           "home_away": "home",
@@ -4799,6 +5030,7 @@
           "red": 0
         },
         {
+          "event_id": 16652037,
           "date": "2026-10-14",
           "opponent": "Al Jandal",
           "home_away": "away",
@@ -4810,6 +5042,7 @@
           "red": 0
         },
         {
+          "event_id": 16652039,
           "date": "2026-10-20",
           "opponent": "Al Adalah",
           "home_away": "home",
@@ -4824,9 +5057,10 @@
       "player_id": "al-okhdood-saud-salem",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251996,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -4841,11 +5075,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-quadisiah-u21-ahmed-al-siyahi__2026-27": {
       "matches": [
         {
+          "event_id": 16629409,
           "date": "2026-08-13",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -4857,6 +5093,7 @@
           "red": 0
         },
         {
+          "event_id": 16629425,
           "date": "2026-08-21",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -4868,6 +5105,7 @@
           "red": 0
         },
         {
+          "event_id": 16629430,
           "date": "2026-08-24",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -4879,6 +5117,7 @@
           "red": 0
         },
         {
+          "event_id": 16629469,
           "date": "2026-08-30",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -4890,6 +5129,7 @@
           "red": 0
         },
         {
+          "event_id": 16629473,
           "date": "2026-09-03",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -4901,6 +5141,7 @@
           "red": 0
         },
         {
+          "event_id": 16629484,
           "date": "2026-09-08",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -4912,6 +5153,7 @@
           "red": 0
         },
         {
+          "event_id": 16653096,
           "date": "2026-09-11",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -4923,6 +5165,7 @@
           "red": 0
         },
         {
+          "event_id": 16653102,
           "date": "2026-10-09",
           "opponent": "Al-Kholood",
           "home_away": "away",
@@ -4934,6 +5177,7 @@
           "red": 0
         },
         {
+          "event_id": 16653118,
           "date": "2026-10-16",
           "opponent": "Abha",
           "home_away": "home",
@@ -4945,6 +5189,7 @@
           "red": 0
         },
         {
+          "event_id": 16653125,
           "date": "2026-10-20",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -4956,6 +5201,7 @@
           "red": 0
         },
         {
+          "event_id": 16653138,
           "date": "2026-10-23",
           "opponent": "Al-Hilal",
           "home_away": "home",
@@ -4967,6 +5213,7 @@
           "red": 0
         },
         {
+          "event_id": 16653139,
           "date": "2026-10-29",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -4981,9 +5228,10 @@
       "player_id": "al-quadisiah-u21-ahmed-al-siyahi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16863572,
           "date": "2026-09-14",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -4999,6 +5247,7 @@
           "red": 0
         },
         {
+          "event_id": 16864321,
           "date": "2026-10-12",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -5014,6 +5263,7 @@
           "red": 0
         },
         {
+          "event_id": 16864339,
           "date": "2026-10-26",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -5028,11 +5278,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-quadisiah-u21-ammar-al-yuhaibi__2026-27": {
       "matches": [
         {
+          "event_id": 16629408,
           "date": "2026-08-13",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -5044,6 +5296,7 @@
           "red": 0
         },
         {
+          "event_id": 16629429,
           "date": "2026-08-22",
           "opponent": "Al-Ahli",
           "home_away": "away",
@@ -5055,6 +5308,7 @@
           "red": 0
         },
         {
+          "event_id": 16629432,
           "date": "2026-08-25",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -5066,6 +5320,7 @@
           "red": 0
         },
         {
+          "event_id": 16629439,
           "date": "2026-08-28",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -5077,6 +5332,7 @@
           "red": 0
         },
         {
+          "event_id": 16629474,
           "date": "2026-09-04",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -5088,6 +5344,7 @@
           "red": 0
         },
         {
+          "event_id": 16629488,
           "date": "2026-09-09",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -5099,6 +5356,7 @@
           "red": 0
         },
         {
+          "event_id": 16963495,
           "date": "2026-09-13",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -5110,6 +5368,7 @@
           "red": 0
         },
         {
+          "event_id": 16653118,
           "date": "2026-10-16",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -5121,6 +5380,7 @@
           "red": 0
         },
         {
+          "event_id": 16653135,
           "date": "2026-10-24",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -5132,6 +5392,7 @@
           "red": 0
         },
         {
+          "event_id": 17305725,
           "date": "2026-10-27",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -5143,6 +5404,7 @@
           "red": 0
         },
         {
+          "event_id": 16653134,
           "date": "2026-10-30",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -5157,9 +5419,10 @@
       "player_id": "al-quadisiah-u21-ammar-al-yuhaibi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251993,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -5175,6 +5438,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -5190,6 +5454,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -5205,6 +5470,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -5219,11 +5485,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-quadisiah-u21-eyad-housa__2026-27": {
       "matches": [
         {
+          "event_id": 16629409,
           "date": "2026-08-13",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -5235,6 +5503,7 @@
           "red": 0
         },
         {
+          "event_id": 16629425,
           "date": "2026-08-21",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -5246,6 +5515,7 @@
           "red": 0
         },
         {
+          "event_id": 16629430,
           "date": "2026-08-24",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -5257,6 +5527,7 @@
           "red": 0
         },
         {
+          "event_id": 16629469,
           "date": "2026-08-30",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -5268,6 +5539,7 @@
           "red": 0
         },
         {
+          "event_id": 16629473,
           "date": "2026-09-03",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -5279,6 +5551,7 @@
           "red": 0
         },
         {
+          "event_id": 16629484,
           "date": "2026-09-08",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -5290,6 +5563,7 @@
           "red": 0
         },
         {
+          "event_id": 16653096,
           "date": "2026-09-11",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -5301,6 +5575,7 @@
           "red": 0
         },
         {
+          "event_id": 16653102,
           "date": "2026-10-09",
           "opponent": "Al-Kholood",
           "home_away": "away",
@@ -5312,6 +5587,7 @@
           "red": 0
         },
         {
+          "event_id": 16653118,
           "date": "2026-10-16",
           "opponent": "Abha",
           "home_away": "home",
@@ -5323,6 +5599,7 @@
           "red": 0
         },
         {
+          "event_id": 16653125,
           "date": "2026-10-20",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -5334,6 +5611,7 @@
           "red": 0
         },
         {
+          "event_id": 16653138,
           "date": "2026-10-23",
           "opponent": "Al-Hilal",
           "home_away": "home",
@@ -5345,6 +5623,7 @@
           "red": 0
         },
         {
+          "event_id": 16653139,
           "date": "2026-10-29",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -5359,9 +5638,10 @@
       "player_id": "al-quadisiah-u21-eyad-housa",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251993,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -5377,6 +5657,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -5392,6 +5673,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -5407,6 +5689,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -5422,6 +5705,7 @@
           "red": 0
         },
         {
+          "event_id": 16864321,
           "date": "2026-10-12",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -5437,6 +5721,7 @@
           "red": 0
         },
         {
+          "event_id": 16864339,
           "date": "2026-10-26",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -5451,11 +5736,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-quadisiah-u21-sultan-harun__2026-27": {
       "matches": [
         {
+          "event_id": 16629415,
           "date": "2026-08-14",
           "opponent": "Al-Riyadh",
           "home_away": "home",
@@ -5467,6 +5754,7 @@
           "red": 0
         },
         {
+          "event_id": 16629426,
           "date": "2026-08-22",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -5478,6 +5766,7 @@
           "red": 0
         },
         {
+          "event_id": 16629434,
           "date": "2026-08-25",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -5489,6 +5778,7 @@
           "red": 0
         },
         {
+          "event_id": 16629466,
           "date": "2026-08-29",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -5500,6 +5790,7 @@
           "red": 0
         },
         {
+          "event_id": 16629474,
           "date": "2026-09-04",
           "opponent": "Abha",
           "home_away": "away",
@@ -5511,6 +5802,7 @@
           "red": 0
         },
         {
+          "event_id": 16629482,
           "date": "2026-09-08",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -5522,6 +5814,7 @@
           "red": 0
         },
         {
+          "event_id": 16653096,
           "date": "2026-09-11",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -5533,6 +5826,7 @@
           "red": 0
         },
         {
+          "event_id": 16653111,
           "date": "2026-10-10",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -5544,6 +5838,7 @@
           "red": 0
         },
         {
+          "event_id": 16653117,
           "date": "2026-10-17",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -5555,6 +5850,7 @@
           "red": 0
         },
         {
+          "event_id": 17291748,
           "date": "2026-10-20",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -5566,6 +5862,7 @@
           "red": 0
         },
         {
+          "event_id": 16653133,
           "date": "2026-10-24",
           "opponent": "Al-Kholood",
           "home_away": "away",
@@ -5577,6 +5874,7 @@
           "red": 0
         },
         {
+          "event_id": 16653143,
           "date": "2026-10-31",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -5591,9 +5889,10 @@
       "player_id": "al-quadisiah-u21-sultan-harun",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251993,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -5609,6 +5908,7 @@
           "red": 0
         },
         {
+          "event_id": 17325424,
           "date": "2026-10-14",
           "kind": "coppa",
           "competition": "Gulf Club Champions League",
@@ -5623,11 +5923,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-riyadh-u21-essam-bahri__2026-27": {
       "matches": [
         {
+          "event_id": 16629415,
           "date": "2026-08-14",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -5639,6 +5941,7 @@
           "red": 0
         },
         {
+          "event_id": 16629421,
           "date": "2026-08-21",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -5650,6 +5953,7 @@
           "red": 0
         },
         {
+          "event_id": 16629435,
           "date": "2026-08-25",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -5661,6 +5965,7 @@
           "red": 0
         },
         {
+          "event_id": 16629438,
           "date": "2026-08-28",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -5672,6 +5977,7 @@
           "red": 0
         },
         {
+          "event_id": 16629475,
           "date": "2026-09-04",
           "opponent": "Al-Ahli",
           "home_away": "away",
@@ -5683,6 +5989,7 @@
           "red": 0
         },
         {
+          "event_id": 16629480,
           "date": "2026-09-07",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -5694,6 +6001,7 @@
           "red": 0
         },
         {
+          "event_id": 16963493,
           "date": "2026-09-13",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -5705,6 +6013,7 @@
           "red": 0
         },
         {
+          "event_id": 16653106,
           "date": "2026-10-11",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -5716,6 +6025,7 @@
           "red": 0
         },
         {
+          "event_id": 16653126,
           "date": "2026-10-20",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -5727,6 +6037,7 @@
           "red": 0
         },
         {
+          "event_id": 16653136,
           "date": "2026-10-24",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -5738,6 +6049,7 @@
           "red": 0
         },
         {
+          "event_id": 16653139,
           "date": "2026-10-29",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -5752,9 +6064,10 @@
       "player_id": "al-riyadh-u21-essam-bahri",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251987,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -5769,11 +6082,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-riyadh-u21-hussain-al-raqwani__2026-27": {
       "matches": [
         {
+          "event_id": 16629415,
           "date": "2026-08-14",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -5785,6 +6100,7 @@
           "red": 0
         },
         {
+          "event_id": 16629421,
           "date": "2026-08-21",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -5796,6 +6112,7 @@
           "red": 0
         },
         {
+          "event_id": 16629435,
           "date": "2026-08-25",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -5807,6 +6124,7 @@
           "red": 0
         },
         {
+          "event_id": 16629438,
           "date": "2026-08-28",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -5818,6 +6136,7 @@
           "red": 0
         },
         {
+          "event_id": 16629475,
           "date": "2026-09-04",
           "opponent": "Al-Ahli",
           "home_away": "away",
@@ -5829,6 +6148,7 @@
           "red": 0
         },
         {
+          "event_id": 16629480,
           "date": "2026-09-07",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -5840,6 +6160,7 @@
           "red": 0
         },
         {
+          "event_id": 16963493,
           "date": "2026-09-13",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -5851,6 +6172,7 @@
           "red": 0
         },
         {
+          "event_id": 16653106,
           "date": "2026-10-11",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -5862,6 +6184,7 @@
           "red": 0
         },
         {
+          "event_id": 16653126,
           "date": "2026-10-20",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -5873,6 +6196,7 @@
           "red": 0
         },
         {
+          "event_id": 16653136,
           "date": "2026-10-24",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -5884,6 +6208,7 @@
           "red": 0
         },
         {
+          "event_id": 16653139,
           "date": "2026-10-29",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -5898,9 +6223,10 @@
       "player_id": "al-riyadh-u21-hussain-al-raqwani",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251987,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -5915,11 +6241,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-shabab-u21-abdulaziz-al-hadhood__2026-27": {
       "matches": [
         {
+          "event_id": 16629409,
           "date": "2026-08-13",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -5931,6 +6259,7 @@
           "red": 0
         },
         {
+          "event_id": 16629428,
           "date": "2026-08-22",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -5942,6 +6271,7 @@
           "red": 0
         },
         {
+          "event_id": 16629435,
           "date": "2026-08-25",
           "opponent": "Al-Riyadh",
           "home_away": "home",
@@ -5953,6 +6283,7 @@
           "red": 0
         },
         {
+          "event_id": 16629468,
           "date": "2026-08-30",
           "opponent": "Al-Hazem",
           "home_away": "away",
@@ -5964,6 +6295,7 @@
           "red": 0
         },
         {
+          "event_id": 16629476,
           "date": "2026-09-04",
           "opponent": "Al-Hilal",
           "home_away": "home",
@@ -5975,6 +6307,7 @@
           "red": 0
         },
         {
+          "event_id": 16629486,
           "date": "2026-09-09",
           "opponent": "Al-Kholood",
           "home_away": "away",
@@ -5986,6 +6319,7 @@
           "red": 0
         },
         {
+          "event_id": 16653094,
           "date": "2026-09-12",
           "opponent": "Al-Fayha",
           "home_away": "home",
@@ -5997,6 +6331,7 @@
           "red": 0
         },
         {
+          "event_id": 16653110,
           "date": "2026-10-11",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -6008,6 +6343,7 @@
           "red": 0
         },
         {
+          "event_id": 16653124,
           "date": "2026-10-19",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -6019,6 +6355,7 @@
           "red": 0
         },
         {
+          "event_id": 16653129,
           "date": "2026-10-22",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -6030,6 +6367,7 @@
           "red": 0
         },
         {
+          "event_id": 16653142,
           "date": "2026-10-30",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -6044,9 +6382,10 @@
       "player_id": "al-shabab-u21-abdulaziz-al-hadhood",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251994,
           "date": "2026-08-16",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -6061,11 +6400,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-shabab-u21-abdullah-majed__2026-27": {
       "matches": [
         {
+          "event_id": 16651972,
           "date": "2026-08-21",
           "opponent": "Al Adalah",
           "home_away": "home",
@@ -6077,6 +6418,7 @@
           "red": 0
         },
         {
+          "event_id": 16651976,
           "date": "2026-08-26",
           "opponent": "Al Zulfi",
           "home_away": "away",
@@ -6088,6 +6430,7 @@
           "red": 0
         },
         {
+          "event_id": 16651996,
           "date": "2026-09-02",
           "opponent": "Damac FC",
           "home_away": "home",
@@ -6099,6 +6442,7 @@
           "red": 0
         },
         {
+          "event_id": 16652000,
           "date": "2026-09-07",
           "opponent": "Al Jabalin",
           "home_away": "away",
@@ -6110,6 +6454,7 @@
           "red": 0
         },
         {
+          "event_id": 16652011,
           "date": "2026-09-14",
           "opponent": "Al-Okhdood",
           "home_away": "home",
@@ -6121,6 +6466,7 @@
           "red": 0
         },
         {
+          "event_id": 16652023,
           "date": "2026-09-20",
           "opponent": "Al Jandal",
           "home_away": "away",
@@ -6132,6 +6478,7 @@
           "red": 0
         },
         {
+          "event_id": 16652029,
           "date": "2026-10-12",
           "opponent": "Al Tai",
           "home_away": "home",
@@ -6143,6 +6490,7 @@
           "red": 0
         },
         {
+          "event_id": 16652040,
           "date": "2026-10-21",
           "opponent": "Al Anwar",
           "home_away": "away",
@@ -6154,6 +6502,7 @@
           "red": 0
         },
         {
+          "event_id": 16652048,
           "date": "2026-10-27",
           "opponent": "Al-Saqer",
           "home_away": "home",
@@ -6168,12 +6517,14 @@
       "player_id": "al-shabab-u21-abdullah-majed",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-taawoun-u21-abdulrahman-al-ghamdi__2026-27": {
       "matches": [
         {
+          "event_id": 16629417,
           "date": "2026-08-15",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -6185,6 +6536,7 @@
           "red": 0
         },
         {
+          "event_id": 16629427,
           "date": "2026-08-22",
           "opponent": "Al-Kholood",
           "home_away": "away",
@@ -6196,6 +6548,7 @@
           "red": 0
         },
         {
+          "event_id": 16629433,
           "date": "2026-08-25",
           "opponent": "Al-Fayha",
           "home_away": "home",
@@ -6207,6 +6560,7 @@
           "red": 0
         },
         {
+          "event_id": 16629464,
           "date": "2026-08-28",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -6218,6 +6572,7 @@
           "red": 0
         },
         {
+          "event_id": 16629478,
           "date": "2026-09-05",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -6229,6 +6584,7 @@
           "red": 0
         },
         {
+          "event_id": 16629483,
           "date": "2026-09-08",
           "opponent": "Al-Hazem",
           "home_away": "away",
@@ -6240,6 +6596,7 @@
           "red": 0
         },
         {
+          "event_id": 16653097,
           "date": "2026-09-12",
           "opponent": "Al-Hilal",
           "home_away": "home",
@@ -6251,6 +6608,7 @@
           "red": 0
         },
         {
+          "event_id": 16653110,
           "date": "2026-10-11",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -6262,6 +6620,7 @@
           "red": 0
         },
         {
+          "event_id": 16653105,
           "date": "2026-10-17",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -6273,6 +6632,7 @@
           "red": 0
         },
         {
+          "event_id": 16653125,
           "date": "2026-10-20",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -6284,6 +6644,7 @@
           "red": 0
         },
         {
+          "event_id": 16653136,
           "date": "2026-10-24",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -6295,6 +6656,7 @@
           "red": 0
         },
         {
+          "event_id": 16653143,
           "date": "2026-10-31",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -6309,9 +6671,10 @@
       "player_id": "al-taawoun-u21-abdulrahman-al-ghamdi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -6327,6 +6690,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -6342,6 +6706,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -6356,11 +6721,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-ula-aseel-abdulrazzaq__2026-27": {
       "matches": [
         {
+          "event_id": 16651968,
           "date": "2026-08-23",
           "opponent": "Al Jabalin",
           "home_away": "home",
@@ -6372,6 +6739,7 @@
           "red": 0
         },
         {
+          "event_id": 16651979,
           "date": "2026-08-28",
           "opponent": "Al Anwar",
           "home_away": "away",
@@ -6383,6 +6751,7 @@
           "red": 0
         },
         {
+          "event_id": 16651994,
           "date": "2026-09-02",
           "opponent": "Al Raed",
           "home_away": "home",
@@ -6394,6 +6763,7 @@
           "red": 0
         },
         {
+          "event_id": 16652001,
           "date": "2026-09-08",
           "opponent": "Damac FC",
           "home_away": "away",
@@ -6405,6 +6775,7 @@
           "red": 0
         },
         {
+          "event_id": 16652010,
           "date": "2026-09-14",
           "opponent": "Jeddah",
           "home_away": "home",
@@ -6416,6 +6787,7 @@
           "red": 0
         },
         {
+          "event_id": 16652018,
           "date": "2026-10-08",
           "opponent": "Al-Okhdood",
           "home_away": "away",
@@ -6427,6 +6799,7 @@
           "red": 0
         },
         {
+          "event_id": 16652034,
           "date": "2026-10-19",
           "opponent": "Al Zulfi",
           "home_away": "away",
@@ -6438,6 +6811,7 @@
           "red": 0
         },
         {
+          "event_id": 16652046,
           "date": "2026-10-26",
           "opponent": "Al Orobah",
           "home_away": "home",
@@ -6452,12 +6826,14 @@
       "player_id": "al-ula-aseel-abdulrazzaq",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-zulfi-saud-al-tumbukti__2026-27": {
       "matches": [
         {
+          "event_id": 16651971,
           "date": "2026-08-21",
           "opponent": "Al-Jeel",
           "home_away": "away",
@@ -6469,6 +6845,7 @@
           "red": 0
         },
         {
+          "event_id": 16651976,
           "date": "2026-08-26",
           "opponent": "Al Wehda",
           "home_away": "home",
@@ -6480,6 +6857,7 @@
           "red": 0
         },
         {
+          "event_id": 16651986,
           "date": "2026-09-01",
           "opponent": "Al Orobah",
           "home_away": "away",
@@ -6491,6 +6869,7 @@
           "red": 0
         },
         {
+          "event_id": 16651999,
           "date": "2026-09-08",
           "opponent": "Hajer",
           "home_away": "home",
@@ -6502,6 +6881,7 @@
           "red": 0
         },
         {
+          "event_id": 16652008,
           "date": "2026-09-13",
           "opponent": "Al Tai",
           "home_away": "away",
@@ -6513,6 +6893,7 @@
           "red": 0
         },
         {
+          "event_id": 16652019,
           "date": "2026-09-19",
           "opponent": "Al Raed",
           "home_away": "home",
@@ -6524,6 +6905,7 @@
           "red": 0
         },
         {
+          "event_id": 16652032,
           "date": "2026-10-13",
           "opponent": "Al Bukayriyah",
           "home_away": "away",
@@ -6535,6 +6917,7 @@
           "red": 0
         },
         {
+          "event_id": 16652034,
           "date": "2026-10-19",
           "opponent": "Al Ula",
           "home_away": "home",
@@ -6546,6 +6929,7 @@
           "red": 0
         },
         {
+          "event_id": 16652051,
           "date": "2026-10-28",
           "opponent": "Al-Najma SC",
           "home_away": "away",
@@ -6560,9 +6944,10 @@
       "player_id": "al-zulfi-saud-al-tumbukti",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251987,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -6577,11 +6962,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "neom-u21-khalid-al-rammah__2026-27": {
       "matches": [
         {
+          "event_id": 16629414,
           "date": "2026-08-14",
           "opponent": "Al-Fayha",
           "home_away": "home",
@@ -6593,6 +6980,7 @@
           "red": 0
         },
         {
+          "event_id": 16629424,
           "date": "2026-08-21",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -6604,6 +6992,7 @@
           "red": 0
         },
         {
+          "event_id": 16629430,
           "date": "2026-08-24",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -6615,6 +7004,7 @@
           "red": 0
         },
         {
+          "event_id": 16629438,
           "date": "2026-08-28",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -6626,6 +7016,7 @@
           "red": 0
         },
         {
+          "event_id": 16629472,
           "date": "2026-09-03",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -6637,6 +7028,7 @@
           "red": 0
         },
         {
+          "event_id": 16629481,
           "date": "2026-09-07",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -6648,6 +7040,7 @@
           "red": 0
         },
         {
+          "event_id": 16963494,
           "date": "2026-09-13",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -6659,6 +7052,7 @@
           "red": 0
         },
         {
+          "event_id": 16653099,
           "date": "2026-10-10",
           "opponent": "Al-Hazem",
           "home_away": "away",
@@ -6670,6 +7064,7 @@
           "red": 0
         },
         {
+          "event_id": 16653117,
           "date": "2026-10-17",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -6681,6 +7076,7 @@
           "red": 0
         },
         {
+          "event_id": 17291755,
           "date": "2026-10-20",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -6692,6 +7088,7 @@
           "red": 0
         },
         {
+          "event_id": 16653135,
           "date": "2026-10-24",
           "opponent": "Abha",
           "home_away": "home",
@@ -6703,6 +7100,7 @@
           "red": 0
         },
         {
+          "event_id": 16653144,
           "date": "2026-10-30",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -6717,9 +7115,10 @@
       "player_id": "neom-u21-khalid-al-rammah",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251995,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -6735,6 +7134,7 @@
           "red": 0
         },
         {
+          "event_id": 17325417,
           "date": "2026-10-13",
           "kind": "coppa",
           "competition": "Gulf Club Champions League",
@@ -6750,6 +7150,7 @@
           "red": 0
         },
         {
+          "event_id": 17362916,
           "date": "2026-10-27",
           "kind": "coppa",
           "competition": "Gulf Club Champions League",
@@ -6764,11 +7165,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "neom-u21-mohammed-al-hakim__2026-27": {
       "matches": [
         {
+          "event_id": 16629414,
           "date": "2026-08-14",
           "opponent": "Al-Fayha",
           "home_away": "home",
@@ -6780,6 +7183,7 @@
           "red": 0
         },
         {
+          "event_id": 16629424,
           "date": "2026-08-21",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -6791,6 +7195,7 @@
           "red": 0
         },
         {
+          "event_id": 16629430,
           "date": "2026-08-24",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -6802,6 +7207,7 @@
           "red": 0
         },
         {
+          "event_id": 16629438,
           "date": "2026-08-28",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -6813,6 +7219,7 @@
           "red": 0
         },
         {
+          "event_id": 16629472,
           "date": "2026-09-03",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -6824,6 +7231,7 @@
           "red": 0
         },
         {
+          "event_id": 16629481,
           "date": "2026-09-07",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -6835,6 +7243,7 @@
           "red": 0
         },
         {
+          "event_id": 16963494,
           "date": "2026-09-13",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -6846,6 +7255,7 @@
           "red": 0
         },
         {
+          "event_id": 16653099,
           "date": "2026-10-10",
           "opponent": "Al-Hazem",
           "home_away": "away",
@@ -6857,6 +7267,7 @@
           "red": 0
         },
         {
+          "event_id": 16653117,
           "date": "2026-10-17",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -6868,6 +7279,7 @@
           "red": 0
         },
         {
+          "event_id": 17291755,
           "date": "2026-10-20",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -6879,6 +7291,7 @@
           "red": 0
         },
         {
+          "event_id": 16653135,
           "date": "2026-10-24",
           "opponent": "Abha",
           "home_away": "home",
@@ -6890,6 +7303,7 @@
           "red": 0
         },
         {
+          "event_id": 16653144,
           "date": "2026-10-30",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -6904,9 +7318,10 @@
       "player_id": "neom-u21-mohammed-al-hakim",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 17362916,
           "date": "2026-10-27",
           "kind": "coppa",
           "competition": "Gulf Club Champions League",
@@ -6921,11 +7336,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-ettifaq-u21-abdullah-ziyad-al-ghamdi__2026-27": {
       "matches": [
         {
+          "event_id": 16629415,
           "date": "2026-08-14",
           "opponent": "Al-Riyadh",
           "home_away": "home",
@@ -6937,6 +7354,7 @@
           "red": 0
         },
         {
+          "event_id": 16629426,
           "date": "2026-08-22",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -6948,6 +7366,7 @@
           "red": 0
         },
         {
+          "event_id": 16629434,
           "date": "2026-08-25",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -6959,6 +7378,7 @@
           "red": 0
         },
         {
+          "event_id": 16629466,
           "date": "2026-08-29",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -6970,6 +7390,7 @@
           "red": 0
         },
         {
+          "event_id": 16629474,
           "date": "2026-09-04",
           "opponent": "Abha",
           "home_away": "away",
@@ -6981,6 +7402,7 @@
           "red": 0
         },
         {
+          "event_id": 16629482,
           "date": "2026-09-08",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -6992,6 +7414,7 @@
           "red": 0
         },
         {
+          "event_id": 16653096,
           "date": "2026-09-11",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -7003,6 +7426,7 @@
           "red": 0
         },
         {
+          "event_id": 16653111,
           "date": "2026-10-10",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -7014,6 +7438,7 @@
           "red": 0
         },
         {
+          "event_id": 16653117,
           "date": "2026-10-17",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -7025,6 +7450,7 @@
           "red": 0
         },
         {
+          "event_id": 17291748,
           "date": "2026-10-20",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -7036,6 +7462,7 @@
           "red": 0
         },
         {
+          "event_id": 16653133,
           "date": "2026-10-24",
           "opponent": "Al-Kholood",
           "home_away": "away",
@@ -7047,6 +7474,7 @@
           "red": 0
         },
         {
+          "event_id": 16653143,
           "date": "2026-10-31",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -7061,12 +7489,14 @@
       "player_id": "al-ettifaq-u21-abdullah-ziyad-al-ghamdi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-ettifaq-u21-awad-dahal__2026-27": {
       "matches": [
         {
+          "event_id": 16629415,
           "date": "2026-08-14",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -7078,6 +7508,7 @@
           "red": 0
         },
         {
+          "event_id": 16629421,
           "date": "2026-08-21",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -7089,6 +7520,7 @@
           "red": 0
         },
         {
+          "event_id": 16629435,
           "date": "2026-08-25",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -7100,6 +7532,7 @@
           "red": 0
         },
         {
+          "event_id": 16629438,
           "date": "2026-08-28",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -7111,6 +7544,7 @@
           "red": 0
         },
         {
+          "event_id": 16629475,
           "date": "2026-09-04",
           "opponent": "Al-Ahli",
           "home_away": "away",
@@ -7122,6 +7556,7 @@
           "red": 0
         },
         {
+          "event_id": 16629480,
           "date": "2026-09-07",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -7133,6 +7568,7 @@
           "red": 0
         },
         {
+          "event_id": 16963493,
           "date": "2026-09-13",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -7144,6 +7580,7 @@
           "red": 0
         },
         {
+          "event_id": 16653106,
           "date": "2026-10-11",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -7155,6 +7592,7 @@
           "red": 0
         },
         {
+          "event_id": 16653126,
           "date": "2026-10-20",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -7166,6 +7604,7 @@
           "red": 0
         },
         {
+          "event_id": 16653136,
           "date": "2026-10-24",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -7177,6 +7616,7 @@
           "red": 0
         },
         {
+          "event_id": 16653139,
           "date": "2026-10-29",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -7191,9 +7631,10 @@
       "player_id": "al-ettifaq-u21-awad-dahal",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -7209,6 +7650,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -7224,6 +7666,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -7238,11 +7681,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-ettifaq-u21-jalal-al-salem__2026-27": {
       "matches": [
         {
+          "event_id": 16629415,
           "date": "2026-08-14",
           "opponent": "Al-Riyadh",
           "home_away": "home",
@@ -7254,6 +7699,7 @@
           "red": 0
         },
         {
+          "event_id": 16629426,
           "date": "2026-08-22",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -7265,6 +7711,7 @@
           "red": 0
         },
         {
+          "event_id": 16629434,
           "date": "2026-08-25",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -7276,6 +7723,7 @@
           "red": 0
         },
         {
+          "event_id": 16629466,
           "date": "2026-08-29",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -7287,6 +7735,7 @@
           "red": 0
         },
         {
+          "event_id": 16629474,
           "date": "2026-09-04",
           "opponent": "Abha",
           "home_away": "away",
@@ -7298,6 +7747,7 @@
           "red": 0
         },
         {
+          "event_id": 16629482,
           "date": "2026-09-08",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -7309,6 +7759,7 @@
           "red": 0
         },
         {
+          "event_id": 16653096,
           "date": "2026-09-11",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -7320,6 +7771,7 @@
           "red": 0
         },
         {
+          "event_id": 16653111,
           "date": "2026-10-10",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -7331,6 +7783,7 @@
           "red": 0
         },
         {
+          "event_id": 16653117,
           "date": "2026-10-17",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -7342,6 +7795,7 @@
           "red": 0
         },
         {
+          "event_id": 17291748,
           "date": "2026-10-20",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -7353,6 +7807,7 @@
           "red": 0
         },
         {
+          "event_id": 16653133,
           "date": "2026-10-24",
           "opponent": "Al-Kholood",
           "home_away": "away",
@@ -7364,6 +7819,7 @@
           "red": 0
         },
         {
+          "event_id": 16653143,
           "date": "2026-10-31",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -7378,12 +7834,14 @@
       "player_id": "al-ettifaq-u21-jalal-al-salem",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-fateh-u21-mahadi-al-obood__2026-27": {
       "matches": [
         {
+          "event_id": 16629419,
           "date": "2026-08-15",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -7395,6 +7853,7 @@
           "red": 0
         },
         {
+          "event_id": 16629426,
           "date": "2026-08-22",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -7406,6 +7865,7 @@
           "red": 0
         },
         {
+          "event_id": 16629436,
           "date": "2026-08-26",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -7417,6 +7877,7 @@
           "red": 0
         },
         {
+          "event_id": 16629467,
           "date": "2026-08-29",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -7428,6 +7889,7 @@
           "red": 0
         },
         {
+          "event_id": 16629478,
           "date": "2026-09-05",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -7439,6 +7901,7 @@
           "red": 0
         },
         {
+          "event_id": 16629487,
           "date": "2026-09-09",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -7450,6 +7913,7 @@
           "red": 0
         },
         {
+          "event_id": 16963494,
           "date": "2026-09-13",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -7461,6 +7925,7 @@
           "red": 0
         },
         {
+          "event_id": 16653100,
           "date": "2026-10-09",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -7472,6 +7937,7 @@
           "red": 0
         },
         {
+          "event_id": 16653112,
           "date": "2026-10-15",
           "opponent": "Al-Hazem",
           "home_away": "away",
@@ -7483,6 +7949,7 @@
           "red": 0
         },
         {
+          "event_id": 16653120,
           "date": "2026-10-18",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -7494,6 +7961,7 @@
           "red": 0
         },
         {
+          "event_id": 16653129,
           "date": "2026-10-22",
           "opponent": "Al-Shabab",
           "home_away": "home",
@@ -7505,6 +7973,7 @@
           "red": 0
         },
         {
+          "event_id": 16653132,
           "date": "2026-10-31",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -7519,12 +7988,14 @@
       "player_id": "al-fateh-u21-mahadi-al-obood",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-hilal-u21-meshal-al-dawoud__2026-27": {
       "matches": [
         {
+          "event_id": 16629416,
           "date": "2026-08-14",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -7536,6 +8007,7 @@
           "red": 0
         },
         {
+          "event_id": 16629420,
           "date": "2026-08-20",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -7547,6 +8019,7 @@
           "red": 0
         },
         {
+          "event_id": 16629463,
           "date": "2026-08-28",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -7558,6 +8031,7 @@
           "red": 0
         },
         {
+          "event_id": 16629470,
           "date": "2026-09-01",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -7569,6 +8043,7 @@
           "red": 0
         },
         {
+          "event_id": 16629476,
           "date": "2026-09-04",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -7580,6 +8055,7 @@
           "red": 0
         },
         {
+          "event_id": 16629481,
           "date": "2026-09-07",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -7591,6 +8067,7 @@
           "red": 0
         },
         {
+          "event_id": 16653097,
           "date": "2026-09-12",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -7602,6 +8079,7 @@
           "red": 0
         },
         {
+          "event_id": 16653107,
           "date": "2026-10-10",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -7613,6 +8091,7 @@
           "red": 0
         },
         {
+          "event_id": 16653122,
           "date": "2026-10-19",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -7624,6 +8103,7 @@
           "red": 0
         },
         {
+          "event_id": 16653138,
           "date": "2026-10-23",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -7635,6 +8115,7 @@
           "red": 0
         },
         {
+          "event_id": 16653132,
           "date": "2026-10-31",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -7649,12 +8130,14 @@
       "player_id": "al-hilal-u21-meshal-al-dawoud",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-hilal-u21-mohammed-al-sournouk__2026-27": {
       "matches": [
         {
+          "event_id": 16629416,
           "date": "2026-08-14",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -7666,6 +8149,7 @@
           "red": 0
         },
         {
+          "event_id": 16629420,
           "date": "2026-08-20",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -7677,6 +8161,7 @@
           "red": 0
         },
         {
+          "event_id": 16629463,
           "date": "2026-08-28",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -7688,6 +8173,7 @@
           "red": 0
         },
         {
+          "event_id": 16629470,
           "date": "2026-09-01",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -7699,6 +8185,7 @@
           "red": 0
         },
         {
+          "event_id": 16629476,
           "date": "2026-09-04",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -7710,6 +8197,7 @@
           "red": 0
         },
         {
+          "event_id": 16629481,
           "date": "2026-09-07",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -7721,6 +8209,7 @@
           "red": 0
         },
         {
+          "event_id": 16653097,
           "date": "2026-09-12",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -7732,6 +8221,7 @@
           "red": 0
         },
         {
+          "event_id": 16653107,
           "date": "2026-10-10",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -7743,6 +8233,7 @@
           "red": 0
         },
         {
+          "event_id": 16653122,
           "date": "2026-10-19",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -7754,6 +8245,7 @@
           "red": 0
         },
         {
+          "event_id": 16653138,
           "date": "2026-10-23",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -7765,6 +8257,7 @@
           "red": 0
         },
         {
+          "event_id": 16653132,
           "date": "2026-10-31",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -7779,11 +8272,12 @@
       "player_id": "al-hilal-u21-mohammed-al-sournouk",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17."
+      "note": "Aggiornato in locale il 2026-11-01 11:10."
     },
     "al-hilal-u21-saad-al-mutairi__2026-27": {
       "matches": [
         {
+          "event_id": 16629416,
           "date": "2026-08-14",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -7795,6 +8289,7 @@
           "red": 0
         },
         {
+          "event_id": 16629420,
           "date": "2026-08-20",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -7806,6 +8301,7 @@
           "red": 0
         },
         {
+          "event_id": 16629463,
           "date": "2026-08-28",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -7817,6 +8313,7 @@
           "red": 0
         },
         {
+          "event_id": 16629470,
           "date": "2026-09-01",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -7828,6 +8325,7 @@
           "red": 0
         },
         {
+          "event_id": 16629476,
           "date": "2026-09-04",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -7839,6 +8337,7 @@
           "red": 0
         },
         {
+          "event_id": 16629481,
           "date": "2026-09-07",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -7850,6 +8349,7 @@
           "red": 0
         },
         {
+          "event_id": 16653097,
           "date": "2026-09-12",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -7861,6 +8361,7 @@
           "red": 0
         },
         {
+          "event_id": 16653107,
           "date": "2026-10-10",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -7872,6 +8373,7 @@
           "red": 0
         },
         {
+          "event_id": 16653122,
           "date": "2026-10-19",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -7883,6 +8385,7 @@
           "red": 0
         },
         {
+          "event_id": 16653138,
           "date": "2026-10-23",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -7894,6 +8397,7 @@
           "red": 0
         },
         {
+          "event_id": 16653132,
           "date": "2026-10-31",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -7908,9 +8412,10 @@
       "player_id": "al-hilal-u21-saad-al-mutairi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -7926,6 +8431,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -7941,6 +8447,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -7955,11 +8462,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-hilal-u21-sabri-dahal__2026-27": {
       "matches": [
         {
+          "event_id": 16629416,
           "date": "2026-08-14",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -7971,6 +8480,7 @@
           "red": 0
         },
         {
+          "event_id": 16629420,
           "date": "2026-08-20",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -7982,6 +8492,7 @@
           "red": 0
         },
         {
+          "event_id": 16629463,
           "date": "2026-08-28",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -7993,6 +8504,7 @@
           "red": 0
         },
         {
+          "event_id": 16629470,
           "date": "2026-09-01",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -8004,6 +8516,7 @@
           "red": 0
         },
         {
+          "event_id": 16629476,
           "date": "2026-09-04",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -8015,6 +8528,7 @@
           "red": 0
         },
         {
+          "event_id": 16629481,
           "date": "2026-09-07",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -8026,6 +8540,7 @@
           "red": 0
         },
         {
+          "event_id": 16653097,
           "date": "2026-09-12",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -8037,6 +8552,7 @@
           "red": 0
         },
         {
+          "event_id": 16653107,
           "date": "2026-10-10",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -8048,6 +8564,7 @@
           "red": 0
         },
         {
+          "event_id": 16653122,
           "date": "2026-10-19",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -8059,6 +8576,7 @@
           "red": 0
         },
         {
+          "event_id": 16653138,
           "date": "2026-10-23",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -8070,6 +8588,7 @@
           "red": 0
         },
         {
+          "event_id": 16653132,
           "date": "2026-10-31",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -8084,9 +8603,10 @@
       "player_id": "al-hilal-u21-sabri-dahal",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251991,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -8102,6 +8622,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -8117,6 +8638,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -8132,6 +8654,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -8147,6 +8670,7 @@
           "red": 0
         },
         {
+          "event_id": 16864328,
           "date": "2026-10-13",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -8162,6 +8686,7 @@
           "red": 0
         },
         {
+          "event_id": 16864346,
           "date": "2026-10-27",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -8176,11 +8701,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-riyadh-u21-sultan-al-essa__2026-27": {
       "matches": [
         {
+          "event_id": 16629415,
           "date": "2026-08-14",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -8192,6 +8719,7 @@
           "red": 0
         },
         {
+          "event_id": 16629421,
           "date": "2026-08-21",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -8203,6 +8731,7 @@
           "red": 0
         },
         {
+          "event_id": 16629435,
           "date": "2026-08-25",
           "opponent": "Al-Shabab",
           "home_away": "away",
@@ -8214,6 +8743,7 @@
           "red": 0
         },
         {
+          "event_id": 16629438,
           "date": "2026-08-28",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -8225,6 +8755,7 @@
           "red": 0
         },
         {
+          "event_id": 16629475,
           "date": "2026-09-04",
           "opponent": "Al-Ahli",
           "home_away": "away",
@@ -8236,6 +8767,7 @@
           "red": 0
         },
         {
+          "event_id": 16629480,
           "date": "2026-09-07",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -8247,6 +8779,7 @@
           "red": 0
         },
         {
+          "event_id": 16963493,
           "date": "2026-09-13",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -8258,6 +8791,7 @@
           "red": 0
         },
         {
+          "event_id": 16653106,
           "date": "2026-10-11",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -8269,6 +8803,7 @@
           "red": 0
         },
         {
+          "event_id": 16653126,
           "date": "2026-10-20",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -8280,6 +8815,7 @@
           "red": 0
         },
         {
+          "event_id": 16653136,
           "date": "2026-10-24",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -8291,6 +8827,7 @@
           "red": 0
         },
         {
+          "event_id": 16653139,
           "date": "2026-10-29",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -8305,9 +8842,10 @@
       "player_id": "al-riyadh-u21-sultan-al-essa",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251987,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -8323,6 +8861,7 @@
           "red": 0
         },
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -8338,6 +8877,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -8353,6 +8893,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -8367,11 +8908,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-nassr-u21-saad-haqawi__2026-27": {
       "matches": [
         {
+          "event_id": 16629419,
           "date": "2026-08-15",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -8383,6 +8926,7 @@
           "red": 0
         },
         {
+          "event_id": 16629421,
           "date": "2026-08-21",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -8394,6 +8938,7 @@
           "red": 0
         },
         {
+          "event_id": 16629434,
           "date": "2026-08-25",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -8405,6 +8950,7 @@
           "red": 0
         },
         {
+          "event_id": 16629464,
           "date": "2026-08-28",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -8416,6 +8962,7 @@
           "red": 0
         },
         {
+          "event_id": 16629479,
           "date": "2026-09-05",
           "opponent": "Al-Ittihad",
           "home_away": "away",
@@ -8427,6 +8974,7 @@
           "red": 0
         },
         {
+          "event_id": 16629488,
           "date": "2026-09-09",
           "opponent": "Abha",
           "home_away": "home",
@@ -8438,6 +8986,7 @@
           "red": 0
         },
         {
+          "event_id": 16653091,
           "date": "2026-09-12",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -8449,6 +8998,7 @@
           "red": 0
         },
         {
+          "event_id": 16653108,
           "date": "2026-10-09",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -8460,6 +9010,7 @@
           "red": 0
         },
         {
+          "event_id": 17291755,
           "date": "2026-10-20",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -8471,6 +9022,7 @@
           "red": 0
         },
         {
+          "event_id": 16653131,
           "date": "2026-10-23",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -8482,6 +9034,7 @@
           "red": 0
         },
         {
+          "event_id": 16653137,
           "date": "2026-10-29",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -8496,9 +9049,10 @@
       "player_id": "al-nassr-u21-saad-haqawi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251986,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -8514,6 +9068,7 @@
           "red": 0
         },
         {
+          "event_id": 16863571,
           "date": "2026-09-15",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -8529,6 +9084,7 @@
           "red": 0
         },
         {
+          "event_id": 16864327,
           "date": "2026-10-12",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -8543,11 +9099,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-taawoun-u21-turki-al-shaifan__2026-27": {
       "matches": [
         {
+          "event_id": 16651969,
           "date": "2026-08-23",
           "opponent": "Damac FC",
           "home_away": "home",
@@ -8559,6 +9117,7 @@
           "red": 0
         },
         {
+          "event_id": 16651990,
           "date": "2026-08-27",
           "opponent": "Al Jandal",
           "home_away": "away",
@@ -8570,6 +9129,7 @@
           "red": 0
         },
         {
+          "event_id": 16651984,
           "date": "2026-08-31",
           "opponent": "Al-Okhdood",
           "home_away": "home",
@@ -8581,6 +9141,7 @@
           "red": 0
         },
         {
+          "event_id": 16651997,
           "date": "2026-09-07",
           "opponent": "Al Adalah",
           "home_away": "away",
@@ -8592,6 +9153,7 @@
           "red": 0
         },
         {
+          "event_id": 16652007,
           "date": "2026-09-13",
           "opponent": "Al Anwar",
           "home_away": "home",
@@ -8603,6 +9165,7 @@
           "red": 0
         },
         {
+          "event_id": 16652020,
           "date": "2026-09-18",
           "opponent": "Jeddah",
           "home_away": "away",
@@ -8614,6 +9177,7 @@
           "red": 0
         },
         {
+          "event_id": 16652030,
           "date": "2026-10-13",
           "opponent": "Al Jabalin",
           "home_away": "home",
@@ -8625,6 +9189,7 @@
           "red": 0
         },
         {
+          "event_id": 16652035,
           "date": "2026-10-19",
           "opponent": "Al Raed",
           "home_away": "away",
@@ -8636,6 +9201,7 @@
           "red": 0
         },
         {
+          "event_id": 16652048,
           "date": "2026-10-27",
           "opponent": "Al Wehda",
           "home_away": "away",
@@ -8650,12 +9216,14 @@
       "player_id": "al-taawoun-u21-turki-al-shaifan",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-ettifaq-u21-abudullah-al-bishi__2026-27": {
       "matches": [
         {
+          "event_id": 16629415,
           "date": "2026-08-14",
           "opponent": "Al-Riyadh",
           "home_away": "home",
@@ -8667,6 +9235,7 @@
           "red": 0
         },
         {
+          "event_id": 16629426,
           "date": "2026-08-22",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -8678,6 +9247,7 @@
           "red": 0
         },
         {
+          "event_id": 16629434,
           "date": "2026-08-25",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -8689,6 +9259,7 @@
           "red": 0
         },
         {
+          "event_id": 16629466,
           "date": "2026-08-29",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -8700,6 +9271,7 @@
           "red": 0
         },
         {
+          "event_id": 16629474,
           "date": "2026-09-04",
           "opponent": "Abha",
           "home_away": "away",
@@ -8711,6 +9283,7 @@
           "red": 0
         },
         {
+          "event_id": 16629482,
           "date": "2026-09-08",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -8722,6 +9295,7 @@
           "red": 0
         },
         {
+          "event_id": 16653096,
           "date": "2026-09-11",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -8733,6 +9307,7 @@
           "red": 0
         },
         {
+          "event_id": 16653111,
           "date": "2026-10-10",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -8744,6 +9319,7 @@
           "red": 0
         },
         {
+          "event_id": 16653117,
           "date": "2026-10-17",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -8755,6 +9331,7 @@
           "red": 0
         },
         {
+          "event_id": 17291748,
           "date": "2026-10-20",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -8766,6 +9343,7 @@
           "red": 0
         },
         {
+          "event_id": 16653133,
           "date": "2026-10-24",
           "opponent": "Al-Kholood",
           "home_away": "away",
@@ -8777,6 +9355,7 @@
           "red": 0
         },
         {
+          "event_id": 16653143,
           "date": "2026-10-31",
           "opponent": "Al-Taawoun",
           "home_away": "away",
@@ -8791,9 +9370,10 @@
       "player_id": "al-ettifaq-u21-abudullah-al-bishi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251990,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -8808,11 +9388,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-ittihad-u21-suhayb-al-hawsawi__2026-27": {
       "matches": [
         {
+          "event_id": 16629418,
           "date": "2026-08-15",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -8824,6 +9406,7 @@
           "red": 0
         },
         {
+          "event_id": 16629425,
           "date": "2026-08-21",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -8835,6 +9418,7 @@
           "red": 0
         },
         {
+          "event_id": 16629431,
           "date": "2026-08-24",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -8846,6 +9430,7 @@
           "red": 0
         },
         {
+          "event_id": 16629467,
           "date": "2026-08-29",
           "opponent": "Al-Fateh",
           "home_away": "away",
@@ -8857,6 +9442,7 @@
           "red": 0
         },
         {
+          "event_id": 16629479,
           "date": "2026-09-05",
           "opponent": "Al-Nassr",
           "home_away": "home",
@@ -8868,6 +9454,7 @@
           "red": 0
         },
         {
+          "event_id": 16629485,
           "date": "2026-09-08",
           "opponent": "Al-Fayha",
           "home_away": "home",
@@ -8879,6 +9466,7 @@
           "red": 0
         },
         {
+          "event_id": 16653092,
           "date": "2026-09-11",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -8890,6 +9478,7 @@
           "red": 0
         },
         {
+          "event_id": 16653107,
           "date": "2026-10-10",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -8901,6 +9490,7 @@
           "red": 0
         },
         {
+          "event_id": 17291748,
           "date": "2026-10-20",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -8912,6 +9502,7 @@
           "red": 0
         },
         {
+          "event_id": 16653130,
           "date": "2026-10-23",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -8923,6 +9514,7 @@
           "red": 0
         },
         {
+          "event_id": 16653134,
           "date": "2026-10-30",
           "opponent": "Abha",
           "home_away": "away",
@@ -8937,12 +9529,14 @@
       "player_id": "al-ittihad-u21-suhayb-al-hawsawi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-kholood-u21-rakan-bin-jamaan__2026-27": {
       "matches": [
         {
+          "event_id": 16629418,
           "date": "2026-08-15",
           "opponent": "Al-Ittihad",
           "home_away": "away",
@@ -8954,6 +9548,7 @@
           "red": 0
         },
         {
+          "event_id": 16629427,
           "date": "2026-08-22",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -8965,6 +9560,7 @@
           "red": 0
         },
         {
+          "event_id": 16629437,
           "date": "2026-08-26",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -8976,6 +9572,7 @@
           "red": 0
         },
         {
+          "event_id": 16629465,
           "date": "2026-08-29",
           "opponent": "Al-Ahli",
           "home_away": "home",
@@ -8987,6 +9584,7 @@
           "red": 0
         },
         {
+          "event_id": 16629471,
           "date": "2026-09-03",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -8998,6 +9596,7 @@
           "red": 0
         },
         {
+          "event_id": 16629486,
           "date": "2026-09-09",
           "opponent": "Al-Shabab",
           "home_away": "home",
@@ -9009,6 +9608,7 @@
           "red": 0
         },
         {
+          "event_id": 16963493,
           "date": "2026-09-13",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -9020,6 +9620,7 @@
           "red": 0
         },
         {
+          "event_id": 16653102,
           "date": "2026-10-09",
           "opponent": "Al-Qadsiah",
           "home_away": "home",
@@ -9031,6 +9632,7 @@
           "red": 0
         },
         {
+          "event_id": 16653104,
           "date": "2026-10-15",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -9042,6 +9644,7 @@
           "red": 0
         },
         {
+          "event_id": 16653133,
           "date": "2026-10-24",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -9053,6 +9656,7 @@
           "red": 0
         },
         {
+          "event_id": 16653137,
           "date": "2026-10-29",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -9067,9 +9671,10 @@
       "player_id": "al-kholood-u21-rakan-bin-jamaan",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251989,
           "date": "2026-08-19",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -9084,11 +9689,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-nassr-u21-rakan-ghamdi__2026-27": {
       "matches": [
         {
+          "event_id": 16629419,
           "date": "2026-08-15",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -9100,6 +9707,7 @@
           "red": 0
         },
         {
+          "event_id": 16629421,
           "date": "2026-08-21",
           "opponent": "Al-Riyadh",
           "home_away": "away",
@@ -9111,6 +9719,7 @@
           "red": 0
         },
         {
+          "event_id": 16629434,
           "date": "2026-08-25",
           "opponent": "Al-Ettifaq",
           "home_away": "away",
@@ -9122,6 +9731,7 @@
           "red": 0
         },
         {
+          "event_id": 16629464,
           "date": "2026-08-28",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -9133,6 +9743,7 @@
           "red": 0
         },
         {
+          "event_id": 16629479,
           "date": "2026-09-05",
           "opponent": "Al-Ittihad",
           "home_away": "away",
@@ -9144,6 +9755,7 @@
           "red": 0
         },
         {
+          "event_id": 16629488,
           "date": "2026-09-09",
           "opponent": "Abha",
           "home_away": "home",
@@ -9155,6 +9767,7 @@
           "red": 0
         },
         {
+          "event_id": 16653091,
           "date": "2026-09-12",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -9166,6 +9779,7 @@
           "red": 0
         },
         {
+          "event_id": 16653108,
           "date": "2026-10-09",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -9177,6 +9791,7 @@
           "red": 0
         },
         {
+          "event_id": 17291755,
           "date": "2026-10-20",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -9188,6 +9803,7 @@
           "red": 0
         },
         {
+          "event_id": 16653131,
           "date": "2026-10-23",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -9199,6 +9815,7 @@
           "red": 0
         },
         {
+          "event_id": 16653137,
           "date": "2026-10-29",
           "opponent": "Al-Kholood",
           "home_away": "home",
@@ -9213,9 +9830,10 @@
       "player_id": "al-nassr-u21-rakan-ghamdi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251986,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -9231,6 +9849,7 @@
           "red": 0
         },
         {
+          "event_id": 16863571,
           "date": "2026-09-15",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -9245,11 +9864,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-hilal-u21-rayan-al-ghamdi__2026-27": {
       "matches": [
         {
+          "event_id": 16651365,
           "date": "2026-08-22",
           "opponent": "Al Jandal",
           "home_away": "home",
@@ -9261,6 +9882,7 @@
           "red": 0
         },
         {
+          "event_id": 16651980,
           "date": "2026-08-27",
           "opponent": "Jeddah",
           "home_away": "away",
@@ -9272,6 +9894,7 @@
           "red": 0
         },
         {
+          "event_id": 16651991,
           "date": "2026-09-01",
           "opponent": "Al Jabalin",
           "home_away": "home",
@@ -9283,6 +9906,7 @@
           "red": 0
         },
         {
+          "event_id": 16651998,
           "date": "2026-09-07",
           "opponent": "Al-Okhdood",
           "home_away": "away",
@@ -9294,6 +9918,7 @@
           "red": 0
         },
         {
+          "event_id": 16652012,
           "date": "2026-09-14",
           "opponent": "Al Raed",
           "home_away": "home",
@@ -9305,6 +9930,7 @@
           "red": 0
         },
         {
+          "event_id": 16652016,
           "date": "2026-09-19",
           "opponent": "Al Anwar",
           "home_away": "away",
@@ -9316,6 +9942,7 @@
           "red": 0
         },
         {
+          "event_id": 16652027,
           "date": "2026-10-12",
           "opponent": "Damac FC",
           "home_away": "home",
@@ -9327,6 +9954,7 @@
           "red": 0
         },
         {
+          "event_id": 16652036,
           "date": "2026-10-20",
           "opponent": "Hajer",
           "home_away": "away",
@@ -9338,6 +9966,7 @@
           "red": 0
         },
         {
+          "event_id": 16652051,
           "date": "2026-10-28",
           "opponent": "Al Zulfi",
           "home_away": "home",
@@ -9352,12 +9981,14 @@
       "player_id": "al-hilal-u21-rayan-al-ghamdi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-jabalin-yazeed-al-rushaidan__2026-27": {
       "matches": [
         {
+          "event_id": 16651968,
           "date": "2026-08-23",
           "opponent": "Al Ula",
           "home_away": "away",
@@ -9369,6 +10000,7 @@
           "red": 0
         },
         {
+          "event_id": 16651977,
           "date": "2026-08-27",
           "opponent": "Al-Jeel",
           "home_away": "home",
@@ -9380,6 +10012,7 @@
           "red": 0
         },
         {
+          "event_id": 16651991,
           "date": "2026-09-01",
           "opponent": "Al-Najma SC",
           "home_away": "away",
@@ -9391,6 +10024,7 @@
           "red": 0
         },
         {
+          "event_id": 16652000,
           "date": "2026-09-07",
           "opponent": "Al Wehda",
           "home_away": "home",
@@ -9402,6 +10036,7 @@
           "red": 0
         },
         {
+          "event_id": 16652006,
           "date": "2026-09-13",
           "opponent": "Hajer",
           "home_away": "away",
@@ -9413,6 +10048,7 @@
           "red": 0
         },
         {
+          "event_id": 16652021,
           "date": "2026-09-20",
           "opponent": "Al Orobah",
           "home_away": "home",
@@ -9424,6 +10060,7 @@
           "red": 0
         },
         {
+          "event_id": 16652030,
           "date": "2026-10-13",
           "opponent": "Al-Saqer",
           "home_away": "away",
@@ -9435,6 +10072,7 @@
           "red": 0
         },
         {
+          "event_id": 16652043,
           "date": "2026-10-21",
           "opponent": "Jeddah",
           "home_away": "away",
@@ -9446,6 +10084,7 @@
           "red": 0
         },
         {
+          "event_id": 16652052,
           "date": "2026-10-28",
           "opponent": "Al Raed",
           "home_away": "home",
@@ -9460,9 +10099,10 @@
       "player_id": "al-jabalin-yazeed-al-rushaidan",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251990,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -9477,11 +10117,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "jeddah-saad-nader-al-rashed__2026-27": {
       "matches": [
         {
+          "event_id": 16651970,
           "date": "2026-08-23",
           "opponent": "Hajer",
           "home_away": "away",
@@ -9493,6 +10135,7 @@
           "red": 0
         },
         {
+          "event_id": 16651980,
           "date": "2026-08-27",
           "opponent": "Al-Najma SC",
           "home_away": "home",
@@ -9504,6 +10147,7 @@
           "red": 0
         },
         {
+          "event_id": 16651988,
           "date": "2026-09-01",
           "opponent": "Al-Jeel",
           "home_away": "away",
@@ -9515,6 +10159,7 @@
           "red": 0
         },
         {
+          "event_id": 16652004,
           "date": "2026-09-09",
           "opponent": "Al Orobah",
           "home_away": "home",
@@ -9526,6 +10171,7 @@
           "red": 0
         },
         {
+          "event_id": 16652010,
           "date": "2026-09-14",
           "opponent": "Al Ula",
           "home_away": "away",
@@ -9537,6 +10183,7 @@
           "red": 0
         },
         {
+          "event_id": 16652020,
           "date": "2026-09-18",
           "opponent": "Al-Saqer",
           "home_away": "home",
@@ -9548,6 +10195,7 @@
           "red": 0
         },
         {
+          "event_id": 16652024,
           "date": "2026-10-14",
           "opponent": "Al Raed",
           "home_away": "away",
@@ -9559,6 +10207,7 @@
           "red": 0
         },
         {
+          "event_id": 16652043,
           "date": "2026-10-21",
           "opponent": "Al Jabalin",
           "home_away": "home",
@@ -9570,6 +10219,7 @@
           "red": 0
         },
         {
+          "event_id": 16652047,
           "date": "2026-10-27",
           "opponent": "Al Tai",
           "home_away": "away",
@@ -9584,9 +10234,10 @@
       "player_id": "jeddah-saad-nader-al-rashed",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251989,
           "date": "2026-08-19",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -9601,11 +10252,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-orobah-rayan-al-hazmi__2026-27": {
       "matches": [
         {
+          "event_id": 16651369,
           "date": "2026-08-22",
           "opponent": "Al Raed",
           "home_away": "home",
@@ -9617,6 +10270,7 @@
           "red": 0
         },
         {
+          "event_id": 16651978,
           "date": "2026-08-28",
           "opponent": "Damac FC",
           "home_away": "away",
@@ -9628,6 +10282,7 @@
           "red": 0
         },
         {
+          "event_id": 16651986,
           "date": "2026-09-01",
           "opponent": "Al Zulfi",
           "home_away": "home",
@@ -9639,6 +10294,7 @@
           "red": 0
         },
         {
+          "event_id": 16652004,
           "date": "2026-09-09",
           "opponent": "Jeddah",
           "home_away": "away",
@@ -9650,6 +10306,7 @@
           "red": 0
         },
         {
+          "event_id": 16652013,
           "date": "2026-09-15",
           "opponent": "Al-Jeel",
           "home_away": "home",
@@ -9661,6 +10318,7 @@
           "red": 0
         },
         {
+          "event_id": 16652021,
           "date": "2026-09-20",
           "opponent": "Al Jabalin",
           "home_away": "away",
@@ -9672,6 +10330,7 @@
           "red": 0
         },
         {
+          "event_id": 16652038,
           "date": "2026-10-20",
           "opponent": "Al Bukayriyah",
           "home_away": "home",
@@ -9683,6 +10342,7 @@
           "red": 0
         },
         {
+          "event_id": 16652046,
           "date": "2026-10-26",
           "opponent": "Al Ula",
           "home_away": "away",
@@ -9697,9 +10357,10 @@
       "player_id": "al-orobah-rayan-al-hazmi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251997,
           "date": "2026-08-16",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -9714,11 +10375,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-orobah-faris-al-zubaidi__2026-27": {
       "matches": [
         {
+          "event_id": 16651369,
           "date": "2026-08-22",
           "opponent": "Al Raed",
           "home_away": "home",
@@ -9730,6 +10393,7 @@
           "red": 0
         },
         {
+          "event_id": 16651978,
           "date": "2026-08-28",
           "opponent": "Damac FC",
           "home_away": "away",
@@ -9741,6 +10405,7 @@
           "red": 0
         },
         {
+          "event_id": 16651986,
           "date": "2026-09-01",
           "opponent": "Al Zulfi",
           "home_away": "home",
@@ -9752,6 +10417,7 @@
           "red": 0
         },
         {
+          "event_id": 16652004,
           "date": "2026-09-09",
           "opponent": "Jeddah",
           "home_away": "away",
@@ -9763,6 +10429,7 @@
           "red": 0
         },
         {
+          "event_id": 16652013,
           "date": "2026-09-15",
           "opponent": "Al-Jeel",
           "home_away": "home",
@@ -9774,6 +10441,7 @@
           "red": 0
         },
         {
+          "event_id": 16652021,
           "date": "2026-09-20",
           "opponent": "Al Jabalin",
           "home_away": "away",
@@ -9785,6 +10453,7 @@
           "red": 0
         },
         {
+          "event_id": 16652038,
           "date": "2026-10-20",
           "opponent": "Al Bukayriyah",
           "home_away": "home",
@@ -9796,6 +10465,7 @@
           "red": 0
         },
         {
+          "event_id": 16652046,
           "date": "2026-10-26",
           "opponent": "Al Ula",
           "home_away": "away",
@@ -9810,9 +10480,10 @@
       "player_id": "al-orobah-faris-al-zubaidi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251997,
           "date": "2026-08-16",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -9827,11 +10498,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-orobah-mohammed-nizar__2026-27": {
       "matches": [
         {
+          "event_id": 16651369,
           "date": "2026-08-22",
           "opponent": "Al Raed",
           "home_away": "home",
@@ -9843,6 +10516,7 @@
           "red": 0
         },
         {
+          "event_id": 16651978,
           "date": "2026-08-28",
           "opponent": "Damac FC",
           "home_away": "away",
@@ -9854,6 +10528,7 @@
           "red": 0
         },
         {
+          "event_id": 16651986,
           "date": "2026-09-01",
           "opponent": "Al Zulfi",
           "home_away": "home",
@@ -9865,6 +10540,7 @@
           "red": 0
         },
         {
+          "event_id": 16652004,
           "date": "2026-09-09",
           "opponent": "Jeddah",
           "home_away": "away",
@@ -9876,6 +10552,7 @@
           "red": 0
         },
         {
+          "event_id": 16652013,
           "date": "2026-09-15",
           "opponent": "Al-Jeel",
           "home_away": "home",
@@ -9887,6 +10564,7 @@
           "red": 0
         },
         {
+          "event_id": 16652021,
           "date": "2026-09-20",
           "opponent": "Al Jabalin",
           "home_away": "away",
@@ -9898,6 +10576,7 @@
           "red": 0
         },
         {
+          "event_id": 16652038,
           "date": "2026-10-20",
           "opponent": "Al Bukayriyah",
           "home_away": "home",
@@ -9909,6 +10588,7 @@
           "red": 0
         },
         {
+          "event_id": 16652046,
           "date": "2026-10-26",
           "opponent": "Al Ula",
           "home_away": "away",
@@ -9923,9 +10603,10 @@
       "player_id": "al-orobah-mohammed-nizar",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251997,
           "date": "2026-08-16",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -9940,11 +10621,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-orobah-raed-faraj__2026-27": {
       "matches": [
         {
+          "event_id": 16651369,
           "date": "2026-08-22",
           "opponent": "Al Raed",
           "home_away": "home",
@@ -9956,6 +10639,7 @@
           "red": 0
         },
         {
+          "event_id": 16651978,
           "date": "2026-08-28",
           "opponent": "Damac FC",
           "home_away": "away",
@@ -9967,6 +10651,7 @@
           "red": 0
         },
         {
+          "event_id": 16651986,
           "date": "2026-09-01",
           "opponent": "Al Zulfi",
           "home_away": "home",
@@ -9978,6 +10663,7 @@
           "red": 0
         },
         {
+          "event_id": 16652004,
           "date": "2026-09-09",
           "opponent": "Jeddah",
           "home_away": "away",
@@ -9989,6 +10675,7 @@
           "red": 0
         },
         {
+          "event_id": 16652013,
           "date": "2026-09-15",
           "opponent": "Al-Jeel",
           "home_away": "home",
@@ -10000,6 +10687,7 @@
           "red": 0
         },
         {
+          "event_id": 16652021,
           "date": "2026-09-20",
           "opponent": "Al Jabalin",
           "home_away": "away",
@@ -10011,6 +10699,7 @@
           "red": 0
         },
         {
+          "event_id": 16652038,
           "date": "2026-10-20",
           "opponent": "Al Bukayriyah",
           "home_away": "home",
@@ -10022,6 +10711,7 @@
           "red": 0
         },
         {
+          "event_id": 16652046,
           "date": "2026-10-26",
           "opponent": "Al Ula",
           "home_away": "away",
@@ -10036,9 +10726,10 @@
       "player_id": "al-orobah-raed-faraj",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251997,
           "date": "2026-08-16",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -10053,11 +10744,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-ula-yousef-al-honaifesh__2026-27": {
       "matches": [
         {
+          "event_id": 16651968,
           "date": "2026-08-23",
           "opponent": "Al Jabalin",
           "home_away": "home",
@@ -10069,6 +10762,7 @@
           "red": 0
         },
         {
+          "event_id": 16651979,
           "date": "2026-08-28",
           "opponent": "Al Anwar",
           "home_away": "away",
@@ -10080,6 +10774,7 @@
           "red": 0
         },
         {
+          "event_id": 16651994,
           "date": "2026-09-02",
           "opponent": "Al Raed",
           "home_away": "home",
@@ -10091,6 +10786,7 @@
           "red": 0
         },
         {
+          "event_id": 16652001,
           "date": "2026-09-08",
           "opponent": "Damac FC",
           "home_away": "away",
@@ -10102,6 +10798,7 @@
           "red": 0
         },
         {
+          "event_id": 16652010,
           "date": "2026-09-14",
           "opponent": "Jeddah",
           "home_away": "home",
@@ -10113,6 +10810,7 @@
           "red": 0
         },
         {
+          "event_id": 16652018,
           "date": "2026-10-08",
           "opponent": "Al-Okhdood",
           "home_away": "away",
@@ -10124,6 +10822,7 @@
           "red": 0
         },
         {
+          "event_id": 16652034,
           "date": "2026-10-19",
           "opponent": "Al Zulfi",
           "home_away": "away",
@@ -10135,6 +10834,7 @@
           "red": 0
         },
         {
+          "event_id": 16652046,
           "date": "2026-10-26",
           "opponent": "Al Orobah",
           "home_away": "home",
@@ -10149,9 +10849,10 @@
       "player_id": "al-ula-yousef-al-honaifesh",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16252001,
           "date": "2026-08-19",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -10166,11 +10867,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "hajer-basil-al-numayr__2026-27": {
       "matches": [
         {
+          "event_id": 16651970,
           "date": "2026-08-23",
           "opponent": "Jeddah",
           "home_away": "home",
@@ -10182,6 +10885,7 @@
           "red": 0
         },
         {
+          "event_id": 16651983,
           "date": "2026-08-28",
           "opponent": "Al Raed",
           "home_away": "away",
@@ -10193,6 +10897,7 @@
           "red": 0
         },
         {
+          "event_id": 16651995,
           "date": "2026-09-02",
           "opponent": "Al Anwar",
           "home_away": "home",
@@ -10204,6 +10909,7 @@
           "red": 0
         },
         {
+          "event_id": 16651999,
           "date": "2026-09-08",
           "opponent": "Al Zulfi",
           "home_away": "away",
@@ -10215,6 +10921,7 @@
           "red": 0
         },
         {
+          "event_id": 16652006,
           "date": "2026-09-13",
           "opponent": "Al Jabalin",
           "home_away": "home",
@@ -10226,6 +10933,7 @@
           "red": 0
         },
         {
+          "event_id": 16652026,
           "date": "2026-09-20",
           "opponent": "Al-Jeel",
           "home_away": "away",
@@ -10237,6 +10945,7 @@
           "red": 0
         },
         {
+          "event_id": 16652036,
           "date": "2026-10-20",
           "opponent": "Al-Najma SC",
           "home_away": "home",
@@ -10248,6 +10957,7 @@
           "red": 0
         },
         {
+          "event_id": 16652045,
           "date": "2026-10-26",
           "opponent": "Al Bukayriyah",
           "home_away": "away",
@@ -10262,12 +10972,14 @@
       "player_id": "hajer-basil-al-numayr",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-adalah-jasim-al-bashah__2026-27": {
       "matches": [
         {
+          "event_id": 16651972,
           "date": "2026-08-21",
           "opponent": "Al Wehda",
           "home_away": "away",
@@ -10279,6 +10991,7 @@
           "red": 0
         },
         {
+          "event_id": 16651974,
           "date": "2026-08-26",
           "opponent": "Al Tai",
           "home_away": "home",
@@ -10290,6 +11003,7 @@
           "red": 0
         },
         {
+          "event_id": 16651985,
           "date": "2026-08-31",
           "opponent": "Al Bukayriyah",
           "home_away": "away",
@@ -10301,6 +11015,7 @@
           "red": 0
         },
         {
+          "event_id": 16651997,
           "date": "2026-09-07",
           "opponent": "Al-Saqer",
           "home_away": "home",
@@ -10312,6 +11027,7 @@
           "red": 0
         },
         {
+          "event_id": 16652014,
           "date": "2026-09-15",
           "opponent": "Al Jandal",
           "home_away": "home",
@@ -10323,6 +11039,7 @@
           "red": 0
         },
         {
+          "event_id": 16652022,
           "date": "2026-09-20",
           "opponent": "Damac FC",
           "home_away": "away",
@@ -10334,6 +11051,7 @@
           "red": 0
         },
         {
+          "event_id": 16652031,
           "date": "2026-10-12",
           "opponent": "Al Anwar",
           "home_away": "home",
@@ -10345,6 +11063,7 @@
           "red": 0
         },
         {
+          "event_id": 16652039,
           "date": "2026-10-20",
           "opponent": "Al-Okhdood",
           "home_away": "away",
@@ -10356,6 +11075,7 @@
           "red": 0
         },
         {
+          "event_id": 16652049,
           "date": "2026-10-27",
           "opponent": "Al-Jeel",
           "home_away": "home",
@@ -10370,9 +11090,10 @@
       "player_id": "al-adalah-jasim-al-bashah",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251988,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -10387,11 +11108,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-adalah-ali-al-abbad__2026-27": {
       "matches": [
         {
+          "event_id": 16651972,
           "date": "2026-08-21",
           "opponent": "Al Wehda",
           "home_away": "away",
@@ -10403,6 +11126,7 @@
           "red": 0
         },
         {
+          "event_id": 16651974,
           "date": "2026-08-26",
           "opponent": "Al Tai",
           "home_away": "home",
@@ -10414,6 +11138,7 @@
           "red": 0
         },
         {
+          "event_id": 16651985,
           "date": "2026-08-31",
           "opponent": "Al Bukayriyah",
           "home_away": "away",
@@ -10425,6 +11150,7 @@
           "red": 0
         },
         {
+          "event_id": 16651997,
           "date": "2026-09-07",
           "opponent": "Al-Saqer",
           "home_away": "home",
@@ -10436,6 +11162,7 @@
           "red": 0
         },
         {
+          "event_id": 16652014,
           "date": "2026-09-15",
           "opponent": "Al Jandal",
           "home_away": "home",
@@ -10447,6 +11174,7 @@
           "red": 0
         },
         {
+          "event_id": 16652022,
           "date": "2026-09-20",
           "opponent": "Damac FC",
           "home_away": "away",
@@ -10458,6 +11186,7 @@
           "red": 0
         },
         {
+          "event_id": 16652031,
           "date": "2026-10-12",
           "opponent": "Al Anwar",
           "home_away": "home",
@@ -10469,6 +11198,7 @@
           "red": 0
         },
         {
+          "event_id": 16652039,
           "date": "2026-10-20",
           "opponent": "Al-Okhdood",
           "home_away": "away",
@@ -10480,6 +11210,7 @@
           "red": 0
         },
         {
+          "event_id": 16652049,
           "date": "2026-10-27",
           "opponent": "Al-Jeel",
           "home_away": "home",
@@ -10494,9 +11225,10 @@
       "player_id": "al-adalah-ali-al-abbad",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251988,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -10511,11 +11243,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-jeel-bader-al-saad__2026-27": {
       "matches": [
         {
+          "event_id": 16651971,
           "date": "2026-08-21",
           "opponent": "Al Zulfi",
           "home_away": "home",
@@ -10527,6 +11261,7 @@
           "red": 0
         },
         {
+          "event_id": 16651977,
           "date": "2026-08-27",
           "opponent": "Al Jabalin",
           "home_away": "away",
@@ -10538,6 +11273,7 @@
           "red": 0
         },
         {
+          "event_id": 16651988,
           "date": "2026-09-01",
           "opponent": "Jeddah",
           "home_away": "home",
@@ -10549,6 +11285,7 @@
           "red": 0
         },
         {
+          "event_id": 16652003,
           "date": "2026-09-09",
           "opponent": "Al Raed",
           "home_away": "away",
@@ -10560,6 +11297,7 @@
           "red": 0
         },
         {
+          "event_id": 16652013,
           "date": "2026-09-15",
           "opponent": "Al Orobah",
           "home_away": "away",
@@ -10571,6 +11309,7 @@
           "red": 0
         },
         {
+          "event_id": 16652026,
           "date": "2026-09-20",
           "opponent": "Hajer",
           "home_away": "home",
@@ -10582,6 +11321,7 @@
           "red": 0
         },
         {
+          "event_id": 16652049,
           "date": "2026-10-27",
           "opponent": "Al Adalah",
           "home_away": "away",
@@ -10596,12 +11336,14 @@
       "player_id": "al-jeel-bader-al-saad",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-jeel-ali-kaabi__2026-27": {
       "matches": [
         {
+          "event_id": 16651971,
           "date": "2026-08-21",
           "opponent": "Al Zulfi",
           "home_away": "home",
@@ -10613,6 +11355,7 @@
           "red": 0
         },
         {
+          "event_id": 16651977,
           "date": "2026-08-27",
           "opponent": "Al Jabalin",
           "home_away": "away",
@@ -10624,6 +11367,7 @@
           "red": 0
         },
         {
+          "event_id": 16651988,
           "date": "2026-09-01",
           "opponent": "Jeddah",
           "home_away": "home",
@@ -10635,6 +11379,7 @@
           "red": 0
         },
         {
+          "event_id": 16652003,
           "date": "2026-09-09",
           "opponent": "Al Raed",
           "home_away": "away",
@@ -10646,6 +11391,7 @@
           "red": 0
         },
         {
+          "event_id": 16652013,
           "date": "2026-09-15",
           "opponent": "Al Orobah",
           "home_away": "away",
@@ -10657,6 +11403,7 @@
           "red": 0
         },
         {
+          "event_id": 16652026,
           "date": "2026-09-20",
           "opponent": "Hajer",
           "home_away": "home",
@@ -10668,6 +11415,7 @@
           "red": 0
         },
         {
+          "event_id": 16652049,
           "date": "2026-10-27",
           "opponent": "Al Adalah",
           "home_away": "away",
@@ -10682,11 +11430,12 @@
       "player_id": "al-jeel-ali-kaabi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17."
+      "note": "Aggiornato in locale il 2026-11-01 11:10."
     },
     "al-tai-muhannad-al-harthi__2026-27": {
       "matches": [
         {
+          "event_id": 16651366,
           "date": "2026-08-22",
           "opponent": "Al-Okhdood",
           "home_away": "home",
@@ -10698,6 +11447,7 @@
           "red": 0
         },
         {
+          "event_id": 16651974,
           "date": "2026-08-26",
           "opponent": "Al Adalah",
           "home_away": "away",
@@ -10709,6 +11459,7 @@
           "red": 0
         },
         {
+          "event_id": 16651987,
           "date": "2026-08-31",
           "opponent": "Al Jandal",
           "home_away": "home",
@@ -10720,6 +11471,7 @@
           "red": 0
         },
         {
+          "event_id": 16652002,
           "date": "2026-09-08",
           "opponent": "Al Anwar",
           "home_away": "away",
@@ -10731,6 +11483,7 @@
           "red": 0
         },
         {
+          "event_id": 16652008,
           "date": "2026-09-13",
           "opponent": "Al Zulfi",
           "home_away": "home",
@@ -10742,6 +11495,7 @@
           "red": 0
         },
         {
+          "event_id": 16652017,
           "date": "2026-09-18",
           "opponent": "Al Bukayriyah",
           "home_away": "home",
@@ -10753,6 +11507,7 @@
           "red": 0
         },
         {
+          "event_id": 16652029,
           "date": "2026-10-12",
           "opponent": "Al Wehda",
           "home_away": "away",
@@ -10764,6 +11519,7 @@
           "red": 0
         },
         {
+          "event_id": 16652033,
           "date": "2026-10-19",
           "opponent": "Damac FC",
           "home_away": "away",
@@ -10775,6 +11531,7 @@
           "red": 0
         },
         {
+          "event_id": 16652047,
           "date": "2026-10-27",
           "opponent": "Jeddah",
           "home_away": "home",
@@ -10789,9 +11546,10 @@
       "player_id": "al-tai-muhannad-al-harthi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251993,
           "date": "2026-08-17",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -10806,11 +11564,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-raed-meshari-al-oufi__2026-27": {
       "matches": [
         {
+          "event_id": 16651369,
           "date": "2026-08-22",
           "opponent": "Al Orobah",
           "home_away": "away",
@@ -10822,6 +11582,7 @@
           "red": 0
         },
         {
+          "event_id": 16651983,
           "date": "2026-08-28",
           "opponent": "Hajer",
           "home_away": "home",
@@ -10833,6 +11594,7 @@
           "red": 0
         },
         {
+          "event_id": 16651994,
           "date": "2026-09-02",
           "opponent": "Al Ula",
           "home_away": "away",
@@ -10844,6 +11606,7 @@
           "red": 0
         },
         {
+          "event_id": 16652003,
           "date": "2026-09-09",
           "opponent": "Al-Jeel",
           "home_away": "home",
@@ -10855,6 +11618,7 @@
           "red": 0
         },
         {
+          "event_id": 16652012,
           "date": "2026-09-14",
           "opponent": "Al-Najma SC",
           "home_away": "away",
@@ -10866,6 +11630,7 @@
           "red": 0
         },
         {
+          "event_id": 16652019,
           "date": "2026-09-19",
           "opponent": "Al Zulfi",
           "home_away": "away",
@@ -10877,6 +11642,7 @@
           "red": 0
         },
         {
+          "event_id": 16652024,
           "date": "2026-10-14",
           "opponent": "Jeddah",
           "home_away": "home",
@@ -10888,6 +11654,7 @@
           "red": 0
         },
         {
+          "event_id": 16652035,
           "date": "2026-10-19",
           "opponent": "Al-Saqer",
           "home_away": "home",
@@ -10899,6 +11666,7 @@
           "red": 0
         },
         {
+          "event_id": 16652052,
           "date": "2026-10-28",
           "opponent": "Al Jabalin",
           "home_away": "away",
@@ -10913,12 +11681,14 @@
       "player_id": "al-raed-meshari-al-oufi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "damac-fc-jawad-alhassan__2026-27": {
       "matches": [
         {
+          "event_id": 16651969,
           "date": "2026-08-23",
           "opponent": "Al-Saqer",
           "home_away": "away",
@@ -10930,6 +11700,7 @@
           "red": 0
         },
         {
+          "event_id": 16651978,
           "date": "2026-08-28",
           "opponent": "Al Orobah",
           "home_away": "home",
@@ -10941,6 +11712,7 @@
           "red": 0
         },
         {
+          "event_id": 16651996,
           "date": "2026-09-02",
           "opponent": "Al Wehda",
           "home_away": "away",
@@ -10952,6 +11724,7 @@
           "red": 0
         },
         {
+          "event_id": 16652001,
           "date": "2026-09-08",
           "opponent": "Al Ula",
           "home_away": "home",
@@ -10963,6 +11736,7 @@
           "red": 0
         },
         {
+          "event_id": 16652009,
           "date": "2026-09-14",
           "opponent": "Al Bukayriyah",
           "home_away": "away",
@@ -10974,6 +11748,7 @@
           "red": 0
         },
         {
+          "event_id": 16652022,
           "date": "2026-09-20",
           "opponent": "Al Adalah",
           "home_away": "home",
@@ -10985,6 +11760,7 @@
           "red": 0
         },
         {
+          "event_id": 16652027,
           "date": "2026-10-12",
           "opponent": "Al-Najma SC",
           "home_away": "away",
@@ -10996,6 +11772,7 @@
           "red": 0
         },
         {
+          "event_id": 16652033,
           "date": "2026-10-19",
           "opponent": "Al Tai",
           "home_away": "home",
@@ -11007,6 +11784,7 @@
           "red": 0
         },
         {
+          "event_id": 16652050,
           "date": "2026-10-28",
           "opponent": "Al Jandal",
           "home_away": "away",
@@ -11021,9 +11799,10 @@
       "player_id": "damac-fc-jawad-alhassan",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251998,
           "date": "2026-08-19",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -11038,11 +11817,13 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-hazem-u21-khalid-abduljawad__2026-27": {
       "matches": [
         {
+          "event_id": 16629408,
           "date": "2026-08-13",
           "opponent": "Abha",
           "home_away": "away",
@@ -11054,6 +11835,7 @@
           "red": 0
         },
         {
+          "event_id": 16629422,
           "date": "2026-08-21",
           "opponent": "Diriyah",
           "home_away": "home",
@@ -11065,6 +11847,7 @@
           "red": 0
         },
         {
+          "event_id": 16629431,
           "date": "2026-08-24",
           "opponent": "Al-Ittihad",
           "home_away": "away",
@@ -11076,6 +11859,7 @@
           "red": 0
         },
         {
+          "event_id": 16629468,
           "date": "2026-08-30",
           "opponent": "Al-Shabab",
           "home_away": "home",
@@ -11087,6 +11871,7 @@
           "red": 0
         },
         {
+          "event_id": 16629477,
           "date": "2026-09-05",
           "opponent": "Al Faisaly",
           "home_away": "away",
@@ -11098,6 +11883,7 @@
           "red": 0
         },
         {
+          "event_id": 16629483,
           "date": "2026-09-08",
           "opponent": "Al-Taawoun",
           "home_away": "home",
@@ -11109,6 +11895,7 @@
           "red": 0
         },
         {
+          "event_id": 16653095,
           "date": "2026-09-11",
           "opponent": "Al-Ahli",
           "home_away": "away",
@@ -11120,6 +11907,7 @@
           "red": 0
         },
         {
+          "event_id": 16653099,
           "date": "2026-10-10",
           "opponent": "Neom SC",
           "home_away": "home",
@@ -11131,6 +11919,7 @@
           "red": 0
         },
         {
+          "event_id": 16653112,
           "date": "2026-10-15",
           "opponent": "Al-Fateh",
           "home_away": "home",
@@ -11142,6 +11931,7 @@
           "red": 0
         },
         {
+          "event_id": 16653122,
           "date": "2026-10-19",
           "opponent": "Al-Hilal",
           "home_away": "away",
@@ -11153,6 +11943,7 @@
           "red": 0
         },
         {
+          "event_id": 16653128,
           "date": "2026-10-22",
           "opponent": "Al-Fayha",
           "home_away": "home",
@@ -11164,6 +11955,7 @@
           "red": 0
         },
         {
+          "event_id": 16653140,
           "date": "2026-10-29",
           "opponent": "Al-Khaleej",
           "home_away": "away",
@@ -11178,9 +11970,10 @@
       "player_id": "al-hazem-u21-khalid-abduljawad",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251999,
           "date": "2026-08-16",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -11195,7 +11988,8 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-ahli-u21-salem-abdullah__2026-27": {
       "matches": [],
@@ -11203,7 +11997,8 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "al-fateh-u21-mahmoud-al-burayh__2026-27": {
       "matches": [],
@@ -11211,7 +12006,8 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "al-hazem-u21-adnan-al-bishri__2026-27": {
       "matches": [],
@@ -11221,6 +12017,7 @@
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
       "other_matches": [
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -11236,6 +12033,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -11251,6 +12049,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -11265,7 +12064,8 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-hilal-u21-abdulaziz-jarmosh__2026-27": {
       "matches": [],
@@ -11273,7 +12073,8 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "al-hilal-u21-ibrahim-hamlan__2026-27": {
       "matches": [],
@@ -11281,7 +12082,8 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "al-hilal-u21-saleh-barnawi__2026-27": {
       "matches": [],
@@ -11289,7 +12091,8 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "al-hilal-u21-turki-al-ghumayl__2026-27": {
       "matches": [],
@@ -11299,6 +12102,7 @@
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
       "other_matches": [
         {
+          "event_id": 16875514,
           "date": "2026-09-18",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -11314,6 +12118,7 @@
           "red": 0
         },
         {
+          "event_id": 16875523,
           "date": "2026-09-22",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -11329,6 +12134,7 @@
           "red": 0
         },
         {
+          "event_id": 17163688,
           "date": "2026-09-25",
           "kind": "nazionale",
           "competition": "Asian Games",
@@ -11343,7 +12149,8 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-ittihad-u21-abdulaziz-al-shammari__2026-27": {
       "matches": [],
@@ -11351,7 +12158,8 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "al-ittihad-u21-yassen-al-jaber__2026-27": {
       "matches": [],
@@ -11359,7 +12167,8 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "al-nassr-u21-abdulrahman-sufyani__2026-27": {
       "matches": [],
@@ -11367,7 +12176,8 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "al-nassr-u21-abdulraman-al-otaibi__2026-27": {
       "matches": [],
@@ -11377,6 +12187,7 @@
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
       "other_matches": [
         {
+          "event_id": 16251986,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -11392,6 +12203,7 @@
           "red": 0
         },
         {
+          "event_id": 16863571,
           "date": "2026-09-15",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -11407,6 +12219,7 @@
           "red": 0
         },
         {
+          "event_id": 16864327,
           "date": "2026-10-12",
           "kind": "coppa",
           "competition": "AFC Champions League Elite",
@@ -11421,7 +12234,8 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     },
     "al-nassr-u21-bassam-abdullah-hazazi__2026-27": {
       "matches": [],
@@ -11429,7 +12243,8 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "al-raed-u21-samer-al-marwani__2026-27": {
       "matches": [],
@@ -11437,7 +12252,8 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "al-riyadh-u21-talal-al-shubili__2026-27": {
       "matches": [],
@@ -11445,11 +12261,13 @@
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
       "note": "Aggiornato in locale il 2026-10-11 19:33.",
-      "other_matches": []
+      "other_matches": [],
+      "other_absent": []
     },
     "abha-nawaf-al-ghulaimish__2026-27": {
       "matches": [
         {
+          "event_id": 16629408,
           "date": "2026-08-13",
           "opponent": "Al-Hazem",
           "home_away": "home",
@@ -11461,6 +12279,7 @@
           "red": 0
         },
         {
+          "event_id": 16629429,
           "date": "2026-08-22",
           "opponent": "Al-Ahli",
           "home_away": "away",
@@ -11472,6 +12291,7 @@
           "red": 0
         },
         {
+          "event_id": 16629432,
           "date": "2026-08-25",
           "opponent": "Al-Khaleej",
           "home_away": "home",
@@ -11483,6 +12303,7 @@
           "red": 0
         },
         {
+          "event_id": 16629439,
           "date": "2026-08-28",
           "opponent": "Al-Fayha",
           "home_away": "away",
@@ -11494,6 +12315,7 @@
           "red": 0
         },
         {
+          "event_id": 16629474,
           "date": "2026-09-04",
           "opponent": "Al-Ettifaq",
           "home_away": "home",
@@ -11505,6 +12327,7 @@
           "red": 0
         },
         {
+          "event_id": 16629488,
           "date": "2026-09-09",
           "opponent": "Al-Nassr",
           "home_away": "away",
@@ -11516,6 +12339,7 @@
           "red": 0
         },
         {
+          "event_id": 16963495,
           "date": "2026-09-13",
           "opponent": "Diriyah",
           "home_away": "away",
@@ -11527,6 +12351,7 @@
           "red": 0
         },
         {
+          "event_id": 16653118,
           "date": "2026-10-16",
           "opponent": "Al-Qadsiah",
           "home_away": "away",
@@ -11538,6 +12363,7 @@
           "red": 0
         },
         {
+          "event_id": 16653135,
           "date": "2026-10-24",
           "opponent": "Neom SC",
           "home_away": "away",
@@ -11549,6 +12375,7 @@
           "red": 0
         },
         {
+          "event_id": 17305725,
           "date": "2026-10-27",
           "opponent": "Al Faisaly",
           "home_away": "home",
@@ -11560,6 +12387,7 @@
           "red": 0
         },
         {
+          "event_id": 16653134,
           "date": "2026-10-30",
           "opponent": "Al-Ittihad",
           "home_away": "home",
@@ -11574,12 +12402,14 @@
       "player_id": "abha-nawaf-al-ghulaimish",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
-      "other_matches": []
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
+      "other_matches": [],
+      "other_absent": []
     },
     "al-taawoun-u21-abdulmalik-al-harbi__2026-27": {
       "matches": [
         {
+          "event_id": 16651968,
           "date": "2026-08-23",
           "opponent": "Al Ula",
           "home_away": "away",
@@ -11591,6 +12421,7 @@
           "red": 0
         },
         {
+          "event_id": 16651977,
           "date": "2026-08-27",
           "opponent": "Al-Jeel",
           "home_away": "home",
@@ -11602,6 +12433,7 @@
           "red": 0
         },
         {
+          "event_id": 16651991,
           "date": "2026-09-01",
           "opponent": "Al-Najma SC",
           "home_away": "away",
@@ -11613,6 +12445,7 @@
           "red": 0
         },
         {
+          "event_id": 16652000,
           "date": "2026-09-07",
           "opponent": "Al Wehda",
           "home_away": "home",
@@ -11624,6 +12457,7 @@
           "red": 0
         },
         {
+          "event_id": 16652006,
           "date": "2026-09-13",
           "opponent": "Hajer",
           "home_away": "away",
@@ -11635,6 +12469,7 @@
           "red": 0
         },
         {
+          "event_id": 16652021,
           "date": "2026-09-20",
           "opponent": "Al Orobah",
           "home_away": "home",
@@ -11646,6 +12481,7 @@
           "red": 0
         },
         {
+          "event_id": 16652030,
           "date": "2026-10-13",
           "opponent": "Al-Saqer",
           "home_away": "away",
@@ -11657,6 +12493,7 @@
           "red": 0
         },
         {
+          "event_id": 16652043,
           "date": "2026-10-21",
           "opponent": "Jeddah",
           "home_away": "away",
@@ -11668,6 +12505,7 @@
           "red": 0
         },
         {
+          "event_id": 16652052,
           "date": "2026-10-28",
           "opponent": "Al Raed",
           "home_away": "home",
@@ -11682,9 +12520,10 @@
       "player_id": "al-taawoun-u21-abdulmalik-al-harbi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-01 09:17.",
+      "note": "Aggiornato in locale il 2026-11-01 11:10.",
       "other_matches": [
         {
+          "event_id": 16251990,
           "date": "2026-08-18",
           "kind": "coppa",
           "competition": "King's Cup",
@@ -11699,7 +12538,8 @@
           "yellow": 0,
           "red": 0
         }
-      ]
+      ],
+      "other_absent": []
     }
   },
   "performance_totals": {
@@ -12815,34 +13655,25 @@
     "last_official_update": null,
     "last_sofascore_update": "2026-11-01",
     "last_transfermarkt_update": "2026-11-01",
-    "last_update_note": "Aggiornamento locale: stagione corrente (2026-27) rinfrescata per 62 giocatori con match confermato. Totali aggiornati anche per 60 stagioni passate (2025-26, 2024-25). Squadra Sofascore corretta per 5 giocatori.",
+    "last_update_note": "Aggiornamento locale: stagione corrente (2026-27) rinfrescata per 62 giocatori con match confermato. Aggiornamento veloce: 725 partite gia' salvate riusate, 31 formazioni condivise tra compagni.",
     "last_update_errors": [
       "al-ahli-u21-salem-abdullah: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
       "al-diriyah-abdulelah-al-jafari: partita del 2026-09-10 contro Abha esclusa (Postponed).",
-      "al-ettifaq-u21-abdullah-ziyad-al-ghamdi: nessuna stagione passata di campionato su Sofascore.",
       "al-ettifaq-u21-abdullah-ziyad-al-ghamdi: partita del 2026-10-20 contro Al-Ittihad esclusa (Postponed).",
-      "al-ettifaq-u21-abudullah-al-bishi: squadra aggiornata da 1120298 a 34318 (Al-Ettifaq).",
-      "al-ettifaq-u21-abudullah-al-bishi: nessuna stagione passata di campionato su Sofascore.",
       "al-ettifaq-u21-abudullah-al-bishi: partita del 2026-10-20 contro Al-Ittihad esclusa (Postponed).",
       "al-ettifaq-u21-awad-dahal: partita del 2026-09-10 contro Al-Kholood esclusa (Postponed).",
       "al-ettifaq-u21-awad-dahal: partita del 2026-10-16 contro Al-Hilal esclusa (Postponed).",
       "al-ettifaq-u21-jalal-al-salem: partita di coppa/nazionale 16698807 non recuperata (HTTP 404)",
       "al-ettifaq-u21-jalal-al-salem: partita del 2026-10-20 contro Al-Ittihad esclusa (Postponed).",
       "al-faisaly-moyad-saleem: elenco partite non recuperato (HTTP 404)",
-      "al-faisaly-saud-haddad: nessuna stagione passata di campionato su Sofascore.",
       "al-faisaly-saud-haddad: partita del 2026-10-11 contro Abha esclusa (Postponed).",
-      "al-faisaly-wael-kadan: squadra aggiornata da 241802 a 56035 (Al Faisaly).",
-      "al-faisaly-wael-kadan: nessuna stagione passata di campionato su Sofascore.",
       "al-faisaly-wael-kadan: partita del 2026-10-11 contro Abha esclusa (Postponed).",
       "al-fateh-abdulaziz-al-fawaz: partita del 2026-09-10 contro Neom SC esclusa (Postponed).",
       "al-fateh-abdulaziz-al-suwailem: partita del 2026-09-10 contro Neom SC esclusa (Postponed).",
       "al-fateh-u21-mahadi-al-obood: partita del 2026-09-10 contro Neom SC esclusa (Postponed).",
       "al-fateh-u21-mahmoud-al-burayh: stagioni passate non recuperate (HTTP 404)",
       "al-fateh-u21-mahmoud-al-burayh: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
-      "al-hazem-u21-adnan-al-bishri: nessuna stagione passata di campionato su Sofascore.",
       "al-hazem-u21-adnan-al-bishri: elenco partite non recuperato (HTTP 404)",
-      "al-hazem-u21-khalid-abduljawad: nessuna stagione passata di campionato su Sofascore.",
-      "al-hazem-u21-yazan-al-ruwaili: nessuna stagione passata di campionato su Sofascore.",
       "al-hilal-u21-abdulaziz-jarmosh: stagioni passate non recuperate (HTTP 404)",
       "al-hilal-u21-abdulaziz-jarmosh: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
       "al-hilal-u21-ibrahim-hamlan: stagioni passate non recuperate (HTTP 404)",
@@ -12853,12 +13684,9 @@
       "al-hilal-u21-mohammed-al-sournouk: partite di coppa e nazionale non recuperate (HTTP 404); quelle gia' salvate restano.",
       "al-hilal-u21-mohammed-al-sournouk: partita del 2026-10-16 contro Al-Riyadh esclusa (Postponed).",
       "al-hilal-u21-rayan-al-ghamdi: stagioni passate non recuperate (HTTP 404)",
-      "al-hilal-u21-saad-al-mutairi: squadra aggiornata da 272043 a 21895 (Al-Hilal).",
       "al-hilal-u21-saad-al-mutairi: partita del 2026-10-16 contro Al-Riyadh esclusa (Postponed).",
       "al-hilal-u21-sabri-dahal: partita del 2026-10-16 contro Al-Riyadh esclusa (Postponed).",
-      "al-hilal-u21-saleh-barnawi: nessuna stagione passata di campionato su Sofascore.",
       "al-hilal-u21-saleh-barnawi: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
-      "al-hilal-u21-turki-al-ghumayl: nessuna stagione passata di campionato su Sofascore.",
       "al-hilal-u21-turki-al-ghumayl: partita di coppa/nazionale 16698785 non recuperata (HTTP 404)",
       "al-hilal-u21-turki-al-ghumayl: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
       "al-ittihad-mohammed-barnawi: partita del 2026-10-16 contro Al-Shabab esclusa (Postponed).",
@@ -12870,30 +13698,23 @@
       "al-ittihad-u21-farhah-ali-al-shamrani: stagioni passate non recuperate (HTTP 404)",
       "al-ittihad-u21-farhah-ali-al-shamrani: partite di coppa e nazionale non recuperate (HTTP 404); quelle gia' salvate restano.",
       "al-ittihad-u21-farhah-ali-al-shamrani: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
-      "al-ittihad-u21-suhayb-al-hawsawi: squadra aggiornata da 241802 a 34315 (Al-Ittihad).",
-      "al-ittihad-u21-suhayb-al-hawsawi: nessuna stagione passata di campionato su Sofascore.",
       "al-ittihad-u21-suhayb-al-hawsawi: partita del 2026-10-16 contro Al-Shabab esclusa (Postponed).",
       "al-ittihad-u21-suhayb-al-hawsawi: partita del 2026-10-20 contro Al-Ettifaq esclusa (Postponed).",
       "al-ittihad-u21-talal-haji: partita del 2026-10-20 contro Al-Ittihad esclusa (Postponed).",
       "al-ittihad-u21-yassen-al-jaber: elenco partite non recuperato (HTTP 404)",
       "al-kholood-hamed-al-shanqity: partita del 2026-09-10 contro Al-Riyadh esclusa (Postponed).",
       "al-kholood-hamed-al-shanqity: partita del 2026-10-19 contro Abha esclusa (Postponed).",
-      "al-kholood-u21-rakan-bin-jamaan: squadra aggiornata da 241802 a 269199 (Al-Kholood).",
       "al-kholood-u21-rakan-bin-jamaan: partita del 2026-09-10 contro Al-Riyadh esclusa (Postponed).",
       "al-kholood-u21-rakan-bin-jamaan: partita del 2026-10-19 contro Abha esclusa (Postponed).",
       "al-kholood-yazan-madani: partita del 2026-09-10 contro Al-Riyadh esclusa (Postponed).",
       "al-kholood-yazan-madani: partita del 2026-10-19 contro Abha esclusa (Postponed).",
-      "al-nassr-u21-abdulrahman-sufyani: nessuna stagione passata di campionato su Sofascore.",
       "al-nassr-u21-abdulrahman-sufyani: partita di coppa/nazionale 16857381 non recuperata (HTTP 404)",
       "al-nassr-u21-abdulrahman-sufyani: partita di coppa/nazionale 17011387 non recuperata (HTTP 404)",
       "al-nassr-u21-abdulrahman-sufyani: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
-      "al-nassr-u21-abdulraman-al-otaibi: nessuna stagione passata di campionato su Sofascore.",
       "al-nassr-u21-abdulraman-al-otaibi: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
       "al-nassr-u21-awad-aman: partita del 2026-10-15 contro Al-Ahli esclusa (Postponed).",
       "al-nassr-u21-awad-aman: partita del 2026-10-18 contro Neom SC esclusa (Postponed).",
-      "al-nassr-u21-bassam-abdullah-hazazi: nessuna stagione passata di campionato su Sofascore.",
       "al-nassr-u21-bassam-abdullah-hazazi: elenco partite non recuperato (HTTP 404)",
-      "al-nassr-u21-rakan-ghamdi: nessuna stagione passata di campionato su Sofascore.",
       "al-nassr-u21-rakan-ghamdi: partita del 2026-10-15 contro Al-Ahli esclusa (Postponed).",
       "al-nassr-u21-rakan-ghamdi: partita del 2026-10-18 contro Neom SC esclusa (Postponed).",
       "al-nassr-u21-saad-haqawi: partita del 2026-10-15 contro Al-Ahli esclusa (Postponed).",
@@ -12903,7 +13724,6 @@
       "al-quadisiah-u21-ammar-al-yuhaibi: partita del 2026-10-11 contro Al Faisaly esclusa (Postponed).",
       "al-quadisiah-u21-ammar-al-yuhaibi: partita del 2026-10-19 contro Al-Kholood esclusa (Postponed).",
       "al-quadisiah-u21-sultan-harun: partita del 2026-10-20 contro Al-Ittihad esclusa (Postponed).",
-      "al-raed-u21-samer-al-marwani: nessuna stagione passata di campionato su Sofascore.",
       "al-raed-u21-samer-al-marwani: elenco partite non recuperato (HTTP 404)",
       "al-riyadh-u21-essam-bahri: partita del 2026-09-10 contro Al-Kholood esclusa (Postponed).",
       "al-riyadh-u21-essam-bahri: partita del 2026-10-16 contro Al-Hilal esclusa (Postponed).",
@@ -12913,35 +13733,24 @@
       "al-riyadh-u21-sultan-al-essa: partita del 2026-10-16 contro Al-Hilal esclusa (Postponed).",
       "al-riyadh-u21-talal-al-shubili: elenco partite non recuperato (HTTP 404)",
       "al-shabab-u21-abdulaziz-al-hadhood: partita del 2026-10-16 contro Al-Ittihad esclusa (Postponed).",
-      "al-taawoun-u21-turki-al-shaifan: nessuna stagione passata di campionato su Sofascore.",
-      "al-ula-aseel-abdulrazzaq: nessuna stagione passata di campionato su Sofascore.",
       "al-ula-aseel-abdulrazzaq: partita del 2026-10-13 contro Al-Jeel esclusa (Postponed).",
       "neom-u21-khalid-al-rammah: partita del 2026-09-10 contro Al-Fateh esclusa (Postponed).",
       "neom-u21-khalid-al-rammah: partita del 2026-10-18 contro Al-Nassr esclusa (Postponed).",
       "neom-u21-mohammed-al-hakim: stagioni passate non recuperate (HTTP 404)",
       "neom-u21-mohammed-al-hakim: partita del 2026-09-10 contro Al-Fateh esclusa (Postponed).",
       "neom-u21-mohammed-al-hakim: partita del 2026-10-18 contro Al-Nassr esclusa (Postponed).",
-      "jeddah-saad-nader-al-rashed: nessuna stagione passata di campionato su Sofascore.",
       "al-orobah-rayan-al-hazmi: partita del 2026-10-14 contro Hajer esclusa (Postponed).",
       "al-orobah-faris-al-zubaidi: partita del 2026-10-14 contro Hajer esclusa (Postponed).",
-      "al-orobah-mohammed-nizar: nessuna stagione passata di campionato su Sofascore.",
       "al-orobah-mohammed-nizar: partita del 2026-10-14 contro Hajer esclusa (Postponed).",
-      "al-orobah-raed-faraj: nessuna stagione passata di campionato su Sofascore.",
       "al-orobah-raed-faraj: partita del 2026-10-14 contro Hajer esclusa (Postponed).",
-      "al-ula-yousef-al-honaifesh: nessuna stagione passata di campionato su Sofascore.",
       "al-ula-yousef-al-honaifesh: partita del 2026-10-13 contro Al-Jeel esclusa (Postponed).",
-      "hajer-basil-al-numayr: nessuna stagione passata di campionato su Sofascore.",
       "hajer-basil-al-numayr: partita del 2026-10-14 contro Al Orobah esclusa (Postponed).",
-      "al-adalah-jasim-al-bashah: nessuna stagione passata di campionato su Sofascore.",
-      "al-adalah-ali-al-abbad: nessuna stagione passata di campionato su Sofascore.",
-      "al-jeel-bader-al-saad: nessuna stagione passata di campionato su Sofascore.",
       "al-jeel-bader-al-saad: partita del 2026-10-13 contro Al Ula esclusa (Postponed).",
       "al-jeel-bader-al-saad: partita del 2026-10-21 contro Al Jandal esclusa (Postponed).",
       "al-jeel-ali-kaabi: stagioni passate non recuperate (HTTP 404)",
       "al-jeel-ali-kaabi: partite di coppa e nazionale non recuperate (HTTP 404); quelle gia' salvate restano.",
       "al-jeel-ali-kaabi: partita del 2026-10-13 contro Al Ula esclusa (Postponed).",
       "al-jeel-ali-kaabi: partita del 2026-10-21 contro Al Jandal esclusa (Postponed).",
-      "al-tai-muhannad-al-harthi: nessuna stagione passata di campionato su Sofascore.",
       "abha-nawaf-al-ghulaimish: partita del 2026-09-10 contro Diriyah esclusa (Postponed).",
       "abha-nawaf-al-ghulaimish: partita del 2026-10-11 contro Al Faisaly esclusa (Postponed).",
       "abha-nawaf-al-ghulaimish: partita del 2026-10-19 contro Al-Kholood esclusa (Postponed)."
@@ -23369,5 +24178,83 @@
         "at": "2026-10-19 16:37"
       }
     }
+  },
+  "past_seasons_checked": {
+    "al-ahli-u21-salem-abdullah__2024-25": "2026-11-01",
+    "al-ettifaq-u21-abdullah-ziyad-al-ghamdi__2025-26": "2026-11-01",
+    "al-ettifaq-u21-abdullah-ziyad-al-ghamdi__2024-25": "2026-11-01",
+    "al-ettifaq-u21-abudullah-al-bishi__2025-26": "2026-11-01",
+    "al-ettifaq-u21-abudullah-al-bishi__2024-25": "2026-11-01",
+    "al-ettifaq-u21-awad-dahal__2024-25": "2026-11-01",
+    "al-faisaly-moyad-saleem__2024-25": "2026-11-01",
+    "al-faisaly-saud-haddad__2025-26": "2026-11-01",
+    "al-faisaly-saud-haddad__2024-25": "2026-11-01",
+    "al-faisaly-wael-kadan__2025-26": "2026-11-01",
+    "al-faisaly-wael-kadan__2024-25": "2026-11-01",
+    "al-fateh-abdulaziz-al-fawaz__2024-25": "2026-11-01",
+    "al-fateh-abdulaziz-al-suwailem__2024-25": "2026-11-01",
+    "al-fateh-u21-mahadi-al-obood__2024-25": "2026-11-01",
+    "al-hazem-u21-adnan-al-bishri__2025-26": "2026-11-01",
+    "al-hazem-u21-adnan-al-bishri__2024-25": "2026-11-01",
+    "al-hazem-u21-khalid-abduljawad__2025-26": "2026-11-01",
+    "al-hazem-u21-khalid-abduljawad__2024-25": "2026-11-01",
+    "al-hazem-u21-yazan-al-ruwaili__2025-26": "2026-11-01",
+    "al-hazem-u21-yazan-al-ruwaili__2024-25": "2026-11-01",
+    "al-hilal-u21-saad-al-mutairi__2024-25": "2026-11-01",
+    "al-hilal-u21-sabri-dahal__2024-25": "2026-11-01",
+    "al-hilal-u21-saleh-barnawi__2025-26": "2026-11-01",
+    "al-hilal-u21-saleh-barnawi__2024-25": "2026-11-01",
+    "al-hilal-u21-turki-al-ghumayl__2025-26": "2026-11-01",
+    "al-hilal-u21-turki-al-ghumayl__2024-25": "2026-11-01",
+    "al-ittihad-u21-suhayb-al-hawsawi__2025-26": "2026-11-01",
+    "al-ittihad-u21-suhayb-al-hawsawi__2024-25": "2026-11-01",
+    "al-ittihad-u21-yassen-al-jaber__2024-25": "2026-11-01",
+    "al-kholood-u21-rakan-bin-jamaan__2024-25": "2026-11-01",
+    "al-kholood-yazan-madani__2024-25": "2026-11-01",
+    "al-nassr-u21-abdulrahman-sufyani__2025-26": "2026-11-01",
+    "al-nassr-u21-abdulrahman-sufyani__2024-25": "2026-11-01",
+    "al-nassr-u21-abdulraman-al-otaibi__2025-26": "2026-11-01",
+    "al-nassr-u21-abdulraman-al-otaibi__2024-25": "2026-11-01",
+    "al-nassr-u21-awad-aman__2025-26": "2026-11-01",
+    "al-nassr-u21-bassam-abdullah-hazazi__2025-26": "2026-11-01",
+    "al-nassr-u21-bassam-abdullah-hazazi__2024-25": "2026-11-01",
+    "al-nassr-u21-rakan-ghamdi__2025-26": "2026-11-01",
+    "al-nassr-u21-rakan-ghamdi__2024-25": "2026-11-01",
+    "al-nassr-u21-saad-haqawi__2025-26": "2026-11-01",
+    "al-quadisiah-u21-ahmed-al-siyahi__2024-25": "2026-11-01",
+    "al-quadisiah-u21-ammar-al-yuhaibi__2024-25": "2026-11-01",
+    "al-quadisiah-u21-eyad-housa__2024-25": "2026-11-01",
+    "al-quadisiah-u21-sultan-harun__2024-25": "2026-11-01",
+    "al-raed-u21-samer-al-marwani__2025-26": "2026-11-01",
+    "al-raed-u21-samer-al-marwani__2024-25": "2026-11-01",
+    "al-riyadh-u21-hussain-al-raqwani__2025-26": "2026-11-01",
+    "al-riyadh-u21-sultan-al-essa__2024-25": "2026-11-01",
+    "al-shabab-u21-abdulaziz-al-hadhood__2025-26": "2026-11-01",
+    "al-taawoun-u21-turki-al-shaifan__2025-26": "2026-11-01",
+    "al-taawoun-u21-turki-al-shaifan__2024-25": "2026-11-01",
+    "al-ula-aseel-abdulrazzaq__2025-26": "2026-11-01",
+    "al-ula-aseel-abdulrazzaq__2024-25": "2026-11-01",
+    "al-jabalin-yazeed-al-rushaidan__2024-25": "2026-11-01",
+    "jeddah-saad-nader-al-rashed__2025-26": "2026-11-01",
+    "jeddah-saad-nader-al-rashed__2024-25": "2026-11-01",
+    "al-orobah-rayan-al-hazmi__2024-25": "2026-11-01",
+    "al-orobah-faris-al-zubaidi__2024-25": "2026-11-01",
+    "al-orobah-mohammed-nizar__2025-26": "2026-11-01",
+    "al-orobah-mohammed-nizar__2024-25": "2026-11-01",
+    "al-orobah-raed-faraj__2025-26": "2026-11-01",
+    "al-orobah-raed-faraj__2024-25": "2026-11-01",
+    "al-ula-yousef-al-honaifesh__2025-26": "2026-11-01",
+    "al-ula-yousef-al-honaifesh__2024-25": "2026-11-01",
+    "hajer-basil-al-numayr__2025-26": "2026-11-01",
+    "hajer-basil-al-numayr__2024-25": "2026-11-01",
+    "al-adalah-jasim-al-bashah__2025-26": "2026-11-01",
+    "al-adalah-jasim-al-bashah__2024-25": "2026-11-01",
+    "al-adalah-ali-al-abbad__2025-26": "2026-11-01",
+    "al-adalah-ali-al-abbad__2024-25": "2026-11-01",
+    "al-jeel-bader-al-saad__2025-26": "2026-11-01",
+    "al-jeel-bader-al-saad__2024-25": "2026-11-01",
+    "al-tai-muhannad-al-harthi__2025-26": "2026-11-01",
+    "al-tai-muhannad-al-harthi__2024-25": "2026-11-01",
+    "al-raed-meshari-al-oufi__2025-26": "2026-11-01"
   }
 }

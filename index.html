@@ -458,7 +458,8 @@
       <div class="panel-tools">
         <button class="btn" id="reportPdfBtn" type="button" title="Apre l'anteprima di stampa: scegli &quot;Salva come PDF&quot;">🖨 Report PDF</button>
         <button class="btn edit-only" id="importPlayersBtn" type="button" title="Scegli un file .csv (di norma &quot;NT U23 rendimento.csv&quot;): i nomi non ancora presenti vengono aggiunti alla lista, e di chi c'è già puoi aggiornare il club">＋ Importa nuovi giocatori</button>
-        <button class="btn btn-accent edit-only" id="requestUpdateBtn" type="button">↻ Aggiorna dati (da Sofascore)</button>
+        <button class="btn btn-accent edit-only" id="requestUpdateBtn" type="button" title="Scarica solo le partite nuove e quelle degli ultimi 3 giorni">↻ Aggiorna dati (da Sofascore)</button>
+        <button class="btn edit-only" id="fullUpdateBtn" type="button" title="Riscarica tutto da Sofascore, anche le partite già salvate e i totali delle stagioni chiuse: più lento">⟳ Aggiornamento completo</button>
         <button class="btn edit-only" id="publishStaffBtn" type="button" title="Pubblica una copia di sola consultazione per lo staff (GitHub Pages)">🌐 Pubblica per lo staff</button>
         <a class="btn edit-only" href="#" target="_blank" rel="noopener" title="Come installare il segnalibro che scarica i dati da Sofascore">⚽ Segnalibro</a>
         <input type="file" id="importCsvInput" accept=".csv,text/csv" hidden />
@@ -555,7 +556,7 @@
     <p><b>Grafico vs. totali di stagione.</b> Per la stagione <b>corrente</b> (2026-27) la scheda mostra il grafico giornata per giornata: rating Sofascore e minuti giocati, questi ultimi colorati per stato (titolare, subentrato, in panchina, non convocato). Per le stagioni <b>passate</b> (già concluse) mostriamo invece solo i totali di stagione con tutte le statistiche — niente grafico giornata per giornata, per non appesantire la lettura di dati ormai storici. Sofascore inoltre pubblica dati partita-per-partita solo per la prima squadra dei club in RSL/FDL: il campionato U21 dei club non pubblica statistiche a livello di singola partita, quindi per quei giocatori si vedono solo i totali quando disponibili.</p>
     <p><b>Coppe e nazionale.</b> Nella stagione corrente grafici e tabella includono, in ordine di data, anche le partite di <b>coppa</b> (King's Cup, Supercoppa, AFC Champions League…) e della <b>nazionale</b> (tutte le selezioni, amichevoli comprese), prese dall'elenco partite del giocatore su Sofascore (da Transfermarkt per chi ha Transfermarkt come fonte). Si riconoscono dal simbolo — ● campionato, ◆ coppa, ▲ nazionale — e dal colore della riga o della fascia nel grafico. Compaiono solo le partite in cui il giocatore era convocato; le amichevoli di club e le partite rinviate sono escluse. I totali principali, la linea di tendenza del rating, il confronto tra giocatori e il controllo con Transfermarkt restano sul solo <b>campionato</b>: coppe e nazionale hanno il loro riepilogo sotto i totali.</p>
     <p class="staff-only"><b>Copia per lo staff.</b> Questa è una copia di sola consultazione: puoi cercare e filtrare i giocatori, aprire le schede, cambiare stagione, confrontare e scaricare CSV e PDF, ma non modificare i dati. I numeri sono quelli dell'ultima pubblicazione (data in alto, “Ultimo aggiornamento”): per dati più freschi bisogna che chi gestisce la dashboard la aggiorni e la ripubblichi. Le scelte e i filtri che fai qui restano solo sul tuo schermo.</p>
-    <p class="edit-only" id="phaseNote"><b>Aggiornamento dati.</b> Il pulsante "Aggiorna dati" in alto scarica i dati più recenti da Sofascore <b>in locale, sul tuo PC</b> (serve il server locale avviato e una connessione internet; lascia questa scheda aperta finché non finisce) — aggiorna il dettaglio partita-per-partita della stagione corrente e i totali delle stagioni già chiuse (letti dalla scheda statistiche del giocatore su Sofascore, quindi validi anche se nel frattempo ha cambiato squadra). Subito dopo il server rilegge Transfermarkt per tutti i giocatori che ne hanno il link (anche se Sofascore si ferma o non li ha). Dalla scheda di un singolo giocatore, "↻ Aggiorna questo giocatore" fa lo stesso per lui solo, da entrambe le fonti: Transfermarkt parte subito, senza segnalibro. Sciogliere i casi "da verificare"/"ambiguo"/"non trovato" richiede ancora una sessione con Claude, oppure il link incollato a mano nella scheda del giocatore.</p>
+    <p class="edit-only" id="phaseNote"><b>Aggiornamento dati.</b> Il pulsante "Aggiorna dati" in alto scarica i dati più recenti da Sofascore <b>in locale, sul tuo PC</b> (serve il server locale avviato e una connessione internet; lascia questa scheda aperta finché non finisce) — aggiorna il dettaglio partita-per-partita della stagione corrente e i totali delle stagioni già chiuse (letti dalla scheda statistiche del giocatore su Sofascore, quindi validi anche se nel frattempo ha cambiato squadra). Subito dopo il server rilegge Transfermarkt per tutti i giocatori che ne hanno il link (anche se Sofascore si ferma o non li ha). È un aggiornamento <b>veloce</b>: le partite già salvate non si riscaricano (salvo quelle degli ultimi 3 giorni, che Sofascore a volte corregge), i totali delle stagioni chiuse si chiedono solo se mancano, e l'elenco partite di una squadra e la formazione di una partita si scaricano una volta sola anche se servono a più giocatori. "⟳ Aggiornamento completo" invece riscarica tutto: più lento, da usare se sospetti un dato sbagliato. Dalla scheda di un singolo giocatore, "↻ Aggiorna questo giocatore" fa lo stesso, completo, per lui solo, da entrambe le fonti: Transfermarkt parte subito, senza segnalibro. Sciogliere i casi "da verificare"/"ambiguo"/"non trovato" richiede ancora una sessione con Claude, oppure il link incollato a mano nella scheda del giocatore.</p>
     <p class="edit-only"><b>Nuovi giocatori.</b> "＋ Importa nuovi giocatori" apre la finestra di Windows per scegliere il file: indichi tu dov'è la lista di partenza <span class="mono">NT U23 rendimento.csv</span> — in qualsiasi cartella, anche su una chiavetta, e anche con un altro nome — e la pagina aggiunge i nomi che non sono ancora in <span class="mono">data.json</span>, dopo avertene mostrato l'elenco e chiesto conferma. Nella stessa finestra trovi chi è già in lista ma nel file ha un <b>club diverso</b>: spunta chi ha cambiato davvero squadra e solo a quelli cambio il club (la lista può essere più vecchia di <span class="mono">data.json</span>, per questo di partenza non è spuntato nessuno); per chi ha il link Sofascore rileggo poi la squadra e riscarico le partite, come con "Modifica club". Statistiche e link confermati restano come sono. I nuovi entrano come "Non trovato" e non hanno statistiche finché non incolli il loro link Sofascore nella scheda.</p>
     <p class="edit-only"><b>Link e squadra collegata.</b> Le partite si scaricano dalla <b>squadra</b> a cui il giocatore risulta legato su Sofascore, non dal giocatore in sé: per questo, quando incolli un link Sofascore, la pagina legge dalla sua scheda anche la squadra e la salva. Un link giusto con la squadra sbagliata (tipicamente la formazione U21 del club, le cui partite non rientrano nel filtro RSL/FDL) non produce nessun grafico. Il pulsante "✎ Modifica link" è disponibile su ogni giocatore, anche su quelli già "Trovato".</p>
     <p class="edit-only"><b>Cambio di club (mercato).</b> Quando un giocatore viene ceduto — a gennaio o in estate, con la finestra aperta fino a metà settembre a campionato già iniziato — i suoi link Sofascore e Transfermarkt restano gli stessi: cambia solo la squadra. Il pulsante "✎ Modifica club" nella scheda scrive il club nuovo (scegliendolo fra quelli già in elenco o digitandolo) e subito dopo rilegge da Sofascore la squadra collegata e riscarica le partite. Togliere o aggiungere la sigla <b>U21</b> cambia anche il tipo di dati mostrati: grafico giornata per giornata per la prima squadra, solo totali di stagione per la U21. Le statistiche già raccolte non si perdono.</p>
@@ -2484,13 +2485,16 @@ function updatePlayer(p){
   if(s.tm) updateFromTm(p.id, s.sofa);
 }
 
-function runLocalUpdate(only){
-  runnerWait = {only: only || null, running: false};
+// full: riscarica anche le partite gia' salvate e le stagioni chiuse (il
+// server lo fa comunque per "Aggiorna questo giocatore").
+function runLocalUpdate(only, full){
+  runnerWait = {only: only || null, full: !!full, running: false};
   // La scheda va aperta subito, nel click: dopo un "await" il browser la
   // bloccherebbe. Se la blocca comunque (succede dopo il salvataggio di un
   // link) resta il pulsante "Apri Sofascore" nel riquadro.
   const tab = openSofascoreTab();
   document.getElementById('requestUpdateBtn').disabled = true;
+  document.getElementById('fullUpdateBtn').disabled = true;
   showRunnerWait(tab
     ? null
     : 'Il browser non ha aperto la scheda da solo: premi “Apri Sofascore” qui accanto.');
@@ -2516,6 +2520,7 @@ function showRunnerWait(text){
   if(!runnerWait){
     box.hidden = true;
     topBtn.disabled = false;
+    document.getElementById('fullUpdateBtn').disabled = false;
     topBtn.textContent = '↻ Aggiorna dati (da Sofascore)';
     return;
   }
@@ -2527,7 +2532,9 @@ function showRunnerWait(text){
   }else{
     msg.textContent = (text ? text + ' ' : '') +
       'Nella scheda di Sofascore clicca il segnalibro “⚽ Aggiorna Falcons”' +
-      (who ? ' per aggiornare ' + who + '.' : ' per aggiornare tutti i giocatori.') +
+      (who ? ' per aggiornare ' + who + '.'
+           : runnerWait.full ? ' per riscaricare tutto (aggiornamento completo).'
+           : ' per aggiornare tutti i giocatori.') +
       ' Non ce l’hai? Vedi “⚽ Segnalibro” qui sopra.';
     topBtn.textContent = '⏳ In attesa del segnalibro…';
   }
@@ -2585,9 +2592,12 @@ window.addEventListener('message', async e => {
       reply({falcons: 'reply', id: m.id, ok: false, error: 'richiesta non ammessa dalla dashboard'});
       return;
     }
+    let body = m.body;
+    // L'aggiornamento completo lo sceglie la dashboard: il segnalibro non lo sa.
+    if(path === '/api/update/start' && runnerWait.full) body = Object.assign({}, body, {full: true});
     let out;
     try{
-      out = await postLocal(path, m.body);
+      out = await postLocal(path, body);
     }catch(err){
       reply({falcons: 'reply', id: m.id, ok: false,
              error: 'server locale non raggiungibile: avvia avvia.bat e riprova'});
@@ -3081,6 +3091,7 @@ function wireControls(){
   document.getElementById('fRole').addEventListener('change', renderRoster);
   document.getElementById('fStatus').addEventListener('change', renderRoster);
   document.getElementById('requestUpdateBtn').addEventListener('click', () => runLocalUpdate());
+  document.getElementById('fullUpdateBtn').addEventListener('click', () => runLocalUpdate(null, true));
   document.getElementById('runnerCancelBtn').addEventListener('click', cancelRunnerWait);
   document.getElementById('runnerOpenBtn').addEventListener('click', () => { openSofascoreTab(); showRunnerWait(); });
   document.getElementById('importPlayersBtn').addEventListener('click', importNewPlayers);
