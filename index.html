@@ -121,7 +121,8 @@
   }
   .brand-title{ font-size:24px; font-weight:700; margin:0; letter-spacing:-.01em; text-wrap:balance; }
   .brand-sub{ font-size:13px; color:var(--ink-secondary); margin:4px 0 0; max-width:52ch; }
-  .topbar-actions{ display:flex; flex-direction:column; align-items:flex-end; gap:8px; flex:0 0 auto; }
+  .topbar-actions{ display:flex; flex-direction:column; align-items:flex-end; gap:8px; flex:0 1 auto; min-width:0; }
+  .topbar-actions .panel-tools{ justify-content:flex-end; }
   .meta-updated{ font-size:11.5px; color:var(--ink-muted); text-align:right; line-height:1.5; }
   .btn{
     font:inherit; font-size:13px; font-weight:600; cursor:pointer;
@@ -369,6 +370,19 @@
 
   /* ---------- Esportazioni (CSV / PDF) ---------- */
   .panel-tools{ display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  /* Riquadro col link per lo staff: compare passando sul pulsante "Pubblica"
+     (o col tasto Tab). Il padding in alto fa da ponte, cosi' scendendo col
+     mouse verso "Copia link" il riquadro non sparisce. */
+  .publish-wrap{ position:relative; display:inline-flex; }
+  .publish-pop{ display:none; position:absolute; top:100%; right:0; padding-top:6px; z-index:30; }
+  .publish-wrap:hover .publish-pop, .publish-wrap:focus-within .publish-pop{ display:block; }
+  .publish-pop-box{ display:flex; flex-direction:column; gap:6px; width:max-content;
+    max-width:min(360px, calc(100vw - 32px)); padding:10px 12px; font-size:12px;
+    background:var(--surface); border:1px solid var(--border-strong); border-radius:10px;
+    box-shadow:0 8px 24px rgba(0,0,0,.15); }
+  .publish-pop-label{ color:var(--ink-muted); }
+  .publish-pop a{ word-break:break-all; }
+  .publish-pop .tool-btn{ align-self:flex-start; }
   .select-all{
     display:flex; align-items:center; gap:5px; font-size:12px; color:var(--ink-secondary);
     cursor:pointer; user-select:none; padding:2px 6px 2px 4px; border-radius:7px;
@@ -460,7 +474,16 @@
         <button class="btn edit-only" id="importPlayersBtn" type="button" title="Scegli un file .csv (di norma &quot;NT U23 rendimento.csv&quot;): i nomi non ancora presenti vengono aggiunti alla lista, e di chi c'è già puoi aggiornare il club">＋ Importa nuovi giocatori</button>
         <button class="btn btn-accent edit-only" id="requestUpdateBtn" type="button" title="Scarica solo le partite nuove e quelle degli ultimi 3 giorni">↻ Aggiorna dati (da Sofascore)</button>
         <button class="btn edit-only" id="fullUpdateBtn" type="button" title="Riscarica tutto da Sofascore, anche le partite già salvate e i totali delle stagioni chiuse: più lento">⟳ Aggiornamento completo</button>
-        <button class="btn edit-only" id="publishStaffBtn" type="button" title="Pubblica una copia di sola consultazione per lo staff (GitHub Pages)">🌐 Pubblica per lo staff</button>
+        <span class="publish-wrap edit-only">
+          <button class="btn" id="publishStaffBtn" type="button" aria-describedby="publishPop">🌐 Pubblica per lo staff</button>
+          <span class="publish-pop" id="publishPop" role="tooltip">
+            <span class="publish-pop-box">
+              <span class="publish-pop-label">Pubblica una copia di sola consultazione. Link da girare allo staff:</span>
+              <a class="mono" id="publishUrl" href="#" target="_blank" rel="noopener">…</a>
+              <button class="tool-btn" id="publishCopyBtn" type="button">⧉ Copia link</button>
+            </span>
+          </span>
+        </span>
         <a class="btn edit-only" href="#" target="_blank" rel="noopener" title="Come installare il segnalibro che scarica i dati da Sofascore">⚽ Segnalibro</a>
         <input type="file" id="importCsvInput" accept=".csv,text/csv" hidden />
       </div>
@@ -563,7 +586,7 @@
     <p class="edit-only"><b>Eliminare un giocatore.</b> Il pulsante rosso "🗑 Elimina giocatore" nella scheda, dopo una conferma, toglie da <span class="mono">data.json</span> il giocatore con partite, totali, confronto Transfermarkt e minuti corretti a mano. Prima di cancellare il server ne salva una copia nella cartella <span class="mono">cestino</span>, accanto a <span class="mono">data.json</span>. Se il nome è ancora nella lista CSV, la prossima importazione lo ripropone fra i nuovi.</p>
     <p><b>Confronto.</b> Spunta due o più giocatori nella lista per aprire la tabella di confronto — la casella “Seleziona tutti” in cima alla lista spunta (o toglie) in un colpo solo tutti i giocatori <i>attualmente mostrati</i>, quindi con un filtro attivo agisce solo su quelli: presenze, partite di campionato disponibili, panchine, minuti, minuti per presenza, gol, cartellini e rating medio nella stagione scelta, ordinabile per qualunque colonna e restringibile a un reparto o a un ruolo preciso. Chi non ha ancora dati raccolti compare con dei trattini ed è segnalato sotto la tabella — un dato mancante non è uno zero. La freccia ▶ accanto al nome apre, sotto la riga, le partite del giocatore giornata per giornata (stato, minuti, gol, cartellini, rating); “Giornate: espandi tutti” le apre per tutti, e il PDF stampa quelle aperte.</p>
     <p><b>Partite di campionato e panchine.</b> La colonna <i>Part. camp.</i> conta le partite di Saudi Pro League / First Division League che la <b>squadra del giocatore</b> ha disputato fino alla data dell'ultimo aggiornamento di <span class="mono">data.json</span>: è il denominatore delle presenze (presenze + panchine + mancate convocazioni = partite di campionato). Vale solo dove abbiamo il dettaglio partita-per-partita con gli stati, cioè la stagione corrente: per le stagioni storiche, che registrano le sole partite giocate, la colonna resta vuota invece di riportare un totale inventato.</p>
-    <p class="edit-only"><b>Copia per lo staff.</b> "🌐 Pubblica per lo staff" mette online una copia di <b>sola consultazione</b> della dashboard con i dati di adesso, su GitHub Pages: lo staff la apre dal link (anche col tuo PC spento) e può navigare, aprire le schede, confrontare e scaricare CSV e PDF, ma non vede i pulsanti che modificano i dati. La copia non si aggiorna da sola: dopo "Aggiorna dati" o dopo una correzione, ripremi il pulsante. Il link è pubblico: chiunque lo abbia può aprirlo.</p>
+    <p class="edit-only"><b>Copia per lo staff.</b> "🌐 Pubblica per lo staff" mette online una copia di <b>sola consultazione</b> della dashboard con i dati di adesso, su GitHub Pages (passando col mouse sul pulsante compare il link, con “⧉ Copia link”): lo staff la apre dal link (anche col tuo PC spento) e può navigare, aprire le schede, confrontare e scaricare CSV e PDF, ma non vede i pulsanti che modificano i dati. La copia non si aggiorna da sola: dopo "Aggiorna dati" o dopo una correzione, ripremi il pulsante. Il link è pubblico: chiunque lo abbia può aprirlo.</p>
     <p><b>Esportazioni.</b> Ogni tabella ha il suo <b>↓ CSV</b> (separatore punto e virgola e decimali con la virgola, così Excel in italiano lo apre già in colonne) e il suo <b>🖨 PDF</b>, che apre l'anteprima di stampa del browser: da lì scegli "Salva come PDF". Si può stampare il report completo (pulsante in alto), la sola tabella di confronto, la sola lista giocatori, la scheda di un giocatore o un singolo grafico, che esce con sotto il dettaglio delle partite.</p>
   </footer>
 
@@ -3084,6 +3107,43 @@ async function publishForStaff(){
   }
 }
 
+// L'indirizzo lo sa pubblica.py (STAFF_URL): lo chiediamo al server per non
+// tenerlo scritto in due posti.
+let staffUrl = null;
+async function loadStaffUrl(){
+  try{
+    const res = await fetch('/api/publish/info', {cache:'no-store'});
+    if(!res.ok) return;
+    staffUrl = (await res.json()).url;
+    const a = document.getElementById('publishUrl');
+    a.href = staffUrl;
+    a.textContent = staffUrl;
+  }catch(_){ /* server spento: il riquadro resta senza link */ }
+}
+async function copyStaffUrl(){
+  if(!staffUrl) await loadStaffUrl();
+  if(!staffUrl){ showToast('Non riesco a leggere il link dal server locale.'); return; }
+  let ok = false;
+  try{
+    await navigator.clipboard.writeText(staffUrl);
+    ok = true;
+  }catch(_){
+    // Appunti negati (permessi del browser): il vecchio metodo con una casella
+    // di testo nascosta di solito passa lo stesso.
+    const box = document.createElement('textarea');
+    box.value = staffUrl;
+    box.setAttribute('readonly', '');
+    box.style.cssText = 'position:fixed;top:0;left:0;opacity:0';
+    document.body.appendChild(box);
+    box.select();
+    try{ ok = document.execCommand('copy'); }catch(_){ ok = false; }
+    box.remove();
+  }
+  showToast(ok
+    ? 'Link per lo staff copiato: ' + staffUrl
+    : 'Copia non riuscita: seleziona il link nel riquadro e copialo a mano.');
+}
+
 function wireControls(){
   document.getElementById('rosterSelectAll').addEventListener('change', e=>toggleCompareAll(e.target.checked));
   document.getElementById('fSearch').addEventListener('input', renderRoster);
@@ -3096,6 +3156,7 @@ function wireControls(){
   document.getElementById('runnerOpenBtn').addEventListener('click', () => { openSofascoreTab(); showRunnerWait(); });
   document.getElementById('importPlayersBtn').addEventListener('click', importNewPlayers);
   document.getElementById('publishStaffBtn').addEventListener('click', publishForStaff);
+  document.getElementById('publishCopyBtn').addEventListener('click', copyStaffUrl);
   document.getElementById('compareOpenBtn').addEventListener('click', ()=>{
     compareOpen = true;
     renderCompare();
@@ -3136,6 +3197,7 @@ function wireControls(){
 wireControls();
 renderAll();
 loadLocalData().then(() => { if(!READ_ONLY) pollTmCheckSilently(); });
+if(!READ_ONLY) loadStaffUrl();
 
 // Pagina ricaricata mentre il controllo Transfermarkt gira: riprendiamo a
 // seguirlo, senza ricaricare niente se non c'e' nulla in corso.
