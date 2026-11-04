@@ -17050,11 +17050,11 @@
       "choice_fingerprint": null
     },
     "al-okhdood-saud-salem__2026-27": {
-      "checked_at": "2026-11-03 09:04",
+      "checked_at": "2026-11-04 10:05",
       "status": "discrepanza",
       "sofascore": {
-        "appearances": 6,
-        "minutes": 424,
+        "appearances": 7,
+        "minutes": 514,
         "goals": 0,
         "yellow": 0,
         "red": 0,
@@ -17062,8 +17062,8 @@
         "not_called": 2
       },
       "transfermarkt": {
-        "appearances": 6,
-        "minutes": 424,
+        "appearances": 7,
+        "minutes": 514,
         "goals": 0,
         "yellow": 0,
         "red": 1,
@@ -17099,12 +17099,12 @@
         }
       ],
       "games_note": null,
-      "fingerprint": "954a3a5b25bc",
+      "fingerprint": "8ba607f46ccd",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-okhdood-saud-salem__2025-26": {
-      "checked_at": "2026-11-03 09:04",
+      "checked_at": "2026-11-04 10:05",
       "status": "concorda",
       "sofascore": {
         "appearances": 5,
@@ -17131,7 +17131,7 @@
       "choice_fingerprint": null
     },
     "al-okhdood-saud-salem__2024-25": {
-      "checked_at": "2026-11-03 09:04",
+      "checked_at": "2026-11-04 10:05",
       "status": "concorda",
       "sofascore": {
         "appearances": 6,
@@ -23660,12 +23660,23 @@
           "goals": 0,
           "yellow": 0,
           "red": 0
+        },
+        {
+          "date": "2026-11-03",
+          "opponent": "Damac FC",
+          "home_away": "away",
+          "status": "titolare",
+          "minutes": 90,
+          "rating": null,
+          "goals": 0,
+          "yellow": 0,
+          "red": 0
         }
       ],
       "player_id": "al-okhdood-saud-salem",
       "season": "2026-27",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-03 09:05.",
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-04 10:05.",
       "other_matches": [
         {
           "date": "2026-08-18",
@@ -24109,7 +24120,7 @@
       "player_id": "al-okhdood-saud-salem",
       "season": "2025-26",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-03 09:05."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-04 10:05."
     },
     "al-okhdood-saud-salem__2024-25": {
       "matches": [
@@ -24491,7 +24502,7 @@
       "player_id": "al-okhdood-saud-salem",
       "season": "2024-25",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-03 09:05."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-04 10:05."
     }
   },
   "manual_minutes": {
