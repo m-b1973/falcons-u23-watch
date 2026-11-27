@@ -1718,7 +1718,9 @@
       "transfermarkt_id": null,
       "year_of_birth": 2005,
       "id": "al-jeel-ahmed-kaabi",
-      "sofascore_team_name": "Al-Jeel"
+      "sofascore_team_name": "Al-Jeel",
+      "tm_match_status": "da_confermare",
+      "tm_candidates": []
     },
     {
       "club": "AL JEEL",
@@ -1804,6 +1806,23 @@
       "transfermarkt_id": null,
       "year_of_birth": 2005,
       "id": "al-ula-ali-ayyad-al-nakhli"
+    },
+    {
+      "club": "AL HILAL U21",
+      "jersey_first_team_nt": null,
+      "jersey_u21_nt": "51",
+      "match_confidence": "bassa",
+      "match_note": "Aggiunto dalla lista \"NT U23 rendimento.csv\" il 2026-11-25. Nessun collegamento a Sofascore ancora: incolla il link della scheda dalla pagina del giocatore.",
+      "match_status": "non_trovato",
+      "name": "Ahmad HAMZA ALI",
+      "official_id": null,
+      "role": "ATT CEN",
+      "sofascore_name": null,
+      "sofascore_player_id": null,
+      "sofascore_team_id": null,
+      "transfermarkt_id": null,
+      "year_of_birth": 2008,
+      "id": "al-hilal-u21-ahmad-hamza-ali"
     }
   ],
   "performance": {
@@ -2310,7 +2329,7 @@
       "player_id": "al-diriyah-abdulelah-al-jafari",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -2535,7 +2554,7 @@
       "player_id": "al-faisaly-saud-haddad",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251995,
@@ -2925,7 +2944,7 @@
       "player_id": "al-fateh-abdulaziz-al-fawaz",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16252001,
@@ -3144,7 +3163,7 @@
       "player_id": "al-fateh-abdulaziz-al-suwailem",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16252001,
@@ -3351,7 +3370,7 @@
       "player_id": "al-ittihad-mohammed-barnawi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16623315,
@@ -3622,7 +3641,7 @@
       "player_id": "al-ittihad-mohammed-fallatah",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251992,
@@ -3841,7 +3860,7 @@
       "player_id": "al-khaleej-thamer-al-khaibri",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16875514,
@@ -4032,7 +4051,7 @@
       "player_id": "al-kholood-hamed-al-shanqity",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251989,
@@ -4303,7 +4322,7 @@
       "player_id": "al-kholood-yazan-madani",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251989,
@@ -4522,7 +4541,7 @@
       "player_id": "al-fayha-u21-ali-al-hussain",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251988,
@@ -4741,7 +4760,7 @@
       "player_id": "al-hazem-u21-yazan-al-ruwaili",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251999,
@@ -4960,7 +4979,7 @@
       "player_id": "al-ittihad-u21-talal-haji",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -5114,7 +5133,7 @@
       "player_id": "al-nassr-u21-awad-aman",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251986,
@@ -5337,7 +5356,7 @@
       "player_id": "al-okhdood-saud-salem",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251996,
@@ -5508,7 +5527,7 @@
       "player_id": "al-quadisiah-u21-ahmed-al-siyahi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16863572,
@@ -5731,7 +5750,7 @@
       "player_id": "al-quadisiah-u21-ammar-al-yuhaibi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251993,
@@ -5950,7 +5969,7 @@
       "player_id": "al-quadisiah-u21-eyad-housa",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251993,
@@ -6233,7 +6252,7 @@
       "player_id": "al-quadisiah-u21-sultan-harun",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251993,
@@ -6758,7 +6777,7 @@
       "player_id": "al-shabab-u21-abdulaziz-al-hadhood",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251994,
@@ -6912,12 +6931,24 @@
           "goals": 0,
           "yellow": 0,
           "red": 0
+        },
+        {
+          "event_id": 16652080,
+          "date": "2026-11-25",
+          "opponent": "Al Bukayriyah",
+          "home_away": "away",
+          "status": "panchina",
+          "minutes": 0,
+          "rating": null,
+          "goals": 0,
+          "yellow": 0,
+          "red": 0
         }
       ],
       "player_id": "al-shabab-u21-abdullah-majed",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -7071,7 +7102,7 @@
       "player_id": "al-taawoun-u21-abdulrahman-al-ghamdi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16875514,
@@ -7261,12 +7292,24 @@
           "goals": 0,
           "yellow": 0,
           "red": 0
+        },
+        {
+          "event_id": 16652078,
+          "date": "2026-11-25",
+          "opponent": "Al Adalah",
+          "home_away": "home",
+          "status": "non_convocato",
+          "minutes": 0,
+          "rating": null,
+          "goals": 0,
+          "yellow": 0,
+          "red": 0
         }
       ],
       "player_id": "al-ula-aseel-abdulrazzaq",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -7420,7 +7463,7 @@
       "player_id": "al-zulfi-saud-al-tumbukti",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251987,
@@ -7591,7 +7634,7 @@
       "player_id": "neom-u21-khalid-al-rammah",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251995,
@@ -7826,7 +7869,7 @@
       "player_id": "neom-u21-mohammed-al-hakim",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 17362916,
@@ -8029,7 +8072,7 @@
       "player_id": "al-ettifaq-u21-abdullah-ziyad-al-ghamdi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 17497563,
@@ -8188,7 +8231,7 @@
       "player_id": "al-ettifaq-u21-awad-dahal",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16875514,
@@ -8391,7 +8434,7 @@
       "player_id": "al-ettifaq-u21-jalal-al-salem",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -8545,7 +8588,7 @@
       "player_id": "al-fateh-u21-mahadi-al-obood",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -8687,7 +8730,7 @@
       "player_id": "al-hilal-u21-meshal-al-dawoud",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -8829,7 +8872,7 @@
       "player_id": "al-hilal-u21-mohammed-al-sournouk",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25."
+      "note": "Aggiornato in locale il 2026-11-26 16:26."
     },
     "al-hilal-u21-saad-al-mutairi__2026-27": {
       "matches": [
@@ -9160,7 +9203,7 @@
       "player_id": "al-hilal-u21-sabri-dahal",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251991,
@@ -9431,7 +9474,7 @@
       "player_id": "al-riyadh-u21-sultan-al-essa",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251987,
@@ -9650,7 +9693,7 @@
       "player_id": "al-nassr-u21-saad-haqawi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251986,
@@ -9869,7 +9912,7 @@
       "player_id": "al-taawoun-u21-turki-al-shaifan",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -10511,7 +10554,7 @@
       "player_id": "al-nassr-u21-rakan-ghamdi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251986,
@@ -10730,7 +10773,7 @@
       "player_id": "al-hilal-u21-rayan-al-ghamdi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -10884,7 +10927,7 @@
       "player_id": "al-jabalin-yazeed-al-rushaidan",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251990,
@@ -11055,7 +11098,7 @@
       "player_id": "jeddah-saad-nader-al-rashed",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251989,
@@ -11214,7 +11257,7 @@
       "player_id": "al-orobah-rayan-al-hazmi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251997,
@@ -11373,7 +11416,7 @@
       "player_id": "al-orobah-faris-al-zubaidi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251997,
@@ -11532,7 +11575,7 @@
       "player_id": "al-orobah-mohammed-nizar",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251997,
@@ -11691,7 +11734,7 @@
       "player_id": "al-orobah-raed-faraj",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251997,
@@ -11833,12 +11876,24 @@
           "goals": 0,
           "yellow": 0,
           "red": 0
+        },
+        {
+          "event_id": 16652078,
+          "date": "2026-11-25",
+          "opponent": "Al Adalah",
+          "home_away": "home",
+          "status": "subentrato",
+          "minutes": 14,
+          "rating": 6.6,
+          "goals": 0,
+          "yellow": 0,
+          "red": 0
         }
       ],
       "player_id": "al-ula-yousef-al-honaifesh",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16252001,
@@ -11997,7 +12052,7 @@
       "player_id": "hajer-basil-al-numayr",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -12134,12 +12189,24 @@
           "goals": 0,
           "yellow": 0,
           "red": 0
+        },
+        {
+          "event_id": 16652078,
+          "date": "2026-11-25",
+          "opponent": "Al Ula",
+          "home_away": "away",
+          "status": "non_convocato",
+          "minutes": 0,
+          "rating": null,
+          "goals": 0,
+          "yellow": 0,
+          "red": 0
         }
       ],
       "player_id": "al-adalah-jasim-al-bashah",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251988,
@@ -12293,12 +12360,24 @@
           "goals": 0,
           "yellow": 0,
           "red": 0
+        },
+        {
+          "event_id": 16652078,
+          "date": "2026-11-25",
+          "opponent": "Al Ula",
+          "home_away": "away",
+          "status": "panchina",
+          "minutes": 0,
+          "rating": null,
+          "goals": 0,
+          "yellow": 0,
+          "red": 0
         }
       ],
       "player_id": "al-adalah-ali-al-abbad",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251988,
@@ -12445,7 +12524,7 @@
       "player_id": "al-jeel-bader-al-saad",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -12575,7 +12654,7 @@
       "player_id": "al-jeel-ali-kaabi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25."
+      "note": "Aggiornato in locale il 2026-11-26 16:26."
     },
     "al-tai-muhannad-al-harthi__2026-27": {
       "matches": [
@@ -12727,7 +12806,7 @@
       "player_id": "al-tai-muhannad-al-harthi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251993,
@@ -12898,7 +12977,7 @@
       "player_id": "al-raed-meshari-al-oufi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -13052,7 +13131,7 @@
       "player_id": "damac-fc-jawad-alhassan",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251998,
@@ -13688,7 +13767,7 @@
       "player_id": "abha-nawaf-al-ghulaimish",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     },
@@ -13842,7 +13921,7 @@
       "player_id": "al-taawoun-u21-abdulmalik-al-harbi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:25.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [
         {
           "event_id": 16251990,
@@ -13989,7 +14068,7 @@
       "player_id": "al-jeel-ahmed-kaabi",
       "season": "2026-27",
       "source": "sofascore_event_lineups_local",
-      "note": "Aggiornato in locale il 2026-11-25 12:26.",
+      "note": "Aggiornato in locale il 2026-11-26 16:26.",
       "other_matches": [],
       "other_absent": []
     }
@@ -14905,12 +14984,12 @@
       "source": "Sofascore (aggiornamento locale, 2026-27)"
     },
     "al-ula-yousef-al-honaifesh__2026-27": {
-      "appearances": 9,
-      "minutes": 109,
+      "appearances": 10,
+      "minutes": 123,
       "goals": 0,
       "yellow": 0,
       "red": 0,
-      "avg_rating": 6.66,
+      "avg_rating": 6.65,
       "source": "Sofascore (aggiornamento locale, 2026-27)"
     },
     "hajer-basil-al-numayr__2026-27": {
@@ -15114,12 +15193,174 @@
   },
   "meta": {
     "last_official_update": null,
-    "last_sofascore_update": "2026-11-25",
-    "last_transfermarkt_update": "2026-11-25",
-    "last_update_note": "Aggiornamento locale del solo giocatore Ahmed kaabi (stagione 2026-27): dati aggiornati. Squadra Sofascore corretta per 1 giocatori.",
+    "last_sofascore_update": "2026-11-26",
+    "last_transfermarkt_update": "2026-11-26",
+    "last_update_note": "Aggiornamento locale: stagione corrente (2026-27) rinfrescata per 55 giocatori con match confermato. Aggiornamento veloce: 753 partite gia' salvate riusate, 16 formazioni condivise tra compagni.",
     "last_update_errors": [
-      "al-jeel-ahmed-kaabi: squadra aggiornata da nessuna a 168092 (Al-Jeel).",
-      "al-jeel-ahmed-kaabi: nessuna stagione passata di campionato su Sofascore.",
+      "al-ahli-u21-salem-abdullah: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-diriyah-abdulelah-al-jafari: partita del 2026-09-10 contro Abha esclusa (Postponed).",
+      "al-diriyah-abdulelah-al-jafari: partita del 2026-11-20 contro Al-Hilal esclusa (Postponed).",
+      "al-ettifaq-u21-abdullah-ziyad-al-ghamdi: partita del 2026-10-20 contro Al-Ittihad esclusa (Postponed).",
+      "al-ettifaq-u21-abdullah-ziyad-al-ghamdi: partita del 2026-11-07 contro Al-Hilal esclusa (Postponed).",
+      "al-ettifaq-u21-abdullah-ziyad-al-ghamdi: partita del 2026-11-20 contro Al-Shabab esclusa (Postponed).",
+      "al-ettifaq-u21-abudullah-al-bishi: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-ettifaq-u21-awad-dahal: partita del 2026-09-10 contro Al-Kholood esclusa (Postponed).",
+      "al-ettifaq-u21-awad-dahal: partita del 2026-10-16 contro Al-Hilal esclusa (Postponed).",
+      "al-ettifaq-u21-awad-dahal: partita del 2026-11-20 contro Al-Hazem esclusa (Postponed).",
+      "al-ettifaq-u21-awad-dahal: partita del 2026-11-26 contro Al-Fateh esclusa (Halftime).",
+      "al-ettifaq-u21-jalal-al-salem: partita di coppa/nazionale 16698807 non recuperata (HTTP 404)",
+      "al-ettifaq-u21-jalal-al-salem: partita del 2026-10-20 contro Al-Ittihad esclusa (Postponed).",
+      "al-ettifaq-u21-jalal-al-salem: partita del 2026-11-07 contro Al-Hilal esclusa (Postponed).",
+      "al-ettifaq-u21-jalal-al-salem: partita del 2026-11-20 contro Al-Shabab esclusa (Postponed).",
+      "al-faisaly-moyad-saleem: elenco partite non recuperato (HTTP 404)",
+      "al-faisaly-saud-haddad: partita del 2026-10-11 contro Abha esclusa (Postponed).",
+      "al-faisaly-saud-haddad: partita del 2026-11-20 contro Al-Ahli esclusa (Postponed).",
+      "al-faisaly-wael-kadan: elenco partite non recuperato (HTTP 404)",
+      "al-fateh-abdulaziz-al-fawaz: partita del 2026-09-10 contro Neom SC esclusa (Postponed).",
+      "al-fateh-abdulaziz-al-fawaz: partita del 2026-11-20 contro Al-Fayha esclusa (Postponed).",
+      "al-fateh-abdulaziz-al-fawaz: partita del 2026-11-26 contro Al-Riyadh esclusa (Halftime).",
+      "al-fateh-abdulaziz-al-suwailem: partita del 2026-09-10 contro Neom SC esclusa (Postponed).",
+      "al-fateh-abdulaziz-al-suwailem: partita del 2026-11-20 contro Al-Fayha esclusa (Postponed).",
+      "al-fateh-abdulaziz-al-suwailem: partita del 2026-11-26 contro Al-Riyadh esclusa (Halftime).",
+      "al-fateh-u21-mahadi-al-obood: partita del 2026-09-10 contro Neom SC esclusa (Postponed).",
+      "al-fateh-u21-mahadi-al-obood: partita del 2026-11-20 contro Al-Fayha esclusa (Postponed).",
+      "al-fateh-u21-mahadi-al-obood: partita del 2026-11-26 contro Al-Riyadh esclusa (Halftime).",
+      "al-fateh-u21-mahmoud-al-burayh: stagioni passate non recuperate (HTTP 404)",
+      "al-fateh-u21-mahmoud-al-burayh: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-fayha-u21-ali-al-hussain: partita del 2026-11-05 contro Al-Qadsiah esclusa (Postponed).",
+      "al-fayha-u21-ali-al-hussain: partita del 2026-11-20 contro Al-Fateh esclusa (Postponed).",
+      "al-hazem-u21-adnan-al-bishri: elenco partite non recuperato (HTTP 404)",
+      "al-hazem-u21-khalid-abduljawad: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-hazem-u21-yazan-al-ruwaili: partita del 2026-11-06 contro Al-Nassr esclusa (Postponed).",
+      "al-hazem-u21-yazan-al-ruwaili: partita del 2026-11-20 contro Al-Riyadh esclusa (Postponed).",
+      "al-hilal-u21-abdulaziz-jarmosh: stagioni passate non recuperate (HTTP 404)",
+      "al-hilal-u21-abdulaziz-jarmosh: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-hilal-u21-ibrahim-hamlan: stagioni passate non recuperate (HTTP 404)",
+      "al-hilal-u21-ibrahim-hamlan: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-hilal-u21-meshal-al-dawoud: stagioni passate non recuperate (HTTP 404)",
+      "al-hilal-u21-meshal-al-dawoud: partita del 2026-10-16 contro Al-Riyadh esclusa (Postponed).",
+      "al-hilal-u21-meshal-al-dawoud: partita del 2026-11-07 contro Al-Ettifaq esclusa (Postponed).",
+      "al-hilal-u21-meshal-al-dawoud: partita del 2026-11-20 contro Diriyah esclusa (Postponed).",
+      "al-hilal-u21-mohammed-al-sournouk: stagioni passate non recuperate (HTTP 404)",
+      "al-hilal-u21-mohammed-al-sournouk: partite di coppa e nazionale non recuperate (HTTP 404); quelle gia' salvate restano.",
+      "al-hilal-u21-mohammed-al-sournouk: partita del 2026-10-16 contro Al-Riyadh esclusa (Postponed).",
+      "al-hilal-u21-mohammed-al-sournouk: partita del 2026-11-07 contro Al-Ettifaq esclusa (Postponed).",
+      "al-hilal-u21-mohammed-al-sournouk: partita del 2026-11-20 contro Diriyah esclusa (Postponed).",
+      "al-hilal-u21-rayan-al-ghamdi: stagioni passate non recuperate (HTTP 404)",
+      "al-hilal-u21-saad-al-mutairi: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-hilal-u21-sabri-dahal: partita del 2026-10-16 contro Al-Riyadh esclusa (Postponed).",
+      "al-hilal-u21-sabri-dahal: partita del 2026-11-07 contro Al-Ettifaq esclusa (Postponed).",
+      "al-hilal-u21-sabri-dahal: partita del 2026-11-20 contro Diriyah esclusa (Postponed).",
+      "al-hilal-u21-saleh-barnawi: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-hilal-u21-turki-al-ghumayl: partita di coppa/nazionale 16698785 non recuperata (HTTP 404)",
+      "al-hilal-u21-turki-al-ghumayl: partita di coppa/nazionale 16698884 non recuperata (HTTP 404)",
+      "al-hilal-u21-turki-al-ghumayl: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-ittihad-mohammed-barnawi: partita del 2026-10-16 contro Al-Shabab esclusa (Postponed).",
+      "al-ittihad-mohammed-barnawi: partita del 2026-10-20 contro Al-Ettifaq esclusa (Postponed).",
+      "al-ittihad-mohammed-barnawi: partita del 2026-11-06 contro Neom SC esclusa (Postponed).",
+      "al-ittihad-mohammed-barnawi: partita del 2026-11-20 contro Al-Khaleej esclusa (Postponed).",
+      "al-ittihad-mohammed-fallatah: partita del 2026-10-16 contro Al-Shabab esclusa (Postponed).",
+      "al-ittihad-mohammed-fallatah: partita del 2026-10-20 contro Al-Ettifaq esclusa (Postponed).",
+      "al-ittihad-mohammed-fallatah: partita del 2026-11-06 contro Neom SC esclusa (Postponed).",
+      "al-ittihad-mohammed-fallatah: partita del 2026-11-20 contro Al-Khaleej esclusa (Postponed).",
+      "al-ittihad-u21-abdulaziz-al-shammari: stagioni passate non recuperate (HTTP 404)",
+      "al-ittihad-u21-abdulaziz-al-shammari: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-ittihad-u21-farhah-ali-al-shamrani: stagioni passate non recuperate (HTTP 404)",
+      "al-ittihad-u21-farhah-ali-al-shamrani: partite di coppa e nazionale non recuperate (HTTP 404); quelle gia' salvate restano.",
+      "al-ittihad-u21-farhah-ali-al-shamrani: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-ittihad-u21-suhayb-al-hawsawi: elenco partite non recuperato (HTTP 404)",
+      "al-ittihad-u21-talal-haji: partita del 2026-10-20 contro Al-Ittihad esclusa (Postponed).",
+      "al-ittihad-u21-talal-haji: partita del 2026-11-07 contro Al-Hilal esclusa (Postponed).",
+      "al-ittihad-u21-talal-haji: partita del 2026-11-20 contro Al-Shabab esclusa (Postponed).",
+      "al-ittihad-u21-yassen-al-jaber: elenco partite non recuperato (HTTP 404)",
+      "al-khaleej-thamer-al-khaibri: partita del 2026-11-05 contro Al-Kholood esclusa (Postponed).",
+      "al-khaleej-thamer-al-khaibri: partita del 2026-11-20 contro Al-Ittihad esclusa (Postponed).",
+      "al-kholood-hamed-al-shanqity: partita del 2026-09-10 contro Al-Riyadh esclusa (Postponed).",
+      "al-kholood-hamed-al-shanqity: partita del 2026-10-19 contro Abha esclusa (Postponed).",
+      "al-kholood-hamed-al-shanqity: partita del 2026-11-05 contro Al-Khaleej esclusa (Postponed).",
+      "al-kholood-hamed-al-shanqity: partita del 2026-11-20 contro Neom SC esclusa (Postponed).",
+      "al-kholood-u21-rakan-bin-jamaan: elenco partite non recuperato (HTTP 404)",
+      "al-kholood-yazan-madani: partita del 2026-09-10 contro Al-Riyadh esclusa (Postponed).",
+      "al-kholood-yazan-madani: partita del 2026-10-19 contro Abha esclusa (Postponed).",
+      "al-kholood-yazan-madani: partita del 2026-11-05 contro Al-Khaleej esclusa (Postponed).",
+      "al-kholood-yazan-madani: partita del 2026-11-20 contro Neom SC esclusa (Postponed).",
+      "al-nassr-u21-abdulrahman-sufyani: partita di coppa/nazionale 16857381 non recuperata (HTTP 404)",
+      "al-nassr-u21-abdulrahman-sufyani: partita di coppa/nazionale 17011387 non recuperata (HTTP 404)",
+      "al-nassr-u21-abdulrahman-sufyani: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-nassr-u21-abdulraman-al-otaibi: nessuna partita di campionato trovata per la stagione 2026-27 (dati esistenti lasciati intatti).",
+      "al-nassr-u21-awad-aman: partita del 2026-10-15 contro Al-Ahli esclusa (Postponed).",
+      "al-nassr-u21-awad-aman: partita del 2026-10-18 contro Neom SC esclusa (Postponed).",
+      "al-nassr-u21-awad-aman: partita del 2026-11-06 contro Al-Hazem esclusa (Postponed).",
+      "al-nassr-u21-awad-aman: partita del 2026-11-20 contro Al-Qadsiah esclusa (Postponed).",
+      "al-nassr-u21-bassam-abdullah-hazazi: elenco partite non recuperato (HTTP 404)",
+      "al-nassr-u21-rakan-ghamdi: partita del 2026-10-15 contro Al-Ahli esclusa (Postponed).",
+      "al-nassr-u21-rakan-ghamdi: partita del 2026-10-18 contro Neom SC esclusa (Postponed).",
+      "al-nassr-u21-rakan-ghamdi: partita del 2026-11-06 contro Al-Hazem esclusa (Postponed).",
+      "al-nassr-u21-rakan-ghamdi: partita del 2026-11-20 contro Al-Qadsiah esclusa (Postponed).",
+      "al-nassr-u21-saad-haqawi: partita del 2026-10-15 contro Al-Ahli esclusa (Postponed).",
+      "al-nassr-u21-saad-haqawi: partita del 2026-10-18 contro Neom SC esclusa (Postponed).",
+      "al-nassr-u21-saad-haqawi: partita del 2026-11-06 contro Al-Hazem esclusa (Postponed).",
+      "al-nassr-u21-saad-haqawi: partita del 2026-11-20 contro Al-Qadsiah esclusa (Postponed).",
+      "al-okhdood-saud-salem: partita del 2026-10-26 contro Al Anwar esclusa (Postponed).",
+      "al-quadisiah-u21-ahmed-al-siyahi: partita del 2026-11-05 contro Al-Fayha esclusa (Postponed).",
+      "al-quadisiah-u21-ahmed-al-siyahi: partita del 2026-11-20 contro Al-Nassr esclusa (Postponed).",
+      "al-quadisiah-u21-ammar-al-yuhaibi: partita del 2026-09-10 contro Diriyah esclusa (Postponed).",
+      "al-quadisiah-u21-ammar-al-yuhaibi: partita del 2026-10-11 contro Al Faisaly esclusa (Postponed).",
+      "al-quadisiah-u21-ammar-al-yuhaibi: partita del 2026-10-19 contro Al-Kholood esclusa (Postponed).",
+      "al-quadisiah-u21-ammar-al-yuhaibi: partita del 2026-11-20 contro Al-Taawoun esclusa (Postponed).",
+      "al-quadisiah-u21-ammar-al-yuhaibi: partita del 2026-11-26 contro Al-Shabab esclusa (1st half).",
+      "al-quadisiah-u21-eyad-housa: partita del 2026-11-05 contro Al-Fayha esclusa (Postponed).",
+      "al-quadisiah-u21-eyad-housa: partita del 2026-11-20 contro Al-Nassr esclusa (Postponed).",
+      "al-quadisiah-u21-sultan-harun: partita del 2026-10-20 contro Al-Ittihad esclusa (Postponed).",
+      "al-quadisiah-u21-sultan-harun: partita del 2026-11-07 contro Al-Hilal esclusa (Postponed).",
+      "al-quadisiah-u21-sultan-harun: partita del 2026-11-20 contro Al-Shabab esclusa (Postponed).",
+      "al-raed-u21-samer-al-marwani: elenco partite non recuperato (HTTP 404)",
+      "al-riyadh-u21-essam-bahri: elenco partite non recuperato (HTTP 404)",
+      "al-riyadh-u21-hussain-al-raqwani: elenco partite non recuperato (HTTP 404)",
+      "al-riyadh-u21-sultan-al-essa: partita del 2026-09-10 contro Al-Kholood esclusa (Postponed).",
+      "al-riyadh-u21-sultan-al-essa: partita del 2026-10-16 contro Al-Hilal esclusa (Postponed).",
+      "al-riyadh-u21-sultan-al-essa: partita del 2026-11-20 contro Al-Hazem esclusa (Postponed).",
+      "al-riyadh-u21-sultan-al-essa: partita del 2026-11-26 contro Al-Fateh esclusa (Halftime).",
+      "al-riyadh-u21-talal-al-shubili: elenco partite non recuperato (HTTP 404)",
+      "al-shabab-u21-abdulaziz-al-hadhood: partita del 2026-10-16 contro Al-Ittihad esclusa (Postponed).",
+      "al-shabab-u21-abdulaziz-al-hadhood: partita del 2026-11-20 contro Al-Ettifaq esclusa (Postponed).",
+      "al-shabab-u21-abdulaziz-al-hadhood: partita del 2026-11-26 contro Abha esclusa (1st half).",
+      "al-taawoun-u21-abdulrahman-al-ghamdi: partita del 2026-11-05 contro Al-Ahli esclusa (Postponed).",
+      "al-taawoun-u21-abdulrahman-al-ghamdi: partita del 2026-11-07 contro Al-Ahli esclusa (Postponed).",
+      "al-taawoun-u21-abdulrahman-al-ghamdi: partita del 2026-11-20 contro Abha esclusa (Postponed).",
+      "al-ula-aseel-abdulrazzaq: partita del 2026-10-13 contro Al-Jeel esclusa (Postponed).",
+      "neom-u21-khalid-al-rammah: partita del 2026-09-10 contro Al-Fateh esclusa (Postponed).",
+      "neom-u21-khalid-al-rammah: partita del 2026-10-18 contro Al-Nassr esclusa (Postponed).",
+      "neom-u21-khalid-al-rammah: partita del 2026-11-06 contro Al-Ittihad esclusa (Postponed).",
+      "neom-u21-khalid-al-rammah: partita del 2026-11-20 contro Al-Kholood esclusa (Postponed).",
+      "neom-u21-mohammed-al-hakim: stagioni passate non recuperate (HTTP 404)",
+      "neom-u21-mohammed-al-hakim: partita del 2026-09-10 contro Al-Fateh esclusa (Postponed).",
+      "neom-u21-mohammed-al-hakim: partita del 2026-10-18 contro Al-Nassr esclusa (Postponed).",
+      "neom-u21-mohammed-al-hakim: partita del 2026-11-06 contro Al-Ittihad esclusa (Postponed).",
+      "neom-u21-mohammed-al-hakim: partita del 2026-11-20 contro Al-Kholood esclusa (Postponed).",
+      "al-orobah-rayan-al-hazmi: partita del 2026-10-14 contro Hajer esclusa (Postponed).",
+      "al-orobah-rayan-al-hazmi: partita del 2026-11-06 contro Al Adalah esclusa (Postponed).",
+      "al-orobah-faris-al-zubaidi: partita del 2026-10-14 contro Hajer esclusa (Postponed).",
+      "al-orobah-faris-al-zubaidi: partita del 2026-11-06 contro Al Adalah esclusa (Postponed).",
+      "al-orobah-mohammed-nizar: partita del 2026-10-14 contro Hajer esclusa (Postponed).",
+      "al-orobah-mohammed-nizar: partita del 2026-11-06 contro Al Adalah esclusa (Postponed).",
+      "al-orobah-raed-faraj: partita del 2026-10-14 contro Hajer esclusa (Postponed).",
+      "al-orobah-raed-faraj: partita del 2026-11-06 contro Al Adalah esclusa (Postponed).",
+      "al-ula-yousef-al-honaifesh: partita del 2026-10-13 contro Al-Jeel esclusa (Postponed).",
+      "hajer-basil-al-numayr: partita del 2026-10-14 contro Al Orobah esclusa (Postponed).",
+      "al-adalah-jasim-al-bashah: partita del 2026-11-06 contro Al Orobah esclusa (Postponed).",
+      "al-adalah-ali-al-abbad: partita del 2026-11-06 contro Al Orobah esclusa (Postponed).",
+      "al-jeel-bader-al-saad: partita del 2026-10-13 contro Al Ula esclusa (Postponed).",
+      "al-jeel-bader-al-saad: partita del 2026-10-21 contro Al Jandal esclusa (Postponed).",
+      "al-jeel-ali-kaabi: stagioni passate non recuperate (HTTP 404)",
+      "al-jeel-ali-kaabi: partite di coppa e nazionale non recuperate (HTTP 404); quelle gia' salvate restano.",
+      "al-jeel-ali-kaabi: partita del 2026-10-13 contro Al Ula esclusa (Postponed).",
+      "al-jeel-ali-kaabi: partita del 2026-10-21 contro Al Jandal esclusa (Postponed).",
+      "abha-nawaf-al-ghulaimish: partita del 2026-09-10 contro Diriyah esclusa (Postponed).",
+      "abha-nawaf-al-ghulaimish: partita del 2026-10-11 contro Al Faisaly esclusa (Postponed).",
+      "abha-nawaf-al-ghulaimish: partita del 2026-10-19 contro Al-Kholood esclusa (Postponed).",
+      "abha-nawaf-al-ghulaimish: partita del 2026-11-20 contro Al-Taawoun esclusa (Postponed).",
+      "abha-nawaf-al-ghulaimish: partita del 2026-11-26 contro Al-Shabab esclusa (1st half).",
       "al-jeel-ahmed-kaabi: partita del 2026-10-13 contro Al Ula esclusa (Postponed).",
       "al-jeel-ahmed-kaabi: partita del 2026-10-21 contro Al Jandal esclusa (Postponed)."
     ],
@@ -15136,11 +15377,11 @@
       }
     ],
     "tm_errors": [],
-    "tm_note": "Controllo Transfermarkt: 82 stagioni concordano (o gia' decise), 29 discrepanze da decidere, 7 abbinamenti da confermare, 2 possibili trasferimenti."
+    "tm_note": "Controllo Transfermarkt: 78 stagioni concordano (o gia' decise), 33 discrepanze da decidere, 8 abbinamenti da confermare, 2 possibili trasferimenti."
   },
   "crosscheck": {
     "al-ahli-u21-salem-abdullah__2025-26": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -15167,7 +15408,7 @@
       "choice_fingerprint": null
     },
     "al-ettifaq-u21-abdullah-ziyad-al-ghamdi__2026-27": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 0,
@@ -15357,7 +15598,7 @@
       "choice_fingerprint": null
     },
     "al-ettifaq-u21-abdullah-ziyad-al-ghamdi__2025-26": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -15511,7 +15752,7 @@
       "choice_fingerprint": null
     },
     "al-ettifaq-u21-abudullah-al-bishi__2026-27": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -15543,7 +15784,7 @@
       "choice_fingerprint": null
     },
     "al-ettifaq-u21-awad-dahal__2026-27": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -15575,7 +15816,7 @@
       "choice_fingerprint": null
     },
     "al-ettifaq-u21-awad-dahal__2025-26": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 8,
@@ -15709,7 +15950,7 @@
       "choice_fingerprint": null
     },
     "al-ettifaq-u21-jalal-al-salem__2026-27": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 0,
@@ -15741,7 +15982,7 @@
       "choice_fingerprint": null
     },
     "al-ettifaq-u21-jalal-al-salem__2025-26": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 11,
@@ -15768,7 +16009,7 @@
       "choice_fingerprint": null
     },
     "al-ettifaq-u21-jalal-al-salem__2024-25": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 4,
@@ -15795,7 +16036,7 @@
       "choice_fingerprint": null
     },
     "al-faisaly-moyad-saleem__2026-27": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 0,
@@ -15827,7 +16068,7 @@
       "choice_fingerprint": null
     },
     "al-faisaly-moyad-saleem__2025-26": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -15854,7 +16095,7 @@
       "choice_fingerprint": null
     },
     "al-faisaly-saud-haddad__2026-27": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 7,
@@ -15886,7 +16127,7 @@
       "choice_fingerprint": null
     },
     "al-faisaly-saud-haddad__2025-26": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -15923,7 +16164,7 @@
       "choice_fingerprint": null
     },
     "al-faisaly-wael-kadan__2026-27": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -15955,7 +16196,7 @@
       "choice_fingerprint": null
     },
     "al-faisaly-wael-kadan__2025-26": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -15992,7 +16233,7 @@
       "choice_fingerprint": null
     },
     "al-fateh-abdulaziz-al-fawaz__2026-27": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 5,
@@ -16024,7 +16265,7 @@
       "choice_fingerprint": null
     },
     "al-fateh-abdulaziz-al-fawaz__2025-26": {
-      "checked_at": "2026-11-25 11:24",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 16,
@@ -16051,7 +16292,7 @@
       "choice_fingerprint": null
     },
     "al-fateh-abdulaziz-al-suwailem__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 10,
@@ -16083,7 +16324,7 @@
       "choice_fingerprint": null
     },
     "al-fateh-abdulaziz-al-suwailem__2025-26": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 17,
@@ -16110,7 +16351,7 @@
       "choice_fingerprint": null
     },
     "al-fayha-u21-ali-al-hussain__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:26",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 10,
@@ -16202,7 +16443,7 @@
       "choice_fingerprint": null
     },
     "al-fayha-u21-ali-al-hussain__2025-26": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:26",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 18,
@@ -16441,7 +16682,7 @@
       "choice_fingerprint": null
     },
     "al-fayha-u21-ali-al-hussain__2024-25": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:26",
       "status": "concorda",
       "sofascore": {
         "appearances": 5,
@@ -16468,7 +16709,7 @@
       "choice_fingerprint": null
     },
     "al-hazem-u21-khalid-abduljawad__2024-25": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -16544,7 +16785,7 @@
       "choice_fingerprint": null
     },
     "al-hazem-u21-yazan-al-ruwaili__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 0,
@@ -16576,7 +16817,7 @@
       "choice_fingerprint": null
     },
     "al-hilal-u21-mohammed-al-sournouk__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 0,
@@ -16632,7 +16873,7 @@
       "choice_fingerprint": null
     },
     "al-hilal-u21-mohammed-al-sournouk__2025-26": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -16786,7 +17027,7 @@
       "choice_fingerprint": null
     },
     "al-hilal-u21-saad-al-mutairi__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -16818,7 +17059,7 @@
       "choice_fingerprint": null
     },
     "al-hilal-u21-saad-al-mutairi__2025-26": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 2,
@@ -16845,7 +17086,7 @@
       "choice_fingerprint": null
     },
     "al-hilal-u21-sabri-dahal__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 5,
@@ -16877,7 +17118,7 @@
       "choice_fingerprint": null
     },
     "al-hilal-u21-sabri-dahal__2025-26": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 24,
@@ -16904,7 +17145,7 @@
       "choice_fingerprint": null
     },
     "al-hilal-u21-turki-al-ghumayl__2024-25": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -16941,7 +17182,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-mohammed-barnawi__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -16973,7 +17214,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-mohammed-barnawi__2025-26": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 2,
@@ -17000,7 +17241,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-mohammed-barnawi__2024-25": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 4,
@@ -17027,7 +17268,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-mohammed-fallatah__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -17059,7 +17300,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-mohammed-fallatah__2025-26": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -17086,7 +17327,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-mohammed-fallatah__2024-25": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 1,
@@ -17129,7 +17370,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-u21-abdulaziz-al-shammari__2024-25": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -17166,7 +17407,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-u21-farhah-ali-al-shamrani__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -17216,7 +17457,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-u21-farhah-ali-al-shamrani__2024-25": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -17383,7 +17624,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-u21-talal-haji__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 0,
@@ -17415,7 +17656,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-u21-talal-haji__2025-26": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 7,
@@ -17442,7 +17683,7 @@
       "choice_fingerprint": null
     },
     "al-ittihad-u21-talal-haji__2024-25": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 10,
@@ -17469,7 +17710,7 @@
       "choice_fingerprint": null
     },
     "al-khaleej-thamer-al-khaibri__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 7,
@@ -17501,7 +17742,7 @@
       "choice_fingerprint": null
     },
     "al-khaleej-thamer-al-khaibri__2025-26": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 15,
@@ -17528,7 +17769,7 @@
       "choice_fingerprint": null
     },
     "al-khaleej-thamer-al-khaibri__2024-25": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 21,
@@ -17555,7 +17796,7 @@
       "choice_fingerprint": null
     },
     "al-kholood-hamed-al-shanqity__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 10,
@@ -17628,7 +17869,7 @@
       "choice_fingerprint": null
     },
     "al-kholood-hamed-al-shanqity__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -17655,7 +17896,7 @@
       "choice_fingerprint": null
     },
     "al-kholood-hamed-al-shanqity__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -17682,7 +17923,7 @@
       "choice_fingerprint": null
     },
     "al-kholood-u21-rakan-bin-jamaan__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 0,
@@ -17714,7 +17955,7 @@
       "choice_fingerprint": null
     },
     "al-kholood-u21-rakan-bin-jamaan__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -17741,7 +17982,7 @@
       "choice_fingerprint": null
     },
     "al-kholood-yazan-madani__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -17773,7 +18014,7 @@
       "choice_fingerprint": null
     },
     "al-kholood-yazan-madani__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -17800,7 +18041,7 @@
       "choice_fingerprint": null
     },
     "al-nassr-u21-abdulraman-al-otaibi__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -17810,7 +18051,7 @@
         "yellow": 0,
         "red": 0,
         "bench": 3,
-        "not_called": 7
+        "not_called": 8
       },
       "differences": [
         "sofascore_missing"
@@ -17832,12 +18073,12 @@
         }
       ],
       "games_note": "Sofascore non ha il dettaglio partita per partita per questa stagione: qui sotto le partite giocate secondo Transfermarkt.",
-      "fingerprint": "556b4c5c4f78",
+      "fingerprint": "8b5254ee7520",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-nassr-u21-awad-aman__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 5,
@@ -17910,7 +18151,7 @@
       "choice_fingerprint": null
     },
     "al-nassr-u21-awad-aman__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -17937,7 +18178,7 @@
       "choice_fingerprint": null
     },
     "al-nassr-u21-saad-haqawi__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 2,
@@ -17969,7 +18210,7 @@
       "choice_fingerprint": null
     },
     "al-nassr-u21-saad-haqawi__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 5,
@@ -17996,7 +18237,7 @@
       "choice_fingerprint": null
     },
     "al-okhdood-saud-salem__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 9,
@@ -18008,20 +18249,23 @@
         "not_called": 2
       },
       "transfermarkt": {
-        "appearances": 9,
-        "minutes": 694,
+        "appearances": 8,
+        "minutes": 604,
         "goals": 0,
         "yellow": 0,
         "red": 1,
         "bench": 0,
-        "not_called": 2
+        "not_called": 3
       },
       "differences": [
-        "red"
+        "appearances",
+        "minutes",
+        "red",
+        "not_called"
       ],
       "not_called_common": {
         "sofascore": 2,
-        "transfermarkt": 2
+        "transfermarkt": 3
       },
       "games": [
         {
@@ -18042,15 +18286,34 @@
             "yellow": 0,
             "red": 1
           }
+        },
+        {
+          "date": "2026-11-24",
+          "kind": "diversa",
+          "opponent": "Al Raed",
+          "sofascore": {
+            "status": "titolare",
+            "minutes": 90,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          },
+          "transfermarkt": {
+            "status": "non_convocato",
+            "minutes": 0,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          }
         }
       ],
       "games_note": null,
-      "fingerprint": "c68cfba137cc",
+      "fingerprint": "f820e8079103",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-okhdood-saud-salem__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 5,
@@ -18077,7 +18340,7 @@
       "choice_fingerprint": null
     },
     "al-okhdood-saud-salem__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 6,
@@ -18104,7 +18367,7 @@
       "choice_fingerprint": null
     },
     "al-quadisiah-u21-ahmed-al-siyahi__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 2,
@@ -18136,7 +18399,7 @@
       "choice_fingerprint": null
     },
     "al-quadisiah-u21-ahmed-al-siyahi__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 19,
@@ -18163,7 +18426,7 @@
       "choice_fingerprint": null
     },
     "al-quadisiah-u21-eyad-housa__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 4,
@@ -18195,7 +18458,7 @@
       "choice_fingerprint": null
     },
     "al-quadisiah-u21-eyad-housa__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -18222,7 +18485,7 @@
       "choice_fingerprint": null
     },
     "al-quadisiah-u21-sultan-harun__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 5,
@@ -18316,7 +18579,7 @@
       "choice_fingerprint": null
     },
     "al-quadisiah-u21-sultan-harun__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 18,
@@ -18567,7 +18830,7 @@
       "choice_fingerprint": null
     },
     "al-riyadh-u21-essam-bahri__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 8,
@@ -18640,7 +18903,7 @@
       "choice_fingerprint": null
     },
     "al-riyadh-u21-essam-bahri__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 7,
@@ -18667,7 +18930,7 @@
       "choice_fingerprint": null
     },
     "al-riyadh-u21-essam-bahri__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 1,
@@ -18710,7 +18973,7 @@
       "choice_fingerprint": null
     },
     "al-riyadh-u21-hussain-al-raqwani__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 6,
@@ -18742,7 +19005,7 @@
       "choice_fingerprint": null
     },
     "al-riyadh-u21-hussain-al-raqwani__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 22,
@@ -19058,7 +19321,7 @@
       "choice_fingerprint": null
     },
     "al-riyadh-u21-sultan-al-essa__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 9,
@@ -19131,7 +19394,7 @@
       "choice_fingerprint": null
     },
     "al-riyadh-u21-sultan-al-essa__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 11,
@@ -19158,7 +19421,7 @@
       "choice_fingerprint": null
     },
     "al-riyadh-u21-sultan-al-essa__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -19208,7 +19471,7 @@
       "choice_fingerprint": null
     },
     "al-riyadh-u21-talal-al-shubili__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 4,
@@ -19235,7 +19498,7 @@
       "choice_fingerprint": null
     },
     "al-riyadh-u21-talal-al-shubili__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 1,
@@ -19278,7 +19541,7 @@
       "choice_fingerprint": null
     },
     "al-shabab-u21-abdulaziz-al-hadhood__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 0,
@@ -19310,7 +19573,7 @@
       "choice_fingerprint": null
     },
     "al-shabab-u21-abdulaziz-al-hadhood__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -19337,7 +19600,7 @@
       "choice_fingerprint": null
     },
     "al-taawoun-u21-abdulrahman-al-ghamdi__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 0,
@@ -19369,7 +19632,7 @@
       "choice_fingerprint": null
     },
     "al-taawoun-u21-abdulrahman-al-ghamdi__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 9,
@@ -19396,7 +19659,7 @@
       "choice_fingerprint": null
     },
     "al-taawoun-u21-abdulrahman-al-ghamdi__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -19423,7 +19686,7 @@
       "choice_fingerprint": null
     },
     "al-taawoun-u21-turki-al-shaifan__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 8,
@@ -19435,20 +19698,23 @@
         "not_called": 2
       },
       "transfermarkt": {
-        "appearances": 8,
-        "minutes": 387,
+        "appearances": 7,
+        "minutes": 310,
         "goals": 2,
-        "yellow": 2,
+        "yellow": 1,
         "red": 0,
         "bench": 2,
-        "not_called": 2
+        "not_called": 3
       },
       "differences": [
-        "yellow"
+        "appearances",
+        "minutes",
+        "yellow",
+        "not_called"
       ],
       "not_called_common": {
         "sofascore": 2,
-        "transfermarkt": 2
+        "transfermarkt": 3
       },
       "games": [
         {
@@ -19482,21 +19748,21 @@
             "red": 0
           },
           "transfermarkt": {
-            "status": "titolare",
-            "minutes": 77,
+            "status": "non_convocato",
+            "minutes": 0,
             "goals": 0,
-            "yellow": 1,
+            "yellow": 0,
             "red": 0
           }
         }
       ],
       "games_note": null,
-      "fingerprint": "7b4e21071bd1",
+      "fingerprint": "254897c48940",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-ula-aseel-abdulrazzaq__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 0,
@@ -19505,7 +19771,7 @@
         "yellow": 0,
         "red": 0,
         "bench": 0,
-        "not_called": 10
+        "not_called": 11
       },
       "transfermarkt": {
         "appearances": 3,
@@ -19514,7 +19780,7 @@
         "yellow": 1,
         "red": 0,
         "bench": 6,
-        "not_called": 1
+        "not_called": 2
       },
       "differences": [
         "appearances",
@@ -19523,8 +19789,8 @@
         "not_called"
       ],
       "not_called_common": {
-        "sofascore": 10,
-        "transfermarkt": 1
+        "sofascore": 11,
+        "transfermarkt": 2
       },
       "games": [
         {
@@ -19700,12 +19966,12 @@
         }
       ],
       "games_note": null,
-      "fingerprint": "e79a349d749c",
+      "fingerprint": "7f34d4bd4092",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-ula-aseel-abdulrazzaq__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -19911,8 +20177,8 @@
       "choice_fingerprint": null
     },
     "al-zulfi-saud-al-tumbukti__2026-27": {
-      "checked_at": "2026-11-25 11:27",
-      "status": "concorda",
+      "checked_at": "2026-11-26 16:28",
+      "status": "discrepanza",
       "sofascore": {
         "appearances": 0,
         "minutes": 0,
@@ -19928,22 +20194,45 @@
         "goals": 0,
         "yellow": 0,
         "red": 0,
-        "bench": 10,
-        "not_called": 3
+        "bench": 9,
+        "not_called": 4
       },
-      "differences": [],
+      "differences": [
+        "bench",
+        "not_called"
+      ],
       "not_called_common": {
         "sofascore": 2,
-        "transfermarkt": 2
+        "transfermarkt": 3
       },
-      "games": [],
+      "games": [
+        {
+          "date": "2026-11-24",
+          "kind": "diversa",
+          "opponent": "Al Jabalin",
+          "sofascore": {
+            "status": "panchina",
+            "minutes": 0,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          },
+          "transfermarkt": {
+            "status": "non_convocato",
+            "minutes": 0,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          }
+        }
+      ],
       "games_note": null,
-      "fingerprint": "2e43f566f52e",
+      "fingerprint": "b7afae478153",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-zulfi-saud-al-tumbukti__2025-26": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -19970,7 +20259,7 @@
       "choice_fingerprint": null
     },
     "al-zulfi-saud-al-tumbukti__2024-25": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 1,
@@ -20013,7 +20302,7 @@
       "choice_fingerprint": null
     },
     "neom-u21-khalid-al-rammah__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 0,
@@ -20045,7 +20334,7 @@
       "choice_fingerprint": null
     },
     "neom-u21-khalid-al-rammah__2025-26": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 9,
@@ -20072,7 +20361,7 @@
       "choice_fingerprint": null
     },
     "neom-u21-khalid-al-rammah__2024-25": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 6,
@@ -20099,7 +20388,7 @@
       "choice_fingerprint": null
     },
     "neom-u21-mohammed-al-hakim__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 0,
@@ -20131,7 +20420,7 @@
       "choice_fingerprint": null
     },
     "al-jabalin-yazeed-al-rushaidan__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 2,
@@ -20163,7 +20452,7 @@
       "choice_fingerprint": null
     },
     "al-jabalin-yazeed-al-rushaidan__2025-26": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -20190,7 +20479,7 @@
       "choice_fingerprint": null
     },
     "jeddah-saad-nader-al-rashed__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -20222,7 +20511,7 @@
       "choice_fingerprint": null
     },
     "al-orobah-rayan-al-hazmi__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 4,
@@ -20254,7 +20543,7 @@
       "choice_fingerprint": null
     },
     "al-orobah-rayan-al-hazmi__2025-26": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 10,
@@ -20281,11 +20570,11 @@
       "choice_fingerprint": null
     },
     "al-orobah-faris-al-zubaidi__2026-27": {
-      "checked_at": "2026-11-25 11:27",
-      "status": "concorda",
+      "checked_at": "2026-11-26 16:29",
+      "status": "discrepanza",
       "sofascore": {
         "appearances": 6,
-        "minutes": 263,
+        "minutes": 262,
         "goals": 1,
         "yellow": 0,
         "red": 0,
@@ -20298,22 +20587,45 @@
         "goals": 1,
         "yellow": 0,
         "red": 0,
-        "bench": 5,
-        "not_called": 0
+        "bench": 4,
+        "not_called": 1
       },
-      "differences": [],
+      "differences": [
+        "bench",
+        "not_called"
+      ],
       "not_called_common": {
         "sofascore": 0,
-        "transfermarkt": 0
+        "transfermarkt": 1
       },
-      "games": [],
+      "games": [
+        {
+          "date": "2026-11-24",
+          "kind": "diversa",
+          "opponent": "Al-Najma SC",
+          "sofascore": {
+            "status": "panchina",
+            "minutes": 0,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          },
+          "transfermarkt": {
+            "status": "non_convocato",
+            "minutes": 0,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          }
+        }
+      ],
       "games_note": null,
-      "fingerprint": "f285537325f1",
+      "fingerprint": "476f6357db31",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-orobah-faris-al-zubaidi__2025-26": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -20340,7 +20652,7 @@
       "choice_fingerprint": null
     },
     "al-orobah-raed-faraj__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -20372,11 +20684,11 @@
       "choice_fingerprint": null
     },
     "al-ula-yousef-al-honaifesh__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
-        "appearances": 9,
-        "minutes": 109,
+        "appearances": 10,
+        "minutes": 123,
         "goals": 0,
         "yellow": 0,
         "red": 0,
@@ -20384,8 +20696,8 @@
         "not_called": 0
       },
       "transfermarkt": {
-        "appearances": 9,
-        "minutes": 109,
+        "appearances": 10,
+        "minutes": 123,
         "goals": 0,
         "yellow": 0,
         "red": 0,
@@ -20399,12 +20711,12 @@
       },
       "games": [],
       "games_note": null,
-      "fingerprint": "e5158d0c719f",
+      "fingerprint": "e066ff172eab",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-ula-yousef-al-honaifesh__2024-25": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -20727,8 +21039,8 @@
       "choice_fingerprint": null
     },
     "hajer-basil-al-numayr__2026-27": {
-      "checked_at": "2026-11-25 11:27",
-      "status": "concorda",
+      "checked_at": "2026-11-26 16:29",
+      "status": "discrepanza",
       "sofascore": {
         "appearances": 6,
         "minutes": 540,
@@ -20744,22 +21056,45 @@
         "goals": 0,
         "yellow": 0,
         "red": 0,
-        "bench": 5,
-        "not_called": 0
+        "bench": 4,
+        "not_called": 1
       },
-      "differences": [],
+      "differences": [
+        "bench",
+        "not_called"
+      ],
       "not_called_common": {
         "sofascore": 0,
-        "transfermarkt": 0
+        "transfermarkt": 1
       },
-      "games": [],
+      "games": [
+        {
+          "date": "2026-11-24",
+          "kind": "diversa",
+          "opponent": "Al Tai",
+          "sofascore": {
+            "status": "panchina",
+            "minutes": 0,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          },
+          "transfermarkt": {
+            "status": "non_convocato",
+            "minutes": 0,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          }
+        }
+      ],
       "games_note": null,
-      "fingerprint": "edf86e11a956",
+      "fingerprint": "7c26142a6c4e",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-adalah-jasim-al-bashah__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 5,
@@ -20768,7 +21103,7 @@
         "yellow": 0,
         "red": 0,
         "bench": 3,
-        "not_called": 3
+        "not_called": 4
       },
       "transfermarkt": {
         "appearances": 5,
@@ -20777,14 +21112,14 @@
         "yellow": 1,
         "red": 0,
         "bench": 3,
-        "not_called": 3
+        "not_called": 4
       },
       "differences": [
         "yellow"
       ],
       "not_called_common": {
-        "sofascore": 3,
-        "transfermarkt": 3
+        "sofascore": 4,
+        "transfermarkt": 4
       },
       "games": [
         {
@@ -20808,12 +21143,12 @@
         }
       ],
       "games_note": null,
-      "fingerprint": "3d0cb0d79e33",
+      "fingerprint": "95a6c533d1e8",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-adalah-ali-al-abbad__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -20821,7 +21156,7 @@
         "goals": 0,
         "yellow": 0,
         "red": 0,
-        "bench": 8,
+        "bench": 9,
         "not_called": 0
       },
       "transfermarkt": {
@@ -20830,7 +21165,7 @@
         "goals": 0,
         "yellow": 0,
         "red": 0,
-        "bench": 8,
+        "bench": 9,
         "not_called": 0
       },
       "differences": [],
@@ -20840,13 +21175,13 @@
       },
       "games": [],
       "games_note": null,
-      "fingerprint": "1387e33c6e77",
+      "fingerprint": "297483588921",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-jeel-bader-al-saad__2026-27": {
-      "checked_at": "2026-11-25 11:27",
-      "status": "concorda",
+      "checked_at": "2026-11-26 16:29",
+      "status": "discrepanza",
       "sofascore": {
         "appearances": 7,
         "minutes": 97,
@@ -20857,27 +21192,50 @@
         "not_called": 2
       },
       "transfermarkt": {
-        "appearances": 7,
-        "minutes": 97,
+        "appearances": 6,
+        "minutes": 81,
         "goals": 0,
         "yellow": 0,
         "red": 0,
         "bench": 1,
-        "not_called": 2
+        "not_called": 3
       },
-      "differences": [],
+      "differences": [
+        "appearances",
+        "not_called"
+      ],
       "not_called_common": {
         "sofascore": 2,
-        "transfermarkt": 2
+        "transfermarkt": 3
       },
-      "games": [],
+      "games": [
+        {
+          "date": "2026-11-23",
+          "kind": "diversa",
+          "opponent": "Al-Saqer",
+          "sofascore": {
+            "status": "subentrato",
+            "minutes": 16,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          },
+          "transfermarkt": {
+            "status": "non_convocato",
+            "minutes": 0,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          }
+        }
+      ],
       "games_note": null,
-      "fingerprint": "05d292786033",
+      "fingerprint": "c665cb55da5e",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-jeel-ali-kaabi__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 0,
@@ -20889,13 +21247,13 @@
         "not_called": 10
       },
       "transfermarkt": {
-        "appearances": 10,
-        "minutes": 898,
+        "appearances": 9,
+        "minutes": 808,
         "goals": 0,
         "yellow": 2,
         "red": 0,
         "bench": 0,
-        "not_called": 0
+        "not_called": 1
       },
       "differences": [
         "appearances",
@@ -20905,7 +21263,7 @@
       ],
       "not_called_common": {
         "sofascore": 10,
-        "transfermarkt": 0
+        "transfermarkt": 1
       },
       "games": [
         {
@@ -21078,34 +21436,15 @@
             "yellow": 0,
             "red": 0
           }
-        },
-        {
-          "date": "2026-11-23",
-          "kind": "diversa",
-          "opponent": "Al-Saqer",
-          "sofascore": {
-            "status": "non_convocato",
-            "minutes": 0,
-            "goals": 0,
-            "yellow": 0,
-            "red": 0
-          },
-          "transfermarkt": {
-            "status": "titolare",
-            "minutes": 90,
-            "goals": 0,
-            "yellow": 0,
-            "red": 0
-          }
         }
       ],
       "games_note": null,
-      "fingerprint": "d2066dd27df0",
+      "fingerprint": "50197cc8ee4a",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-tai-muhannad-al-harthi__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 4,
@@ -21159,7 +21498,7 @@
       "choice_fingerprint": null
     },
     "al-raed-meshari-al-oufi__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
         "appearances": 8,
@@ -21191,7 +21530,7 @@
       "choice_fingerprint": null
     },
     "al-raed-meshari-al-oufi__2024-25": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
         "appearances": 2,
@@ -21218,7 +21557,7 @@
       "choice_fingerprint": null
     },
     "damac-fc-jawad-alhassan__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 12,
@@ -21291,7 +21630,7 @@
       "choice_fingerprint": null
     },
     "damac-fc-jawad-alhassan__2025-26": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -21318,7 +21657,7 @@
       "choice_fingerprint": null
     },
     "damac-fc-jawad-alhassan__2024-25": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
         "appearances": 2,
@@ -21345,7 +21684,7 @@
       "choice_fingerprint": null
     },
     "al-hazem-u21-khalid-abduljawad__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 1,
@@ -21377,7 +21716,7 @@
       "choice_fingerprint": null
     },
     "al-hilal-u21-rayan-al-ghamdi__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "concorda",
       "sofascore": {
         "appearances": 0,
@@ -21409,7 +21748,7 @@
       "choice_fingerprint": null
     },
     "abha-nawaf-al-ghulaimish__2026-27": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
         "appearances": 2,
@@ -21441,7 +21780,7 @@
       "choice_fingerprint": null
     },
     "abha-nawaf-al-ghulaimish__2025-26": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
         "appearances": 6,
@@ -21468,7 +21807,7 @@
       "choice_fingerprint": null
     },
     "abha-nawaf-al-ghulaimish__2024-25": {
-      "checked_at": "2026-11-25 11:27",
+      "checked_at": "2026-11-26 16:29",
       "status": "concorda",
       "sofascore": {
         "appearances": 11,
@@ -21495,11 +21834,11 @@
       "choice_fingerprint": null
     },
     "al-taawoun-u21-abdulmalik-al-harbi__2026-27": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 6,
-        "minutes": 170,
+        "minutes": 169,
         "goals": 0,
         "yellow": 0,
         "red": 0,
@@ -21507,20 +21846,22 @@
         "not_called": 0
       },
       "transfermarkt": {
-        "appearances": 6,
-        "minutes": 170,
+        "appearances": 5,
+        "minutes": 163,
         "goals": 0,
         "yellow": 1,
         "red": 0,
         "bench": 6,
-        "not_called": 0
+        "not_called": 1
       },
       "differences": [
-        "yellow"
+        "appearances",
+        "yellow",
+        "not_called"
       ],
       "not_called_common": {
         "sofascore": 0,
-        "transfermarkt": 0
+        "transfermarkt": 1
       },
       "games": [
         {
@@ -21541,15 +21882,34 @@
             "yellow": 1,
             "red": 0
           }
+        },
+        {
+          "date": "2026-11-24",
+          "kind": "diversa",
+          "opponent": "Al Zulfi",
+          "sofascore": {
+            "status": "subentrato",
+            "minutes": 7,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          },
+          "transfermarkt": {
+            "status": "non_convocato",
+            "minutes": 0,
+            "goals": 0,
+            "yellow": 0,
+            "red": 0
+          }
         }
       ],
       "games_note": null,
-      "fingerprint": "d6d55830e71d",
+      "fingerprint": "56cd669f7c8e",
       "choice": null,
       "choice_fingerprint": null
     },
     "al-taawoun-u21-abdulmalik-al-harbi__2025-26": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 2,
@@ -21576,7 +21936,7 @@
       "choice_fingerprint": null
     },
     "al-taawoun-u21-abdulmalik-al-harbi__2024-25": {
-      "checked_at": "2026-11-25 11:26",
+      "checked_at": "2026-11-26 16:28",
       "status": "concorda",
       "sofascore": {
         "appearances": 3,
@@ -21603,7 +21963,7 @@
       "choice_fingerprint": null
     },
     "al-hilal-u21-meshal-al-dawoud__2026-27": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": {
         "appearances": 0,
@@ -21755,7 +22115,7 @@
       "choice_fingerprint": null
     },
     "al-hilal-u21-meshal-al-dawoud__2025-26": {
-      "checked_at": "2026-11-25 11:25",
+      "checked_at": "2026-11-26 16:27",
       "status": "discrepanza",
       "sofascore": null,
       "transfermarkt": {
@@ -22003,12 +22363,23 @@
           "goals": 0,
           "yellow": 0,
           "red": 0
+        },
+        {
+          "date": "2026-11-25",
+          "opponent": "Al-Adalah FC",
+          "home_away": "home",
+          "status": "non_convocato",
+          "minutes": 0,
+          "rating": null,
+          "goals": 0,
+          "yellow": 0,
+          "red": 0
         }
       ],
       "player_id": "al-ula-aseel-abdulrazzaq",
       "season": "2026-27",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27.",
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29.",
       "other_matches": [
         {
           "date": "2026-08-19",
@@ -22297,7 +22668,7 @@
       "player_id": "al-ula-aseel-abdulrazzaq",
       "season": "2025-26",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29."
     },
     "al-jeel-ali-kaabi__2026-27": {
       "matches": [
@@ -22404,8 +22775,8 @@
           "date": "2026-11-23",
           "opponent": "Al-Saqer FC",
           "home_away": "home",
-          "status": "titolare",
-          "minutes": 90,
+          "status": "non_convocato",
+          "minutes": 0,
           "rating": null,
           "goals": 0,
           "yellow": 0,
@@ -22415,7 +22786,7 @@
       "player_id": "al-jeel-ali-kaabi",
       "season": "2026-27",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29."
     },
     "al-jeel-ali-kaabi__2024-25": {
       "matches": [
@@ -22566,7 +22937,7 @@
       "player_id": "al-jeel-ali-kaabi",
       "season": "2024-25",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29."
     },
     "al-ettifaq-u21-abdullah-ziyad-al-ghamdi__2026-27": {
       "matches": [
@@ -22706,7 +23077,7 @@
       "player_id": "al-ettifaq-u21-abdullah-ziyad-al-ghamdi",
       "season": "2026-27",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27.",
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29.",
       "other_matches": [
         {
           "date": "2026-08-18",
@@ -23105,7 +23476,7 @@
       "player_id": "al-ettifaq-u21-abdullah-ziyad-al-ghamdi",
       "season": "2025-26",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29."
     },
     "al-ettifaq-u21-abdullah-ziyad-al-ghamdi__2024-25": {
       "matches": [
@@ -23124,7 +23495,7 @@
       "player_id": "al-ettifaq-u21-abdullah-ziyad-al-ghamdi",
       "season": "2024-25",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29."
     },
     "al-hilal-u21-meshal-al-dawoud__2026-27": {
       "matches": [
@@ -23242,7 +23613,7 @@
       "player_id": "al-hilal-u21-meshal-al-dawoud",
       "season": "2026-27",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27.",
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29.",
       "other_matches": [
         {
           "date": "2026-08-17",
@@ -23683,7 +24054,7 @@
       "player_id": "al-hilal-u21-meshal-al-dawoud",
       "season": "2025-26",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29."
     },
     "al-ittihad-u21-farhah-ali-al-shamrani__2026-27": {
       "matches": [
@@ -23812,7 +24183,7 @@
       "player_id": "al-ittihad-u21-farhah-ali-al-shamrani",
       "season": "2026-27",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27.",
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29.",
       "other_matches": [
         {
           "date": "2026-08-11",
@@ -24301,7 +24672,7 @@
       "player_id": "al-ittihad-u21-farhah-ali-al-shamrani",
       "season": "2025-26",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29."
     },
     "al-ittihad-u21-farhah-ali-al-shamrani__2024-25": {
       "matches": [
@@ -24683,7 +25054,7 @@
       "player_id": "al-ittihad-u21-farhah-ali-al-shamrani",
       "season": "2024-25",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29."
     },
     "al-okhdood-saud-salem__2026-27": {
       "matches": [
@@ -24801,8 +25172,8 @@
           "date": "2026-11-24",
           "opponent": "Al-Raed SFC",
           "home_away": "away",
-          "status": "titolare",
-          "minutes": 90,
+          "status": "non_convocato",
+          "minutes": 0,
           "rating": null,
           "goals": 0,
           "yellow": 0,
@@ -24812,7 +25183,7 @@
       "player_id": "al-okhdood-saud-salem",
       "season": "2026-27",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27.",
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29.",
       "other_matches": [
         {
           "date": "2026-08-18",
@@ -25256,7 +25627,7 @@
       "player_id": "al-okhdood-saud-salem",
       "season": "2025-26",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29."
     },
     "al-okhdood-saud-salem__2024-25": {
       "matches": [
@@ -25638,7 +26009,7 @@
       "player_id": "al-okhdood-saud-salem",
       "season": "2024-25",
       "source": "transfermarkt_local",
-      "note": "Aggiornato in locale da Transfermarkt il 2026-11-25 11:27."
+      "note": "Aggiornato in locale da Transfermarkt il 2026-11-26 16:29."
     }
   },
   "manual_minutes": {
